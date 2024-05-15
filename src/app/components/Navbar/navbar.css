@@ -1,0 +1,54 @@
+body{
+    background: white;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    width: 100%;
+}
+h1,h2,h3{
+    font-weight: normal; 
+}
+h1, h2, h3, p, ul, img{
+    margin:0;
+}
+.f3s-header{
+    background-color: white;
+    position:relative;
+    height:80px;
+}
+
+.initial-card{
+    margin-left:10%;
+    overflow:hidden;
+}
+.initial-card img{
+    padding:5px 0 5px 0;
+}
+.f3s-header nav{
+    text-align: center;
+    margin-left: -150px;
+    position:absolute;
+    bottom:20px;
+    left: 50%;
+}
+.f3s-header nav ul{
+    padding-inline-start: 0;
+    
+    
+}
+.f3s-header nav li{
+    display: inline-block;
+    list-style: none;
+    font-size: 12px;
+    margin-left:100px;
+}
+.f3s-header nav a{
+    
+    text-decoration:none;
+    color:black;
+    transition: color 0.3s linear;
+    
+}
+.f3s-header nav a:hover{
+    color:#ccc  ;
+}
+
