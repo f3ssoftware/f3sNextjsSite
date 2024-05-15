@@ -11,7 +11,7 @@ export function Navbar() {
     {
       label: "About",
       icon: "pi pi-fw pi-info",
-      url: "/LandPage",
+      url: "/",
     },
     {
       label: "Blog",
