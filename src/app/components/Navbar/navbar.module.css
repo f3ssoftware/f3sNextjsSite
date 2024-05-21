@@ -1,42 +1,42 @@
 
-.f3s-header{
+.f3sHeader {
     background-color: white;
-    position:relative;
-}
-
-.initial-card{
-    margin-left:10%;
-    overflow:hidden;
-}
-.initial-card img{
-    padding:5px 0 5px 0;
-}
-.f3s-header nav{
-    text-align: center;
-    margin-left: -150px;
-    position:absolute;
-    bottom:20px;
-    left: 50%;
-}
-.f3s-header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+  }
+  
+  .initialCard {
+    display: flex;
+    align-items: center;
+  }
+  
+  .f3sHeader nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .f3sHeader nav ul {
     padding-inline-start: 0;
-    
-    
-}
-.f3s-header nav li{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .f3sHeader nav li {
     display: inline-block;
     list-style: none;
     font-size: 12px;
-    margin-left:100px;
-}
-.f3s-header nav a{
-    
-    text-decoration:none;
-    color:black;
+    margin: 0 100px; /* Adjust the margin as needed */
+  }
+  
+  .f3sHeader nav a {
+    text-decoration: none;
+    color: black;
     transition: color 0.3s linear;
-    
-}
-.f3s-header nav a:hover{
-    color:#ccc  ;
-}
+  }
+  
+  .f3sHeader nav a:hover {
+    color: #ccc;
+  }
 

@@ -1,110 +1,111 @@
-.top-presentation{
+.top-presentation {
     background-color: white;
-    background-image: url("/img/close-up-image-of-programer-working-at-his-desk-in-office 1.png");
+    background-image: url("/img/close-up-image-of-programer-working-at-his-desk-in-office1.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 1200px;
-    position:static;
-    width:100%;
-}
-.presentation{
+    position: static;
+    width: 100%;
+  }
+  .presentation {
     text-align: center;
-    position:relative;
-}
-.top-presentation h1{
-    color:white;
+    position: relative;
+  }
+  .top-presentation h1 {
+    color: white;
     font-size: 77px;
-    position:relative;
+    position: relative;
     top: 355px;
-    
-}
-#top-paragrafer{
+  }
+  #top-paragrafer {
     display: block;
     background-color: white;
-    position:relative;
-    top:600px;
+    position: relative;
+    top: 600px;
     height: 530px;
-    border-radius: 60px 60px 0 0; 
+    border-radius: 60px 60px 0 0;
     text-align: center;
-}
-#top-paragrafer p{
+  }
+  #top-paragrafer p {
     font-size: 20px;
-    position:absolute;
-    top:50%;
-    left:33%;
-    right:33%;
-    display:inline-block; 
-}
-    .middle-presentation{
-        background-color: rgba(0, 0, 0, 0.742);
-    }
-    .card{
-        position: relative;
-        width:100%;
-    }
-    .card img{
-        width:100%;
-    }
-    .lado-a-lado ul{
-        list-style: none;
-        padding-inline-start: 0;
-        display:flex;
-    }
-    #Isolated {
-        height:720px;
-    }
-    #Isolated h2{
-        position:absolute;
-        bottom:79%;
-        font-size: 60px;
-    }
-    #Isolated p{
-        position:absolute;
-        bottom:75%;
-        color:white;
-    }
-    .lado-a-lado{
-        position:relative;
-        height: 885px;
-        margin-left: 2%
-    }
-    .lado-a-lado h2{
-        position:absolute;
-        bottom:34%;
-        color:white;
-        font-size: 60px;
-    }
-    .lado-a-lado p{
-        position:absolute;
-        bottom:27%;
-        color:white;
-        margin-right:30px;
-    }
-    .card h2, .card p{
-        margin-left:10%;
-    }
-
-    .last-presentation{
-        height:720px;
-        padding:10%;
-    }
-    .co-working p{
-        font-size:36px;
-        text-align: center;
-        margin-bottom: 120px;
-    }
-    .co-working ul{
-        list-style: none;
-        padding-inline-start: 0;
-        display:flex;
-        justify-content: space-around;
-        position:relative;
-    }
-    #third-img{
-        position:relative;
-        bottom:40px;
-    }
-    #Isolated-Img{
-        display: block;
-        margin-left: 33%;
-    }
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    right: 33%;
+    display: inline-block;
+  }
+  .middle-presentation {
+    background-color: rgba(0, 0, 0, 0.742);
+  }
+  .card {
+    position: relative;
+    width: 100%;
+  }
+  .card img {
+    width: 100%;
+  }
+  .lado-a-lado ul {
+    list-style: none;
+    padding-inline-start: 0;
+    display: flex;
+  }
+  #Isolated {
+    height: 720px;
+  }
+  #Isolated h2 {
+    position: absolute;
+    bottom: 79%;
+    font-size: 60px;
+  }
+  #Isolated p {
+    position: absolute;
+    bottom: 75%;
+    color: white;
+  }
+  .lado-a-lado {
+    position: relative;
+    height: 885px;
+    margin-left: 2%;
+  }
+  .lado-a-lado h2 {
+    position: absolute;
+    bottom: 34%;
+    color: white;
+    font-size: 60px;
+  }
+  .lado-a-lado p {
+    position: absolute;
+    bottom: 27%;
+    color: white;
+    margin-right: 30px;
+  }
+  .card h2,
+  .card p {
+    margin-left: 10%;
+  }
+  
+  .last-presentation {
+    height: 720px;
+    padding: 10%;
+  }
+  .co-working p {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 120px;
+  }
+  .co-working ul {
+    list-style: none;
+    padding-inline-start: 0;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+  }
+  #third-img {
+    position: relative;
+    bottom: 40px;
+  }
+  #Isolated-Img {
+    display: block;
+    margin-left: 33%;
+  }
+  

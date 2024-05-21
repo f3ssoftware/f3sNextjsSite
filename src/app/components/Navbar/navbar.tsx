@@ -33,7 +33,7 @@ export function Navbar() {
           <div className={styles.initialCard}>
             <Image
               src="/img/F3S Software.png"
-              width={200}
+              width={250}
               height={50}
               alt="F3S Software Logo"
               className={styles.logo}
