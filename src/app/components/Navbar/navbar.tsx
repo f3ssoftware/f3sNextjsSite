@@ -1,5 +1,6 @@
 import React from "react";
 import { Menubar } from "primereact/menubar";
+import Image from "next/image";
 import "./navbar.css";
 
 export function Navbar() {
@@ -30,12 +31,11 @@ export function Navbar() {
       <header>
         <section className="f3s-header">
           <div className="initial-card">
-            <img
+            <Image
               src="/img/F3S Software.png"
+              width={200}
+              height={50}
               alt="F3S Software Logo"
-              width="auto"
-              height="auto"
-              loading="lazy"
             />
           </div>
           <nav>
@@ -46,4 +46,3 @@ export function Navbar() {
     </div>
   );
 }
-

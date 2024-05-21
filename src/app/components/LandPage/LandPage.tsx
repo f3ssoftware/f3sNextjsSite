@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import "./landpage.css";
 
 export default function LandPage() {
@@ -17,12 +18,11 @@ export default function LandPage() {
       <div className="middle-presentation">
         <article className="card">
           <div id="Isolated">
-            <img
+            <Image
               src="/img/top-view-person-writing-laptop-with-copy-space 1.png"
               alt="Card Image 1"
-              width="auto"
-              height="auto"
-              loading="lazy"
+              width={500}
+              height={800}
             />
             <h2 className="Title">Design Thinking</h2>
             <p className="Text">
@@ -33,12 +33,11 @@ export default function LandPage() {
           <div className="lado-a-lado">
             <ul>
               <li>
-                <img
+                <Image
                   src="/img/Man Working At Night.png"
                   alt="Card Image 2"
-                  width="auto"
-                  height="auto"
-                  loading="lazy"
+                  width={500}
+                  height={300}
                 />
                 <h2 className="Title">Web Applications</h2>
                 <p className="Text">
@@ -48,12 +47,11 @@ export default function LandPage() {
                 </p>
               </li>
               <li>
-                <img
+                <Image
                   src="/img/Girl With Smartphone.png"
                   alt="Card Image 3"
-                  width="auto"
-                  height="auto"
-                  loading="lazy"
+                  width={500}
+                  height={300}
                 />
                 <h2 className="Title">Mobile Applications</h2>
                 <p className="Text">
@@ -71,23 +69,23 @@ export default function LandPage() {
           <ul>
             <li>
               <a href="https://www.pagstar.com" target="_blank" rel="noopener noreferrer">
-                <img src="/img/Pagstar.png" alt="Company 1" width="auto" height="auto" loading="lazy" />
+                <Image src="/img/Pagstar.png" alt="Company 1" width={100} height={50} />
               </a>
             </li>
             <li>
               <a href="https://admin.nvpro.com.br/" target="_blank" rel="noopener noreferrer">
-                <img src="/img/Nvpro.png" alt="Company 2" width="auto" height="auto" loading="lazy" />
+                <Image src="/img/Nvpro.png" alt="Company 2" width={100} height={50} />
               </a>
             </li>
             <li id="third-img">
               <a href="https://www.remoteagro.com.br/" target="_blank" rel="noopener noreferrer">
-                <img src="/img/Remote Agro.png" alt="Company 3" width="auto" height="auto" loading="lazy" />
+                <Image src="/img/Remote Agro.png" alt="Company 3" width={100} height={50} />
               </a>
             </li>
           </ul>
           <div id="Isolated-Img">
             <a href="https://www.metareports.com.br" target="_blank" rel="noopener noreferrer">
-              <img src="/img/META.png" alt="Company 4" width="auto" height="auto" loading="lazy" />
+              <Image src="/img/META.png" alt="Company 4" width={100} height={50} />
             </a>
           </div>
         </section>
@@ -95,4 +93,5 @@ export default function LandPage() {
     </div>
   );
 }
+
 
