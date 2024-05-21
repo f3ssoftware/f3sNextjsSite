@@ -86,13 +86,22 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  width: 100%;
   background: linear-gradient(
       to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
+      white
     )
-    rgb(var(--background-start-rgb));
+    white
+}
+
+h1,h2,h3{
+  font-weight: normal; 
+}
+h1, h2, h3, p, ul, img{
+  margin:0;
 }
 
 a {
