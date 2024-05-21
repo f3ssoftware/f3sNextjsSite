@@ -5,8 +5,14 @@ export default function Footer() {
     <div>
       <div className="footer">
         <div className="footer-contents">
-          <img src="/img/Logo do whatsapp.png" alt="Whatsapp's logo"></img>
-          <a href="https://wa.me/5561981494249" target="_blank">
+          <img
+            src="/img/Logo do whatsapp.png"
+            alt="WhatsApp's logo"
+            width="auto"
+            height="auto"
+            loading="lazy"
+          />
+          <a href="https://wa.me/5561981494249" target="_blank" rel="noopener noreferrer">
             Contact
           </a>
         </div>
@@ -14,3 +20,4 @@ export default function Footer() {
     </div>
   );
 }
+

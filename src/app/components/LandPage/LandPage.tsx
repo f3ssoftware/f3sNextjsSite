@@ -10,7 +10,7 @@ export default function LandPage() {
         <section id="top-paragrafer">
           <p>
             We are a few people working together as a team, developing in the
-            simplest way<br></br> software solution to business problems
+            simplest way<br /> software solution to business problems
           </p>
         </section>
       </div>
@@ -20,10 +20,13 @@ export default function LandPage() {
             <img
               src="/img/top-view-person-writing-laptop-with-copy-space 1.png"
               alt="Card Image 1"
-            ></img>
+              width="auto"
+              height="auto"
+              loading="lazy"
+            />
             <h2 className="Title">Design Thinking</h2>
             <p className="Text">
-              We understand the problem, plan the execution,<br></br> and then
+              We understand the problem, plan the execution,<br /> and then
               develop a prototype that fits the required solution.
             </p>
           </div>
@@ -33,11 +36,14 @@ export default function LandPage() {
                 <img
                   src="/img/Man Working At Night.png"
                   alt="Card Image 2"
-                ></img>
+                  width="auto"
+                  height="auto"
+                  loading="lazy"
+                />
                 <h2 className="Title">Web Applications</h2>
                 <p className="Text">
                   Let us make simple and organized the complexity of managing
-                  <br></br> your business with brand new versatile web
+                  <br /> your business with brand new versatile web
                   applications.
                 </p>
               </li>
@@ -45,11 +51,14 @@ export default function LandPage() {
                 <img
                   src="/img/Girl With Smartphone.png"
                   alt="Card Image 3"
-                ></img>
+                  width="auto"
+                  height="auto"
+                  loading="lazy"
+                />
                 <h2 className="Title">Mobile Applications</h2>
                 <p className="Text">
-                  We can deliver the experience of a high availability<br></br>{" "}
-                  in the hands of your customers.
+                  We can deliver the experience of a high availability<br /> in
+                  the hands of your customers.
                 </p>
               </li>
             </ul>
@@ -58,27 +67,27 @@ export default function LandPage() {
       </div>
       <div className="last-presentation">
         <section className="co-working">
-          <p>Key Associated companies and projects we're in</p>
+          <p>Key Associated companies and projects we&apos;re in</p>
           <ul>
             <li>
-              <a href="https://www.pagstar.com" target="_blank">
-                <img src="/img/Pagstar.png" alt="Company 1"></img>
+              <a href="https://www.pagstar.com" target="_blank" rel="noopener noreferrer">
+                <img src="/img/Pagstar.png" alt="Company 1" width="auto" height="auto" loading="lazy" />
               </a>
             </li>
             <li>
-              <a href="https://admin.nvpro.com.br/" target="_blank">
-                <img src="/img/Nvpro.png" alt="Company 2"></img>
+              <a href="https://admin.nvpro.com.br/" target="_blank" rel="noopener noreferrer">
+                <img src="/img/Nvpro.png" alt="Company 2" width="auto" height="auto" loading="lazy" />
               </a>
             </li>
             <li id="third-img">
-              <a href="https://www.remoteagro.com.br/" target="_blank">
-                <img src="/img/Remote Agro.png" alt="Company 3"></img>
+              <a href="https://www.remoteagro.com.br/" target="_blank" rel="noopener noreferrer">
+                <img src="/img/Remote Agro.png" alt="Company 3" width="auto" height="auto" loading="lazy" />
               </a>
             </li>
           </ul>
           <div id="Isolated-Img">
-            <a href="https://www.metareports.com.br" target="_blank">
-              <img src="/img/META.png" alt="Company 4"></img>
+            <a href="https://www.metareports.com.br" target="_blank" rel="noopener noreferrer">
+              <img src="/img/META.png" alt="Company 4" width="auto" height="auto" loading="lazy" />
             </a>
           </div>
         </section>
@@ -86,3 +95,4 @@ export default function LandPage() {
     </div>
   );
 }
+
