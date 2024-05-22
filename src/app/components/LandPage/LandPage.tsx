@@ -33,7 +33,7 @@ export default function LandPage() {
           <div className="lado-a-lado">
             <ul>
               <li>
-              <Image
+                <Image
                   src="/img/Man Working At Night.png"
                   alt="Card Image 2"
                   width={1000}
@@ -47,7 +47,7 @@ export default function LandPage() {
                 </p>
               </li>
               <li>
-              <Image
+                <Image
                   src="/img/Girl With Smartphone.png"
                   alt="Card Image 3"
                   width={1000}
@@ -65,26 +65,26 @@ export default function LandPage() {
       </div>
       <div className="last-presentation">
         <section className="co-working">
-          <p>Key Associated companies and projects we're in</p>
+          <p>Key Associated companies and projects we&apos;re in</p>
           <ul>
             <li>
-            <a href="https://www.pagstar.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.pagstar.com" target="_blank" rel="noopener noreferrer">
                 <Image src="/img/Pagstar.png" alt="Company 1" width={400} height={100} />
               </a>
             </li>
             <li>
-            <a href="https://admin.nvpro.com.br/" target="_blank" rel="noopener noreferrer">
+              <a href="https://admin.nvpro.com.br/" target="_blank" rel="noopener noreferrer">
                 <Image src="/img/Nvpro.png" alt="Company 2" width={100} height={100} />
               </a>
             </li>
             <li id="third-img">
-            <a href="https://www.remoteagro.com.br/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.remoteagro.com.br/" target="_blank" rel="noopener noreferrer">
                 <Image src="/img/Remote Agro.png" alt="Company 3" width={400} height={200} />
               </a>
             </li>
           </ul>
           <div id="Isolated-Img">
-          <a href="https://www.metareports.com.br" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.metareports.com.br" target="_blank" rel="noopener noreferrer">
               <Image src="/img/META.png" alt="Company 4" width={400} height={200} />
             </a>
           </div>
