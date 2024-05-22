@@ -21,8 +21,8 @@ export default function LandPage() {
             <Image
               src="/img/top-view-person-writing-laptop-with-copy-space 1.png"
               alt="Card Image 1"
-              width={500}
-              height={800}
+              width={1000}
+              height={720}
             />
             <h2 className="Title">Design Thinking</h2>
             <p className="Text">
@@ -36,8 +36,8 @@ export default function LandPage() {
               <Image
                   src="/img/Man Working At Night.png"
                   alt="Card Image 2"
-                  width={500}
-                  height={300}
+                  width={1000}
+                  height={885}
                 />
                 <h2 className="Title">Web Applications</h2>
                 <p className="Text">
@@ -50,8 +50,8 @@ export default function LandPage() {
               <Image
                   src="/img/Girl With Smartphone.png"
                   alt="Card Image 3"
-                  width={500}
-                  height={300}
+                  width={1000}
+                  height={885}
                 />
                 <h2 className="Title">Mobile Applications</h2>
                 <p className="Text">
@@ -69,23 +69,23 @@ export default function LandPage() {
           <ul>
             <li>
             <a href="https://www.pagstar.com" target="_blank" rel="noopener noreferrer">
-                <Image src="/img/Pagstar.png" alt="Company 1" width={100} height={50} />
+                <Image src="/img/Pagstar.png" alt="Company 1" width={400} height={100} />
               </a>
             </li>
             <li>
             <a href="https://admin.nvpro.com.br/" target="_blank" rel="noopener noreferrer">
-                <Image src="/img/Nvpro.png" alt="Company 2" width={100} height={50} />
+                <Image src="/img/Nvpro.png" alt="Company 2" width={100} height={100} />
               </a>
             </li>
             <li id="third-img">
             <a href="https://www.remoteagro.com.br/" target="_blank" rel="noopener noreferrer">
-                <Image src="/img/Remote Agro.png" alt="Company 3" width={100} height={50} />
+                <Image src="/img/Remote Agro.png" alt="Company 3" width={400} height={200} />
               </a>
             </li>
           </ul>
           <div id="Isolated-Img">
           <a href="https://www.metareports.com.br" target="_blank" rel="noopener noreferrer">
-              <Image src="/img/META.png" alt="Company 4" width={100} height={50} />
+              <Image src="/img/META.png" alt="Company 4" width={400} height={200} />
             </a>
           </div>
         </section>
