@@ -1,42 +1,57 @@
-
 .f3sHeader {
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 10%;
-  }
-  
-  .initialCard {
-    display: flex;
-    align-items: center;
-  }
-  
-  .f3sHeader nav {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .f3sHeader nav ul {
-    padding-inline-start: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .f3sHeader nav li {
-    display: inline-block;
-    list-style: none;
-    font-size: 12px;
-    margin: 0 100px; /* Adjust the margin as needed */
-  }
-  
-  .f3sHeader nav a {
-    text-decoration: none;
-    color: black;
-    transition: color 0.3s linear;
-  }
-  
-  .f3sHeader nav a:hover {
-    color: #ccc;
-  }
+  background-color: #2b2f38;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  position: fixed;
+  z-index: 10;
+  width: 100vw;
+  /* transition: background-color 0.3s ease; */
+}
 
+.f3sHeader.transparent {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  position: fixed;
+  z-index: 10;
+  width: 100vw;
+  transition: background-color 1s ease;
+}
+
+.initialCard {
+  display: flex;
+  align-items: center;
+}
+
+.f3sHeader nav {
+  display: flex;
+  justify-content: center;
+}
+
+.f3sHeader nav ul {
+  padding-inline-start: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.f3sHeader nav li {
+  display: inline-block;
+  list-style: none;
+  font-size: 12px;
+  margin: 0 80px;
+}
+
+.f3sHeader nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  transition: color 0.3s linear;
+}
+
+.f3sHeader nav a:hover {
+  color: #fb993e;
+}

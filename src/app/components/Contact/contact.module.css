@@ -1,0 +1,18 @@
+.topSectionCt {
+  background-image: url("/img/wall_blue.png");
+  width: 100vw;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.backgroundCt {
+  background-color: #2b2f38;
+  width: 100vw;
+  min-height: 50vh;
+  color: #fff;
+}
+
+.backgroundCt h1 {
+  font-size: 3em;
+}
