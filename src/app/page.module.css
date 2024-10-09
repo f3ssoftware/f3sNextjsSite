@@ -1,3 +1,9 @@
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 200px; 
+  }
+}
+
 .main {
   display: flex;
   flex-direction: column;

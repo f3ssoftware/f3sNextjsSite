@@ -7,9 +7,9 @@ import Image from 'next/image';
 export default function LandPage() {
   return (
     <div>
-      <Header></Header>
-      <About></About>
-      <Contact></Contact>
+      <Header/>
+      <About/>
+      <Contact/>
     </div>
   );
 }

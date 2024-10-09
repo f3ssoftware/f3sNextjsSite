@@ -1,57 +1,164 @@
-.f3sHeader {
+.navbar {
   background-color: #2b2f38;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 10%;
+  padding: 10px 5%; /* Ajuste para dar mais espaço ao menu */
   position: fixed;
+  width: 100%;
   z-index: 10;
-  width: 100vw;
-  /* transition: background-color 0.3s ease; */
+  display: flex;
+  justify-content: center; /* Alinha os elementos no centro */
+  transition: background-color 0.5s ease;
 }
 
-.f3sHeader.transparent {
+.navbar.transparent {
   background-color: transparent;
+}
+
+.navbar.scrolled {
+  background-color: #2b2f38;
+}
+
+.navContent {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* Alinha logo e menu com espaço entre eles */
   align-items: center;
-  padding: 10px 10%;
-  position: fixed;
-  z-index: 10;
-  width: 100vw;
-  transition: background-color 1s ease;
+  height: 60px;
+  width: 100%; /* Para ocupar toda a largura da tela */
 }
 
-.initialCard {
+.logo {
+  flex: 0 0 33.33%; /* 4/12 do espaço total */
   display: flex;
-  align-items: center;
+  justify-content: center; /* Centraliza a logo */
 }
 
-.f3sHeader nav {
+.navMenu {
+  flex: 0 0 66.67%; /* 8/12 do espaço total */
   display: flex;
-  justify-content: center;
-}
-
-.f3sHeader nav ul {
-  padding-inline-start: 0;
-  display: flex;
-  justify-content: center;
-}
-
-.f3sHeader nav li {
-  display: inline-block;
   list-style: none;
-  font-size: 12px;
-  margin: 0 80px;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between; /* Alinha os itens do menu com espaço entre eles */
+  white-space: nowrap;
 }
 
-.f3sHeader nav a {
+.navMenu ul {
+  display: flex;
+  gap: 50%;
+}
+
+.navMenu li {
+  list-style: none;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s; 
+}
+
+.subMenu {
+  display: flex; /* Oculta o submenu por padrão */
+  /* padding-left: 20px;  */
+  align-items: center;
+  justify-content: center;
+}
+
+.navMenu li:hover {
+  background-color: rgba(255, 255, 255, 0.1); 
+}
+
+.navMenu li.open .subMenu {
+  display: block; /* Exibe o submenu quando o item está aberto */
+  font-size: 0.8rem; /* Tamanho da fonte do submenu */
+}
+
+.subMenu li {
+  padding: 5px 0; /* Espaçamento para os itens do submenu */
+  border-bottom: none; /* Remove a borda inferior dos itens do submenu */
+  text-align: center; /* Centraliza o texto do submenu */
+}
+
+.subMenu li:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Efeito de hover para itens do submenu */
+}
+
+.navMenu a {
+  color: #fff;
   text-decoration: none;
   font-weight: bold;
-  color: #fff;
-  transition: color 0.3s linear;
+  transition: color 0.3s ease;
 }
 
-.f3sHeader nav a:hover {
+.navMenu a:hover {
   color: #fb993e;
+}
+
+.menuToggle {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  display: none; /* Hidden by default, only shown on mobile */
+}
+
+/* Estilos para mobile */
+@media (max-width: 768px) {
+  .navMenu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 150px; /* Largura máxima de 20% */
+    height: 100vh;
+    background-color: #2b2f38;
+    flex-direction: column; /* Itens do menu em colunas */
+    padding: 20px;
+    z-index: 9999;
+  }
+
+  .navMenu.open {
+    display: flex;
+    padding-top: 20%; /* Ajuste se necessário */
+    background-color: rgba(43, 47, 56, 0.9); /* Cor do navBar com transparência */
+  }
+
+  .navMenu ul {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .navMenu li {
+    list-style: none;
+    padding: 10px 0;
+    transition: background-color 0.3s; 
+  }
+  
+  .navMenu li:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+  }
+
+  .menuToggle {
+    display: block;
+    font-size: 1rem;
+  }
+
+  .logo {
+    width: 150px; /* Reduzir o tamanho da logo */
+    font-size: 1rem;
+  }
+
+  .navContent{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    margin-left: 150px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Escurecimento da tela */
+    z-index: 999; /* Para ficar acima do conteúdo */
+  }
 }
