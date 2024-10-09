@@ -55,9 +55,9 @@
 
 .subMenu {
   display: flex; /* Oculta o submenu por padrão */
-  /* padding-left: 20px;  */
   align-items: center;
   justify-content: center;
+  font-size: 0.8rem;
 }
 
 .navMenu li:hover {
