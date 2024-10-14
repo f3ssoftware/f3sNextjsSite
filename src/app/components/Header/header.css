@@ -48,7 +48,7 @@
 
 @media (max-width: 768px) {
   .top-presentation {
-    height: 100vh;
+    height: 80vh;
   }
 
   .top-presentation h1 {
