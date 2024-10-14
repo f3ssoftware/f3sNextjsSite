@@ -1,57 +1,227 @@
-.f3sHeader {
+.navbar {
   background-color: #2b2f38;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 10%;
+  padding: 10px 5%; 
   position: fixed;
+  width: 100%;
   z-index: 10;
-  width: 100vw;
-  /* transition: background-color 0.3s ease; */
+  display: flex;
+  justify-content: center;
+  transition: background-color 0.5s ease;
 }
 
-.f3sHeader.transparent {
+.navbar.transparent {
   background-color: transparent;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 10%;
-  position: fixed;
-  z-index: 10;
-  width: 100vw;
-  transition: background-color 1s ease;
 }
 
-.initialCard {
-  display: flex;
-  align-items: center;
+.navbar.scrolled {
+  background-color: #2b2f38;
 }
 
-.f3sHeader nav {
+.navContent {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  height: 60px;
+  width: 100%; 
+}
+
+.logo {
+  flex: 0 0 33.33%; 
   display: flex;
   justify-content: center;
 }
 
-.f3sHeader nav ul {
-  padding-inline-start: 0;
+.navMenu {
+  flex: 0 0 66.67%;
   display: flex;
-  justify-content: center;
-}
-
-.f3sHeader nav li {
-  display: inline-block;
   list-style: none;
-  font-size: 12px;
-  margin: 0 80px;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between; 
+  white-space: nowrap;
 }
 
-.f3sHeader nav a {
+.navMenu ul {
+  display: flex;
+  gap: 50%;
+}
+
+.navMenu li {
+  list-style: none;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s; 
+}
+
+.subMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+
+.navMenu li:hover {
+  background-color: rgba(255, 255, 255, 0.1); 
+}
+
+.navMenu li.open .subMenu {
+  display: block; 
+  font-size: 0.8rem;
+}
+
+.subMenu li {
+  padding: 5px 0;
+  border-bottom: none; 
+  text-align: center; 
+}
+
+.subMenu li:hover {
+  background-color: rgba(255, 255, 255, 0.1); 
+}
+
+.navMenu a {
+  color: #fff;
   text-decoration: none;
   font-weight: bold;
-  color: #fff;
-  transition: color 0.3s linear;
+  transition: color 0.3s ease;
 }
 
-.f3sHeader nav a:hover {
+.navMenu a:hover {
   color: #fb993e;
+}
+
+.menuToggle {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  display: none; /* Hidden by default, only shown on mobile */
+}
+
+@media (max-width: 1500px) {
+  .navMenu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 100vh;
+    background-color: #2b2f38;
+    flex-direction: column; 
+    padding: 20px;
+    z-index: 9999;
+  }
+
+  .navMenu.open {
+    display: flex;
+    padding-top: 20%;
+    background-color: rgba(43, 47, 56, 0.9); 
+  }
+
+  .navMenu ul {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .navMenu li {
+    list-style: none;
+    padding: 10px 0;
+    transition: background-color 0.3s; 
+  }
+  
+  .navMenu li:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+  }
+
+  .menuToggle {
+    display: block;
+    font-size: 1rem;
+  }
+
+  .logo {
+    width: 150px;
+    font-size: 1rem;
+  }
+
+  .navContent{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    margin-left: 150px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    z-index: 999; 
+  }
+}
+
+@media (max-width: 768px) {
+  .navMenu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 100vh;
+    background-color: #2b2f38;
+    flex-direction: column; 
+    padding: 20px;
+    z-index: 9999;
+  }
+
+  .navMenu.open {
+    display: flex;
+    padding-top: 20%;
+    background-color: rgba(43, 47, 56, 0.9); 
+  }
+
+  .navMenu ul {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .navMenu li {
+    list-style: none;
+    padding: 10px 0;
+    transition: background-color 0.3s; 
+  }
+  
+  .navMenu li:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+  }
+
+  .menuToggle {
+    display: block;
+    font-size: 1rem;
+  }
+
+  .logo {
+    width: 150px;
+    font-size: 1rem;
+  }
+
+  .navContent{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    margin-left: 150px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    z-index: 999; 
+  }
 }

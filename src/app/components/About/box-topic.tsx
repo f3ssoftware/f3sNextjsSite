@@ -1,4 +1,4 @@
-
+import './box-topic.css'
 
 interface BoxTopicProps {
     backgroundImage: string;
@@ -7,7 +7,7 @@ interface BoxTopicProps {
 }
 
 export function BoxTopic({ backgroundImage, title, description }: BoxTopicProps) {
-    return <div style={{
+    return <div className='boxes' style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: 'cover', // Ensures the image covers the entire box
         backgroundPosition: 'center', // Centers the image within the box
@@ -26,8 +26,8 @@ export function BoxTopic({ backgroundImage, title, description }: BoxTopicProps)
             display: 'flex',
             flexDirection: 'column-reverse',
         }}>
-            <a style={{ textAlign: 'center', fontSize: ' 24px' }}>{description}</a>
-            <a style={{ color: '#FB993E', textAlign: 'center', fontSize: ' 40px' }}>{title}</a>
+            <h2 className='description' style={{ textAlign: 'center', fontSize: ' 24px' }}>{description}</h2>
+            <h1 className='title' style={{ color: '#FB993E', textAlign: 'center', fontSize: ' 40px' }}>{title}</h1>
         </div>
     </div>
 }

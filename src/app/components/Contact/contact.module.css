@@ -6,6 +6,12 @@
   background-size: cover;
 }
 
+.options{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .backgroundCt {
   background-color: #2b2f38;
   width: 100vw;
@@ -15,4 +21,19 @@
 
 .backgroundCt h1 {
   font-size: 3em;
+}
+
+.options .p-dropdown-item {
+  font-size: 0.8rem
+}
+
+@media (max-width: 768px) {
+
+  .contactDiv{
+    margin-bottom: 1% !important;
+  }
+  .contact{
+    font-size: 2rem !important;
+  }
+
 }
