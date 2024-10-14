@@ -55,10 +55,8 @@ export function Navbar() {
 
   const handleMenuClick = (index: number, item: MenuItem) => {
     if (item.subMenu && item.subMenu.length > 0) {
-   
       setOpenSubMenu(openSubMenu === index ? null : index); 
-    } else {
-      
+    } else if (item.url) {
       window.location.href = item.url; 
     }
   };
