@@ -8,7 +8,7 @@ interface MenuItem {
   url: string;
   target?: string;
   rel?: string;
-  subMenu?: MenuItem[]; // Submenu como array de MenuItem
+  subMenu?: MenuItem[];
 }
 
 export function Navbar() {
@@ -32,7 +32,7 @@ export function Navbar() {
     { label: "About us", url: "/" },
     {
       label: "Development",
-      url: "#", // Impede o redirecionamento
+      url: "#",
       subMenu: [{ label: "Design", url: "/design" }],
     },
     { label: "Business", url: "https://medium.com/@f3ssoftware", target: "_blank", rel: "noopener noreferrer" },
@@ -52,7 +52,7 @@ export function Navbar() {
     <>
       <header className={`${styles.navbar} ${isScrolled ? styles.scrolled : styles.transparent}`}>
         <div className={styles.navContent}>
-          {/* Logo */}
+
           <div className={styles.logo}>
             <Image
               src="/img/logo_f3s_site.png"
@@ -62,12 +62,12 @@ export function Navbar() {
             />
           </div>
 
-          {/* Botão para mobile */}
+    
           <button className={styles.menuToggle} onClick={toggleMobileMenu}>
             <i className="pi pi-bars" />
           </button>
 
-          {/* Menu de navegação */}
+
           <nav className={`${styles.navMenu} ${isMobileMenuOpen ? styles.open : ""}`}>
             <ul>
               {menuItems.map((item, index) => (
@@ -75,7 +75,7 @@ export function Navbar() {
                   <a href={item.url} target={item.target} rel={item.rel}>
                     {item.label}
                   </a>
-                  {/* Verifique se item.subMenu existe e tem elementos */}
+            
                   {item.subMenu && item.subMenu.length > 0 && openSubMenu === index && (
                     <ul className={styles.subMenu}>
                       {item.subMenu.map((subItem, subIndex) => (
@@ -94,7 +94,6 @@ export function Navbar() {
         </div>
       </header>
 
-      {/* Sobreposição */}
       {isMobileMenuOpen && <div className={styles.overlay} onClick={toggleMobileMenu}></div>}
     </>
   );
