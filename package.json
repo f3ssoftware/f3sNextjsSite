@@ -1,5 +1,5 @@
 {
-  "name": "pjxnext",
+  "name": "f3sweb",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,14 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "14.2.3",
-    "next-translate": "^2.6.2",
-    "next-translate-plugin": "^2.6.2",
+    "i18next": "^23.16.2",
+    "next": "15.0.0",
+    "next-i18next": "^15.3.1",
     "primeflex": "^3.3.1",
     "primeicons": "^7.0.0",
     "primereact": "^10.8.3",
-    "react": "^18",
-    "react-dom": "^18",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^15.1.0",
     "react-scroll": "^1.9.0"
   },
   "devDependencies": {
@@ -26,6 +27,7 @@
     "@types/react-scroll": "^1.8.10",
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
+    "next-translate-plugin": "^2.6.2",
     "typescript": "^5"
   }
 }
