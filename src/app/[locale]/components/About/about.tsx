@@ -1,8 +1,11 @@
 import { BoxTopic } from "./box-topic";
 import './about.css'
-
+import {useTranslations} from 'next-intl';
 
 export default function About() {
+
+    const t = useTranslations(); 
+    
     return <section className="about-section">
         <div style={{
             display: 'flex',
@@ -10,10 +13,10 @@ export default function About() {
             flexWrap: 'wrap',
             padding: '1%'
         }}>
-            <BoxTopic title="Software Development" description="We are dedicated to creating exceptional tools and applications tailored to the unique needs of specific business." backgroundImage="/img/imac_vscode.png"></BoxTopic>
-            <BoxTopic title="Community Support" description="Our focus goes beyond development — we actively collaborate with the tech community to enhance frameworks and push the boundaries of technology." backgroundImage="/img/auditorium.png"></BoxTopic>
-            <BoxTopic title="Games" description="Building technologies and infrastructure into the Game scenario" backgroundImage="/img/videogame.png"></BoxTopic>
-            <BoxTopic title="Networking" description="We connect people to develop revolutionary ideas" backgroundImage="/img/meeting.png"></BoxTopic>
+            <BoxTopic title={t('SOTFWARE_DEVELOPMENT')} description={t('WE_ARE')} backgroundImage="/img/imac_vscode.png"></BoxTopic>
+            <BoxTopic title={t('COMMUNITY_SUPPORT')} description={t('OUR_FOCUS')} backgroundImage="/img/auditorium.png"></BoxTopic>
+            <BoxTopic title={t('GAMES')} description={t('GAME_SCENARIO')} backgroundImage="/img/videogame.png"></BoxTopic>
+            <BoxTopic title={t('NETWORKING')} description={t('WE_CONNECT')} backgroundImage="/img/meeting.png"></BoxTopic>
         </div>
     </section >
 }

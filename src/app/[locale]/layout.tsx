@@ -4,6 +4,8 @@ import { notFound } from 'next/navigation';
 import { routing } from '../../i18n/routing'
 import { Inter } from "next/font/google";
 import "../globals.css";
+import { Navbar } from './components/Navbar/navbar';
+import Footer from './components/Footer/Footer';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,7 +19,7 @@ export default async function LocaleLayout({
   params: asyncParams
 }: {
   children: React.ReactNode;
-  params: Promise<{ locale: string }>; 
+  params: Promise<{ locale: string }>;
 }) {
 
   const { locale } = await asyncParams;
@@ -33,9 +35,11 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <body>
+      <body className={inter.className}>
         <NextIntlClientProvider messages={messages}>
-          {children}
+          <Navbar />
+          <main className="relative overflow-hidden">{children}</main>
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>
