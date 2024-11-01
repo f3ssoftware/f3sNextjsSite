@@ -14,6 +14,7 @@ export default function Footer() {
           alt="WhatsApp's logo"
           width={10}
           height={10}
+          loading='lazy'
         />
         <a href="https://wa.me/5561981494249" target="_blank" rel="noopener noreferrer" style={{marginLeft: '0.5%'}}>
           {t("CONTACT")}
