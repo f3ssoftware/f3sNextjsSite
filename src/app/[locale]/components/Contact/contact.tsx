@@ -1,12 +1,12 @@
 "use client"
 import { useState } from 'react';
-import { ContactType } from '../../enums/contact-type.enum';
+import { ContactType } from '../../../enums/contact-type.enum';
 import styles from './contact.module.css';
 import { Dropdown } from 'primereact/dropdown';
-import useTranslation from 'next-translate/useTranslation';
+import {useTranslations} from 'next-intl';
 
 export function Contact() {
-    const { t } = useTranslation('common');
+    const t = useTranslations(); 
     const [selectedContactType, setSelectedContactType] = useState(null);
     const options = [
         {
@@ -26,7 +26,7 @@ export function Contact() {
         <div className={styles.topSectionCt}></div>
         <div className={styles.backgroundCt}>
             <div className={styles.contactDiv} style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>
-                <h1 className={styles.contact}>Contact</h1>
+                <h1 className={styles.contact}>{t(`CONTACT`)}</h1>
             </div>
             <div className='options' style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
 
@@ -36,7 +36,7 @@ export function Contact() {
                     onChange={(e) => setSelectedContactType(e.value)}
                     optionLabel="key"
                     options={options}
-                    placeholder='Choose an option'
+                    placeholder={t('CHOOSE_OPTION')}
                 ></Dropdown>
             </div>
         </div>

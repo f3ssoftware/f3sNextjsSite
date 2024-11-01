@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 130vh; 
+  height: 130vh;
   position: relative;
 }
 
@@ -12,14 +12,15 @@
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  text-align: center; 
+  text-align: center;
 }
 
 .top-presentation h1 {
   color: white;
-  font-size: 50px; 
-  margin: 0; 
+  font-size: 50px;
+  margin: 0;
   padding: 0 10px;
+  text-shadow: 1.5px 1.5px black;
 }
 
 #top-paragrafer {
@@ -31,6 +32,7 @@
   border-radius: 60px 60px 0 0;
   text-align: center;
 }
+
 #top-paragrafer p {
   font-size: 20px;
   position: absolute;
@@ -41,29 +43,62 @@
 }
 
 @media (max-width: 1200px) {
-  .top-presentation h1 {
-    font-size: 40px; 
+
+
+  /* .top-presentation {
+    height: 145vh;
+    background-size: contain;
+    width: 100vw;
+    position: relative;
+  } */
+
+  .presentation {
+    position: absolute;
+    left: 12.5%;
+    bottom: 10%;
+    
   }
+
+  .top-presentation {
+    height: 160vh;
+    background-size: cover;
+    position: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .top-presentation h1 {
+    font-size: 2rem;
+    text-shadow: 1px 1px black;
+  }
+
+  .presentation {
+    height: 5vh;
+    position: unset;
+    width: 90%;
+  }
+
 }
 
-@media (max-width: 768px) {
-  .top-presentation {
-    height: 80vh;
-  }
 
+@media (max-width: 700px) {
+  .top-presentation {
+    height: 35vh;
+  }
   .top-presentation h1 {
-    font-size: 30px;
+    font-size: 1.1rem;
   }
 }
 
 @media (max-width: 480px) {
 
-  .presentation{
+  .presentation {
     top: 25%
   }
 
   .top-presentation h1 {
-    font-size: 24px;
+    font-size: 1rem;
     padding: 0 5px;
   }
 }
