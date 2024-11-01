@@ -1,12 +1,12 @@
 .topSectionCt {
   background-image: url("/img/wall_blue.png");
-  width: 100vw;
+  /* width: 100vw; */
   height: 50vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.options{
+.options {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,9 +14,10 @@
 
 .backgroundCt {
   background-color: #2b2f38;
-  width: 100vw;
+  /* width: 100vw; */
   min-height: 50vh;
   color: #fff;
+  padding: 10vh;
 }
 
 .backgroundCt h1 {
@@ -24,16 +25,14 @@
 }
 
 .options .p-dropdown-item {
-  font-size: 0.8rem
+  font-size: 0.8rem;
 }
 
 @media (max-width: 768px) {
-
-  .contactDiv{
+  .contactDiv {
     margin-bottom: 1% !important;
   }
-  .contact{
+  .contact {
     font-size: 2rem !important;
   }
-
 }

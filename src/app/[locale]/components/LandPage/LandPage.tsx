@@ -6,9 +6,9 @@ import './landpage.css';
 export default function LandPage() {
   return (
     <div>
-      <Header/>
-      <About/>
-      <Contact/>
+      <Header />
+      <About />
+      <Contact />
     </div>
   );
 }
