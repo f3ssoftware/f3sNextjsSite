@@ -2,6 +2,9 @@ import Image from 'next/image';
 import styles from './footer.module.css';
 
 export default function Footer() {
+
+  const t = useTranslations();
+
   return (
     <div className={styles.footer}>
       <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: '1rem', paddingLeft: '1vw', paddingRight: '1vw' }}>

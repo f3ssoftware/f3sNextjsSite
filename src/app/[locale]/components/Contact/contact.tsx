@@ -1,6 +1,6 @@
 "use client"
 import { useState } from 'react';
-import { ContactType } from '../../enums/contact-type.enum';
+import { ContactType } from '../../../enums/contact-type.enum';
 import styles from './contact.module.css';
 import { Dropdown } from 'primereact/dropdown';
 import { InputTextarea } from 'primereact/inputtextarea';
