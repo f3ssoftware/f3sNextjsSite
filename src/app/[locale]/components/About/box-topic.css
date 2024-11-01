@@ -1,14 +1,31 @@
-@media (max-width: 768px) {
+
+@media (max-width: 1000px) {
 
     .about-section{
-        height: 120vh !important;
+        height: 230vh !important;
+    }
+
+    .boxes{
+        height: 100vh !important;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .boxes{
+        height: 50vh !important;
+    }
+
+    .about-section{
+        height: 103vh !important;
     }
 
     .title{
-        font-size: 1.5rem !important;
-
+        font-size: 1.3rem !important;
+        text-shadow: 1px 1px black;
     }
     .description{
         font-size: 0.9rem !important;
+        text-shadow: 1.5px 1.5px black;
     }
 }

@@ -48,7 +48,7 @@ export function Navbar() {
       target: "_blank", 
       rel: "noopener noreferrer" 
     },
-    { label: "Contact", url: "/", rel: "noopener noreferrer" },
+    { label: t(`CONTACT`), url: "/", rel: "noopener noreferrer" },
   ];
 
   const toggleMobileMenu = () => {
