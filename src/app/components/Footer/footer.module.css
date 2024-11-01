@@ -1,26 +1,8 @@
+.footer {
+  background-color: black;
+  color: white;
+  font-size: 11px;
+  padding: 3vw;
 
-    .footer{
-        background-color: black;
-        color:white;
-        font-size: 11px;
-        padding:20px;
-        text-align: center;
-    }
-    .footer a{
-        position: static;
-        margin-left: 1px;
-        color:white;
-        text-decoration: none;
-        transition: color 0.4s linear;
-    }
-    
-    .footer img{
-        height:11px;
-        position:relative;
-        top: 1px;
-    }
-    
-    .footer-contents a:hover{
-        color: rgb(68, 255, 0);
-    }
-    
+  min-height: 40vh;
+}
