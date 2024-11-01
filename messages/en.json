@@ -1,4 +1,5 @@
 {
+  "HEADHUNTER": "Headhunter",
   "INDEPENDENT_DEVELOPER": "Independent Developer",
   "COMPANY_REPRESENTANT": "Company Representative",
   "CUSTOMER": "Customer",
@@ -16,5 +17,7 @@
   "NICHE_MARKETS": "for niche markets",
   "ABOUT_US": "About us",
   "DEVELOPMENT": "Development",
-  "BUSINESS": "Business"
+  "BUSINESS": "Business",
+  "FOLLOW_ON_SOCIAL_MEDIA": "Follow on social media",
+  "CONTACT_PARAGRAPH": "If you're interested in discussing a potential project or partnership, please fill out the form below"
 }

@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import styles from './footer.module.css';
+import { useTranslations } from 'next-intl';
 
 export default function Footer() {
 
@@ -9,7 +10,7 @@ export default function Footer() {
     <div className={styles.footer}>
       <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: '1rem', paddingLeft: '1vw', paddingRight: '1vw' }}>
         <Image src="/img/logo_f3s_site.png" width={200} height={35} alt="F3S Software Logo" />
-        <a style={{ fontSize: '1rem' }}>Follow on social media</a>
+        <a style={{ fontSize: '1rem' }}>{t('FOLLOW_ON_SOCIAL_MEDIA')}</a>
         <i className="pi pi-linkedin" style={{ fontSize: '1.5rem' }}></i>
         <i className="pi pi-facebook" style={{ fontSize: '1.5rem' }}></i>
         <i className="pi pi-instagram" style={{ fontSize: '1.5rem' }}></i>

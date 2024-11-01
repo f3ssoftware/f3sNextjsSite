@@ -9,6 +9,7 @@ import { Button } from 'primereact/button';
 import { InputText } from 'primereact/inputtext';
 import { Toast } from 'primereact/toast';
 import { useRef } from 'react';
+import { useTranslations } from 'next-intl';
 
 export function Contact() {
     const [profile, setProfile] = useState<ContactType>();
@@ -19,21 +20,23 @@ export function Contact() {
     const [loading, setLoading] = useState<boolean>()
     const toast = useRef<Toast>(null);
 
+    const t = useTranslations();
+
     const profileOptions = [
         {
-            key: "Headhunter",
+            key: t('HEADHUNTER'),
             value: ContactType.HEADHUNTER
         },
         {
-            key: "Independent Software Developer",
+            key: t("INDEPENDENT_DEVELOPER"),
             value: ContactType.INDEPENDENT_DEVELOPER
         },
         {
-            key: 'Representant of a company',
+            key: t("COMPANY_REPRESENTANT"),
             value: ContactType.COMPANY_REPRESENTANT
         },
         {
-            key: 'Customer',
+            key: t("CUSTOMER"),
             value: ContactType.CUSTOMER
         },
     ]
@@ -72,7 +75,7 @@ export function Contact() {
             </div>
             <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: '3vh' }}>
                 <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: '3vh' }}>
-                    <p>If you&apos;re interested in discussing a potential project or partnership, please fill out the form below.</p>
+                    <p>{t('CONTACT_PARAGRAPH')}</p>
                 </div>
             </div>
             <div className='options' style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
