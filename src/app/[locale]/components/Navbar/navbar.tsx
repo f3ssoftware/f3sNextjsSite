@@ -95,7 +95,7 @@ export function Navbar() {
           </div>
           <div className={styles.navMainContant}>
             <div className={styles.logo}>
-              <Image src="/img/logo_f3s_site.png" width={200} height={35} alt="F3S Software Logo" />
+              <Image src="/img/logo_f3s_site.png" width={200} height={35} alt="F3S Software Logo" className={styles.logoImage}/>
             </div>
             <button className={styles.menuToggle} onClick={toggleMobileMenu}>
               <i className="pi pi-bars" />
