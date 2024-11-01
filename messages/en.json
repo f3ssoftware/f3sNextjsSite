@@ -2,8 +2,8 @@
   "INDEPENDENT_DEVELOPER": "Independent Developer",
   "COMPANY_REPRESENTANT": "Company Representative",
   "CUSTOMER": "Customer",
-  "choose_option": "Choose an option",
-  "contact": "Contact",
+  "CHOOSE_OPTION": "Choose an option",
+  "CONTACT": "Contact",
   "SOTFWARE_DEVELOPMENT": "Software Development",
   "WE_ARE": "We are dedicated to creating exceptional tools and applications tailored to the unique needs of specific businesses.",
   "COMMUNITY_SUPPORT": "Community Support",
@@ -13,5 +13,8 @@
   "NETWORKING": "Networking",
   "WE_CONNECT": "We connect people to develop revolutionary ideas",
   "SOFTWARE_ENGINEERING": "Software Engineering and technology",
-  "NICHE_MARKETS": "for niche markets"
+  "NICHE_MARKETS": "for niche markets",
+  "ABOUT_US": "About us",
+  "DEVELOPMENT": "Development",
+  "BUSINESS": "Business"
 }

@@ -26,7 +26,7 @@ export function Contact() {
         <div className={styles.topSectionCt}></div>
         <div className={styles.backgroundCt}>
             <div className={styles.contactDiv} style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>
-                <h1 className={styles.contact}>{t(`contact`)}</h1>
+                <h1 className={styles.contact}>{t(`CONTACT`)}</h1>
             </div>
             <div className='options' style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
 
@@ -36,7 +36,7 @@ export function Contact() {
                     onChange={(e) => setSelectedContactType(e.value)}
                     optionLabel="key"
                     options={options}
-                    placeholder={t('choose_option')}
+                    placeholder={t('CHOOSE_OPTION')}
                 ></Dropdown>
             </div>
         </div>

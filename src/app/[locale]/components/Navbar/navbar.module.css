@@ -1,6 +1,6 @@
 .navbar {
   background-color: #2b2f38;
-  padding: 10px 5%; 
+  padding: 10px 5%;
   position: fixed;
   width: 100%;
   z-index: 10;
@@ -19,64 +19,47 @@
 
 .navContent {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
   height: 60px;
-  width: 100%; 
+  width: 100%;
 }
 
 .logo {
-  flex: 0 0 33.33%; 
+  flex: 0 0 33.33%;
   display: flex;
   justify-content: center;
 }
 
 .navMenu {
   flex: 0 0 66.67%;
-  display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
-  justify-content: space-between; 
   white-space: nowrap;
 }
 
 .navMenu ul {
   display: flex;
-  gap: 50%;
+  justify-content: space-between;
+  text-align: left;
 }
 
 .navMenu li {
   list-style: none;
-  padding: 10px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  transition: background-color 0.3s; 
-}
-
-.subMenu {
+  transition: background-color 0.5s;
+  text-shadow: 1px 1px black;
   display: flex;
-  align-items: center;
   justify-content: center;
-  font-size: 0.8rem;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+  border-radius: 5px;
 }
 
 .navMenu li:hover {
-  background-color: rgba(255, 255, 255, 0.1); 
-}
-
-.navMenu li.open .subMenu {
-  display: block; 
-  font-size: 0.8rem;
-}
-
-.subMenu li {
-  padding: 5px 0;
-  border-bottom: none; 
-  text-align: center; 
-}
-
-.subMenu li:hover {
-  background-color: rgba(255, 255, 255, 0.1); 
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
 }
 
 .navMenu a {
@@ -84,10 +67,35 @@
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 .navMenu a:hover {
   color: #fb993e;
+}
+
+.navMenu li.open .subMenu {
+  display: block;
+  font-size: 0.8rem;
+}
+
+.subMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.subMenu li {
+
+  border-bottom: none;
+  text-align: center;
+}
+
+.subMenu a {
+  border-bottom: unset;
+  font-size: 0.9rem;
+  margin-top: 2%;
 }
 
 .menuToggle {
@@ -95,7 +103,8 @@
   border: none;
   color: white;
   font-size: 2rem;
-  display: none; /* Hidden by default, only shown on mobile */
+  display: none;
+  /* Hidden by default, only shown on mobile */
 }
 
 @media (max-width: 1500px) {
@@ -107,30 +116,30 @@
     width: 150px;
     height: 100vh;
     background-color: #2b2f38;
-    flex-direction: column; 
+    flex-direction: column;
     padding: 20px;
     z-index: 9999;
   }
 
   .navMenu.open {
     display: flex;
-    padding-top: 20%;
-    background-color: rgba(43, 47, 56, 0.9); 
+    padding-top: 8%;
+    background-color: rgba(43, 47, 56, 0.9);
   }
 
   .navMenu ul {
     flex-direction: column;
-    gap: 50px;
+    gap: 25px;
   }
 
   .navMenu li {
     list-style: none;
     padding: 10px 0;
-    transition: background-color 0.3s; 
+    transition: background-color 0.3s;
   }
-  
+
   .navMenu li:hover {
-    background-color: rgba(255, 255, 255, 0.1); 
+    background-color: transparent;
   }
 
   .menuToggle {
@@ -143,11 +152,11 @@
     font-size: 1rem;
   }
 
-  .navContent{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
+  .navContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 
   .overlay {
@@ -157,8 +166,8 @@
     width: 90%;
     margin-left: 150px;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6); 
-    z-index: 999; 
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 999;
   }
 }
 
@@ -171,15 +180,13 @@
     width: 150px;
     height: 100vh;
     background-color: #2b2f38;
-    flex-direction: column; 
+    flex-direction: column;
     padding: 20px;
     z-index: 9999;
   }
 
-  .navMenu.open {
-    display: flex;
+  .navMenu.open{
     padding-top: 20%;
-    background-color: rgba(43, 47, 56, 0.9); 
   }
 
   .navMenu ul {
@@ -189,12 +196,15 @@
 
   .navMenu li {
     list-style: none;
-    padding: 10px 0;
-    transition: background-color 0.3s; 
-  }
   
-  .navMenu li:hover {
-    background-color: rgba(255, 255, 255, 0.1); 
+  }
+
+  .navMenu li:hover  {
+    background-color: transparent;
+  }
+
+  .navbar a{
+   
   }
 
   .menuToggle {
@@ -207,11 +217,11 @@
     font-size: 1rem;
   }
 
-  .navContent{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
+  .navContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 
   .overlay {
@@ -221,7 +231,7 @@
     width: 80%;
     margin-left: 150px;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6); 
-    z-index: 999; 
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 999;
   }
 }

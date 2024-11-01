@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import styles from "./navbar.module.css";
+import { useTranslations } from 'next-intl';
 
 interface MenuItem {
   label: string;
@@ -15,6 +16,7 @@ export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openSubMenu, setOpenSubMenu] = useState<number | null>(null); 
+  const t = useTranslations(); 
 
   useEffect(() => {
     const handleScroll = () => {
@@ -29,19 +31,19 @@ export function Navbar() {
   }, []);
 
   const menuItems: MenuItem[] = [
-    { label: "About us", url: "/" },
+    { label: t(`ABOUT_US`), url: "/" },
     {
-      label: "Development",
+      label: t(`DEVELOPMENT`),
       subMenu: [{ label: "Design", url: "/design" }],
     },
     { 
-      label: "Business", 
+      label: t(`BUSINESS`), 
       url: "https://medium.com/@f3ssoftware", 
       target: "_blank", 
       rel: "noopener noreferrer" 
     },
     { 
-      label: "Games", 
+      label: t(`GAMES`), 
       url: "https://wa.me/5561981494249", 
       target: "_blank", 
       rel: "noopener noreferrer" 
