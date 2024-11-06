@@ -1,12 +1,12 @@
 import { BoxTopic } from "./box-topic";
 import './about.css'
-import {useTranslations} from 'next-intl';
+import { useTranslations } from 'next-intl';
 
 export default function About() {
 
-    const t = useTranslations(); 
-    
-    return <section className="about-section">
+    const t = useTranslations();
+
+    return <section className="about-section" id="section-about">
         <div style={{
             display: 'flex',
             flexDirection: 'row',

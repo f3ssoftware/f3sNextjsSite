@@ -57,7 +57,6 @@
   flex: 0 0 16.67%;
   display: flex;
   justify-content: start;
-
 }
 
 .navMenu {
@@ -84,11 +83,12 @@
   align-items: center;
   font-size: 1rem;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .navMenu li:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 8px;
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  /* border-radius: 8px; */
 }
 
 .navMenu a {
@@ -101,6 +101,7 @@
 
 .navMenu a:hover {
   color: #fb993e;
+  transition: 0.7s;
 }
 
 .navMenu li.open .subMenu {
@@ -108,17 +109,36 @@
   font-size: 0.8rem;
 }
 
-.subMenu {
+/* .subMenu {
   display: flex;
   align-items: center;
   justify-content: center;
-
+} */
+.subMenu {
+  display: flex;
+  flex-direction: column; /* Stack submenu items vertically */
+  align-items: flex-start; /* Align items to the left */
+  justify-content: flex-start;
+  padding-left: 20px; /* Add some indentation */
+  gap: 10px; /* Space between submenu items */
+  background-color: #2b2f38; /* Optional: background color for submenu */
 }
 
-.subMenu li {
-
+/* .subMenu li {
   border-bottom: none;
   text-align: center;
+} */
+
+.subMenu a {
+  color: #fff; /* Text color */
+  text-decoration: none;
+  font-size: 0.9rem; /* Adjust font size if needed */
+  display: block;
+  padding: 5px 0; /* Padding for easier clicking */
+}
+
+.subMenu a:hover {
+  color: #fb993e; /* Hover color */
 }
 
 .subMenu a {
@@ -137,7 +157,6 @@
 }
 
 @media (max-width: 1500px) {
-
   .navContent {
     flex-direction: row !important;
     justify-content: flex-start !important;
@@ -148,7 +167,6 @@
 
   .languageFlags {
     display: flex;
-
   }
 
   .flag {
@@ -239,7 +257,6 @@
     gap: 0%;
     align-items: center !important;
     flex-direction: row-reverse !important;
-
   }
 
   .languageFlags {
@@ -296,7 +313,6 @@
 
   .navMenu li {
     list-style: none;
-
   }
 
   .navMenu li:hover {
@@ -333,13 +349,12 @@
 }
 
 @media (max-width: 350px) {
-
-  .logo{
+  .logo {
     width: 100px !important;
     height: auto;
   }
 
-  .menuToggle{
+  .menuToggle {
     font-size: 0.8rem !important;
   }
 }

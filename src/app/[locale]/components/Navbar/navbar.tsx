@@ -34,10 +34,17 @@ export function Navbar() {
   }, []);
 
   const menuItems: MenuItem[] = [
-    { label: t(`ABOUT_US`), url: "/" },
+    { label: t(`ABOUT_US`), url: "#section-about" },
     {
       label: t(`DEVELOPMENT`),
-      subMenu: [{ label: "Design", url: "/design" }],
+      subMenu: [
+        { label: "Blog", url: "https://medium.com/@f3ssoftware" },
+        { label: "Teste", },
+        { label: "Teste", },
+        { label: "Teste", },
+        { label: "Teste", },
+        { label: "Teste", },
+      ],
     },
     {
       label: t(`BUSINESS`),
@@ -95,7 +102,7 @@ export function Navbar() {
           </div>
           <div className={styles.navMainContant}>
             <div className={styles.logo}>
-              <Image src="/img/logo_f3s_site.png" width={200} height={35} alt="F3S Software Logo" className={styles.logoImage}/>
+              <Image src="/img/logo_f3s_site.png" width={200} height={35} alt="F3S Software Logo" className={styles.logoImage} />
             </div>
             <button className={styles.menuToggle} onClick={toggleMobileMenu}>
               <i className="pi pi-bars" />
