@@ -39,11 +39,8 @@ export function Navbar() {
       label: t(`DEVELOPMENT`),
       subMenu: [
         { label: "Blog", url: "https://medium.com/@f3ssoftware" },
-        { label: "Teste", },
-        { label: "Teste", },
-        { label: "Teste", },
-        { label: "Teste", },
-        { label: "Teste", },
+        { label: "Tutoriais", },
+        { label: "Documentação", },
       ],
     },
     {
@@ -74,7 +71,7 @@ export function Navbar() {
   };
 
   const changeLanguage = (lang: string) => {
-    const segments = pathname.split("/").filter(Boolean); // Remove strings vazias do array
+    const segments = pathname.split("/").filter(Boolean); 
 
     if (segments[0] === "en" || segments[0] === "pt" || segments[0] === "es") {
       segments[0] = lang;
