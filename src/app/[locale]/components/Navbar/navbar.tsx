@@ -4,6 +4,7 @@ import Image from "next/image";
 import styles from "./navbar.module.css";
 import { useTranslations } from 'next-intl';
 import { useRouter, usePathname } from 'next/navigation';
+import { trackClickEvent } from "@/utils/analytics"; 
 
 interface MenuItem {
   label: string;
@@ -11,7 +12,7 @@ interface MenuItem {
   target?: string;
   rel?: string;
   subMenu?: MenuItem[];
-}
+} 
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -66,6 +67,7 @@ export function Navbar() {
     if (item.subMenu && item.subMenu.length > 0) {
       setOpenSubMenu(openSubMenu === index ? null : index);
     } else if (item.url) {
+      trackClickEvent(item.label);
       window.location.href = item.url;
     }
   };

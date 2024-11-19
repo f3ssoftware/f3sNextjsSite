@@ -7,6 +7,8 @@ import "../globals.css";
 import { Navbar } from './components/Navbar/navbar';
 import Footer from './components/Footer/Footer';
 import { Metadata } from 'next';
+import Script from 'next/script';
+import { LanguageProvider } from '../../context/LanguageContext';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -98,6 +100,8 @@ export default async function LocaleLayout({
   // side is the easiest way to get started
   const messages = await getMessages();
 
+  const googleAnalyticsId = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID;
+
   return (
     <html lang={locale}>
 
@@ -111,12 +115,38 @@ export default async function LocaleLayout({
         />
       </head>
 
+      {/* Google Analytics */}
+      {googleAnalyticsId && (
+        <>
+          <Script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
+            strategy="afterInteractive"
+          />
+          <Script
+            id="google-analytics"
+            strategy="afterInteractive"
+            dangerouslySetInnerHTML={{
+              __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', '${googleAnalyticsId}');
+                `,
+            }}
+          />
+        </>
+      )}
+
+      {/* Layout Body*/}
       <body className={inter.className}>
-        <NextIntlClientProvider messages={messages}>
-          <Navbar />
-          <main className="relative overflow-hidden">{children}</main>
-          <Footer />
-        </NextIntlClientProvider>
+        <LanguageProvider>
+          <NextIntlClientProvider messages={messages}>
+            <Navbar />
+            <main className="relative overflow-hidden">{children}</main>
+            <Footer />
+          </NextIntlClientProvider>
+        </LanguageProvider>
       </body>
     </html>
   );
