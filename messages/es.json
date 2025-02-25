@@ -19,5 +19,10 @@
   "DEVELOPMENT": "Desarrollo",
   "BUSINESS": "Negocios",
   "FOLLOW_ON_SOCIAL_MEDIA": "Siga en las redes sociales",
-  "CONTACT_PARAGRAPH": "Si está interesado en discutir un posible proyecto o asociación, complete el siguiente formulario"
+  "CONTACT_PARAGRAPH": "Si está interesado en discutir un posible proyecto o asociación, complete el siguiente formulario",
+  "CHOOSE_A_PROFILE": "Seleccione un perfil",
+  "CHOOSE_A_SUBJECT": "Elige un tema",
+  "FULLNAME": "Nombre completo",
+  "INSERT_A_MESSAGE": "Inserta un mensaje",
+  "SEND_MESSAGE": "Enviar mensaje"
 }

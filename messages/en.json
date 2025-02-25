@@ -19,5 +19,10 @@
   "DEVELOPMENT": "Development",
   "BUSINESS": "Business",
   "FOLLOW_ON_SOCIAL_MEDIA": "Follow on social media",
-  "CONTACT_PARAGRAPH": "If you're interested in discussing a potential project or partnership, please fill out the form below"
+  "CONTACT_PARAGRAPH": "If you're interested in discussing a potential project or partnership, please fill out the form below",
+  "CHOOSE_A_PROFILE": "Choose a profile",
+  "CHOOSE_A_SUBJECT": "Choose a subject",
+  "FULLNAME": "Fullname",
+  "INSERT_A_MESSAGE": "Insert a message",
+  "SEND_MESSAGE": "Send message"
 }

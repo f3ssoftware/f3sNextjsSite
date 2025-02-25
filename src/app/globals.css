@@ -6,3 +6,9 @@ body {
   padding: 0;
   background-color: #fff;
 }
+
+.content-wrapper {
+  min-height: calc(100vh - 100px);
+  position: relative;
+  z-index: 1;
+}

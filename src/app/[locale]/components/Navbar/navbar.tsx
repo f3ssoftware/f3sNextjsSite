@@ -51,11 +51,9 @@ export function Navbar() {
     },
     {
       label: t(`GAMES`),
-      url: "https://wa.me/5561981494249",
-      target: "_blank",
-      rel: "noopener noreferrer"
+      url: "/games",
     },
-    { label: t(`CONTACT`), url: "/", rel: "noopener noreferrer" },
+    { label: t(`CONTACT`), url: "#contact", rel: "noopener noreferrer" },
   ];
 
   const toggleMobileMenu = () => {
@@ -66,12 +64,22 @@ export function Navbar() {
     if (item.subMenu && item.subMenu.length > 0) {
       setOpenSubMenu(openSubMenu === index ? null : index);
     } else if (item.url) {
-      window.location.href = item.url;
+      const isExternalUrl = /^https?:\/\//.test(item.url);
+        
+      if (isExternalUrl) {
+        window.open(item.url, item.target || '_self');
+      } else if (item.url.startsWith('#')) {
+        window.location.href = item.url;
+      } else {
+        const currentLocale = pathname.split('/')[1];
+        const cleanUrl = item.url.replace(/^\//, '');
+        router.push(`/${currentLocale}/${cleanUrl}`);
+      }
     }
   };
 
   const changeLanguage = (lang: string) => {
-    const segments = pathname.split("/").filter(Boolean); 
+    const segments = pathname.split("/").filter(Boolean);
 
     if (segments[0] === "en" || segments[0] === "pt" || segments[0] === "es") {
       segments[0] = lang;
@@ -109,14 +117,14 @@ export function Navbar() {
             <ul>
               {menuItems.map((item, index) => (
                 <li key={index} onClick={() => handleMenuClick(index, item)}>
-                  <a href={item.url} target={item.target} rel={item.rel}>
-                    {item.label}
-                  </a>
+                  <a onClick={(e) => e.preventDefault()}>
+                  {item.label}
+                </a> 
                   {item.subMenu && openSubMenu === index && (
                     <ul className={styles.subMenu}>
                       {item.subMenu.map((subItem: MenuItem, subIndex: number) => (
                         <li key={subIndex}>
-                          <a href={subItem.url} target={subItem.target} rel={subItem.rel}>
+                          <a onClick={(e) => e.preventDefault()}>
                             {subItem.label}
                           </a>
                         </li>

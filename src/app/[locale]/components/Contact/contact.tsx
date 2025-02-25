@@ -66,12 +66,12 @@ export function Contact() {
         setSubjectOptions(options)
     }, [profile]);
 
-    return <section>
+    return <section id="contact">
         <Toast ref={toast} />
         <div className={styles.topSectionCt}></div>
         <div className={styles.backgroundCt}>
             <div className={styles.contactDiv} style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-                <h1 className={styles.contact}>Contact</h1>
+                <h1 className={styles.contact}>{t('CONTACT')}</h1>
             </div>
             <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: '3vh' }}>
                 <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: '3vh' }}>
@@ -81,12 +81,11 @@ export function Contact() {
             <div className='options' style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
                 <div style={{ marginTop: '3vh' }}>
                     <Dropdown
-
                         value={profile}
                         onChange={(e) => setProfile(e.value)}
                         optionLabel="key"
                         options={profileOptions}
-                        placeholder='Choose a profile'
+                        placeholder={t('CHOOSE_A_PROFILE')}
                     ></Dropdown>
                 </div>
             </div>
@@ -98,23 +97,23 @@ export function Contact() {
                         onChange={(e) => setSelectedContactType(e.value)}
                         optionLabel="key"
                         options={subjectOptions}
-                        placeholder='Choose a subject'
+                        placeholder={t('CHOOSE_A_SUBJECT')}
                         disabled={!profile}
                     ></Dropdown>
                 </div>
             </div>
 
             <div className='options' style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: '3vh' }}>
-                <InputText value={name} onChange={(e) => setName(e.target.value)} placeholder="" />
+                <InputText value={name} onChange={(e) => setName(e.target.value)} placeholder={t("FULLNAME")} />
             </div>
 
             <div className='options' style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: '3vh' }}>
-                <InputTextarea value={text} placeholder="Insert a message" onChange={(e) => setText(e.target.value)} rows={20} />
+                <InputTextarea value={text} placeholder={t('INSERT_A_MESSAGE')} onChange={(e) => setText(e.target.value)} rows={20} />
             </div>
 
             <div className='options' style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
                 <div style={{ marginTop: '3vh' }}>
-                    <Button label="Submit" onClick={() => sendMessage()} />
+                    <Button label={t("SEND_MESSAGE")} onClick={() => sendMessage()} />
                 </div>
             </div>
 
