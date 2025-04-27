@@ -24,5 +24,9 @@
   "CHOOSE_A_SUBJECT": "Choose a subject",
   "FULLNAME": "Fullname",
   "INSERT_A_MESSAGE": "Insert a message",
-  "SEND_MESSAGE": "Send message"
+  "SEND_MESSAGE": "Send message",
+  "BLOG": "Blog",
+  "TRAININGS": "Trainings",
+  "DOCUMENTATION": "Documentation",
+  "GENERATORS": "Generators"
 }

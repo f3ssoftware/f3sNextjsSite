@@ -24,5 +24,9 @@
   "CHOOSE_A_SUBJECT": "Elige un tema",
   "FULLNAME": "Nombre completo",
   "INSERT_A_MESSAGE": "Inserta un mensaje",
-  "SEND_MESSAGE": "Enviar mensaje"
+  "SEND_MESSAGE": "Enviar mensaje",
+  "BLOG": "Blog",
+  "TRAININGS": "Treinamentos",
+  "DOCUMENTATION": "Documentação",
+  "GENERATORS": "Generadores"
 }

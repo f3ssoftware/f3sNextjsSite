@@ -186,6 +186,7 @@
 
   .logo {
     flex: 0 0 0;
+    cursor: pointer;
   }
 
   .navMenu {
@@ -308,6 +309,7 @@
   .logoImage {
     width: 150px;
     height: 100%;
+    cursor: pointer;
     /* margin-left: 15%; */
   }
 

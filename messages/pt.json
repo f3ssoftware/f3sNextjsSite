@@ -17,12 +17,16 @@
   "NICHE_MARKETS": "para mercados de nicho",
   "ABOUT_US": "Sobre nós",
   "DEVELOPMENT": "Desenvolvimento",
-  "BUSINESS": "Negócios",
+  "BUSINESS": "Empresas",
   "FOLLOW_ON_SOCIAL_MEDIA": "Siga nas redes sociais",
   "CONTACT_PARAGRAPH": "Se você estiver interessado em discutir um potencial projeto ou parceria, preencha o formulário abaixo",
   "CHOOSE_A_PROFILE": "Selecione um perfil",
   "CHOOSE_A_SUBJECT": "Escolha um assunto",
   "FULLNAME": "Nome completo",
   "INSERT_A_MESSAGE": "Insira uma mensagem",
-  "SEND_MESSAGE": "Enviar mensagem"
+  "SEND_MESSAGE": "Enviar mensagem",
+  "BLOG": "Blog",
+  "TRAININGS": "Treinamentos",
+  "DOCUMENTATION": "Documentação",
+  "GENERATORS": "Geradores"
 }
