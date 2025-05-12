@@ -2,8 +2,9 @@ section.games {
     min-height: 100vh;
     background-color: #2B2F38;
     padding-top: 10vh;
-    --background-image-url: url('https://example.com/your-image.jpg'); /* Replace with your image URL */
+    color: #fff;
 }
+
 
 .games-container {
     display: flex;
