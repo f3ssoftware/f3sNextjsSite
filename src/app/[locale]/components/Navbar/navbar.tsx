@@ -44,7 +44,7 @@ export function Navbar() {
           target: "_blank",
           rel: "noopener noreferrer",
         },
-        { label: t(`GENERATORS`) },
+        { label: t(`GENERATORS`), url: "/generators" },
         { label: t(`TRAININGS`) },
         { label: t(`DOCUMENTATION`) },
       ],
@@ -100,7 +100,7 @@ export function Navbar() {
     <>
       <header
         className={`${styles.navbar} ${
-          isScrolled || pathname.includes("/games")
+          isScrolled || pathname !== `/${pathname.split('/')[1]}`
             ? styles.scrolled
             : styles.transparent
         }`}

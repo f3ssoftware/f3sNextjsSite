@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Tibia",
+    "image": "https://static.tibia.com/images/global/header/tibia-logo-artwork-top.gif",
+    "slug": "tibia"
+  },
+  {
+    "id": 2,
+    "name": "CS2",
+    "image": "https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react//cs2/logo_cs2_header.svg",
+    "slug": "cs2"
+  },
+  {
+    "id": 3,
+    "name": "GTA V",
+    "image": "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/732efc56393d89076732e76b0a2b55b2.svg",
+    "slug": "gta5"
+  },
+  {
+    "id": 4,
+    "name": "Valorant",
+    "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/7b76209193f1bfe190d3ae6ef8728328870be9c3-736x138.png?auto=format&fit=fill&q=80&w=300",
+    "slug": "valorant"
+  },
+  {
+    "id": 5,
+    "name": "League of Legends",
+    "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9eb028de391e65072d06e77f06d0955f66b9fa2c-736x316.png?auto=format&fit=fill&q=80&w=300",
+    "slug": "league-of-legends"
+  },
+  {
+    "id": 6,
+    "name": "Ragnarok",
+    "image": "https://playragnarokonlinebr.com/img/logo.png",
+    "slug": "ragnarok"
+  },
+  {
+    "id": 7,
+    "name": "World of Warcraft",
+    "image": "https://blz-contentstack-images.akamaized.net/v3/assets/blt3452e3b114fab0cd/blte82ef8135378a09b/5d4883cabf384b03afd01553/Logo-wow.png?",
+    "slug": "world-of-warcraft"
+  },
+  {
+    "id": 8,
+    "name": "Fortnite",
+    "image": "https://cms-assets.unrealengine.com/AVzjeqAbLRKi3W5jq0CAvz/ddDDGPriQHC1OyGYRAKO",
+    "slug": "fortnite"
+  },
+  {
+    "id": 9,
+    "name": "Minecraft",
+    "image": "https://www.minecraft.net/content/dam/games/minecraft/logos/logo-minecraft.svg",
+    "slug": "minecraft"
+  },
+  {
+    "id": 10,
+    "name": "Apex Legends",
+    "image": "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/apex-featured-image-16x9.jpg.adapt.crop16x9.1455w.jpg",
+    "slug": "apex-legends"
+  },
+  {
+    "id": 11,
+    "name": "Dota 2",
+    "image": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota2_social.jpg",
+    "slug": "dota2"
+  },
+  {
+    "id": 12,
+    "name": "PUBG: BATTLEGROUNDS",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/578080/header.jpg",
+    "slug": "pubg"
+  },
+  {
+    "id": 13,
+    "name": "Rocket League",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
+    "slug": "rocket-league"
+  },
+  {
+    "id": 14,
+    "name": "Overwatch 2",
+    "image": "https://bnetcmsus-a.akamaihd.net/cms/gallery/1QZJ7VXGQZ4O1634567890123.png",
+    "slug": "overwatch2"
+  },
+  {
+    "id": 15,
+    "name": "Elden Ring",
+    "image": "https://image.api.playstation.com/vulcan/ap/rnd/202110/2000/phvVT0qZfcRms5qDAk0SI3CM.png",
+    "slug": "elden-ring"
+  },
+  {
+    "id": 16,
+    "name": "God of War Ragnarök",
+    "image": "https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/4xJ8XB3bi888QTLZYdl7Oi0s.png",
+    "slug": "god-of-war-ragnarok"
+  },
+  {
+    "id": 17,
+    "name": "Red Dead Redemption 2",
+    "image": "https://image.api.playstation.com/vulcan/ap/rnd/202010/0222/niMUubpU9y1PxNvYmDvewkxE.png",
+    "slug": "red-dead-redemption-2"
+  },
+  {
+    "id": 18,
+    "name": "The Witcher 3",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg",
+    "slug": "the-witcher-3"
+  },
+  {
+    "id": 19,
+    "name": "Cyberpunk 2077",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg",
+    "slug": "cyberpunk-2077"
+  },
+  {
+    "id": 20,
+    "name": "Baldur's Gate 3",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1086940/header.jpg",
+    "slug": "baldurs-gate-3"
+  }
+]

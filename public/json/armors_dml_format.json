@@ -1,0 +1,6442 @@
+[
+  {
+    "item": {
+      "id": "71767050-badb-4cfb-87a3-41db3c5a61ad",
+      "name": "Albino Plate",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 11,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 2,
+      "weight": 84.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "7b6ee8e2-f732-42e9-92e1-9529fbef5052",
+        "item_id": "71767050-badb-4cfb-87a3-41db3c5a61ad",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "0f32a424-13c0-4d42-9368-a13bf591aa24",
+        "item_id": "71767050-badb-4cfb-87a3-41db3c5a61ad",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "1207d4dc-65c4-4070-9524-324dcd8d7c2e",
+        "item_id": "71767050-badb-4cfb-87a3-41db3c5a61ad",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "feaddcd5-4358-442c-a9b0-d09b0677d348",
+        "item_id": "71767050-badb-4cfb-87a3-41db3c5a61ad",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "2c93e016-1a71-47ea-bfd0-0359aacfa713",
+        "item_id": "71767050-badb-4cfb-87a3-41db3c5a61ad",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "2eb17538-b009-494c-9924-fe2cf4b3be0d",
+      "name": "Amazon Armor",
+      "min_level": 60,
+      "type": "ARMOR",
+      "arm": 13,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 45.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "a0bee678-9769-4732-9ca0-7cf74870e36c",
+        "item_id": "2eb17538-b009-494c-9924-fe2cf4b3be0d",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "9893db36-7e4d-4b29-ae96-9086016cae30",
+        "item_id": "2eb17538-b009-494c-9924-fe2cf4b3be0d",
+        "skill": "DISTANCE",
+        "value": 3
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "224d411a-ee84-49c4-8ad6-b0d514675392",
+      "name": "Arcane Dragon Robe",
+      "min_level": 300,
+      "type": "ARMOR",
+      "arm": 15,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 43.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "d4cc873d-b501-4d23-accb-f67cfa1bab59",
+        "item_id": "224d411a-ee84-49c4-8ad6-b0d514675392",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "03fa9963-3dcb-4847-abc9-7107578987b5",
+        "item_id": "224d411a-ee84-49c4-8ad6-b0d514675392",
+        "skill": "MAGIC",
+        "value": 3
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "42b69ed7-af9c-4019-a1da-b56d2b15c448",
+        "item_id": "224d411a-ee84-49c4-8ad6-b0d514675392",
+        "element": "ICE",
+        "value": 12
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "7d62ed67-f7c7-4834-9c30-8299d703910b",
+      "name": "Ball Gown",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 25.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "c63dd4d0-f5c5-45be-9cd6-1f587c2cd14b",
+        "item_id": "7d62ed67-f7c7-4834-9c30-8299d703910b",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "71c5e4b5-09fa-4428-8be5-dc94c52a0f70",
+        "item_id": "7d62ed67-f7c7-4834-9c30-8299d703910b",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "8143dc42-f10c-42e1-8f23-a0f188f6e57b",
+        "item_id": "7d62ed67-f7c7-4834-9c30-8299d703910b",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "5e0ba552-90bd-4ebc-b07b-077af5176860",
+        "item_id": "7d62ed67-f7c7-4834-9c30-8299d703910b",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "0cbab5da-4353-43e0-886c-40f3fa979338",
+        "item_id": "7d62ed67-f7c7-4834-9c30-8299d703910b",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "f661e785-b747-4a98-a901-bceb43ed0156",
+      "name": "Bear Skin",
+      "min_level": 230,
+      "type": "ARMOR",
+      "arm": 16,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 1,
+      "weight": 44.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "2e9525be-ac50-44bf-96cb-edb972fb1fbb",
+        "item_id": "f661e785-b747-4a98-a901-bceb43ed0156",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "bf2d59d2-6bc8-4e1a-84f2-22ab419f06fd",
+        "item_id": "f661e785-b747-4a98-a901-bceb43ed0156",
+        "skill": "MAGIC",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "397a9c6b-3ec1-402b-ab97-43ce13905f4f",
+        "item_id": "f661e785-b747-4a98-a901-bceb43ed0156",
+        "element": "EARTH",
+        "value": 11
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "02eb9d55-99a1-4468-8ab3-cc36b0b75b78",
+      "name": "Belted Cape",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 10,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 35.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "ebd388a8-eeb9-4fe4-9107-2ca3cfd557a9",
+        "item_id": "02eb9d55-99a1-4468-8ab3-cc36b0b75b78",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "d905ad86-c7f9-48b5-9b6b-f06e74cd0e89",
+      "name": "Blue Robe",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 11,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 22.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "d67c6ed3-f918-44bf-89c1-dc6da46312fd",
+        "item_id": "d905ad86-c7f9-48b5-9b6b-f06e74cd0e89",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "d199c2d3-7f00-4754-a026-38b0feb58db4",
+        "item_id": "d905ad86-c7f9-48b5-9b6b-f06e74cd0e89",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "9e4c9922-afbf-44c9-aeaf-ff0c632011d9",
+        "item_id": "d905ad86-c7f9-48b5-9b6b-f06e74cd0e89",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "f4881b55-a1b1-4368-8496-bad23c8e65c8",
+        "item_id": "d905ad86-c7f9-48b5-9b6b-f06e74cd0e89",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "a729e1ba-53f3-4554-a54d-19302c0c8813",
+        "item_id": "d905ad86-c7f9-48b5-9b6b-f06e74cd0e89",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "7e9ec1e4-3f91-4d57-9e9f-fb866e05b08f",
+      "name": "Brass Armor",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 8,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 80.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "c27fc8a9-d87e-446a-982c-ac26508dbcfd",
+        "item_id": "7e9ec1e4-3f91-4d57-9e9f-fb866e05b08f",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "9f1d7c81-95e9-4ab2-b53f-7d21c3906dd6",
+        "item_id": "7e9ec1e4-3f91-4d57-9e9f-fb866e05b08f",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "fcb9c234-edb2-48c5-8000-40f3fc2b806c",
+        "item_id": "7e9ec1e4-3f91-4d57-9e9f-fb866e05b08f",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "c554cc1d-0644-4270-b59e-1e55be444cc0",
+        "item_id": "7e9ec1e4-3f91-4d57-9e9f-fb866e05b08f",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "f6ead434-27a0-4eb5-bd90-885af3b7eca4",
+        "item_id": "7e9ec1e4-3f91-4d57-9e9f-fb866e05b08f",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "03e56345-72fe-4698-9466-165ee9e6bb06",
+      "name": "Broken Iks Cuirass",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 1,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 19.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "f561bd0a-888a-4964-8936-e4ab9d3198dd",
+        "item_id": "03e56345-72fe-4698-9466-165ee9e6bb06",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "bb8915f2-2c57-4cae-bebc-6060dd6eb3e2",
+        "item_id": "03e56345-72fe-4698-9466-165ee9e6bb06",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "0419e2a2-5464-4d77-99f5-0c86555624ba",
+        "item_id": "03e56345-72fe-4698-9466-165ee9e6bb06",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "1099582f-6698-4970-8a9b-0098da48f0db",
+        "item_id": "03e56345-72fe-4698-9466-165ee9e6bb06",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "3f922637-22ce-4159-afca-aaaa72e12d05",
+        "item_id": "03e56345-72fe-4698-9466-165ee9e6bb06",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "142f24eb-9d34-4c98-acd5-56cb68a9af6b",
+      "name": "Buckle",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 12,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 75.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "fa14bbfe-a1ae-447c-be69-0a0f0635b056",
+        "item_id": "142f24eb-9d34-4c98-acd5-56cb68a9af6b",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "1daf8e56-5d8f-451c-9462-6521feb11a8f",
+        "item_id": "142f24eb-9d34-4c98-acd5-56cb68a9af6b",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "295c3d07-e0c9-4527-b21b-e19706e20422",
+        "item_id": "142f24eb-9d34-4c98-acd5-56cb68a9af6b",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "3673e29f-e4e5-4173-bbe9-1ce1eb1bff12",
+        "item_id": "142f24eb-9d34-4c98-acd5-56cb68a9af6b",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "b065ad3f-db75-440f-9555-256d9bd2e259",
+        "item_id": "142f24eb-9d34-4c98-acd5-56cb68a9af6b",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "52ce8e47-f4ba-4a86-ac3b-bed7362f04cd",
+      "name": "Burial Shroud",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 5.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "f2027705-5dd4-454a-ad30-ab828dde50b4",
+        "item_id": "52ce8e47-f4ba-4a86-ac3b-bed7362f04cd",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "754ac7e9-7765-4c27-bc4e-7a041d0172fc",
+        "item_id": "52ce8e47-f4ba-4a86-ac3b-bed7362f04cd",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "124357ab-180b-4c9a-9b8c-cd6d3263d143",
+        "item_id": "52ce8e47-f4ba-4a86-ac3b-bed7362f04cd",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "fb88d4af-6274-407e-8074-c11fdc1ccfd5",
+        "item_id": "52ce8e47-f4ba-4a86-ac3b-bed7362f04cd",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "5ed6d764-1f91-46e7-9340-8b20dd30b197",
+        "item_id": "52ce8e47-f4ba-4a86-ac3b-bed7362f04cd",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "a870b79b-a81e-4dd5-adb8-32f6f45f1f7b",
+        "item_id": "52ce8e47-f4ba-4a86-ac3b-bed7362f04cd",
+        "element": "DEATH",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "db502680-4f7e-41e9-a649-e229d869cd3f",
+      "name": "Calopteryx Cape",
+      "min_level": 80,
+      "type": "ARMOR",
+      "arm": 12,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 20.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "ee4ada93-f43f-41fe-a06e-7362cc25aefe",
+        "item_id": "db502680-4f7e-41e9-a649-e229d869cd3f",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "d92790ee-d8c2-462e-992c-9c9e945a17f6",
+        "item_id": "db502680-4f7e-41e9-a649-e229d869cd3f",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "db5cd75f-0486-4beb-bdda-d122ea592e35",
+        "item_id": "db502680-4f7e-41e9-a649-e229d869cd3f",
+        "skill": "MAGIC",
+        "value": 1
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "7ae89ce8-8886-4257-9c1f-90cf4379f270",
+        "item_id": "db502680-4f7e-41e9-a649-e229d869cd3f",
+        "element": "ICE",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "dec4841f-6843-46a8-a149-605aad34f6f3",
+      "name": "Cape",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 1,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 32.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "6078851c-d400-4965-812c-6e391702988b",
+        "item_id": "dec4841f-6843-46a8-a149-605aad34f6f3",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "a981a60c-6254-48c8-b34c-c06499c10930",
+        "item_id": "dec4841f-6843-46a8-a149-605aad34f6f3",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "6128355d-f10c-40bd-94f1-502b21d8de97",
+        "item_id": "dec4841f-6843-46a8-a149-605aad34f6f3",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "2eca8675-1ea3-419c-99e8-3d319cd47074",
+        "item_id": "dec4841f-6843-46a8-a149-605aad34f6f3",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "f8da7c64-2e4c-461e-ba04-01ba9664aaa0",
+        "item_id": "dec4841f-6843-46a8-a149-605aad34f6f3",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "299484c3-8b5c-439d-b1d1-a82a3f608488",
+      "name": "Chain Armor",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 6,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 2,
+      "weight": 100.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "b650af35-5f7d-4b3c-a821-c8a469fe9fc4",
+        "item_id": "299484c3-8b5c-439d-b1d1-a82a3f608488",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "5fdfa33d-6e9b-48e7-a08e-59c0c9434717",
+        "item_id": "299484c3-8b5c-439d-b1d1-a82a3f608488",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "ce5f1351-a414-42b6-b173-b057d37ba580",
+        "item_id": "299484c3-8b5c-439d-b1d1-a82a3f608488",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "64c7419e-ce3b-40ce-b5a9-40b44196ee0d",
+        "item_id": "299484c3-8b5c-439d-b1d1-a82a3f608488",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "8c431fcf-19f6-49dd-a37e-2299acc8671d",
+        "item_id": "299484c3-8b5c-439d-b1d1-a82a3f608488",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "beef9408-ee30-4428-8c92-657008723df2",
+      "name": "Coat",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 1,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 27.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "60fd5f26-f2cc-4417-ab24-92bddefa09ed",
+        "item_id": "beef9408-ee30-4428-8c92-657008723df2",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "dd0d5284-690e-4a25-bd70-7dc060dd74ba",
+        "item_id": "beef9408-ee30-4428-8c92-657008723df2",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "563b97c1-a2b6-4c41-9efe-b0231a3d8064",
+        "item_id": "beef9408-ee30-4428-8c92-657008723df2",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "fd403853-9141-4376-91c3-19c342db480a",
+        "item_id": "beef9408-ee30-4428-8c92-657008723df2",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "c290f0b8-1871-44e5-972c-32cc517d47d8",
+        "item_id": "beef9408-ee30-4428-8c92-657008723df2",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "aad0cba9-15a2-4c90-8fcb-14f873a52547",
+      "name": "Crown Armor",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 13,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 1,
+      "weight": 99.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "8dc28353-d749-44db-b288-93e81911eb7b",
+        "item_id": "aad0cba9-15a2-4c90-8fcb-14f873a52547",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "fd9a2927-b875-4317-911e-9cae9b1ac538",
+        "item_id": "aad0cba9-15a2-4c90-8fcb-14f873a52547",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "105731a6-eded-47f0-b333-9f531e86d232",
+      "name": "Crystalline Armor",
+      "min_level": 60,
+      "type": "ARMOR",
+      "arm": 13,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 84.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "5d5d61cf-d1ff-4e33-be33-1e383c2dda96",
+        "item_id": "105731a6-eded-47f0-b333-9f531e86d232",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "e770795b-6d60-4336-ba6d-94554b38e422",
+        "item_id": "105731a6-eded-47f0-b333-9f531e86d232",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "5a9971b7-3f4a-4a7d-9de9-5a9291e2dfae",
+        "item_id": "105731a6-eded-47f0-b333-9f531e86d232",
+        "element": "ICE",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "94509817-b68f-4fb8-8660-38bfc9bcf418",
+      "name": "Dark Armor",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 10,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 120.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "c05694a3-8f28-4833-8f92-56414fcd03d8",
+        "item_id": "94509817-b68f-4fb8-8660-38bfc9bcf418",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "c3bf2d9c-3c5c-40cc-b29f-b168daaa6065",
+        "item_id": "94509817-b68f-4fb8-8660-38bfc9bcf418",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "656c85f8-a042-45b3-be26-6f7d376eee95",
+        "item_id": "94509817-b68f-4fb8-8660-38bfc9bcf418",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "fa12ccd5-2e9e-44d7-936d-6adbe1fd14a5",
+        "item_id": "94509817-b68f-4fb8-8660-38bfc9bcf418",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "078bb33f-9e44-47a3-b076-3fbe7782951d",
+        "item_id": "94509817-b68f-4fb8-8660-38bfc9bcf418",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "c6d64167-6ad0-468d-8a0c-72ab475f3f9e",
+      "name": "Dark Lord's Cape",
+      "min_level": 65,
+      "type": "ARMOR",
+      "arm": 11,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 0,
+      "weight": 29.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "785667bd-8da0-4396-874f-7dc9aece4c66",
+        "item_id": "c6d64167-6ad0-468d-8a0c-72ab475f3f9e",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "04cfa1de-cf80-4043-8311-1ad6a08132e8",
+        "item_id": "c6d64167-6ad0-468d-8a0c-72ab475f3f9e",
+        "element": "DEATH",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "c35b26fb-f9ca-4167-a261-35c3aaef0381",
+      "name": "Dauntless Dragon Scale Armor",
+      "min_level": 300,
+      "type": "ARMOR",
+      "arm": 18,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 152.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "f4da7d6a-c981-4e79-b980-bbd7b2d8fa7c",
+        "item_id": "c35b26fb-f9ca-4167-a261-35c3aaef0381",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "308b78c6-24b2-40d7-848a-2ffb16bdd485",
+        "item_id": "c35b26fb-f9ca-4167-a261-35c3aaef0381",
+        "skill": "SWORD",
+        "value": 3
+      },
+      {
+        "id": "f1aba33a-32a8-40c1-bcd5-6d6114b935b4",
+        "item_id": "c35b26fb-f9ca-4167-a261-35c3aaef0381",
+        "skill": "CLUB",
+        "value": 3
+      },
+      {
+        "id": "c02e903a-6516-4db4-8bf5-9a5db83bd481",
+        "item_id": "c35b26fb-f9ca-4167-a261-35c3aaef0381",
+        "skill": "AXE",
+        "value": 3
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "88e853f7-5f13-4576-aa15-3536160aff3c",
+        "item_id": "c35b26fb-f9ca-4167-a261-35c3aaef0381",
+        "element": "PHYSICAL",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "40617aa1-2ee6-4bf6-b3f1-c5299390fd6f",
+      "name": "Dawnfire Sherwani",
+      "min_level": 270,
+      "type": "ARMOR",
+      "arm": 16,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 28.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "5268606b-1501-4769-ae27-a540378d311a",
+        "item_id": "40617aa1-2ee6-4bf6-b3f1-c5299390fd6f",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "c521d657-10f2-4090-93bd-0dbc4a4b8941",
+        "item_id": "40617aa1-2ee6-4bf6-b3f1-c5299390fd6f",
+        "skill": "MAGIC",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "35af01aa-becb-417f-9966-1fe17555db61",
+        "item_id": "40617aa1-2ee6-4bf6-b3f1-c5299390fd6f",
+        "element": "FIRE",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "04216e92-6422-4f3d-af6b-69943b326384",
+      "name": "Death Oyoroi",
+      "min_level": 230,
+      "type": "ARMOR",
+      "arm": 9,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 1,
+      "weight": 105.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "f661efca-ab93-4d4f-9ed5-376d834fd3bb",
+        "item_id": "04216e92-6422-4f3d-af6b-69943b326384",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "9b5e9b20-f9a1-413d-97fe-4dcd427e6c15",
+        "item_id": "04216e92-6422-4f3d-af6b-69943b326384",
+        "skill": "FIST",
+        "value": 4
+      },
+      {
+        "id": "41702f28-dd9a-4023-8b6f-9f9a8e9afc38",
+        "item_id": "04216e92-6422-4f3d-af6b-69943b326384",
+        "skill": "MAGIC",
+        "value": 1
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "7a404d34-8e30-4981-ac0f-ad7f21f660dd",
+        "item_id": "04216e92-6422-4f3d-af6b-69943b326384",
+        "element": "DEATH",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "4fcda3fc-1a82-4733-b790-c669588d35cb",
+      "name": "Demon Armor",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 16,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 80.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "7ca07048-c9c9-441e-9645-c7be75b8b911",
+        "item_id": "4fcda3fc-1a82-4733-b790-c669588d35cb",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "f441083a-e509-425b-9001-881d8e8b2208",
+        "item_id": "4fcda3fc-1a82-4733-b790-c669588d35cb",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "2ee2b1e1-cd78-44d6-a59b-12809e41cfeb",
+        "item_id": "4fcda3fc-1a82-4733-b790-c669588d35cb",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "6f3e1fa8-cc70-4eaf-a54a-8bcea6d8828c",
+        "item_id": "4fcda3fc-1a82-4733-b790-c669588d35cb",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "f9e27769-fe1a-44e0-8efd-53ef392cef40",
+        "item_id": "4fcda3fc-1a82-4733-b790-c669588d35cb",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "226e6cf8-57ae-414b-bd81-8c49c4cfc55a",
+      "name": "Depth Lorica",
+      "min_level": 150,
+      "type": "ARMOR",
+      "arm": 16,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 145.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "e697131e-20cd-47d1-8d2e-cdf7ad25866e",
+        "item_id": "226e6cf8-57ae-414b-bd81-8c49c4cfc55a",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "1a14e3cc-294a-417d-a85e-533e762d79a3",
+        "item_id": "226e6cf8-57ae-414b-bd81-8c49c4cfc55a",
+        "skill": "DISTANCE",
+        "value": 3
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "286635d6-5b20-4fd4-ab8e-91aff1dc1426",
+        "item_id": "226e6cf8-57ae-414b-bd81-8c49c4cfc55a",
+        "element": "DEATH",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "321049ce-eb50-4b1c-8494-7745b3ea6905",
+      "name": "Divine Plate",
+      "min_level": 75,
+      "type": "ARMOR",
+      "arm": 13,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 75.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "6142cdf9-b066-468b-b648-cefb2c6cf06d",
+        "item_id": "321049ce-eb50-4b1c-8494-7745b3ea6905",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "25224927-26a3-4bf4-857f-961ffbd15209",
+        "item_id": "321049ce-eb50-4b1c-8494-7745b3ea6905",
+        "element": "DEATH",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "672d4266-30ac-4e5f-aa93-6065e623becb",
+      "name": "Doublet",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 2,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 25.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "f58b28a4-dac5-4d09-9836-02a4e83721e6",
+        "item_id": "672d4266-30ac-4e5f-aa93-6065e623becb",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "1bf72410-5a08-4c14-8aa2-0f14e0b04da6",
+        "item_id": "672d4266-30ac-4e5f-aa93-6065e623becb",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "70f0ecc5-f7b6-4646-9982-4f77b3618aa0",
+        "item_id": "672d4266-30ac-4e5f-aa93-6065e623becb",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "f48050ab-e95f-4e71-a465-3182deea4384",
+        "item_id": "672d4266-30ac-4e5f-aa93-6065e623becb",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "914b1963-5f94-45a3-967c-9eb29419d345",
+        "item_id": "672d4266-30ac-4e5f-aa93-6065e623becb",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "9456181b-9789-4309-a7ab-de8d03cf5ce0",
+      "name": "Dragon Robe",
+      "min_level": 75,
+      "type": "ARMOR",
+      "arm": 12,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 28.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "268181f9-6fc7-4a69-9a74-a49108acfb55",
+        "item_id": "9456181b-9789-4309-a7ab-de8d03cf5ce0",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "1b987d45-885c-414b-879f-e11b841afec9",
+        "item_id": "9456181b-9789-4309-a7ab-de8d03cf5ce0",
+        "element": "FIRE",
+        "value": 12
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "64929d66-289f-4d8e-8e80-d0b178258332",
+      "name": "Dragon Scale Mail",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 15,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 1,
+      "weight": 114.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "aeb9c69f-b471-4565-b9e4-9565397c5263",
+        "item_id": "64929d66-289f-4d8e-8e80-d0b178258332",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "8852c290-6a6b-475e-87e4-257a694a941a",
+        "item_id": "64929d66-289f-4d8e-8e80-d0b178258332",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "5116e003-c5ac-4e4d-9889-20764402f2cc",
+      "name": "Dream Shroud",
+      "min_level": 180,
+      "type": "ARMOR",
+      "arm": 12,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 1,
+      "weight": 25.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "d8b679e9-cb3a-42d2-836a-c2d8439bfc92",
+        "item_id": "5116e003-c5ac-4e4d-9889-20764402f2cc",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "b1123f08-bba2-44c6-ae83-1ee97c36653a",
+        "item_id": "5116e003-c5ac-4e4d-9889-20764402f2cc",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "d0ef713f-9112-44f7-b1f3-814f6c451b4e",
+        "item_id": "5116e003-c5ac-4e4d-9889-20764402f2cc",
+        "skill": "MAGIC",
+        "value": 3
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "e7f99282-eec9-412d-a74c-df5839e3f74f",
+        "item_id": "5116e003-c5ac-4e4d-9889-20764402f2cc",
+        "element": "ENERGY",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "246960ea-ec41-46f9-b4cc-8e2fc14b2220",
+      "name": "Dwarven Armor",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 10,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 2,
+      "weight": 130.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "8e422383-4ac3-4780-b80e-31a5211c6297",
+        "item_id": "246960ea-ec41-46f9-b4cc-8e2fc14b2220",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "4255b058-4712-4767-9f23-0e3a0d4cbcdf",
+        "item_id": "246960ea-ec41-46f9-b4cc-8e2fc14b2220",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "cef07372-d880-4385-9aa5-eb72a3f7e05d",
+        "item_id": "246960ea-ec41-46f9-b4cc-8e2fc14b2220",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "aad0fa5c-1b86-424c-b60c-06ee82a9a251",
+        "item_id": "246960ea-ec41-46f9-b4cc-8e2fc14b2220",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "f02cfb2a-01b3-4eb1-a78e-42e01fdbae88",
+        "item_id": "246960ea-ec41-46f9-b4cc-8e2fc14b2220",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "8fd04d3b-83ad-4204-8632-45dc1948e5be",
+        "item_id": "246960ea-ec41-46f9-b4cc-8e2fc14b2220",
+        "element": "PHYSICAL",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "a7db1102-183b-4f83-ab14-b3d1efd7cec1",
+      "name": "Earthborn Titan Armor",
+      "min_level": 100,
+      "type": "ARMOR",
+      "arm": 15,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 0,
+      "weight": 120.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "bc89b88b-493f-465c-ba89-717469b22855",
+        "item_id": "a7db1102-183b-4f83-ab14-b3d1efd7cec1",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "ed5bc2ac-3a0b-47b3-bfb2-62eb17abd150",
+        "item_id": "a7db1102-183b-4f83-ab14-b3d1efd7cec1",
+        "skill": "AXE",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "1a0db62a-e7f1-4cd3-844d-0b6b5d397e7a",
+        "item_id": "a7db1102-183b-4f83-ab14-b3d1efd7cec1",
+        "element": "EARTH",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "6f1a2351-dcee-4dc5-933b-3948bd985ab1",
+      "name": "Earthheart Cuirass",
+      "min_level": 200,
+      "type": "ARMOR",
+      "arm": 18,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 145.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "a1494719-fc88-47f8-b8d0-4122ccc2939c",
+        "item_id": "6f1a2351-dcee-4dc5-933b-3948bd985ab1",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "74566df2-3693-410f-8475-04b5516ed452",
+        "item_id": "6f1a2351-dcee-4dc5-933b-3948bd985ab1",
+        "skill": "SWORD",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "2b697f76-0629-43bb-9d63-ee4d40b6f661",
+        "item_id": "6f1a2351-dcee-4dc5-933b-3948bd985ab1",
+        "element": "EARTH",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "1c050b01-1f35-47a5-b35d-b5f384766767",
+      "name": "Earthheart Hauberk",
+      "min_level": 200,
+      "type": "ARMOR",
+      "arm": 18,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 145.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "0a63dab0-51f9-456a-9758-3208a7322fa6",
+        "item_id": "1c050b01-1f35-47a5-b35d-b5f384766767",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "08753451-aae8-4a76-8d30-d3cc98cdcfcd",
+        "item_id": "1c050b01-1f35-47a5-b35d-b5f384766767",
+        "skill": "AXE",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "4fd701ca-424b-461f-90c2-66ef489dfd52",
+        "item_id": "1c050b01-1f35-47a5-b35d-b5f384766767",
+        "element": "EARTH",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "09180cba-35de-46d1-a4bd-50a77d22e9c7",
+      "name": "Earthheart Platemail",
+      "min_level": 200,
+      "type": "ARMOR",
+      "arm": 18,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 145.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "7d872cb0-dd28-48d0-9285-91eba8b82c0d",
+        "item_id": "09180cba-35de-46d1-a4bd-50a77d22e9c7",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "2ab5dce7-f429-4b19-bc07-7aa638e99381",
+        "item_id": "09180cba-35de-46d1-a4bd-50a77d22e9c7",
+        "skill": "CLUB",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "5d1b0a63-0f97-426c-8da1-9039ae827093",
+        "item_id": "09180cba-35de-46d1-a4bd-50a77d22e9c7",
+        "element": "EARTH",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "fca4b8b3-d6ac-4ad4-bd0d-cdf86640818d",
+      "name": "Earthmind Raiment",
+      "min_level": 200,
+      "type": "ARMOR",
+      "arm": 15,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 55.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "42ec8e72-ee3a-45dc-8d66-db4fcb466501",
+        "item_id": "fca4b8b3-d6ac-4ad4-bd0d-cdf86640818d",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "992244a7-9d26-4ada-843a-d740bb721e47",
+        "item_id": "fca4b8b3-d6ac-4ad4-bd0d-cdf86640818d",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "a29b009f-fbb1-4a87-8d73-97e628878b1e",
+        "item_id": "fca4b8b3-d6ac-4ad4-bd0d-cdf86640818d",
+        "skill": "MAGIC",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "ce93dd8e-2151-4f58-b1d4-dbb0e7de41b5",
+        "item_id": "fca4b8b3-d6ac-4ad4-bd0d-cdf86640818d",
+        "element": "EARTH",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "7914c87b-e036-4f1c-8f07-19654b6b0073",
+      "name": "Earthsoul Tabard",
+      "min_level": 200,
+      "type": "ARMOR",
+      "arm": 18,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 145.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "48ec4980-ef4b-4781-8581-f8312224f279",
+        "item_id": "7914c87b-e036-4f1c-8f07-19654b6b0073",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "94dd518e-4ddb-4b2f-bd76-0b27957e4bf2",
+        "item_id": "7914c87b-e036-4f1c-8f07-19654b6b0073",
+        "skill": "DISTANCE",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "dd0d453c-d679-40f1-8900-2184f214db51",
+        "item_id": "7914c87b-e036-4f1c-8f07-19654b6b0073",
+        "element": "EARTH",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "f462c20f-4202-486b-a899-9c323a8cfa23",
+      "name": "Eldritch Cuirass",
+      "min_level": 250,
+      "type": "ARMOR",
+      "arm": 16,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 110.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "dc076fe4-728a-4c69-ac01-032834e24ea1",
+        "item_id": "f462c20f-4202-486b-a899-9c323a8cfa23",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "38282595-d77b-492f-a974-78d7fd10f985",
+        "item_id": "f462c20f-4202-486b-a899-9c323a8cfa23",
+        "element": "PHYSICAL",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "07a5da71-9d03-4e99-ba9e-8382068dff3f",
+      "name": "Elite Draken Mail",
+      "min_level": 100,
+      "type": "ARMOR",
+      "arm": 15,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 120.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "ff19b0d0-54fe-4c1c-8789-a0da4e4e5005",
+        "item_id": "07a5da71-9d03-4e99-ba9e-8382068dff3f",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "d6a6e7a5-3ded-40ba-9e51-88d313a12bd6",
+        "item_id": "07a5da71-9d03-4e99-ba9e-8382068dff3f",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "af9ff587-afa5-43aa-be50-00e398e3b37a",
+      "name": "Elven Mail",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 9,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 3,
+      "weight": 90.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "a5a92ba3-38cc-4e67-9095-47d3fa09c1bb",
+        "item_id": "af9ff587-afa5-43aa-be50-00e398e3b37a",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "b625c1e0-8933-441f-8b32-8efbecc89cb8",
+        "item_id": "af9ff587-afa5-43aa-be50-00e398e3b37a",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "aa6eed1d-af19-480c-b888-adcafee02bce",
+        "item_id": "af9ff587-afa5-43aa-be50-00e398e3b37a",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "0a85bcdc-aeb3-436c-9d2b-9da0031c756a",
+        "item_id": "af9ff587-afa5-43aa-be50-00e398e3b37a",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "48049fa1-0229-4450-a0c7-bab02508390e",
+        "item_id": "af9ff587-afa5-43aa-be50-00e398e3b37a",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "c6b618e1-aff2-4b6d-af34-ec8f1685d6be",
+      "name": "Embrace of Nature",
+      "min_level": 220,
+      "type": "ARMOR",
+      "arm": 16,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 1,
+      "weight": 24.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "dbcc1fe9-c541-475f-8527-b1a1369e797b",
+        "item_id": "c6b618e1-aff2-4b6d-af34-ec8f1685d6be",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "6b6a316c-a810-44d8-9022-e2562e8a1140",
+        "item_id": "c6b618e1-aff2-4b6d-af34-ec8f1685d6be",
+        "skill": "DISTANCE",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "e6ba65b3-f2c1-4298-9fea-a1a4da35b1bc",
+        "item_id": "c6b618e1-aff2-4b6d-af34-ec8f1685d6be",
+        "element": "ICE",
+        "value": 11
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "dbfad05b-23ef-4fc7-8868-f60ef64088d0",
+      "name": "Energy Robe",
+      "min_level": 200,
+      "type": "ARMOR",
+      "arm": 9,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 75.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "894b4142-3747-459b-8971-c1995bba038a",
+        "item_id": "dbfad05b-23ef-4fc7-8868-f60ef64088d0",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "7d954556-5d7e-4a24-8232-4ac9bb7a3e48",
+        "item_id": "dbfad05b-23ef-4fc7-8868-f60ef64088d0",
+        "skill": "FIST",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "53babb5a-857d-40c1-b6b2-61ac229df95f",
+        "item_id": "dbfad05b-23ef-4fc7-8868-f60ef64088d0",
+        "element": "ENERGY",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "3d03321a-e69e-41df-99ee-b972ad9b9631",
+      "name": "Ethno Coat",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 7,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 25.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "fce683f6-b0be-4972-8a78-af9652c3b62f",
+        "item_id": "3d03321a-e69e-41df-99ee-b972ad9b9631",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "e7df64ff-8651-4c55-b21f-aff5108ea1d2",
+        "item_id": "3d03321a-e69e-41df-99ee-b972ad9b9631",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "438aea9f-dfa6-4ce3-a408-f6a1484f0fae",
+        "item_id": "3d03321a-e69e-41df-99ee-b972ad9b9631",
+        "skill": "MAGIC",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "34cdbfa7-0375-4f5c-96f5-e7391d329c4b",
+      "name": "Falcon Plate",
+      "min_level": 300,
+      "type": "ARMOR",
+      "arm": 18,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 188.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "5d102e09-ff14-44a8-bb01-ee02fbe0a452",
+        "item_id": "34cdbfa7-0375-4f5c-96f5-e7391d329c4b",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "2527789a-f554-4398-9053-3da1b4a9584c",
+        "item_id": "34cdbfa7-0375-4f5c-96f5-e7391d329c4b",
+        "element": "PHYSICAL",
+        "value": 12
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "d80097df-7600-449a-9985-8e433b8b319d",
+      "name": "Fireborn Giant Armor",
+      "min_level": 100,
+      "type": "ARMOR",
+      "arm": 15,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 120.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "95b7007e-8bf0-4a87-83a6-07991356a1a7",
+        "item_id": "d80097df-7600-449a-9985-8e433b8b319d",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "33cb9c30-3114-490d-94c5-1155f253c12a",
+        "item_id": "d80097df-7600-449a-9985-8e433b8b319d",
+        "skill": "SWORD",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "79861c22-f1ee-4b61-8b49-43b9b0685b31",
+        "item_id": "d80097df-7600-449a-9985-8e433b8b319d",
+        "element": "FIRE",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "1e3143fd-d021-4f75-be5e-32c88f4a2241",
+      "name": "Fireheart Cuirass",
+      "min_level": 200,
+      "type": "ARMOR",
+      "arm": 18,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 145.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "1fa49177-7cb2-4b98-96fb-73fdd8b5b3bd",
+        "item_id": "1e3143fd-d021-4f75-be5e-32c88f4a2241",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "09cadc6b-9b31-48ed-8df7-a61b07999cb5",
+        "item_id": "1e3143fd-d021-4f75-be5e-32c88f4a2241",
+        "skill": "SWORD",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "b6b3b843-4216-4a1a-a757-3f98f169f53b",
+        "item_id": "1e3143fd-d021-4f75-be5e-32c88f4a2241",
+        "element": "FIRE",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "7b9e6f8d-4c42-4b07-89ff-bcecfd50f5db",
+      "name": "Fireheart Hauberk",
+      "min_level": 200,
+      "type": "ARMOR",
+      "arm": 18,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 145.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "22fbbe75-5ffc-4132-b6b0-46316abd1a69",
+        "item_id": "7b9e6f8d-4c42-4b07-89ff-bcecfd50f5db",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "4c0c2e6a-35e6-49d9-8bba-1dfbb2e2e608",
+        "item_id": "7b9e6f8d-4c42-4b07-89ff-bcecfd50f5db",
+        "skill": "AXE",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "a1b98d0d-0966-4e22-8b6c-1a162ef48162",
+        "item_id": "7b9e6f8d-4c42-4b07-89ff-bcecfd50f5db",
+        "element": "FIRE",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "3bbe6f01-dd99-4e94-bf84-3a79c9d652c6",
+      "name": "Fireheart Platemail",
+      "min_level": 200,
+      "type": "ARMOR",
+      "arm": 18,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 145.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "90bd74c2-b9db-4071-bfea-5f5da8e830c5",
+        "item_id": "3bbe6f01-dd99-4e94-bf84-3a79c9d652c6",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "737e42d0-7a9f-4ea2-9680-b31a4a92bf1f",
+        "item_id": "3bbe6f01-dd99-4e94-bf84-3a79c9d652c6",
+        "skill": "CLUB",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "fdd27afb-ef7b-4511-a7eb-114b43aa77b1",
+        "item_id": "3bbe6f01-dd99-4e94-bf84-3a79c9d652c6",
+        "element": "FIRE",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "c8a93d79-9241-4b2c-8be0-f9b2c2ebec8d",
+      "name": "Firemind Raiment",
+      "min_level": 200,
+      "type": "ARMOR",
+      "arm": 15,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 55.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "cf018410-4731-49a5-9f5b-387ce411d978",
+        "item_id": "c8a93d79-9241-4b2c-8be0-f9b2c2ebec8d",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "d86dddff-e9d9-4f83-b25b-b613998b2edc",
+        "item_id": "c8a93d79-9241-4b2c-8be0-f9b2c2ebec8d",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "1ac79821-580f-4e79-9bda-6562f3397671",
+        "item_id": "c8a93d79-9241-4b2c-8be0-f9b2c2ebec8d",
+        "skill": "MAGIC",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "6a3aebf2-bb73-4531-b4e2-d6d71237e128",
+        "item_id": "c8a93d79-9241-4b2c-8be0-f9b2c2ebec8d",
+        "element": "FIRE",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "e1a99e2b-c708-4c4b-97b0-166a82d762f5",
+      "name": "Firesoul Tabard",
+      "min_level": 200,
+      "type": "ARMOR",
+      "arm": 18,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 145.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "83d2ad86-ff11-49cb-ba72-0c1ada17049e",
+        "item_id": "e1a99e2b-c708-4c4b-97b0-166a82d762f5",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "747ebb37-8f81-4a55-9ceb-2f7fab1c0d57",
+        "item_id": "e1a99e2b-c708-4c4b-97b0-166a82d762f5",
+        "skill": "DISTANCE",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "73a6f3b1-420d-4c84-9841-d2add080fe2a",
+        "item_id": "e1a99e2b-c708-4c4b-97b0-166a82d762f5",
+        "element": "FIRE",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "ec52a9e8-3e12-4378-a1fa-37e9cd086b4f",
+      "name": "Flower Dress",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 19.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "5cee8507-59f2-40b9-8cdc-9683514b08d4",
+        "item_id": "ec52a9e8-3e12-4378-a1fa-37e9cd086b4f",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "276d4a65-1b2a-42c5-827e-a48ce38160ec",
+        "item_id": "ec52a9e8-3e12-4378-a1fa-37e9cd086b4f",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "2b9f19f0-a16e-4dc7-82ac-09a667c49ca5",
+        "item_id": "ec52a9e8-3e12-4378-a1fa-37e9cd086b4f",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "466352d1-7329-4cae-8f33-b7975b5245a9",
+        "item_id": "ec52a9e8-3e12-4378-a1fa-37e9cd086b4f",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "b5c75e9c-f228-443d-b988-fa30c05b42ad",
+        "item_id": "ec52a9e8-3e12-4378-a1fa-37e9cd086b4f",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "9af03c4d-1064-4e01-a631-c037a85a2f01",
+      "name": "Focus Cape",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 9,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 21.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "ef1c00fc-3029-483b-b78e-20139cdeffa4",
+        "item_id": "9af03c4d-1064-4e01-a631-c037a85a2f01",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "5416f6b2-f002-4295-85ff-b388f5340e7a",
+        "item_id": "9af03c4d-1064-4e01-a631-c037a85a2f01",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "f99f33ce-7872-4e85-8171-541a9307e2c9",
+        "item_id": "9af03c4d-1064-4e01-a631-c037a85a2f01",
+        "skill": "MAGIC",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "27a5df62-b89b-46ee-8409-c853e90b2716",
+      "name": "Frostheart Cuirass",
+      "min_level": 200,
+      "type": "ARMOR",
+      "arm": 18,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 145.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "5f9d3b9d-d423-4779-999e-3f29b24780fd",
+        "item_id": "27a5df62-b89b-46ee-8409-c853e90b2716",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "57722b23-3dcb-460f-9d79-57ec08298ab5",
+        "item_id": "27a5df62-b89b-46ee-8409-c853e90b2716",
+        "skill": "SWORD",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "a4d8d12d-24c2-44c6-820d-52cb3399436a",
+        "item_id": "27a5df62-b89b-46ee-8409-c853e90b2716",
+        "element": "ICE",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "72c72281-6a49-4c63-b20b-1088fd4c65fe",
+      "name": "Frostheart Hauberk",
+      "min_level": 200,
+      "type": "ARMOR",
+      "arm": 18,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 145.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "f9f00bef-a3e3-4d08-9314-c10ae962348e",
+        "item_id": "72c72281-6a49-4c63-b20b-1088fd4c65fe",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "afc2e50e-5d64-4643-b17d-02975556fc2b",
+        "item_id": "72c72281-6a49-4c63-b20b-1088fd4c65fe",
+        "skill": "AXE",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "c948791f-e133-49fd-a208-fd7315d2186a",
+        "item_id": "72c72281-6a49-4c63-b20b-1088fd4c65fe",
+        "element": "ICE",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "08d6c598-45c1-4802-b255-1e5c288e94a3",
+      "name": "Frostheart Platemail",
+      "min_level": 200,
+      "type": "ARMOR",
+      "arm": 18,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 145.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "e0b3cb60-a002-43e0-bd6b-d742cfe93eb2",
+        "item_id": "08d6c598-45c1-4802-b255-1e5c288e94a3",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "82608638-deb8-4326-a46b-fac282777e05",
+        "item_id": "08d6c598-45c1-4802-b255-1e5c288e94a3",
+        "skill": "CLUB",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "3c5ea5a7-550c-4f30-a7a0-2f55eeda1d44",
+        "item_id": "08d6c598-45c1-4802-b255-1e5c288e94a3",
+        "element": "ICE",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "2130d2f3-3b41-4f22-9117-54183bac76ed",
+      "name": "Frostmind Raiment",
+      "min_level": 200,
+      "type": "ARMOR",
+      "arm": 15,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 55.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "490d59b0-0676-4079-a6ac-49514325605b",
+        "item_id": "2130d2f3-3b41-4f22-9117-54183bac76ed",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "3e0ee1a4-ec0a-4534-8179-ff358ba97b9e",
+        "item_id": "2130d2f3-3b41-4f22-9117-54183bac76ed",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "6c2e13a2-c048-41b7-b259-b5ae5265a746",
+        "item_id": "2130d2f3-3b41-4f22-9117-54183bac76ed",
+        "skill": "MAGIC",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "de45b4d8-103b-47b3-8c18-ff6ed266e617",
+        "item_id": "2130d2f3-3b41-4f22-9117-54183bac76ed",
+        "element": "ICE",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "0f7541be-a67f-4dc1-8d72-18e9cc89f251",
+      "name": "Frostsoul Tabard",
+      "min_level": 200,
+      "type": "ARMOR",
+      "arm": 18,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 145.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "d6e314c4-50a8-4dec-a353-b1f27e7658ab",
+        "item_id": "0f7541be-a67f-4dc1-8d72-18e9cc89f251",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "14faf6a1-e9a7-4eb7-b101-fa76bc82727e",
+        "item_id": "0f7541be-a67f-4dc1-8d72-18e9cc89f251",
+        "skill": "DISTANCE",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "fa190ce6-6d10-45e5-b142-dd376467427e",
+        "item_id": "0f7541be-a67f-4dc1-8d72-18e9cc89f251",
+        "element": "ICE",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "70d40b15-4ce1-4579-b935-79b1e25eb144",
+      "name": "Frozen Plate",
+      "min_level": 75,
+      "type": "ARMOR",
+      "arm": 13,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 75.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "4911c50e-8924-49e9-876c-d8e53971b904",
+        "item_id": "70d40b15-4ce1-4579-b935-79b1e25eb144",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "33ad33ed-8b43-4b41-a809-0435d3208f81",
+        "item_id": "70d40b15-4ce1-4579-b935-79b1e25eb144",
+        "element": "ICE",
+        "value": 7
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "9629e902-4ecb-4998-bc60-960c7c82f6e5",
+      "name": "Fur Armor",
+      "min_level": 50,
+      "type": "ARMOR",
+      "arm": 11,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 49.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "1d12affe-ba39-428e-996a-5067084b81ce",
+        "item_id": "9629e902-4ecb-4998-bc60-960c7c82f6e5",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "0ed21ff1-4eaf-4070-9f7e-1e9c01aafb45",
+        "item_id": "9629e902-4ecb-4998-bc60-960c7c82f6e5",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "b37861da-f470-44ca-bde3-de8c7b1d6ff4",
+        "item_id": "9629e902-4ecb-4998-bc60-960c7c82f6e5",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "1779aca7-e13a-427b-8a3e-a550bd1a0546",
+        "item_id": "9629e902-4ecb-4998-bc60-960c7c82f6e5",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "a3b7cda5-7adf-40ab-b49f-44b26d7430f7",
+        "item_id": "9629e902-4ecb-4998-bc60-960c7c82f6e5",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "fb2c5fda-aeda-4f39-b37f-b491be856918",
+        "item_id": "9629e902-4ecb-4998-bc60-960c7c82f6e5",
+        "element": "EARTH",
+        "value": 5
+      },
+      {
+        "id": "6e69ddde-f0ac-429f-bea3-0e40cf6977c9",
+        "item_id": "9629e902-4ecb-4998-bc60-960c7c82f6e5",
+        "element": "ICE",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "8ed5db5b-ac88-4cb9-bd56-7656da112790",
+      "name": "Furious Frock",
+      "min_level": 130,
+      "type": "ARMOR",
+      "arm": 12,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 0,
+      "weight": 34.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "5a175d50-f16e-444d-8d4f-e957c73b368c",
+        "item_id": "8ed5db5b-ac88-4cb9-bd56-7656da112790",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "a1a9f9c5-316c-4482-a571-f7c044112a8d",
+        "item_id": "8ed5db5b-ac88-4cb9-bd56-7656da112790",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "0b4e6c82-a8db-4c36-b806-7c215f564060",
+        "item_id": "8ed5db5b-ac88-4cb9-bd56-7656da112790",
+        "skill": "MAGIC",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "de9ad440-daa1-45fc-889b-fa8ce7ca1ba9",
+        "item_id": "8ed5db5b-ac88-4cb9-bd56-7656da112790",
+        "element": "FIRE",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "70cc916f-7a15-4954-b011-1cedd81269fc",
+      "name": "Ghazbaran Oyoroi",
+      "min_level": 75,
+      "type": "ARMOR",
+      "arm": 8,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 0,
+      "weight": 135.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "5026255a-470b-41bc-ab0d-c7ee989c7d43",
+        "item_id": "70cc916f-7a15-4954-b011-1cedd81269fc",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "9923ebbf-e29c-4c6f-a1bd-826a44316dfd",
+        "item_id": "70cc916f-7a15-4954-b011-1cedd81269fc",
+        "skill": "FIST",
+        "value": 1
+      },
+      {
+        "id": "8def08ce-4992-42b9-98a9-17b2a3a5ad74",
+        "item_id": "70cc916f-7a15-4954-b011-1cedd81269fc",
+        "skill": "MAGIC",
+        "value": 1
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "defb1403-8730-4570-81e6-4909c65b422c",
+        "item_id": "70cc916f-7a15-4954-b011-1cedd81269fc",
+        "element": "ENERGY",
+        "value": 7
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "8b58a9c9-923a-4e3a-8820-72824e72fdfd",
+      "name": "Ghost Chestplate",
+      "min_level": 230,
+      "type": "ARMOR",
+      "arm": 17,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 2,
+      "weight": 123.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "31f17488-322c-4aca-98e2-fd97608c361a",
+        "item_id": "8b58a9c9-923a-4e3a-8820-72824e72fdfd",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "2f0d85eb-45db-4722-8068-770f88d93e40",
+        "item_id": "8b58a9c9-923a-4e3a-8820-72824e72fdfd",
+        "skill": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "d69b1055-7927-4051-aef1-7bcdb5b81f22",
+        "item_id": "8b58a9c9-923a-4e3a-8820-72824e72fdfd",
+        "element": "PHYSICAL",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "f6f0ea19-6935-41ba-a278-02c373c36250",
+      "name": "Gill Coat",
+      "min_level": 150,
+      "type": "ARMOR",
+      "arm": 12,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 19.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "bd54b11b-f8ae-452e-a5b5-269428677f9d",
+        "item_id": "f6f0ea19-6935-41ba-a278-02c373c36250",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "d8cdaab9-898a-488f-9f35-04b231832ec2",
+        "item_id": "f6f0ea19-6935-41ba-a278-02c373c36250",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "8ef19291-cfb5-4180-b79e-780a77988455",
+        "item_id": "f6f0ea19-6935-41ba-a278-02c373c36250",
+        "skill": "MAGIC",
+        "value": 1
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "7f97af38-13ad-4832-80ec-b7edad68cc82",
+        "item_id": "f6f0ea19-6935-41ba-a278-02c373c36250",
+        "element": "EARTH",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "4586e3a6-46a9-487c-b1c1-7c5e21626535",
+      "name": "Girl's Dress",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 13.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "d1169134-78ef-47b6-92fe-84b888e16d1a",
+        "item_id": "4586e3a6-46a9-487c-b1c1-7c5e21626535",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "05de8f1c-2413-4c2d-abc8-ed7b4232070d",
+        "item_id": "4586e3a6-46a9-487c-b1c1-7c5e21626535",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "822478c0-f3c8-4209-889d-80f63a548c63",
+        "item_id": "4586e3a6-46a9-487c-b1c1-7c5e21626535",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "1e896959-f2c3-4ca8-a91e-7bae37160ae8",
+        "item_id": "4586e3a6-46a9-487c-b1c1-7c5e21626535",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "ad023d00-da86-482b-b78a-a55d72bd8837",
+        "item_id": "4586e3a6-46a9-487c-b1c1-7c5e21626535",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "84afc107-8cda-4022-83db-402512312275",
+      "name": "Glacier Robe",
+      "min_level": 50,
+      "type": "ARMOR",
+      "arm": 11,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 22.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "8fcf90e3-9626-4713-af06-ebffdfd6e937",
+        "item_id": "84afc107-8cda-4022-83db-402512312275",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "b51cbdec-d791-4c9d-8e9c-d051f7fb320b",
+        "item_id": "84afc107-8cda-4022-83db-402512312275",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "d282aa86-df8a-4bc5-bde8-cc6b73ecdcfd",
+        "item_id": "84afc107-8cda-4022-83db-402512312275",
+        "element": "ICE",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "ae971801-4358-4a57-b442-e0a8d751f27e",
+      "name": "Glooth Cape",
+      "min_level": 40,
+      "type": "ARMOR",
+      "arm": 9,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 29.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "ccc27ef7-6dfc-4761-9284-cc4240d9cf5d",
+        "item_id": "ae971801-4358-4a57-b442-e0a8d751f27e",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "f2b6d7b1-5ad9-4f16-b6b6-521a8cac7e31",
+        "item_id": "ae971801-4358-4a57-b442-e0a8d751f27e",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "fe4d9cc8-7b1a-4ef2-84d3-c335841a4da9",
+        "item_id": "ae971801-4358-4a57-b442-e0a8d751f27e",
+        "element": "EARTH",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "744f56fb-db11-4ed7-900e-1e1096494a95",
+      "name": "Gnome Armor",
+      "min_level": 200,
+      "type": "ARMOR",
+      "arm": 17,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 2,
+      "weight": 120.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "2441a800-c628-4f43-a523-2e7e441d386b",
+        "item_id": "744f56fb-db11-4ed7-900e-1e1096494a95",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "09141a2d-f27e-4c28-a2aa-4db655a931d7",
+        "item_id": "744f56fb-db11-4ed7-900e-1e1096494a95",
+        "skill": "DISTANCE",
+        "value": 3
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "7e44c2ac-e226-4cc3-a0d6-ec30b93cb3c1",
+        "item_id": "744f56fb-db11-4ed7-900e-1e1096494a95",
+        "element": "PHYSICAL",
+        "value": 4
+      },
+      {
+        "id": "f064e41f-0979-4268-9ec5-876e5c2de9d7",
+        "item_id": "744f56fb-db11-4ed7-900e-1e1096494a95",
+        "element": "ENERGY",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "e522ab5b-1caf-4966-8c8e-f4050d48ae3a",
+      "name": "Gnomish Cuirass",
+      "min_level": 150,
+      "type": "ARMOR",
+      "arm": 8,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 1,
+      "weight": 100.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "dc7576ff-4bd5-4d7b-9f94-e4c8e5326f77",
+        "item_id": "e522ab5b-1caf-4966-8c8e-f4050d48ae3a",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "e715e7ff-a715-4fed-ab28-86db0fe57db1",
+        "item_id": "e522ab5b-1caf-4966-8c8e-f4050d48ae3a",
+        "skill": "FIST",
+        "value": 3
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "0cb05e77-12be-4c6a-b0e5-5cf2d6fb8678",
+        "item_id": "e522ab5b-1caf-4966-8c8e-f4050d48ae3a",
+        "element": "PHYSICAL",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "89009b81-ef29-47a8-b466-a35af50c4d41",
+      "name": "Golden Armor",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 14,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 80.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "b5d79c10-cfb3-4380-ba0b-d4f487a9e28f",
+        "item_id": "89009b81-ef29-47a8-b466-a35af50c4d41",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "d491aa9a-cb1d-48b3-8473-4474194108e8",
+        "item_id": "89009b81-ef29-47a8-b466-a35af50c4d41",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "5b2e6fba-0e91-4bd9-b784-ff14f1b84764",
+      "name": "Goo Shell",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 12,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 0,
+      "weight": 58.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "ee743084-1330-4e9f-8611-57ef0931e43b",
+        "item_id": "5b2e6fba-0e91-4bd9-b784-ff14f1b84764",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "d059d6db-d57e-489e-96c6-ef8b38756932",
+        "item_id": "5b2e6fba-0e91-4bd9-b784-ff14f1b84764",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "1d7b17b3-09e4-40c6-ba42-aa1348752075",
+        "item_id": "5b2e6fba-0e91-4bd9-b784-ff14f1b84764",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "c39ad0d0-0460-4fd3-9bf4-340b68751ba4",
+        "item_id": "5b2e6fba-0e91-4bd9-b784-ff14f1b84764",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "a818dd27-8e22-4324-b9a8-c86e6d81a3f4",
+        "item_id": "5b2e6fba-0e91-4bd9-b784-ff14f1b84764",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "8fc98668-8e24-4c8b-9433-4ad83aa715cd",
+        "item_id": "5b2e6fba-0e91-4bd9-b784-ff14f1b84764",
+        "element": "EARTH",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "4b5a8e80-c5a3-442a-9494-1abd728c003b",
+      "name": "Green Demon Armor",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 16,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 80.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "8456e1a5-533e-4707-81ea-550070d89133",
+        "item_id": "4b5a8e80-c5a3-442a-9494-1abd728c003b",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "7fcb52e1-5ddb-498a-b74a-0861d56e107c",
+        "item_id": "4b5a8e80-c5a3-442a-9494-1abd728c003b",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "2075e96c-ed54-4d6e-841d-bfd61106d8a6",
+        "item_id": "4b5a8e80-c5a3-442a-9494-1abd728c003b",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "33453fbe-9481-40eb-97d9-d875d9f93cef",
+        "item_id": "4b5a8e80-c5a3-442a-9494-1abd728c003b",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "05cebd45-09be-4c93-aaa1-1e3f9265d801",
+        "item_id": "4b5a8e80-c5a3-442a-9494-1abd728c003b",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "dc3fa21b-f545-498a-a5b3-87ee91e06007",
+      "name": "Green Tunic",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 1,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 9.3,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "a207e84c-f588-4311-8b65-0e016bd64fd1",
+        "item_id": "dc3fa21b-f545-498a-a5b3-87ee91e06007",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "887aa97f-dce4-4e44-b166-5162098aead8",
+        "item_id": "dc3fa21b-f545-498a-a5b3-87ee91e06007",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "7c449667-61fb-4c69-8792-85cb19f0b422",
+        "item_id": "dc3fa21b-f545-498a-a5b3-87ee91e06007",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "96afb7b2-3251-4097-8352-6e1a450f0754",
+        "item_id": "dc3fa21b-f545-498a-a5b3-87ee91e06007",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "1ede7d62-b42e-434f-b234-db8f3d1e2a15",
+        "item_id": "dc3fa21b-f545-498a-a5b3-87ee91e06007",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "0d2c2f1e-21e7-46dd-af38-8d7c34ae7162",
+      "name": "Greenwood Coat",
+      "min_level": 75,
+      "type": "ARMOR",
+      "arm": 12,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 28.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "07898875-0e49-41e2-9f37-6ebc27367345",
+        "item_id": "0d2c2f1e-21e7-46dd-af38-8d7c34ae7162",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "9c9a85ff-38cf-4c79-b2e1-91aab421d521",
+        "item_id": "0d2c2f1e-21e7-46dd-af38-8d7c34ae7162",
+        "element": "EARTH",
+        "value": 12
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "f860b52c-af8c-477d-b10f-f2861011f3f3",
+      "name": "Heat Core",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 12,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 55.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "35d65bbf-f598-4554-a924-226e9c68f8e2",
+        "item_id": "f860b52c-af8c-477d-b10f-f2861011f3f3",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "c6a18f6b-c29c-47e1-86f3-8a12c8d92dbb",
+        "item_id": "f860b52c-af8c-477d-b10f-f2861011f3f3",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "18fbb6ae-7484-46b0-8e32-46828be888d7",
+        "item_id": "f860b52c-af8c-477d-b10f-f2861011f3f3",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "325ef1b0-60f2-4f50-a0d9-84cb690c736d",
+        "item_id": "f860b52c-af8c-477d-b10f-f2861011f3f3",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "e3d19f92-e25c-4888-8f3d-247b42fba375",
+        "item_id": "f860b52c-af8c-477d-b10f-f2861011f3f3",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "e3af1115-e28b-44fb-b5ed-a0355ebc8793",
+      "name": "Heavy Metal T-Shirt",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 6,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 8.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "2cd9ffa6-2dfd-4248-bdbf-728ddf9fda25",
+        "item_id": "e3af1115-e28b-44fb-b5ed-a0355ebc8793",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "a006881e-3e39-4b39-9304-df7f870bed1c",
+        "item_id": "e3af1115-e28b-44fb-b5ed-a0355ebc8793",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "96a1b420-83e5-4251-accf-0ec5e6377f44",
+        "item_id": "e3af1115-e28b-44fb-b5ed-a0355ebc8793",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "77a01711-54eb-495a-9cbb-138a031f4fed",
+        "item_id": "e3af1115-e28b-44fb-b5ed-a0355ebc8793",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "00aba981-14f1-4a1e-a101-19a2fa7fa4f8",
+        "item_id": "e3af1115-e28b-44fb-b5ed-a0355ebc8793",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "c5e382fc-2f73-4404-aff9-dd4a29c03d16",
+      "name": "Hibiscus Dress",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 19.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "0d38a8ff-5dbd-4165-9f3f-8d908e40865c",
+        "item_id": "c5e382fc-2f73-4404-aff9-dd4a29c03d16",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "e8c3d76d-90ac-47ad-8ba4-9b66f4a94c98",
+        "item_id": "c5e382fc-2f73-4404-aff9-dd4a29c03d16",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "c086f2d0-a60d-4021-b633-3419a59eafbd",
+        "item_id": "c5e382fc-2f73-4404-aff9-dd4a29c03d16",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "05110eeb-2965-4568-8f42-347c0247aa53",
+        "item_id": "c5e382fc-2f73-4404-aff9-dd4a29c03d16",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "e3a2a016-d1c7-4dd1-bc5a-75599c0847a3",
+        "item_id": "c5e382fc-2f73-4404-aff9-dd4a29c03d16",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "2a6fac90-5c41-4c72-ac33-a761c9e7bb17",
+      "name": "Ice Robe",
+      "min_level": 200,
+      "type": "ARMOR",
+      "arm": 9,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 75.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "4f52037f-75d2-40da-97fd-9dd8d16ee69d",
+        "item_id": "2a6fac90-5c41-4c72-ac33-a761c9e7bb17",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "7b44c325-e4eb-4ac8-981c-5f29a6115b09",
+        "item_id": "2a6fac90-5c41-4c72-ac33-a761c9e7bb17",
+        "skill": "FIST",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "0636ab57-6b0e-43a2-99b0-b4d9088219a6",
+        "item_id": "2a6fac90-5c41-4c72-ac33-a761c9e7bb17",
+        "element": "ICE",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "146a391c-4e75-4a43-b39a-55a53b4188cf",
+      "name": "Jacket",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 1,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 24.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "4c958487-ba33-46ed-bef6-1f3b5fa36dde",
+        "item_id": "146a391c-4e75-4a43-b39a-55a53b4188cf",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "0a3f6c0b-e5de-4c95-98c1-3a93176895f9",
+        "item_id": "146a391c-4e75-4a43-b39a-55a53b4188cf",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "af488c93-5be0-4dec-8174-48311bd7e9bc",
+        "item_id": "146a391c-4e75-4a43-b39a-55a53b4188cf",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "dee69710-8acd-4c8d-bdca-e18b37e9a718",
+        "item_id": "146a391c-4e75-4a43-b39a-55a53b4188cf",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "e7bbf582-94f2-40db-8ca2-f62bd343097f",
+        "item_id": "146a391c-4e75-4a43-b39a-55a53b4188cf",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "cf6895a6-2011-4c92-aeec-88276f585166",
+      "name": "Knight Armor",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 12,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 120.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "d087b1ef-bb7c-4cc7-bf13-fc82715594b5",
+        "item_id": "cf6895a6-2011-4c92-aeec-88276f585166",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "ab7f6609-0f28-40c2-9fc6-f94a0346bd45",
+        "item_id": "cf6895a6-2011-4c92-aeec-88276f585166",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "5ab81916-0a44-4f9f-a61e-0fcdc824da99",
+      "name": "Lavos Armor",
+      "min_level": 60,
+      "type": "ARMOR",
+      "arm": 13,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 85.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "e96a3f20-a490-4dc3-8580-0c34645a1096",
+        "item_id": "5ab81916-0a44-4f9f-a61e-0fcdc824da99",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "83d6773d-c500-4ca2-b4e7-c4799231cf80",
+        "item_id": "5ab81916-0a44-4f9f-a61e-0fcdc824da99",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "7310087a-3b86-438c-b5e8-3e99446648a3",
+        "item_id": "5ab81916-0a44-4f9f-a61e-0fcdc824da99",
+        "element": "FIRE",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "d619df30-bdd2-4d64-b30f-e06052cbbefb",
+      "name": "Leaf Robe",
+      "min_level": 200,
+      "type": "ARMOR",
+      "arm": 9,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 75.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "efab4868-5164-4b70-8bdb-8efb378bba84",
+        "item_id": "d619df30-bdd2-4d64-b30f-e06052cbbefb",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "1e84011d-4355-46b9-a58b-6bee736c0448",
+        "item_id": "d619df30-bdd2-4d64-b30f-e06052cbbefb",
+        "skill": "FIST",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "14c02a2b-6a50-4124-a7c5-ad32a10915de",
+        "item_id": "d619df30-bdd2-4d64-b30f-e06052cbbefb",
+        "element": "EARTH",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "e4fc8180-dac1-4f0f-b69d-62b0db031783",
+      "name": "Leather Armor",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 4,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 60.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "d6ebbf83-38f6-4b8c-bfae-608fd133b37a",
+        "item_id": "e4fc8180-dac1-4f0f-b69d-62b0db031783",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "4dd86151-d1ca-4d91-a6bf-a2bba7cbbb2f",
+        "item_id": "e4fc8180-dac1-4f0f-b69d-62b0db031783",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "51fb0324-903b-473d-b77b-d05df9164fbc",
+        "item_id": "e4fc8180-dac1-4f0f-b69d-62b0db031783",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "19180a6c-f7fe-4b1f-8d7e-a03da5b1390e",
+        "item_id": "e4fc8180-dac1-4f0f-b69d-62b0db031783",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "d1d4a6e3-4f1f-4293-91e1-f965d6af6f9e",
+        "item_id": "e4fc8180-dac1-4f0f-b69d-62b0db031783",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "ea895d12-1404-498f-9755-8eee90d73cc1",
+      "name": "Leather Harness",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 9,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 29.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "ba61426a-902d-42c5-a65e-d6f6db5d985a",
+        "item_id": "ea895d12-1404-498f-9755-8eee90d73cc1",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "bfe29b4e-0712-4b30-a33a-ee3b06500cdc",
+        "item_id": "ea895d12-1404-498f-9755-8eee90d73cc1",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "a80842c4-d0e2-4981-972c-2e8179863d9d",
+        "item_id": "ea895d12-1404-498f-9755-8eee90d73cc1",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "bd1764e9-1ca7-445e-9cc6-3958cef6a918",
+        "item_id": "ea895d12-1404-498f-9755-8eee90d73cc1",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "67961fb6-e94b-4a60-937b-93901bdbcb7d",
+        "item_id": "ea895d12-1404-498f-9755-8eee90d73cc1",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "4f5d5b1c-ba21-4ad7-a692-f5344cca7521",
+      "name": "Leopard Armor",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 9,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 95.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "1fecc7c4-0d59-49bb-bc9e-9a5301cc6fe5",
+        "item_id": "4f5d5b1c-ba21-4ad7-a692-f5344cca7521",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "68557964-0d1e-4c68-8654-9fb5bc969a76",
+        "item_id": "4f5d5b1c-ba21-4ad7-a692-f5344cca7521",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "91ae80f0-e6c9-45db-b031-9472be385527",
+        "item_id": "4f5d5b1c-ba21-4ad7-a692-f5344cca7521",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "f01bc0b3-fc98-48fb-bd88-4aa53168bcc1",
+        "item_id": "4f5d5b1c-ba21-4ad7-a692-f5344cca7521",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "fdd405ea-d1e8-446e-a576-44a09d07bac6",
+        "item_id": "4f5d5b1c-ba21-4ad7-a692-f5344cca7521",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "ed95014d-767f-4160-86dd-824eec5940ee",
+      "name": "Lightning Robe",
+      "min_level": 50,
+      "type": "ARMOR",
+      "arm": 11,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 22.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "e62a5a84-28b8-464d-ad39-3f46d97a576f",
+        "item_id": "ed95014d-767f-4160-86dd-824eec5940ee",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "e708bcdc-8f22-4b26-a3b2-d55a523ddb66",
+        "item_id": "ed95014d-767f-4160-86dd-824eec5940ee",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "1d7919bb-08ec-460d-b560-53827bf5690e",
+        "item_id": "ed95014d-767f-4160-86dd-824eec5940ee",
+        "element": "ENERGY",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "3883cf68-fb45-42d3-95db-08a5a9db73e2",
+      "name": "Lion Plate",
+      "min_level": 270,
+      "type": "ARMOR",
+      "arm": 17,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 150.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "e3e9c593-117b-4a78-8994-2ac09cd6a9a6",
+        "item_id": "3883cf68-fb45-42d3-95db-08a5a9db73e2",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "1a387174-ab8b-4d38-b89a-d36242db0d23",
+        "item_id": "3883cf68-fb45-42d3-95db-08a5a9db73e2",
+        "skill": "SWORD",
+        "value": 3
+      },
+      {
+        "id": "c5d290fb-59e1-4bb9-843f-f41b436963a5",
+        "item_id": "3883cf68-fb45-42d3-95db-08a5a9db73e2",
+        "skill": "CLUB",
+        "value": 3
+      },
+      {
+        "id": "4df41cc6-bcee-4f43-9691-b28274cb2aa6",
+        "item_id": "3883cf68-fb45-42d3-95db-08a5a9db73e2",
+        "skill": "AXE",
+        "value": 3
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "1fa035e9-3009-406b-ba70-f1f69836875e",
+        "item_id": "3883cf68-fb45-42d3-95db-08a5a9db73e2",
+        "element": "PHYSICAL",
+        "value": 6
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "8260fad4-7daf-490d-9870-f005a2f438e1",
+      "name": "Living Armor",
+      "min_level": 180,
+      "type": "ARMOR",
+      "arm": 13,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 1,
+      "weight": 48.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "1313ff69-0a7b-40dc-8303-683ab728081d",
+        "item_id": "8260fad4-7daf-490d-9870-f005a2f438e1",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "f8db307a-b2a1-4004-8410-4e922260157c",
+        "item_id": "8260fad4-7daf-490d-9870-f005a2f438e1",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "17d626fe-bda9-4ab7-b1dc-5b106a6dbf48",
+        "item_id": "8260fad4-7daf-490d-9870-f005a2f438e1",
+        "skill": "MAGIC",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "e01958a4-87d9-4901-9d7a-fb1050d8dd43",
+        "item_id": "8260fad4-7daf-490d-9870-f005a2f438e1",
+        "element": "EARTH",
+        "value": 12
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "e8c695cf-aab1-4887-8635-d26c5b72de1e",
+      "name": "Magic Plate Armor",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 17,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 85.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "bea0c40f-1c35-48de-9ee1-effe0e04a970",
+        "item_id": "e8c695cf-aab1-4887-8635-d26c5b72de1e",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "2a54f58c-0f5a-4052-90ef-de537692ebf0",
+        "item_id": "e8c695cf-aab1-4887-8635-d26c5b72de1e",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "92ef8cec-73bd-4327-8743-c19a61fa1431",
+      "name": "Magician's Robe",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 6,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 25.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "a3120dd7-d28d-43d6-a4e1-ca6753888b95",
+        "item_id": "92ef8cec-73bd-4327-8743-c19a61fa1431",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "70e7b684-214b-4e17-99b3-043e4bf268dd",
+        "item_id": "92ef8cec-73bd-4327-8743-c19a61fa1431",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "d6d50649-e80b-4042-b729-e7095e4a03c0",
+      "name": "Magma Coat",
+      "min_level": 50,
+      "type": "ARMOR",
+      "arm": 11,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 22.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "856de425-21e3-49d4-b1f3-e3d0a3632adf",
+        "item_id": "d6d50649-e80b-4042-b729-e7095e4a03c0",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "01a3b681-703e-445a-b309-1fc3204b8768",
+        "item_id": "d6d50649-e80b-4042-b729-e7095e4a03c0",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "820ffcfd-75fd-4ed3-be37-4ecd12c9b6ba",
+        "item_id": "d6d50649-e80b-4042-b729-e7095e4a03c0",
+        "element": "FIRE",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "11488e04-b32b-4cb4-a1c7-349e360c7dbe",
+      "name": "Magma Robe",
+      "min_level": 200,
+      "type": "ARMOR",
+      "arm": 9,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 75.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "68bf7fd7-847f-4cf6-9c3c-59fe92785923",
+        "item_id": "11488e04-b32b-4cb4-a1c7-349e360c7dbe",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "4ab8ffec-69cf-45e5-80f5-ab5e4e3d33b6",
+        "item_id": "11488e04-b32b-4cb4-a1c7-349e360c7dbe",
+        "skill": "FIST",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "f9de38e0-7b91-41ec-8abd-5da1f1b1aa41",
+        "item_id": "11488e04-b32b-4cb4-a1c7-349e360c7dbe",
+        "element": "FIRE",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "b00a8180-f5ca-4c0a-be2d-bfed5b3a2316",
+      "name": "Mammoth Fur Cape",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 10,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 20.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "c5accac4-3265-46d8-8106-8948f1095603",
+        "item_id": "b00a8180-f5ca-4c0a-be2d-bfed5b3a2316",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "f4a53914-114f-4ad2-a0b3-90391f06c2c3",
+        "item_id": "b00a8180-f5ca-4c0a-be2d-bfed5b3a2316",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "5d2b277f-69a2-4be3-93f8-05da60e31001",
+        "item_id": "b00a8180-f5ca-4c0a-be2d-bfed5b3a2316",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "94b17c27-fdb1-435c-8ed8-a2733583c6ee",
+        "item_id": "b00a8180-f5ca-4c0a-be2d-bfed5b3a2316",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "d756a535-23b4-4039-81b7-cb142480bbfb",
+        "item_id": "b00a8180-f5ca-4c0a-be2d-bfed5b3a2316",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "3fba92c3-0e9d-4f89-aeed-b4ec1610ab44",
+      "name": "Master Archer's Armor",
+      "min_level": 100,
+      "type": "ARMOR",
+      "arm": 15,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 1,
+      "weight": 69.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "fab0b336-9606-46c6-92ed-1cceaa339166",
+        "item_id": "3fba92c3-0e9d-4f89-aeed-b4ec1610ab44",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "7c7b8d8a-7eba-471d-a89e-cea5a12dbbd0",
+        "item_id": "3fba92c3-0e9d-4f89-aeed-b4ec1610ab44",
+        "skill": "DISTANCE",
+        "value": 3
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "c4b9943a-8fbb-46a3-8f5d-d9a7c5b22259",
+      "name": "Merudri Battle Mail",
+      "min_level": 300,
+      "type": "ARMOR",
+      "arm": 10,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 29.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "700e42bc-4931-48b7-b25c-81fa37a0daff",
+        "item_id": "c4b9943a-8fbb-46a3-8f5d-d9a7c5b22259",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "93a3318f-603b-41f8-929c-ef538c4d1eb2",
+        "item_id": "c4b9943a-8fbb-46a3-8f5d-d9a7c5b22259",
+        "skill": "FIST",
+        "value": 4
+      },
+      {
+        "id": "2928eb03-da13-42b6-ba8a-0d4d50509ced",
+        "item_id": "c4b9943a-8fbb-46a3-8f5d-d9a7c5b22259",
+        "skill": "MAGIC",
+        "value": 1
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "e0773f3c-eb9a-4908-a1e8-a06453d06bdc",
+        "item_id": "c4b9943a-8fbb-46a3-8f5d-d9a7c5b22259",
+        "element": "EARTH",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "bded9015-bbe0-44ae-bc54-60c9aa4a175a",
+      "name": "Merudri Nanbando",
+      "min_level": 125,
+      "type": "ARMOR",
+      "arm": 7,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 1,
+      "weight": 106.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "f2b0809c-e20b-410e-8bde-d39c0576f66b",
+        "item_id": "bded9015-bbe0-44ae-bc54-60c9aa4a175a",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "1a8da49f-f707-4bcb-8af4-f1b464ab1fbb",
+        "item_id": "bded9015-bbe0-44ae-bc54-60c9aa4a175a",
+        "skill": "FIST",
+        "value": 3
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "ef153597-e8ff-4456-aad8-c482b5a4bcca",
+      "name": "Merudri Scale Mail",
+      "min_level": 100,
+      "type": "ARMOR",
+      "arm": 7,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 0,
+      "weight": 29.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "0590adc0-e9c7-4c13-9647-f03dca46a276",
+        "item_id": "ef153597-e8ff-4456-aad8-c482b5a4bcca",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "00f8b903-00e7-4b41-bad4-ea4ad320e014",
+        "item_id": "ef153597-e8ff-4456-aad8-c482b5a4bcca",
+        "skill": "FIST",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "d6e7fda8-fc04-440a-8dfc-4b896605b2a5",
+        "item_id": "ef153597-e8ff-4456-aad8-c482b5a4bcca",
+        "element": "FIRE",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "977b85d1-56c2-4fb6-a2e7-d3fcb20fd54a",
+      "name": "Midnight Tunic",
+      "min_level": 300,
+      "type": "ARMOR",
+      "arm": 16,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 27.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "9da7d4bb-b0a8-4273-9f17-2e2c56b595db",
+        "item_id": "977b85d1-56c2-4fb6-a2e7-d3fcb20fd54a",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "b579cdeb-8a46-4ab7-82ce-be17b227de13",
+        "item_id": "977b85d1-56c2-4fb6-a2e7-d3fcb20fd54a",
+        "skill": "MAGIC",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "a8164289-3a8d-409d-b21b-4e76e302b50b",
+        "item_id": "977b85d1-56c2-4fb6-a2e7-d3fcb20fd54a",
+        "element": "PHYSICAL",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "4f5f5d70-41a8-4a1e-84c1-892b40783404",
+      "name": "Molten Plate",
+      "min_level": 75,
+      "type": "ARMOR",
+      "arm": 13,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 0,
+      "weight": 75.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "722817e5-71af-478e-be5c-92a28f4495d2",
+        "item_id": "4f5f5d70-41a8-4a1e-84c1-892b40783404",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "ded0d75f-3f21-4554-917f-03318964efe9",
+        "item_id": "4f5f5d70-41a8-4a1e-84c1-892b40783404",
+        "element": "FIRE",
+        "value": 7
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "0f395992-f6f1-4221-9c31-7b2343b91049",
+      "name": "Monk Robe",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 7,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 70.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "476c5b96-fa21-423d-8923-c181180fefb9",
+        "item_id": "0f395992-f6f1-4221-9c31-7b2343b91049",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "b2531b73-28b9-4615-8829-e90fef016662",
+        "item_id": "0f395992-f6f1-4221-9c31-7b2343b91049",
+        "skill": "FIST",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "bb83f63c-f0e4-4062-af39-4184fdc7d316",
+      "name": "Mooh'tah Plate",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 12,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 125.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "855ccb3b-50fd-4557-84ca-45e011b1bae5",
+        "item_id": "bb83f63c-f0e4-4062-af39-4184fdc7d316",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "3d6c51be-57fb-48cc-96c9-8c2ca213ca5f",
+        "item_id": "bb83f63c-f0e4-4062-af39-4184fdc7d316",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "e6db72d9-1ba5-40a7-b672-9967642e1668",
+      "name": "Mutated Skin Armor",
+      "min_level": 270,
+      "type": "ARMOR",
+      "arm": 17,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 63.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "4ad8ebdb-5c4a-4101-a133-58d2cc35e26e",
+        "item_id": "e6db72d9-1ba5-40a7-b672-9967642e1668",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "2ab0a744-e56b-40e6-b190-4698251c6744",
+        "item_id": "e6db72d9-1ba5-40a7-b672-9967642e1668",
+        "skill": "DISTANCE",
+        "value": 3
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "2230dcd1-3fd4-4359-ac99-f84628af0c8d",
+        "item_id": "e6db72d9-1ba5-40a7-b672-9967642e1668",
+        "element": "PHYSICAL",
+        "value": 3
+      },
+      {
+        "id": "a7fe6bb5-31d7-4f4d-a83d-187fcbe02f85",
+        "item_id": "e6db72d9-1ba5-40a7-b672-9967642e1668",
+        "element": "EARTH",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "e82cdf5f-421c-4b5e-b137-d24114e3c456",
+      "name": "Mystical Dragon Robe",
+      "min_level": 300,
+      "type": "ARMOR",
+      "arm": 15,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 38.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "66f077f7-3f5f-4fbc-98d9-0150ea2af67f",
+        "item_id": "e82cdf5f-421c-4b5e-b137-d24114e3c456",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "d39acf54-b4c3-46bb-8150-37c1a7fbb33c",
+        "item_id": "e82cdf5f-421c-4b5e-b137-d24114e3c456",
+        "skill": "MAGIC",
+        "value": 3
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "7ba9143b-cd45-4fd6-887f-2fc00ccfe0ae",
+        "item_id": "e82cdf5f-421c-4b5e-b137-d24114e3c456",
+        "element": "FIRE",
+        "value": 12
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "76b7c9a3-2dd4-4ed3-94dd-291e14ad2f30",
+      "name": "Naga Tanko",
+      "min_level": 270,
+      "type": "ARMOR",
+      "arm": 10,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 90.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "f9cdf308-e5b4-4342-9b2b-5ec6ca2680b7",
+        "item_id": "76b7c9a3-2dd4-4ed3-94dd-291e14ad2f30",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "77794828-4635-4dc3-a490-a36c61e18502",
+        "item_id": "76b7c9a3-2dd4-4ed3-94dd-291e14ad2f30",
+        "skill": "FIST",
+        "value": 3
+      },
+      {
+        "id": "45f3dd41-3778-4acf-8830-85d080f8e168",
+        "item_id": "76b7c9a3-2dd4-4ed3-94dd-291e14ad2f30",
+        "skill": "MAGIC",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "06c4c124-98db-4c91-ae74-be6f3d2cfb08",
+        "item_id": "76b7c9a3-2dd4-4ed3-94dd-291e14ad2f30",
+        "element": "PHYSICAL",
+        "value": 2
+      },
+      {
+        "id": "72e9f33e-d443-45a3-a13d-aa8f23158578",
+        "item_id": "76b7c9a3-2dd4-4ed3-94dd-291e14ad2f30",
+        "element": "FIRE",
+        "value": 6
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "070bb089-279c-45d3-91b6-aa2739a3c339",
+      "name": "Native Armor",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 7,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 0,
+      "weight": 80.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "ba15fc8c-fcbc-4661-a2cd-c780240d6902",
+        "item_id": "070bb089-279c-45d3-91b6-aa2739a3c339",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "70d0e76d-a896-41e5-b8ec-374caaeb16cc",
+        "item_id": "070bb089-279c-45d3-91b6-aa2739a3c339",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "fa202a78-969a-4205-9343-9b688d5eae75",
+        "item_id": "070bb089-279c-45d3-91b6-aa2739a3c339",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "ef2af2aa-557f-47c9-b149-c94aec6aadbe",
+        "item_id": "070bb089-279c-45d3-91b6-aa2739a3c339",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "5c2e2338-d145-4826-9d7d-401840b207ec",
+        "item_id": "070bb089-279c-45d3-91b6-aa2739a3c339",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "10198f4c-8420-4bf6-baf9-b8bd21b8334c",
+      "name": "Noble Armor",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 11,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 2,
+      "weight": 120.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "4e8a7710-8afa-434e-adbd-8846fa42270a",
+        "item_id": "10198f4c-8420-4bf6-baf9-b8bd21b8334c",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "09a66578-0e82-4baf-8eaf-efa331d5b3dd",
+        "item_id": "10198f4c-8420-4bf6-baf9-b8bd21b8334c",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "30ca5c15-1d64-4f69-8e44-27e1524f253a",
+        "item_id": "10198f4c-8420-4bf6-baf9-b8bd21b8334c",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "d8ca142f-ea2f-4916-a084-a197931dbf3e",
+        "item_id": "10198f4c-8420-4bf6-baf9-b8bd21b8334c",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "c8efd9cc-bffa-40e3-a3f5-68bf9aac3110",
+        "item_id": "10198f4c-8420-4bf6-baf9-b8bd21b8334c",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "05497311-bc09-4316-851d-4f0678978501",
+      "name": "Oceanborn Leviathan Armor",
+      "min_level": 100,
+      "type": "ARMOR",
+      "arm": 15,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 0,
+      "weight": 100.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "aff81663-d03c-4150-879e-eaca35afcce8",
+        "item_id": "05497311-bc09-4316-851d-4f0678978501",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "df52b976-c065-4fc0-8f23-eedaead4185a",
+        "item_id": "05497311-bc09-4316-851d-4f0678978501",
+        "element": "ICE",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "e54295ea-50f8-4734-849d-9c6cbd3f2474",
+      "name": "Old Cape",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 1,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 0,
+      "weight": 35.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "855a60c6-4a8d-400b-93fa-9bae557d73dc",
+        "item_id": "e54295ea-50f8-4734-849d-9c6cbd3f2474",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "30d13511-bf9d-49ac-ad10-dd316aac70da",
+        "item_id": "e54295ea-50f8-4734-849d-9c6cbd3f2474",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "feea19c9-cea2-4a40-b58c-a511fb06137e",
+        "item_id": "e54295ea-50f8-4734-849d-9c6cbd3f2474",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "0a43ca46-5f80-454a-8f6c-44454c87ccf5",
+        "item_id": "e54295ea-50f8-4734-849d-9c6cbd3f2474",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "ec182e1c-1a6f-452d-921c-e6ee12bdcdbd",
+        "item_id": "e54295ea-50f8-4734-849d-9c6cbd3f2474",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "958402cb-62d8-4db1-b719-a7a04cd7aa39",
+      "name": "Ornate Chestplate",
+      "min_level": 200,
+      "type": "ARMOR",
+      "arm": 16,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 156.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "35a35902-8a01-46af-b03f-63c5fdb43b9a",
+        "item_id": "958402cb-62d8-4db1-b719-a7a04cd7aa39",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "532b412f-2145-4c42-9bf2-3acc224cc0a7",
+        "item_id": "958402cb-62d8-4db1-b719-a7a04cd7aa39",
+        "element": "PHYSICAL",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "780bda3a-ac1f-4446-991f-73b0ceb592ce",
+      "name": "Pair of Old Bracers",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 1,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 2.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "7a474956-0f02-486a-bae1-a46191bc5c15",
+        "item_id": "780bda3a-ac1f-4446-991f-73b0ceb592ce",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "40bd68a6-a709-4eed-b2d1-658f17f36d70",
+        "item_id": "780bda3a-ac1f-4446-991f-73b0ceb592ce",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "7f16f6c5-eb47-4a25-aeb9-ad250bb8ee37",
+        "item_id": "780bda3a-ac1f-4446-991f-73b0ceb592ce",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "ca85fc83-1fe5-4333-9f58-5023fcf7bbe9",
+        "item_id": "780bda3a-ac1f-4446-991f-73b0ceb592ce",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "63eca44b-c5d0-40e2-8227-322754974a28",
+        "item_id": "780bda3a-ac1f-4446-991f-73b0ceb592ce",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "41638fc0-c9d9-4525-851c-afa8d1865cc6",
+      "name": "Paladin Armor",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 12,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 1,
+      "weight": 65.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "70a7e228-1b75-4505-bdd2-d6dca1e2fdd1",
+        "item_id": "41638fc0-c9d9-4525-851c-afa8d1865cc6",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "5d4837f7-ad8b-4b63-b9d8-cac8f7571735",
+        "item_id": "41638fc0-c9d9-4525-851c-afa8d1865cc6",
+        "skill": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "855d1d1b-8a61-49ba-83e1-120ad37b7a09",
+      "name": "Pirate Shirt",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 3,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 20.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "636ef963-340c-43ff-a948-4ff9913d5fe3",
+        "item_id": "855d1d1b-8a61-49ba-83e1-120ad37b7a09",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "4af7a385-eca5-4b66-9324-b1db6872ea93",
+        "item_id": "855d1d1b-8a61-49ba-83e1-120ad37b7a09",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "f59e9b5b-280b-42bd-b3c4-b3530696d669",
+        "item_id": "855d1d1b-8a61-49ba-83e1-120ad37b7a09",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "d237250d-cb3c-4327-bb58-e1d2d69c04ce",
+        "item_id": "855d1d1b-8a61-49ba-83e1-120ad37b7a09",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "7cfeb5d2-7959-4aaa-8742-cd53a7cb7ed7",
+        "item_id": "855d1d1b-8a61-49ba-83e1-120ad37b7a09",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "89a3a258-9be7-45f8-a951-038ffdd410ff",
+      "name": "Plain Monk Robe",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 6,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 65.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "f460cfa5-3ae6-4b21-b960-99d665f760c0",
+        "item_id": "89a3a258-9be7-45f8-a951-038ffdd410ff",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "583c3745-42cc-425d-83ac-219fbe7e9deb",
+        "item_id": "89a3a258-9be7-45f8-a951-038ffdd410ff",
+        "skill": "FIST",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "e5345539-9ba3-4ca0-83b7-b25506aae646",
+      "name": "Plate Armor",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 10,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 120.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "47c9058a-8ed8-44fc-9fe9-69a7c3223c3f",
+        "item_id": "e5345539-9ba3-4ca0-83b7-b25506aae646",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "d2ef9353-ad72-43c4-91be-1c700818bae2",
+        "item_id": "e5345539-9ba3-4ca0-83b7-b25506aae646",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "5526c08c-aa18-4dcf-9e10-92955b0eaeca",
+        "item_id": "e5345539-9ba3-4ca0-83b7-b25506aae646",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "7d0bb025-c1c5-4187-a09a-211b8745740f",
+        "item_id": "e5345539-9ba3-4ca0-83b7-b25506aae646",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "c958012a-12ea-4d7f-b94d-9ae66bcab5dc",
+        "item_id": "e5345539-9ba3-4ca0-83b7-b25506aae646",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "037b595e-8531-4ad8-9d00-31fca098f672",
+      "name": "Prismatic Armor",
+      "min_level": 120,
+      "type": "ARMOR",
+      "arm": 15,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 1,
+      "weight": 79.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "a96f0a86-7bb7-4ad1-b4b7-5befc8edb860",
+        "item_id": "037b595e-8531-4ad8-9d00-31fca098f672",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "8bec3ff3-ad4b-4c4f-b2ab-0b3ea7b25001",
+        "item_id": "037b595e-8531-4ad8-9d00-31fca098f672",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "03176e37-6491-446f-884a-551b96631d42",
+        "item_id": "037b595e-8531-4ad8-9d00-31fca098f672",
+        "element": "PHYSICAL",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "f746f8fd-f990-4303-91dd-6b60f5e7b8c5",
+      "name": "Ranger's Cloak",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 7,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 48.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "280d48ad-1a31-4d43-a867-8439c98d094f",
+        "item_id": "f746f8fd-f990-4303-91dd-6b60f5e7b8c5",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "e5fac696-9908-4662-acde-bd38008fe99e",
+      "name": "Red Robe",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 1,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 26.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "1cf71588-4378-4223-ba0b-ae9f816c54dd",
+        "item_id": "e5fac696-9908-4662-acde-bd38008fe99e",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "06c6ab1a-79b4-47f1-b95d-a25d5c963f50",
+        "item_id": "e5fac696-9908-4662-acde-bd38008fe99e",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "d93350b4-85a9-4079-b8d6-6668cfd432d6",
+        "item_id": "e5fac696-9908-4662-acde-bd38008fe99e",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "8405191a-a8b4-4aa7-9513-222e60398fe0",
+        "item_id": "e5fac696-9908-4662-acde-bd38008fe99e",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "6ea46339-399f-4b9f-bfbb-f13e853009f7",
+        "item_id": "e5fac696-9908-4662-acde-bd38008fe99e",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "56d2b9af-4199-4c73-af5e-1cc933e3665b",
+      "name": "Red Tunic",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 2,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 14.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "24ea2827-9a69-4b87-b6cc-94b0649b6def",
+        "item_id": "56d2b9af-4199-4c73-af5e-1cc933e3665b",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "7c35fdb0-3c32-470a-89e3-707e8012489d",
+        "item_id": "56d2b9af-4199-4c73-af5e-1cc933e3665b",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "17df1e97-cfc3-41ae-9327-cb5c27875e12",
+        "item_id": "56d2b9af-4199-4c73-af5e-1cc933e3665b",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "edf1bd21-c0b6-4e6f-acc1-a9eff92982d3",
+        "item_id": "56d2b9af-4199-4c73-af5e-1cc933e3665b",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "dc630970-a4cf-43f3-8bc0-16c30cdb7c23",
+        "item_id": "56d2b9af-4199-4c73-af5e-1cc933e3665b",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "e511bd30-8165-419f-b8a5-b76ed0acd006",
+      "name": "Robe of Enlightenment",
+      "min_level": 150,
+      "type": "ARMOR",
+      "arm": 8,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 1,
+      "weight": 24.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "dcf89911-0016-46d2-ade7-11c14e4c018d",
+        "item_id": "e511bd30-8165-419f-b8a5-b76ed0acd006",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "ea39ffc1-ad65-456a-830c-8e8eb806b486",
+        "item_id": "e511bd30-8165-419f-b8a5-b76ed0acd006",
+        "skill": "FIST",
+        "value": 3
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "0a1881fb-dae8-4b68-904e-05f4a4941ace",
+        "item_id": "e511bd30-8165-419f-b8a5-b76ed0acd006",
+        "element": "ICE",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "fbc34b71-a7d3-4697-8a85-84b04cf72eec",
+      "name": "Robe of the Ice Queen",
+      "min_level": 75,
+      "type": "ARMOR",
+      "arm": 12,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 0,
+      "weight": 29.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "9807a1c2-624d-4b53-94b2-35369343b85f",
+        "item_id": "fbc34b71-a7d3-4697-8a85-84b04cf72eec",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "91a1ce67-a3c6-4238-bc3d-31ea68d1a9f8",
+        "item_id": "fbc34b71-a7d3-4697-8a85-84b04cf72eec",
+        "element": "ICE",
+        "value": 12
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "bbbaa9b7-9568-4d72-9bda-7b3a2aa0267f",
+      "name": "Robe of the Underworld",
+      "min_level": 100,
+      "type": "ARMOR",
+      "arm": 12,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 31.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "83db3294-3b08-471a-96cf-5d8a2e389af3",
+        "item_id": "bbbaa9b7-9568-4d72-9bda-7b3a2aa0267f",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "dfd53626-9715-451a-842c-e2e6d32fd229",
+        "item_id": "bbbaa9b7-9568-4d72-9bda-7b3a2aa0267f",
+        "element": "DEATH",
+        "value": 12
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "584dcc5a-4cc8-40e6-bc12-ea83478aef09",
+      "name": "Royal Draken Mail",
+      "min_level": 100,
+      "type": "ARMOR",
+      "arm": 16,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 0,
+      "weight": 130.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "4076dd85-d7c7-4087-a36b-79146b9203ed",
+        "item_id": "584dcc5a-4cc8-40e6-bc12-ea83478aef09",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "93601936-7d48-4983-9362-55d3bd8c2e81",
+        "item_id": "584dcc5a-4cc8-40e6-bc12-ea83478aef09",
+        "element": "PHYSICAL",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "5081b1e6-a8d8-4b2c-94a0-dad3481b0d18",
+      "name": "Royal Scale Robe",
+      "min_level": 100,
+      "type": "ARMOR",
+      "arm": 12,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 0,
+      "weight": 45.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "b9d6b109-5eb2-4a77-8620-6e9e7b6a7e41",
+        "item_id": "5081b1e6-a8d8-4b2c-94a0-dad3481b0d18",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "a51b7114-5b5c-4d47-b074-ead540b76dfa",
+        "item_id": "5081b1e6-a8d8-4b2c-94a0-dad3481b0d18",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "a8548b8d-4e9c-4939-86e0-98d3b524ba1c",
+        "item_id": "5081b1e6-a8d8-4b2c-94a0-dad3481b0d18",
+        "skill": "MAGIC",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "6bfe12fc-0563-4e32-9fe7-79a18467e3f5",
+        "item_id": "5081b1e6-a8d8-4b2c-94a0-dad3481b0d18",
+        "element": "FIRE",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "37157f43-5cdf-4dd1-abf5-1b248fbdd05d",
+      "name": "Scale Armor",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 9,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 105.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "89d5a8a4-6c21-4479-b503-adaf153d8d3d",
+        "item_id": "37157f43-5cdf-4dd1-abf5-1b248fbdd05d",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "108fb2ca-101b-42a2-9220-9765a8f64e64",
+        "item_id": "37157f43-5cdf-4dd1-abf5-1b248fbdd05d",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "c1213509-feac-409b-918f-246fded99408",
+        "item_id": "37157f43-5cdf-4dd1-abf5-1b248fbdd05d",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "c5448ffb-39cc-48e7-b204-c2e4b9bd2053",
+        "item_id": "37157f43-5cdf-4dd1-abf5-1b248fbdd05d",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "98153b53-56e1-46ca-935a-a5656be2ecda",
+        "item_id": "37157f43-5cdf-4dd1-abf5-1b248fbdd05d",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "76345027-a20a-4dc5-916e-3a6fc3a3f570",
+      "name": "Simple Dress",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 10.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "1ba8b2b7-6d85-41eb-bd45-fa9ebe283cc5",
+        "item_id": "76345027-a20a-4dc5-916e-3a6fc3a3f570",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "3f8a6512-b49b-46f7-acd1-1df476b37209",
+        "item_id": "76345027-a20a-4dc5-916e-3a6fc3a3f570",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "e18bde8e-f7a3-4dba-a11b-40a18c84b5f3",
+        "item_id": "76345027-a20a-4dc5-916e-3a6fc3a3f570",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "fa5084a8-a7fe-4482-96e0-005f03d99c29",
+        "item_id": "76345027-a20a-4dc5-916e-3a6fc3a3f570",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "e7a8b3e9-13d9-4f68-8fe6-75bfe5245382",
+        "item_id": "76345027-a20a-4dc5-916e-3a6fc3a3f570",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "62c51a8b-e66d-404b-8283-5e52a13ed41e",
+      "name": "Skullcracker Armor",
+      "min_level": 85,
+      "type": "ARMOR",
+      "arm": 14,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 110.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "d3947086-6b62-435c-bf3f-36530a1400dd",
+        "item_id": "62c51a8b-e66d-404b-8283-5e52a13ed41e",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "b6ca512d-7d24-43bd-982c-e9957f77fb25",
+        "item_id": "62c51a8b-e66d-404b-8283-5e52a13ed41e",
+        "element": "DEATH",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "c59f29cc-eb66-4542-8e4f-7fcb92becf61",
+      "name": "Soulgarb",
+      "min_level": 400,
+      "type": "ARMOR",
+      "arm": 11,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 107.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "a17ff6d9-d0c9-47e1-bd36-ea6e66c126de",
+        "item_id": "c59f29cc-eb66-4542-8e4f-7fcb92becf61",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "31a01d0d-27f6-47b4-9b03-52d38ba55045",
+        "item_id": "c59f29cc-eb66-4542-8e4f-7fcb92becf61",
+        "skill": "FIST",
+        "value": 4
+      },
+      {
+        "id": "0a32558d-81b1-4d0d-984d-dad38b7f2175",
+        "item_id": "c59f29cc-eb66-4542-8e4f-7fcb92becf61",
+        "skill": "MAGIC",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "b650d654-6acc-4545-bd1f-e8e847a7af39",
+        "item_id": "c59f29cc-eb66-4542-8e4f-7fcb92becf61",
+        "element": "PHYSICAL",
+        "value": 4
+      },
+      {
+        "id": "012cd9e2-7289-4854-b0e9-215a565089df",
+        "item_id": "c59f29cc-eb66-4542-8e4f-7fcb92becf61",
+        "element": "ICE",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "b2a780f1-4afe-40c9-8432-00d993995bc5",
+      "name": "Soulmantle",
+      "min_level": 400,
+      "type": "ARMOR",
+      "arm": 17,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 24.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "996e83be-ff7c-4a16-a5fd-a4d12223686d",
+        "item_id": "b2a780f1-4afe-40c9-8432-00d993995bc5",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "0f874148-5861-4118-ba35-e8b68df8b1fb",
+        "item_id": "b2a780f1-4afe-40c9-8432-00d993995bc5",
+        "skill": "MAGIC",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "4d8041af-88d0-4ccc-96b9-224f61b6a450",
+        "item_id": "b2a780f1-4afe-40c9-8432-00d993995bc5",
+        "element": "PHYSICAL",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "999dfcae-d7ea-45e5-b4fc-af7fa46389c9",
+      "name": "Soulshell",
+      "min_level": 400,
+      "type": "ARMOR",
+      "arm": 18,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 123.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "ddf3d4f8-a069-4a54-96cf-06f29ec84a2c",
+        "item_id": "999dfcae-d7ea-45e5-b4fc-af7fa46389c9",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "c56852bb-102c-46d7-9153-2a1d7b7fc1cb",
+        "item_id": "999dfcae-d7ea-45e5-b4fc-af7fa46389c9",
+        "skill": "DISTANCE",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "0c1b7985-3b04-44c6-ab7f-02ce71201c69",
+        "item_id": "999dfcae-d7ea-45e5-b4fc-af7fa46389c9",
+        "element": "PHYSICAL",
+        "value": 3
+      },
+      {
+        "id": "297b26fd-47fc-480d-b36e-e94bcd8c2a36",
+        "item_id": "999dfcae-d7ea-45e5-b4fc-af7fa46389c9",
+        "element": "FIRE",
+        "value": 15
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "b98867b8-4029-487a-b3f3-114a7b3d59c9",
+      "name": "Soulshroud",
+      "min_level": 400,
+      "type": "ARMOR",
+      "arm": 17,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 24.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "21af34b6-2d99-4cdb-a38c-ef0e1f740493",
+        "item_id": "b98867b8-4029-487a-b3f3-114a7b3d59c9",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "8ffc7ad9-c0ba-40e1-9bd0-02b0e1e278e2",
+        "item_id": "b98867b8-4029-487a-b3f3-114a7b3d59c9",
+        "skill": "MAGIC",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "7afa04d7-0cc1-4b96-b211-63dc8e9cb68d",
+        "item_id": "b98867b8-4029-487a-b3f3-114a7b3d59c9",
+        "element": "DEATH",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "f7f51ec7-c536-4ad5-a221-773bdabfc93d",
+      "name": "Spectral Dress",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 10.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "69a3f494-830f-41f2-bf30-93a14be1728c",
+        "item_id": "f7f51ec7-c536-4ad5-a221-773bdabfc93d",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "ba35b7af-bb13-4d29-954b-9e8ed545a164",
+        "item_id": "f7f51ec7-c536-4ad5-a221-773bdabfc93d",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "fcd456e3-75a7-4a19-b02d-dcb85e610827",
+        "item_id": "f7f51ec7-c536-4ad5-a221-773bdabfc93d",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "027edc3e-8000-4544-8950-c4b5390eed50",
+        "item_id": "f7f51ec7-c536-4ad5-a221-773bdabfc93d",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "1f184253-6c5b-4bf9-b3ef-e6846d955914",
+        "item_id": "f7f51ec7-c536-4ad5-a221-773bdabfc93d",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "ac5f41d3-f332-4ca6-83a5-ea378f60f378",
+      "name": "Spellweaver's Robe",
+      "min_level": 60,
+      "type": "ARMOR",
+      "arm": 11,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 23.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "d49ab2fd-9a68-48e7-8bdb-e59b4516c617",
+        "item_id": "ac5f41d3-f332-4ca6-83a5-ea378f60f378",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "433b13c2-1ada-4996-b872-d581e5037b99",
+        "item_id": "ac5f41d3-f332-4ca6-83a5-ea378f60f378",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "9bf642ec-73e5-41ba-847f-cc3cfa2954db",
+        "item_id": "ac5f41d3-f332-4ca6-83a5-ea378f60f378",
+        "element": "ENERGY",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "223cc048-c122-4dcb-ae46-d4c172e42e5c",
+      "name": "Spirit Bind",
+      "min_level": 75,
+      "type": "ARMOR",
+      "arm": 8,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 135.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "e366ab61-2fad-490a-98ed-89e7463c4000",
+        "item_id": "223cc048-c122-4dcb-ae46-d4c172e42e5c",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "08e04277-f7d9-4a89-8827-6c329e87721c",
+        "item_id": "223cc048-c122-4dcb-ae46-d4c172e42e5c",
+        "skill": "FIST",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "3a1ee913-577c-4a56-b91e-2e8266ea9502",
+        "item_id": "223cc048-c122-4dcb-ae46-d4c172e42e5c",
+        "element": "ENERGY",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "7507f50a-53b5-46a0-aa71-01be33610721",
+      "name": "Spirit Cloak",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 8,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 26.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "bbeb3bd1-1840-4d38-bfdb-51e32e1f32ea",
+        "item_id": "7507f50a-53b5-46a0-aa71-01be33610721",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "0598cb33-ace3-4930-950a-87777f0f5df7",
+        "item_id": "7507f50a-53b5-46a0-aa71-01be33610721",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "488c9ce7-c679-47b5-8392-e85c703740a3",
+        "item_id": "7507f50a-53b5-46a0-aa71-01be33610721",
+        "skill": "MAGIC",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "f38e96d7-02d5-41ed-aea8-8b3114108ca0",
+      "name": "Spiritthorn Armor",
+      "min_level": 400,
+      "type": "ARMOR",
+      "arm": 20,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 160.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "b33c931c-7b54-4865-a446-cdd342ceaeb6",
+        "item_id": "f38e96d7-02d5-41ed-aea8-8b3114108ca0",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "3e9a6898-9564-4ea5-89f6-314ee3b82d59",
+        "item_id": "f38e96d7-02d5-41ed-aea8-8b3114108ca0",
+        "skill": "SWORD",
+        "value": 4
+      },
+      {
+        "id": "af4caf76-913c-404c-a98d-10989b003ba9",
+        "item_id": "f38e96d7-02d5-41ed-aea8-8b3114108ca0",
+        "skill": "CLUB",
+        "value": 4
+      },
+      {
+        "id": "6cd64627-b399-47e5-9321-da33c893aaf7",
+        "item_id": "f38e96d7-02d5-41ed-aea8-8b3114108ca0",
+        "skill": "AXE",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "8ac2a0bb-8bc1-4693-8c2a-b907cdb6b1da",
+        "item_id": "f38e96d7-02d5-41ed-aea8-8b3114108ca0",
+        "element": "PHYSICAL",
+        "value": 13
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "3aa0ac1d-5b96-4cf6-8f66-11744e00b7e4",
+      "name": "Stoic Iks Chestplate",
+      "min_level": 250,
+      "type": "ARMOR",
+      "arm": 16,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 142.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "915e47a3-8e8c-4f51-b375-c89ef5e0d7ff",
+        "item_id": "3aa0ac1d-5b96-4cf6-8f66-11744e00b7e4",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "488cc96d-69e9-4646-81d5-912fbd91eb31",
+        "item_id": "3aa0ac1d-5b96-4cf6-8f66-11744e00b7e4",
+        "element": "PHYSICAL",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "56597085-321b-42a0-85a0-fe0c0118bedf",
+      "name": "Stoic Iks Cuirass",
+      "min_level": 250,
+      "type": "ARMOR",
+      "arm": 15,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 44.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "a50a52d1-3d66-4c57-95bc-e1b69acd4e58",
+        "item_id": "56597085-321b-42a0-85a0-fe0c0118bedf",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "a175e6b2-7518-437f-ad03-04787e87afd4",
+        "item_id": "56597085-321b-42a0-85a0-fe0c0118bedf",
+        "skill": "MAGIC",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "936cac82-0359-4f14-8ba6-bd1a71b6fb00",
+        "item_id": "56597085-321b-42a0-85a0-fe0c0118bedf",
+        "element": "DEATH",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "a52acf4f-d3d1-46e2-9fce-0d42cbd224b8",
+      "name": "Stoic Iks Robe",
+      "min_level": 250,
+      "type": "ARMOR",
+      "arm": 9,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 128.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "91791656-c6d1-4bf0-9c5c-7ae974ce281a",
+        "item_id": "a52acf4f-d3d1-46e2-9fce-0d42cbd224b8",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "4af3084b-5813-4d59-acf4-0ff8f70e23b6",
+        "item_id": "a52acf4f-d3d1-46e2-9fce-0d42cbd224b8",
+        "skill": "FIST",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "c6384909-63d3-42a8-a1f4-b26241fc2911",
+        "item_id": "a52acf4f-d3d1-46e2-9fce-0d42cbd224b8",
+        "element": "PHYSICAL",
+        "value": 2
+      },
+      {
+        "id": "e9a44e7b-1dc7-4ca0-83d1-7daf24f5bc26",
+        "item_id": "a52acf4f-d3d1-46e2-9fce-0d42cbd224b8",
+        "element": "ENERGY",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "65794e8b-258d-43b1-9878-af9483a513aa",
+      "name": "Studded Armor",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 5,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 71.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "a3667a3c-c1e7-42f8-b39b-fbc9fb2a8028",
+        "item_id": "65794e8b-258d-43b1-9878-af9483a513aa",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "61341106-0534-47b2-a435-8700ce937e21",
+        "item_id": "65794e8b-258d-43b1-9878-af9483a513aa",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "94f9ade0-84e0-44e9-a40b-0064f92f69d4",
+        "item_id": "65794e8b-258d-43b1-9878-af9483a513aa",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "861331f3-fabd-4454-a351-36f34b5d5f84",
+        "item_id": "65794e8b-258d-43b1-9878-af9483a513aa",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "20fa811a-7ccd-4adc-9d92-ebe4b2efb266",
+        "item_id": "65794e8b-258d-43b1-9878-af9483a513aa",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "0f1e8bcd-b103-4f77-a67a-e344ea4f878c",
+      "name": "Summer Dress",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 10.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "87110364-f1da-4538-901c-3509bdc984f3",
+        "item_id": "0f1e8bcd-b103-4f77-a67a-e344ea4f878c",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "84f26f79-12a5-48e9-bdfa-d0d068271dab",
+        "item_id": "0f1e8bcd-b103-4f77-a67a-e344ea4f878c",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "7e7bb818-c681-434b-bd2f-ef8c9fc8bbfb",
+        "item_id": "0f1e8bcd-b103-4f77-a67a-e344ea4f878c",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "3f089cb9-7f24-4c69-a3a6-c2b30769e694",
+        "item_id": "0f1e8bcd-b103-4f77-a67a-e344ea4f878c",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "94faf396-e5f7-49b3-99a1-c6494f162c4b",
+        "item_id": "0f1e8bcd-b103-4f77-a67a-e344ea4f878c",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "d41566b8-99c1-4cfe-ab44-75bb2431e57c",
+        "item_id": "0f1e8bcd-b103-4f77-a67a-e344ea4f878c",
+        "element": "DEATH",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "c57fdf34-154b-4420-8424-8c4d16a000d6",
+      "name": "Swamplair Armor",
+      "min_level": 60,
+      "type": "ARMOR",
+      "arm": 13,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 84.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "aa0ea656-be39-4803-9405-434121b3e026",
+        "item_id": "c57fdf34-154b-4420-8424-8c4d16a000d6",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "a11bf64f-0c3d-4d5f-ad63-12ce89cfb38e",
+        "item_id": "c57fdf34-154b-4420-8424-8c4d16a000d6",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "8969ffae-c615-423d-8773-ac92d7ccd82e",
+        "item_id": "c57fdf34-154b-4420-8424-8c4d16a000d6",
+        "element": "EARTH",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "2114e76d-3fbf-4633-8922-de3d98f3aa09",
+      "name": "Swan Feather Cloak",
+      "min_level": 60,
+      "type": "ARMOR",
+      "arm": 12,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 4.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "44a6487e-7c09-4ec6-8d00-9074a1a76967",
+        "item_id": "2114e76d-3fbf-4633-8922-de3d98f3aa09",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "f180ed50-4a36-448c-b251-aacb8130152a",
+        "item_id": "2114e76d-3fbf-4633-8922-de3d98f3aa09",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "009944cf-0377-46b4-b0de-7468abc9ce28",
+        "item_id": "2114e76d-3fbf-4633-8922-de3d98f3aa09",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "adf87152-6f7d-4bca-97ba-5ea64cb7a391",
+        "item_id": "2114e76d-3fbf-4633-8922-de3d98f3aa09",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "c29b729a-47a4-4f8d-bc51-1391924bc587",
+        "item_id": "2114e76d-3fbf-4633-8922-de3d98f3aa09",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "fd551225-c77b-40c8-8945-2e3d426ba752",
+        "item_id": "2114e76d-3fbf-4633-8922-de3d98f3aa09",
+        "element": "EARTH",
+        "value": 12
+      },
+      {
+        "id": "f06e8cd1-e9f0-4e66-b7f5-0ae322eeac81",
+        "item_id": "2114e76d-3fbf-4633-8922-de3d98f3aa09",
+        "element": "ENERGY",
+        "value": 12
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "49abe556-abe8-410b-8b11-0f07dd29e8da",
+      "name": "Terra Mantle",
+      "min_level": 50,
+      "type": "ARMOR",
+      "arm": 11,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 22.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "c652c6ef-bf84-4ce9-b0b1-8a3ce044f5d2",
+        "item_id": "49abe556-abe8-410b-8b11-0f07dd29e8da",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "7fe6bdb4-5f10-47e8-8215-f09b28e862cc",
+        "item_id": "49abe556-abe8-410b-8b11-0f07dd29e8da",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "dd6ae91a-7a7f-4a4b-83c5-ec54c8689ba7",
+        "item_id": "49abe556-abe8-410b-8b11-0f07dd29e8da",
+        "element": "EARTH",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "86606da4-ffcb-4e13-baea-c68f7f10b1c6",
+      "name": "The Rain Coat",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 1,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 32.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "b6f6dc5b-811d-4164-a067-d74be8a715c7",
+        "item_id": "86606da4-ffcb-4e13-baea-c68f7f10b1c6",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "628c4a16-d701-42f4-97f5-9f569afac277",
+        "item_id": "86606da4-ffcb-4e13-baea-c68f7f10b1c6",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "fd7705f2-267e-492a-9423-30abdbf0f942",
+        "item_id": "86606da4-ffcb-4e13-baea-c68f7f10b1c6",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "9d417aca-89b7-4104-a576-7914e550693b",
+        "item_id": "86606da4-ffcb-4e13-baea-c68f7f10b1c6",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "44bf5270-05ad-47c6-bdcb-f2b6850d4255",
+        "item_id": "86606da4-ffcb-4e13-baea-c68f7f10b1c6",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "bcbddf48-9179-49e7-8399-efc9f47013a6",
+      "name": "Thunderheart Cuirass",
+      "min_level": 200,
+      "type": "ARMOR",
+      "arm": 18,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 145.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "465a37d1-08a1-47ad-a118-d0f677687f4d",
+        "item_id": "bcbddf48-9179-49e7-8399-efc9f47013a6",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "7a19b364-943b-4702-8b8b-257d53ae6085",
+        "item_id": "bcbddf48-9179-49e7-8399-efc9f47013a6",
+        "skill": "SWORD",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "a9bd229f-e3c5-4602-b8c9-695bb244ae4c",
+        "item_id": "bcbddf48-9179-49e7-8399-efc9f47013a6",
+        "element": "ENERGY",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "dd14faa7-7417-4b0f-953a-39f4fc621e7a",
+      "name": "Thunderheart Hauberk",
+      "min_level": 200,
+      "type": "ARMOR",
+      "arm": 18,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 145.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "3f9b0bfc-5c1f-446d-a337-5e87f1a4535e",
+        "item_id": "dd14faa7-7417-4b0f-953a-39f4fc621e7a",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "71744a11-aab0-404f-a796-3a576e466b5f",
+        "item_id": "dd14faa7-7417-4b0f-953a-39f4fc621e7a",
+        "skill": "AXE",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "cc2951ef-755c-4c15-8de9-cade361e9768",
+        "item_id": "dd14faa7-7417-4b0f-953a-39f4fc621e7a",
+        "element": "ENERGY",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "a8f095e2-9465-4efd-8e68-68448a2b6837",
+      "name": "Thunderheart Platemail",
+      "min_level": 200,
+      "type": "ARMOR",
+      "arm": 18,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 145.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "c7fa550a-8215-4a06-a2b5-8b7c96381ab6",
+        "item_id": "a8f095e2-9465-4efd-8e68-68448a2b6837",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "f28aa7ca-508e-4ffb-aef5-a0a42be15c20",
+        "item_id": "a8f095e2-9465-4efd-8e68-68448a2b6837",
+        "skill": "CLUB",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "c9d7eb3a-fdcc-4112-abda-57f393997987",
+        "item_id": "a8f095e2-9465-4efd-8e68-68448a2b6837",
+        "element": "ENERGY",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "50d8ed5a-919f-4f0b-b7af-649ec7e043df",
+      "name": "Thundermind Raiment",
+      "min_level": 200,
+      "type": "ARMOR",
+      "arm": 15,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 55.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "3759f1ab-b40b-49aa-8a1a-b15019e54f88",
+        "item_id": "50d8ed5a-919f-4f0b-b7af-649ec7e043df",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "3d592c99-25a2-4e63-9db4-d79701693be3",
+        "item_id": "50d8ed5a-919f-4f0b-b7af-649ec7e043df",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "b0d3a3ee-e2a9-463c-aa5e-9c8f5b8eab11",
+        "item_id": "50d8ed5a-919f-4f0b-b7af-649ec7e043df",
+        "skill": "MAGIC",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "fa9c85f4-9dc6-4bac-a0d4-ca7b5fe0f6d2",
+        "item_id": "50d8ed5a-919f-4f0b-b7af-649ec7e043df",
+        "element": "ENERGY",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "ff1df734-d69e-4145-9509-41dd55fb8d6c",
+      "name": "Thundersoul Tabard",
+      "min_level": 200,
+      "type": "ARMOR",
+      "arm": 18,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 145.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "a348766c-c1c1-4e66-98c9-ba270c75b3eb",
+        "item_id": "ff1df734-d69e-4145-9509-41dd55fb8d6c",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "428f5951-64c3-4f98-b111-11a9c121f1b7",
+        "item_id": "ff1df734-d69e-4145-9509-41dd55fb8d6c",
+        "skill": "DISTANCE",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "e8f6aaba-f324-438f-8037-67d05178bd78",
+        "item_id": "ff1df734-d69e-4145-9509-41dd55fb8d6c",
+        "element": "ENERGY",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "2b246784-540d-4a56-9ff2-3dcf9f427244",
+      "name": "Toga Mortis",
+      "min_level": 220,
+      "type": "ARMOR",
+      "arm": 16,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 1,
+      "weight": 52.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "cac88f4c-5dd0-4fff-98f7-2121104c18df",
+        "item_id": "2b246784-540d-4a56-9ff2-3dcf9f427244",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "f2c9c6ce-dc84-4323-bd33-3d88748e4d77",
+        "item_id": "2b246784-540d-4a56-9ff2-3dcf9f427244",
+        "skill": "MAGIC",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "b0e64d3c-c4ee-4cb6-b58d-cf10e8af2f33",
+        "item_id": "2b246784-540d-4a56-9ff2-3dcf9f427244",
+        "element": "DEATH",
+        "value": 6
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "c890a002-ff1a-49b2-a12e-51ab3a2b5827",
+      "name": "Traditional Shirt",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 4.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "c9b43b96-9e27-4896-9094-661c32940533",
+        "item_id": "c890a002-ff1a-49b2-a12e-51ab3a2b5827",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "dbdadb55-d4d9-49b8-8812-5d8db117d71e",
+        "item_id": "c890a002-ff1a-49b2-a12e-51ab3a2b5827",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "d29b5e7f-ffed-4ed1-a94c-159613ca0796",
+        "item_id": "c890a002-ff1a-49b2-a12e-51ab3a2b5827",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "273bb5b3-ee00-43a9-8bed-903ab1965903",
+        "item_id": "c890a002-ff1a-49b2-a12e-51ab3a2b5827",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "3b2a4549-9abe-4703-9819-708766717283",
+        "item_id": "c890a002-ff1a-49b2-a12e-51ab3a2b5827",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "69408fb6-3ef3-4f4e-8391-6d44e739fff4",
+      "name": "Tunic",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 15.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "98a608f2-9c31-4d39-9688-2bb73f1f56d9",
+        "item_id": "69408fb6-3ef3-4f4e-8391-6d44e739fff4",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "d19b7737-a178-4af1-ba40-8f6d9400ddd8",
+        "item_id": "69408fb6-3ef3-4f4e-8391-6d44e739fff4",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "a36743ca-d00e-4af9-945d-b42c01887b64",
+        "item_id": "69408fb6-3ef3-4f4e-8391-6d44e739fff4",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "66d0ddde-4472-408a-8577-dcab076acbfe",
+        "item_id": "69408fb6-3ef3-4f4e-8391-6d44e739fff4",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "57a0d755-e439-435d-b505-6392c006072f",
+        "item_id": "69408fb6-3ef3-4f4e-8391-6d44e739fff4",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "7d0f8963-b29d-4b60-85d2-059f9ec8a3b5",
+      "name": "Unerring Dragon Scale Armor",
+      "min_level": 300,
+      "type": "ARMOR",
+      "arm": 17,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 135.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "2f242ee1-8540-4331-a7c6-48387143b541",
+        "item_id": "7d0f8963-b29d-4b60-85d2-059f9ec8a3b5",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "7156d76d-f237-4971-832a-abff74c1b9a7",
+        "item_id": "7d0f8963-b29d-4b60-85d2-059f9ec8a3b5",
+        "skill": "DISTANCE",
+        "value": 3
+      },
+      {
+        "id": "805091b0-31d5-4e2f-ae3e-0a7613ad4b48",
+        "item_id": "7d0f8963-b29d-4b60-85d2-059f9ec8a3b5",
+        "skill": "MAGIC",
+        "value": 1
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "c4137943-3032-49e9-a17b-0575cb1eb00b",
+        "item_id": "7d0f8963-b29d-4b60-85d2-059f9ec8a3b5",
+        "element": "ENERGY",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "a4b28c7f-4c25-4df2-aed1-1daa7c0c4f4d",
+      "name": "Velvet Mantle",
+      "min_level": 75,
+      "type": "ARMOR",
+      "arm": 12,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 28.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "7f6a847a-1b69-41a2-8528-5999c8f11639",
+        "item_id": "a4b28c7f-4c25-4df2-aed1-1daa7c0c4f4d",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "3c14dc07-a243-4385-9ddf-a569d708cff7",
+        "item_id": "a4b28c7f-4c25-4df2-aed1-1daa7c0c4f4d",
+        "element": "ENERGY",
+        "value": 12
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "db894e72-355d-4820-bf75-e75c0218c8d7",
+      "name": "Voltage Armor",
+      "min_level": 60,
+      "type": "ARMOR",
+      "arm": 13,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 84.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "8473bd6d-87a3-467f-ae11-80da4e6d692e",
+        "item_id": "db894e72-355d-4820-bf75-e75c0218c8d7",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "283e0cbd-fec7-4212-9132-f7d712433721",
+        "item_id": "db894e72-355d-4820-bf75-e75c0218c8d7",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "9de38f9f-49d3-46fe-8064-caac3ef3df07",
+        "item_id": "db894e72-355d-4820-bf75-e75c0218c8d7",
+        "element": "ENERGY",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "d088f759-321e-41f5-9dbe-84d861f28e42",
+      "name": "White Dress",
+      "min_level": 0,
+      "type": "ARMOR",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 24.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "04006d96-3003-48bb-b78b-71b4a5c25799",
+        "item_id": "d088f759-321e-41f5-9dbe-84d861f28e42",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "4c3a6731-d85e-4fc2-8d7b-15522396acfc",
+        "item_id": "d088f759-321e-41f5-9dbe-84d861f28e42",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "cbaffa90-e93a-4a95-9301-49a8ecb1a2e0",
+        "item_id": "d088f759-321e-41f5-9dbe-84d861f28e42",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "bbbef3ff-0a88-4b3b-8ce3-fa166da10da2",
+        "item_id": "d088f759-321e-41f5-9dbe-84d861f28e42",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "5bb9b2f0-4789-424e-a358-103dfdd8bd05",
+        "item_id": "d088f759-321e-41f5-9dbe-84d861f28e42",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "6c116b9f-0d9e-40d2-bae8-2f8962fb6c15",
+      "name": "Windborn Colossus Armor",
+      "min_level": 100,
+      "type": "ARMOR",
+      "arm": 15,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 120.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "77a9a681-f552-4b5e-a611-a5755c2ac5f2",
+        "item_id": "6c116b9f-0d9e-40d2-bae8-2f8962fb6c15",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "901cfea7-01c7-4b3e-b52a-cdda55eaaea0",
+        "item_id": "6c116b9f-0d9e-40d2-bae8-2f8962fb6c15",
+        "skill": "CLUB",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "b69615c4-6531-4251-bcbb-f6cb2ae32da1",
+        "item_id": "6c116b9f-0d9e-40d2-bae8-2f8962fb6c15",
+        "element": "ENERGY",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "3ec96890-4119-4794-9bb5-1f2713398739",
+      "name": "Witchhunter's Coat",
+      "min_level": 50,
+      "type": "ARMOR",
+      "arm": 11,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 25.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "847ecd65-07c0-433b-b42f-85e6a57c99f2",
+        "item_id": "3ec96890-4119-4794-9bb5-1f2713398739",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "25f7b7ea-634a-4d20-949d-e42bbeb28c92",
+        "item_id": "3ec96890-4119-4794-9bb5-1f2713398739",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "e3ca5455-c7f7-4255-a28c-5e619afe1c50",
+        "item_id": "3ec96890-4119-4794-9bb5-1f2713398739",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "283756b2-0220-4cb1-ad51-450fb8af9e74",
+        "item_id": "3ec96890-4119-4794-9bb5-1f2713398739",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "cd867cbb-6a03-43b6-bbe0-b144c62584a1",
+        "item_id": "3ec96890-4119-4794-9bb5-1f2713398739",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "431936b1-46d6-4906-9c04-eefa3045c923",
+        "item_id": "3ec96890-4119-4794-9bb5-1f2713398739",
+        "element": "DEATH",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "b100f4ee-7e02-4590-8962-3dd05e23bcc7",
+      "name": "Yalahari Armor",
+      "min_level": 80,
+      "type": "ARMOR",
+      "arm": 16,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 70.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "6cc1905e-bda7-422e-893e-dd4fa3e3c2bf",
+        "item_id": "b100f4ee-7e02-4590-8962-3dd05e23bcc7",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "a2a2f8e0-e9e9-49d3-8e44-293b0a1438cf",
+        "item_id": "b100f4ee-7e02-4590-8962-3dd05e23bcc7",
+        "element": "DEATH",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "8c634b36-db5e-479c-b35a-eefb88b2e845",
+      "name": "Zaoan Armor",
+      "min_level": 50,
+      "type": "ARMOR",
+      "arm": 13,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 95.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "d6bebfe6-5cd4-40fc-aba7-3dca612acbc8",
+        "item_id": "8c634b36-db5e-479c-b35a-eefb88b2e845",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "859c3fed-8e50-40b4-94bd-9ee77de0c6fc",
+        "item_id": "8c634b36-db5e-479c-b35a-eefb88b2e845",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "d9c302c6-ee67-478c-ad8a-27c8e63bd28b",
+      "name": "Zaoan Monk Robe",
+      "min_level": 50,
+      "type": "ARMOR",
+      "arm": 7,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 110.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "f2291572-2198-4a8c-8338-6cdd2d19bee5",
+        "item_id": "d9c302c6-ee67-478c-ad8a-27c8e63bd28b",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "98db86fe-8da1-4f71-84ce-c06439d71637",
+        "item_id": "d9c302c6-ee67-478c-ad8a-27c8e63bd28b",
+        "skill": "FIST",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "a2bf8886-1e37-4978-b97f-4215f9357a48",
+      "name": "Zaoan Robe",
+      "min_level": 60,
+      "type": "ARMOR",
+      "arm": 11,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 24.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "2bb653d0-c8fa-491c-ae80-5ae10fefebc7",
+        "item_id": "a2bf8886-1e37-4978-b97f-4215f9357a48",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "38a31cc9-0ff5-4be3-9847-558ae5312834",
+        "item_id": "a2bf8886-1e37-4978-b97f-4215f9357a48",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": [
+      {
+        "id": "c01d0c16-e7f8-4ae1-8d52-a0760ed90379",
+        "item_id": "a2bf8886-1e37-4978-b97f-4215f9357a48",
+        "element": "FIRE",
+        "value": 10
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+section.tibia {
+    min-height: 100vh;
+    background-color: #2B2F38;
+    padding-top: 10vh;
+    color: #fff;
+}   
+
+.tibia-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

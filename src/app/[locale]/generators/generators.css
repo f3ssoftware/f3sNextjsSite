@@ -1,0 +1,16 @@
+section.generators {
+    min-height: 100vh;
+    background-color: #fff;
+    padding-top: 10vh;
+    color: #000;
+}
+
+.generators-container {
+    display: flex;
+    flex-direction: row;
+    padding-right: 5%;
+    padding-left: 5%;
+    gap: 2%;
+    background-color: #2B2F38;
+    height: 100vh;
+}
