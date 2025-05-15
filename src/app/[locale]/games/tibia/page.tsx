@@ -33,6 +33,7 @@ export default function GamesTibia() {
   const debouncedSearchName = useDebouncedValue(searchToApply, 300);
   const [isSearching, setIsSearching] = useState(false);
   const searchInputRef = useRef<HTMLInputElement>(null);
+  const [selectedElements, setSelectedElements] = useState<string[]>([]);
 
   const allVocations = useMemo(
     () =>
@@ -62,6 +63,24 @@ export default function GamesTibia() {
     [items, t]
   );
 
+  // Collect all unique elements from item_protections
+  const allElements = useMemo(
+    () =>
+      Array.from(
+        new Set(
+          items
+            .flatMap((item) =>
+              (item.item_protections || []).map((prot: any) => prot.element)
+            )
+            .filter((el) => el && el !== "")
+        )
+      ).map((el) => ({
+        label: t(el, { defaultMessage: el }),
+        value: el,
+      })),
+    [items, t]
+  );
+
   const vocationFilterElement = (
     <MultiSelect
       value={selectedVocations}
@@ -88,6 +107,18 @@ export default function GamesTibia() {
     />
   );
 
+  const elementFilterElement = (
+    <MultiSelect
+      value={selectedElements}
+      options={allElements}
+      onChange={(e) => setSelectedElements(e.value)}
+      placeholder={t("SELECT_ELEMENTS", { defaultMessage: "Select Elements" })}
+      className="p-column-filter"
+      display="chip"
+      style={{ minWidth: "12rem" }}
+    />
+  );
+
   // Improved: AND logic, debounced search, locale-insensitive
   const filteredItems = useMemo(() => {
     const search = debouncedSearchName.trim().toLocaleLowerCase();
@@ -105,10 +136,17 @@ export default function GamesTibia() {
           : (item.item_vocations || []).some((voc: any) =>
               selectedVocations.includes(voc.vocation)
             );
+      // Elemental protection filter
+      const matchesElement =
+        selectedElements.length === 0
+          ? true
+          : (item.item_protections || []).some((prot: any) =>
+              selectedElements.includes(prot.element)
+            );
       // Only return items that match ALL active filters
-      return matchesName && matchesType && matchesVocation;
+      return matchesName && matchesType && matchesVocation && matchesElement;
     });
-  }, [items, debouncedSearchName, selectedTypes, selectedVocations]);
+  }, [items, debouncedSearchName, selectedTypes, selectedVocations, selectedElements]);
 
   useEffect(() => {
     console.log(items);
@@ -145,6 +183,18 @@ export default function GamesTibia() {
                 })}
                 style={{ width: "100%" }}
               />
+            </div>
+            <div
+              style={{
+                marginBottom: "1rem",
+                display: "flex",
+                gap: 8,
+                width: "100%",
+              }}
+            >
+              {typeFilterElement}
+              {vocationFilterElement}
+              {elementFilterElement}
             </div>
             <div
               style={{
@@ -216,14 +266,13 @@ export default function GamesTibia() {
                 field="type"
                 header="Type"
                 sortable
-                filter
-                filterElement={typeFilterElement}
+                
                 showFilterMenu={false}
               ></Column>
               <Column
                 field="item.name"
                 header="Name"
-                expander
+                
                 sortable
               ></Column>
               <Column field="item.weight" header="Weight" sortable></Column>
@@ -234,11 +283,37 @@ export default function GamesTibia() {
                 field="item.imbuement_slots"
                 header="Imbuement Slots"
               ></Column>
-              <Column field="item.tier" header="Tier" sortable></Column>
+              <Column
+                field="item.tier"
+                header="Tier"
+                sortable
+              ></Column>
               <Column
                 field="item.min_level"
                 header="Min Level"
                 sortable
+              ></Column>
+              <Column
+                field="item_protections"
+                header="Protections"
+                body={(rowData) => {
+                  const protections = rowData.data.item_protections || [];
+                  if (!protections.length) return "-";
+                  return protections
+                    .map((prot: any) => `${prot.element}: ${prot.value}`)
+                    .join(", ");
+                }}
+              ></Column>
+              <Column
+                field="item_bonus_skills"
+                header="Bonus Skills"
+                body={(rowData) => {
+                  const skills = rowData.data.item_bonus_skills || [];
+                  if (!skills.length) return "-";
+                  return skills
+                    .map((skill: any) => `${skill.skill}: ${skill.value}`)
+                    .join(", ");
+                }}
               ></Column>
               <Column
                 field="item_vocations"
@@ -250,8 +325,7 @@ export default function GamesTibia() {
                     )
                     .join(", ");
                 }}
-                filter
-                filterElement={vocationFilterElement}
+                
                 showFilterMenu={false}
               ></Column>
             </TreeTable>

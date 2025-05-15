@@ -1,0 +1,1196 @@
+[
+  {
+    "item": {
+      "id": "4a5d85c9-584a-4cfb-b4ed-f1655be1c435",
+      "name": "Amber Wand",
+      "min_level": 330,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 20.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "4a89dac1-7d80-4bdc-a8ab-f1c2dd743ba1",
+        "item_id": "4a5d85c9-584a-4cfb-b4ed-f1655be1c435",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "accd87ce-6962-4506-9724-cf14a5790bce",
+        "item_id": "4a5d85c9-584a-4cfb-b4ed-f1655be1c435",
+        "skill": "MAGIC",
+        "value": 3
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "f1a15dae-bc6f-44a1-9e58-87138d06b441",
+        "item_id": "4a5d85c9-584a-4cfb-b4ed-f1655be1c435",
+        "element": "ICE",
+        "value": 6
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "9c4ee6f9-8708-4d7e-b7d3-ee5f7842e7fc",
+      "name": "Cobra Wand",
+      "min_level": 270,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 19.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "4a16e902-3f66-4627-a905-57ee14fa83f1",
+        "item_id": "9c4ee6f9-8708-4d7e-b7d3-ee5f7842e7fc",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "2151255c-8527-485c-8980-4f81460a38e8",
+        "item_id": "9c4ee6f9-8708-4d7e-b7d3-ee5f7842e7fc",
+        "skill": "MAGIC",
+        "value": 2
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "6ffe5c98-9159-4986-b96a-599c7be0badc",
+      "name": "Deepling Ceremonial Dagger",
+      "min_level": 180,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 2,
+      "weight": 32.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "6bffb674-334c-46b7-aeb5-1c9461f61473",
+        "item_id": "6ffe5c98-9159-4986-b96a-599c7be0badc",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "4986eb30-614e-4291-bc05-a2870fd0e58d",
+        "item_id": "6ffe5c98-9159-4986-b96a-599c7be0badc",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "af70fe25-84bb-436b-989f-427eeee72b71",
+        "item_id": "6ffe5c98-9159-4986-b96a-599c7be0badc",
+        "skill": "MAGIC",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "daf0b71e-aac5-4df0-b7ed-afa410a3bb4b",
+        "item_id": "6ffe5c98-9159-4986-b96a-599c7be0badc",
+        "element": "EARTH",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "6542ef21-7e50-4fc3-bef6-db2fc5b3045d",
+      "name": "Deepling Fork",
+      "min_level": 230,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 2,
+      "weight": 33.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "03bca671-4fda-41dc-a185-ea6ce9604b7a",
+        "item_id": "6542ef21-7e50-4fc3-bef6-db2fc5b3045d",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "0ac2f7e2-8e68-4313-92b9-57b1c5bb7edf",
+        "item_id": "6542ef21-7e50-4fc3-bef6-db2fc5b3045d",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "30a73fd7-aaea-4918-b054-a3e4f8cf1287",
+        "item_id": "6542ef21-7e50-4fc3-bef6-db2fc5b3045d",
+        "skill": "MAGIC",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "0c174edc-2243-4bbf-90c7-adff1948d481",
+        "item_id": "6542ef21-7e50-4fc3-bef6-db2fc5b3045d",
+        "element": "HOLY",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "64252166-c284-43ac-b734-b98e6f04659b",
+      "name": "Draining Inferniarch Wand",
+      "min_level": 300,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 24.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "1ecdde60-e4a7-4bcc-819c-6def5d739dae",
+        "item_id": "64252166-c284-43ac-b734-b98e6f04659b",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "c01f874d-00fc-48b7-9066-afe76c486e54",
+        "item_id": "64252166-c284-43ac-b734-b98e6f04659b",
+        "skill": "MAGIC",
+        "value": 3
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "05dcabf1-7876-4df6-a737-a7660a2d626d",
+        "item_id": "64252166-c284-43ac-b734-b98e6f04659b",
+        "element": "EARTH",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "d497a6cd-5367-4ced-9422-04c9d5e01fbc",
+      "name": "Dream Blossom Staff",
+      "min_level": 80,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 32.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "ffeb9515-4809-4609-ab59-36d5f556edd6",
+        "item_id": "d497a6cd-5367-4ced-9422-04c9d5e01fbc",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "9e1db7bf-4165-4d30-a2b4-cf440514f8e9",
+        "item_id": "d497a6cd-5367-4ced-9422-04c9d5e01fbc",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "4c714ca4-60a2-49b0-9234-464fc34debe5",
+        "item_id": "d497a6cd-5367-4ced-9422-04c9d5e01fbc",
+        "skill": "MAGIC",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "bd23cfbc-2e05-404b-ac14-ba5b98b68806",
+      "name": "Eldritch Wand",
+      "min_level": 250,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 36.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "ae0190f5-1391-4afb-8a05-7642bb2f1705",
+        "item_id": "bd23cfbc-2e05-404b-ac14-ba5b98b68806",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "3e51973d-8e5e-41e9-9066-5462b985cab7",
+        "item_id": "bd23cfbc-2e05-404b-ac14-ba5b98b68806",
+        "skill": "MAGIC",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "e96c8896-e826-48aa-9b28-419571582180",
+        "item_id": "bd23cfbc-2e05-404b-ac14-ba5b98b68806",
+        "element": "ENERGY",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "052b60c7-5d10-4da6-80cc-10985a9328b4",
+      "name": "Energized Limb",
+      "min_level": 180,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 2,
+      "weight": 27.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "3edc29f2-460b-44b4-8fc5-680a57b8bffc",
+        "item_id": "052b60c7-5d10-4da6-80cc-10985a9328b4",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "a0212eac-1fe0-4fd1-ac91-16530d0318d4",
+        "item_id": "052b60c7-5d10-4da6-80cc-10985a9328b4",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "e5d7106b-7716-4e6f-9e78-0750105ef3d1",
+        "item_id": "052b60c7-5d10-4da6-80cc-10985a9328b4",
+        "skill": "MAGIC",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "873577a4-71f3-44a8-a324-bcc7917f1e2a",
+        "item_id": "052b60c7-5d10-4da6-80cc-10985a9328b4",
+        "element": "ENERGY",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "a08bb074-37a8-4bd7-ba0b-bb7cb3418304",
+      "name": "Falcon Wand",
+      "min_level": 300,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 33.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "576e6085-bc9e-44c3-86c2-7fde9cc5ec3a",
+        "item_id": "a08bb074-37a8-4bd7-ba0b-bb7cb3418304",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "2e1247bb-a372-43f5-aa14-e3be04244694",
+        "item_id": "a08bb074-37a8-4bd7-ba0b-bb7cb3418304",
+        "skill": "MAGIC",
+        "value": 3
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "f824dcaa-cb28-4945-a630-a814217ffc5b",
+        "item_id": "a08bb074-37a8-4bd7-ba0b-bb7cb3418304",
+        "element": "FIRE",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "2f52e624-e983-4afd-98e9-331c6706511e",
+      "name": "Ferumbras' Staff (Wand)",
+      "min_level": 100,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 22.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "c0078af9-cb4b-4bc7-b13c-59bfbcc7b471",
+        "item_id": "2f52e624-e983-4afd-98e9-331c6706511e",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "6dce43ca-d163-48fe-9063-5d46fdf63f58",
+        "item_id": "2f52e624-e983-4afd-98e9-331c6706511e",
+        "skill": "MAGIC",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "dafc64da-ab57-4ad1-a826-adccea09514f",
+      "name": "Gilded Eldritch Wand",
+      "min_level": 250,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 37.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "06d0c68c-0735-4aac-b8af-dd1b6e39c814",
+        "item_id": "dafc64da-ab57-4ad1-a826-adccea09514f",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "0f8b15a1-7f19-4ea5-947f-651ab0636314",
+        "item_id": "dafc64da-ab57-4ad1-a826-adccea09514f",
+        "skill": "MAGIC",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "7c839db2-be3b-4d4d-ac3f-34bbefa55768",
+        "item_id": "dafc64da-ab57-4ad1-a826-adccea09514f",
+        "element": "ENERGY",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "62f4002f-57bb-4ac4-b75a-f8c344f436f4",
+      "name": "Grand Sanguine Coil",
+      "min_level": 600,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 21.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "323600cb-ed5f-4fe0-b8e6-0f139129a8e4",
+        "item_id": "62f4002f-57bb-4ac4-b75a-f8c344f436f4",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "8ec68691-af2a-4523-a348-ca9a62489e16",
+        "item_id": "62f4002f-57bb-4ac4-b75a-f8c344f436f4",
+        "skill": "MAGIC",
+        "value": 5
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "e1fd2711-5c52-40e9-836c-ea24d568211f",
+        "item_id": "62f4002f-57bb-4ac4-b75a-f8c344f436f4",
+        "element": "EARTH",
+        "value": 7
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "9040bec2-deaf-4eae-af03-92dd56d6c0f0",
+      "name": "Inferniarch Wand",
+      "min_level": 300,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 24.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "502c37a2-c209-4927-b9a8-21c49e27251f",
+        "item_id": "9040bec2-deaf-4eae-af03-92dd56d6c0f0",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "5861a511-5b6a-44c7-99fb-2aadead3844d",
+        "item_id": "9040bec2-deaf-4eae-af03-92dd56d6c0f0",
+        "skill": "MAGIC",
+        "value": 3
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "f8f69ce0-ffc6-4d71-ab11-f81a43a3ae33",
+        "item_id": "9040bec2-deaf-4eae-af03-92dd56d6c0f0",
+        "element": "EARTH",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "928a3e7f-2e7e-421e-8884-bc29c832f618",
+      "name": "Jungle Wand",
+      "min_level": 150,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 32.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "6092b610-f969-420b-8346-720f82f16825",
+        "item_id": "928a3e7f-2e7e-421e-8884-bc29c832f618",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "b8f6cc74-7b79-460d-808c-b950b2b16bc1",
+        "item_id": "928a3e7f-2e7e-421e-8884-bc29c832f618",
+        "skill": "MAGIC",
+        "value": 1
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "c7732cdd-8fb7-4584-b481-e1c32d5cfc0b",
+        "item_id": "928a3e7f-2e7e-421e-8884-bc29c832f618",
+        "element": "ICE",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "4332a526-520c-4678-9184-df20e9d61493",
+      "name": "Lion Wand",
+      "min_level": 220,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 21.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "29afc288-53e4-47d1-9ca2-0521c5abef53",
+        "item_id": "4332a526-520c-4678-9184-df20e9d61493",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "7d15e4d4-fe1c-4418-91b6-0f386260f76d",
+        "item_id": "4332a526-520c-4678-9184-df20e9d61493",
+        "skill": "MAGIC",
+        "value": 2
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "56eb108e-b022-4760-8842-98f030b5644a",
+      "name": "Naga Wand",
+      "min_level": 250,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 28.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "747e727a-4c8e-4b33-a831-ee485c72ef35",
+        "item_id": "56eb108e-b022-4760-8842-98f030b5644a",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "80e99bda-925d-41ef-bf72-c6e062c66a6f",
+        "item_id": "56eb108e-b022-4760-8842-98f030b5644a",
+        "skill": "MAGIC",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "1966559d-2d8d-4571-b8bb-5ba00890b05b",
+        "item_id": "56eb108e-b022-4760-8842-98f030b5644a",
+        "element": "ICE",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "71a462bd-324c-4df5-a5f7-fc633702f335",
+      "name": "Rending Inferniarch Wand",
+      "min_level": 300,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 24.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "d6d33ac1-67a5-41a2-9701-88f455dc8220",
+        "item_id": "71a462bd-324c-4df5-a5f7-fc633702f335",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "a383981c-4338-434a-be59-ff2b93d1c633",
+        "item_id": "71a462bd-324c-4df5-a5f7-fc633702f335",
+        "skill": "MAGIC",
+        "value": 3
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "a705fc0c-8958-4d3f-bf20-c361cd546a8a",
+        "item_id": "71a462bd-324c-4df5-a5f7-fc633702f335",
+        "element": "EARTH",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "5a2430b5-42d9-47d5-ab7b-2a05fe948d2f",
+      "name": "Sanguine Coil",
+      "min_level": 600,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 22.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "a749b8e1-436f-4e35-b795-9794b50c01db",
+        "item_id": "5a2430b5-42d9-47d5-ab7b-2a05fe948d2f",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "97b74131-3b56-442c-8c77-b92e217431ee",
+        "item_id": "5a2430b5-42d9-47d5-ab7b-2a05fe948d2f",
+        "skill": "MAGIC",
+        "value": 5
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "412627bc-19e8-4bc0-b75b-c7d2f211a81c",
+        "item_id": "5a2430b5-42d9-47d5-ab7b-2a05fe948d2f",
+        "element": "EARTH",
+        "value": 7
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "683b5229-7293-422c-8329-affaf042b0f5",
+      "name": "Shimmer Wand",
+      "min_level": 40,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 31.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "b00cd225-ea7e-4ddb-b038-42f9b289afd0",
+        "item_id": "683b5229-7293-422c-8329-affaf042b0f5",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "24a64a3f-315c-4943-86ec-de915f0feccd",
+      "name": "Siphoning Inferniarch Wand",
+      "min_level": 300,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 24.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "91300df1-3265-44d7-90d2-63af4ea3e7fd",
+        "item_id": "24a64a3f-315c-4943-86ec-de915f0feccd",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "51aa716f-f8db-4a2c-945e-84e33f00d69d",
+        "item_id": "24a64a3f-315c-4943-86ec-de915f0feccd",
+        "skill": "MAGIC",
+        "value": 3
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "e558203c-b93d-4988-a564-10cd91c3630c",
+        "item_id": "24a64a3f-315c-4943-86ec-de915f0feccd",
+        "element": "EARTH",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "d655f4d7-344d-47bb-957f-57777840a120",
+      "name": "Sorcerer and Druid Staff",
+      "min_level": 0,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 19.0,
+      "img_url": ""
+    },
+    "item_vocations": [],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "68328508-cfbc-41f5-beff-4e87b533e5eb",
+      "name": "Soultainter",
+      "min_level": 400,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 19.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "45631da1-d87a-422c-a177-cc3b7fa6459a",
+        "item_id": "68328508-cfbc-41f5-beff-4e87b533e5eb",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "74db8bd6-22eb-4a85-b503-05bb5d3faeca",
+        "item_id": "68328508-cfbc-41f5-beff-4e87b533e5eb",
+        "skill": "MAGIC",
+        "value": 5
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "6a2ce10f-8cf2-4648-af05-5b681e51c5ba",
+        "item_id": "68328508-cfbc-41f5-beff-4e87b533e5eb",
+        "element": "DEATH",
+        "value": 12
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "9f245232-8797-458c-ad56-8d97a4ef6712",
+      "name": "The Scorcher",
+      "min_level": 0,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 15.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "bef43736-0e11-4247-aa9c-a5ee0175776c",
+        "item_id": "9f245232-8797-458c-ad56-8d97a4ef6712",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "97c9fc05-b8a6-4a0d-b4c6-44e04906573c",
+      "name": "Wand of Cosmic Energy",
+      "min_level": 26,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 25.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "12a43347-e493-4535-9855-ba028106efba",
+        "item_id": "97c9fc05-b8a6-4a0d-b4c6-44e04906573c",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "14d097ec-3889-48b2-a359-832f55131928",
+      "name": "Wand of Darkness",
+      "min_level": 41,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 32.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "5731b8d7-4703-4b14-a9bb-f3c38020dacb",
+        "item_id": "14d097ec-3889-48b2-a359-832f55131928",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "5ec3bfdb-bca7-49b4-a9cb-c62b69c14895",
+        "item_id": "14d097ec-3889-48b2-a359-832f55131928",
+        "skill": "MAGIC",
+        "value": 2
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "5206fed0-5fbd-4715-987b-80fe60b2bb6a",
+      "name": "Wand of Decay",
+      "min_level": 19,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 23.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "349fce79-b49f-4876-ada9-aec025f0b0cd",
+        "item_id": "5206fed0-5fbd-4715-987b-80fe60b2bb6a",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "cc08ecb7-c1f0-4911-9c5f-5b647cbfe5a1",
+      "name": "Wand of Defiance",
+      "min_level": 65,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 37.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "c427e892-44c8-40fa-acf7-79f971cd2fad",
+        "item_id": "cc08ecb7-c1f0-4911-9c5f-5b647cbfe5a1",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "a1a633ad-eeb7-4d15-aae2-fe03469dad2a",
+        "item_id": "cc08ecb7-c1f0-4911-9c5f-5b647cbfe5a1",
+        "skill": "MAGIC",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "bf5ac4ed-33ea-4495-ab48-d3ac4a972dfe",
+      "name": "Wand of Destruction",
+      "min_level": 200,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 35.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "efbded41-b904-40e1-8c81-532d8c7306e3",
+        "item_id": "bf5ac4ed-33ea-4495-ab48-d3ac4a972dfe",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "587f20d6-5579-4df4-a010-143de28d55d3",
+        "item_id": "bf5ac4ed-33ea-4495-ab48-d3ac4a972dfe",
+        "skill": "MAGIC",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "f2de9c90-84ce-4c1f-b583-b9fc7ef21de9",
+      "name": "Wand of Dimensions",
+      "min_level": 37,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 0,
+      "weight": 28.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "15b3d914-9a3b-40b3-a001-58db3bec394b",
+        "item_id": "f2de9c90-84ce-4c1f-b583-b9fc7ef21de9",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "6c8690fa-a286-416b-8515-637a4740fc06",
+      "name": "Wand of Draconia",
+      "min_level": 22,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 2,
+      "weight": 27.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "a1715fb4-e3bb-45ff-8398-8ed130e62d42",
+        "item_id": "6c8690fa-a286-416b-8515-637a4740fc06",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "03ef9305-4761-413c-9d65-7e03f7275602",
+      "name": "Wand of Dragonbreath",
+      "min_level": 13,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 2,
+      "weight": 23.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "c6c19e13-ee48-44ab-a5d0-7116091a42ba",
+        "item_id": "03ef9305-4761-413c-9d65-7e03f7275602",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "b4cb2f0f-b26e-4518-821a-ff70e328fb18",
+      "name": "Wand of Everblazing",
+      "min_level": 65,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 37.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "4d381929-5105-4ae8-bcd0-1db123a93e48",
+        "item_id": "b4cb2f0f-b26e-4518-821a-ff70e328fb18",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "fd9dba09-df06-4840-b75d-a0a99c195cd8",
+        "item_id": "b4cb2f0f-b26e-4518-821a-ff70e328fb18",
+        "skill": "MAGIC",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "9560df41-20fe-45f2-a37f-fb874806b6b9",
+      "name": "Wand of Inferno",
+      "min_level": 33,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 27.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "49ef1822-d1a6-4f3f-9326-3e4575c0b29d",
+        "item_id": "9560df41-20fe-45f2-a37f-fb874806b6b9",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "9b643e34-84c5-46ae-b4e4-1b3523c974a0",
+      "name": "Wand of Starstorm",
+      "min_level": 37,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 2,
+      "weight": 25.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "74b49200-c58a-4a5f-8842-d301397cdba1",
+        "item_id": "9b643e34-84c5-46ae-b4e4-1b3523c974a0",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "50af43b4-917f-4172-9c8e-4b97aab315d5",
+      "name": "Wand of Voodoo",
+      "min_level": 42,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 2,
+      "weight": 28.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "ff689860-a18a-431e-81f7-fa3967f557f9",
+        "item_id": "50af43b4-917f-4172-9c8e-4b97aab315d5",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "2b7be960-f6a9-45d9-b74c-949b4ef25c6f",
+      "name": "Wand of Vortex",
+      "min_level": 6,
+      "type": "WAND",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 19.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "dd770172-2666-49c6-a542-c2c337c9ac81",
+        "item_id": "2b7be960-f6a9-45d9-b74c-949b4ef25c6f",
+        "vocation": "SORCERER"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  }
+]

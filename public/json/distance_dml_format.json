@@ -1,0 +1,741 @@
+[
+  {
+    "item": {
+      "id": "e0f38f2c-abd4-4636-8c50-83f07b667dab",
+      "name": "Assassin Star",
+      "min_level": 80,
+      "type": "DISTANCE_WEAPON",
+      "arm": 0,
+      "def": 0,
+      "atk": 65,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 2.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "9de6867e-805b-42f4-b7c0-9fb748e88edf",
+        "item_id": "e0f38f2c-abd4-4636-8c50-83f07b667dab",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "9f2ecdc7-b996-4b35-a895-c7fb1bc08d0b",
+        "item_id": "e0f38f2c-abd4-4636-8c50-83f07b667dab",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "d989c903-1e44-428a-908f-304f4d508b2c",
+        "item_id": "e0f38f2c-abd4-4636-8c50-83f07b667dab",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "e8c15125-b29d-426a-9646-f287b3e620f2",
+        "item_id": "e0f38f2c-abd4-4636-8c50-83f07b667dab",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "1726e994-c951-4b4e-bd21-8af5b301592e",
+        "item_id": "e0f38f2c-abd4-4636-8c50-83f07b667dab",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "43900ba7-a532-4001-a3b0-d4dd0d494804",
+      "name": "Broken Iks Spear",
+      "min_level": 0,
+      "type": "DISTANCE_WEAPON",
+      "arm": 0,
+      "def": 0,
+      "atk": 1,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 13.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "848300a5-6771-41d5-ae0a-b40280d2ebca",
+        "item_id": "43900ba7-a532-4001-a3b0-d4dd0d494804",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "a383f3d7-fcde-4afd-80b1-78965880cb31",
+        "item_id": "43900ba7-a532-4001-a3b0-d4dd0d494804",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "4fb90d3a-e929-485e-a2c0-ea7382f82a75",
+        "item_id": "43900ba7-a532-4001-a3b0-d4dd0d494804",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "1cdecc4d-c318-4884-adef-702380d516cb",
+        "item_id": "43900ba7-a532-4001-a3b0-d4dd0d494804",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "9846037f-27db-4b8d-909d-0253dfb2aab7",
+        "item_id": "43900ba7-a532-4001-a3b0-d4dd0d494804",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "84298b7d-aae4-445e-9561-b11e3174918b",
+      "name": "Enchanted Spear",
+      "min_level": 42,
+      "type": "DISTANCE_WEAPON",
+      "arm": 0,
+      "def": 0,
+      "atk": 38,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 20.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "7b00349c-9d8c-498b-bac1-109c0e86ff67",
+        "item_id": "84298b7d-aae4-445e-9561-b11e3174918b",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "21b816e8-3874-4d89-a49a-6713b7204a9b",
+        "item_id": "84298b7d-aae4-445e-9561-b11e3174918b",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "d276832e-7227-4de5-957e-c51f22dbb69f",
+        "item_id": "84298b7d-aae4-445e-9561-b11e3174918b",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "60172c24-c363-4406-bd75-8722227bde99",
+        "item_id": "84298b7d-aae4-445e-9561-b11e3174918b",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "7e2ea01a-3c81-4b2d-838c-8a130bbfa048",
+        "item_id": "84298b7d-aae4-445e-9561-b11e3174918b",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "d2d224f7-2475-4558-bcd6-125551a10aaf",
+      "name": "Glooth Spear",
+      "min_level": 60,
+      "type": "DISTANCE_WEAPON",
+      "arm": 0,
+      "def": 0,
+      "atk": 55,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 26.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "cc9927b5-75b3-48b1-aa85-7ee71d41dff2",
+        "item_id": "d2d224f7-2475-4558-bcd6-125551a10aaf",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "1aa74a31-d4b4-48d0-9d97-37713e42e577",
+        "item_id": "d2d224f7-2475-4558-bcd6-125551a10aaf",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "189e02b6-2532-4893-8b94-9d12550d6a9c",
+        "item_id": "d2d224f7-2475-4558-bcd6-125551a10aaf",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "dadc5dc7-e8f7-4748-a8ac-b110d89a1cd4",
+        "item_id": "d2d224f7-2475-4558-bcd6-125551a10aaf",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "cc6f2253-0d25-4282-9f8a-c22c25fc0819",
+        "item_id": "d2d224f7-2475-4558-bcd6-125551a10aaf",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "7cf3ac10-6081-4d9f-9836-c3d523d6fa1a",
+      "name": "Hunting Spear",
+      "min_level": 20,
+      "type": "DISTANCE_WEAPON",
+      "arm": 0,
+      "def": 0,
+      "atk": 32,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 22.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "b5ccea13-f764-468d-9237-5ee603714495",
+        "item_id": "7cf3ac10-6081-4d9f-9836-c3d523d6fa1a",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "dacb83fc-a25b-4578-aa89-9bdf78aecae4",
+        "item_id": "7cf3ac10-6081-4d9f-9836-c3d523d6fa1a",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "a3065f81-136d-4b59-bea8-6ad2195eedda",
+        "item_id": "7cf3ac10-6081-4d9f-9836-c3d523d6fa1a",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "a73eceda-a757-4354-8314-05b878769569",
+        "item_id": "7cf3ac10-6081-4d9f-9836-c3d523d6fa1a",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "7e46551f-dc00-4afb-94ad-97f069c13b35",
+        "item_id": "7cf3ac10-6081-4d9f-9836-c3d523d6fa1a",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "ef7fb49c-dada-40f6-935d-f32e6a063c6b",
+      "name": "Leaf Star",
+      "min_level": 60,
+      "type": "DISTANCE_WEAPON",
+      "arm": 0,
+      "def": 0,
+      "atk": 48,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 2.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "31491092-5102-476d-add5-3da117db3567",
+        "item_id": "ef7fb49c-dada-40f6-935d-f32e6a063c6b",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "256f856e-e73a-4ad5-b180-3a52659ef3d4",
+        "item_id": "ef7fb49c-dada-40f6-935d-f32e6a063c6b",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "5f8b9932-ce4f-437e-b4cd-4af018522242",
+        "item_id": "ef7fb49c-dada-40f6-935d-f32e6a063c6b",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "e8492a84-4ea1-4d22-944c-364880f0fdcc",
+        "item_id": "ef7fb49c-dada-40f6-935d-f32e6a063c6b",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "52bcbcff-e894-4dc5-98a2-1a6ec73d2dc4",
+        "item_id": "ef7fb49c-dada-40f6-935d-f32e6a063c6b",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "6091b7f6-0d6c-4d15-ac18-50f905782c5f",
+      "name": "Mean Paladin Spear",
+      "min_level": 0,
+      "type": "DISTANCE_WEAPON",
+      "arm": 0,
+      "def": 0,
+      "atk": 15,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 10.0,
+      "img_url": ""
+    },
+    "item_vocations": [],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "58d36702-8637-4166-b029-20989175246c",
+      "name": "Royal Spear",
+      "min_level": 25,
+      "type": "DISTANCE_WEAPON",
+      "arm": 0,
+      "def": 0,
+      "atk": 35,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 25.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "340be588-5b32-4268-9d7f-278825a74e36",
+        "item_id": "58d36702-8637-4166-b029-20989175246c",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "7b695ce5-6cf0-44cb-a0a8-91bfdb92f827",
+        "item_id": "58d36702-8637-4166-b029-20989175246c",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "b981caaa-afd8-43ea-b09c-c349d7619b86",
+        "item_id": "58d36702-8637-4166-b029-20989175246c",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "2d5d4fe2-102b-4e76-a918-9297d6dac5eb",
+        "item_id": "58d36702-8637-4166-b029-20989175246c",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "48d3cdbe-d15c-467f-bae8-545cbb9e8dc6",
+        "item_id": "58d36702-8637-4166-b029-20989175246c",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "688d127a-4f0c-4ac4-928b-49b1c0f0a440",
+      "name": "Royal Star",
+      "min_level": 120,
+      "type": "DISTANCE_WEAPON",
+      "arm": 0,
+      "def": 0,
+      "atk": 64,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 2.2,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "ac0af464-9bee-4d24-9dff-a9fcc07e6c92",
+        "item_id": "688d127a-4f0c-4ac4-928b-49b1c0f0a440",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "4eefd3e7-3250-46f2-ac60-592b90380ea4",
+        "item_id": "688d127a-4f0c-4ac4-928b-49b1c0f0a440",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "f1ef5e75-0676-4e71-b5d5-640fbf1dcc7c",
+        "item_id": "688d127a-4f0c-4ac4-928b-49b1c0f0a440",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "7377fa7e-3093-4bd8-9a62-0a5126e33939",
+        "item_id": "688d127a-4f0c-4ac4-928b-49b1c0f0a440",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "a8921d41-dd5b-4f70-af68-31660a20cead",
+        "item_id": "688d127a-4f0c-4ac4-928b-49b1c0f0a440",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "07233a0e-4426-4584-80e5-61e86c2f2a43",
+      "name": "Small Stone",
+      "min_level": 0,
+      "type": "DISTANCE_WEAPON",
+      "arm": 0,
+      "def": 0,
+      "atk": 5,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 3.6,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "cbadaa69-f108-49f7-b75e-f1c1f9ad1081",
+        "item_id": "07233a0e-4426-4584-80e5-61e86c2f2a43",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "0be29742-f7c9-4d93-9e0a-6402095e8e4b",
+        "item_id": "07233a0e-4426-4584-80e5-61e86c2f2a43",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "dbbed4fb-c734-4e1d-97f4-50dc52a43c9a",
+        "item_id": "07233a0e-4426-4584-80e5-61e86c2f2a43",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "a721d7e6-1194-4a8e-a7b2-65f14df564c8",
+        "item_id": "07233a0e-4426-4584-80e5-61e86c2f2a43",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "91365547-04b5-4245-8b31-a478b21bf652",
+        "item_id": "07233a0e-4426-4584-80e5-61e86c2f2a43",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "77c559ff-87bb-4e2f-a6b6-7e3a74d9cc9f",
+      "name": "Snowball",
+      "min_level": 0,
+      "type": "DISTANCE_WEAPON",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 0.8,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "22c9fc56-545e-414b-814b-3db8b6a0a7e0",
+        "item_id": "77c559ff-87bb-4e2f-a6b6-7e3a74d9cc9f",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "6116a279-e0eb-489f-9777-474ae10b9907",
+        "item_id": "77c559ff-87bb-4e2f-a6b6-7e3a74d9cc9f",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "1935c5ba-f3e0-4480-bdaa-6865ca9c8583",
+        "item_id": "77c559ff-87bb-4e2f-a6b6-7e3a74d9cc9f",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "31873ca1-269e-4156-8301-ddd547a969f4",
+        "item_id": "77c559ff-87bb-4e2f-a6b6-7e3a74d9cc9f",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "7af32db3-2623-4549-b766-61e7c5d1132f",
+        "item_id": "77c559ff-87bb-4e2f-a6b6-7e3a74d9cc9f",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "3bf4a517-f46e-499a-9762-645eb26c55f2",
+      "name": "Spear",
+      "min_level": 0,
+      "type": "DISTANCE_WEAPON",
+      "arm": 0,
+      "def": 0,
+      "atk": 25,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 20.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "67761272-753c-40d9-a060-fdba6c4dabb7",
+        "item_id": "3bf4a517-f46e-499a-9762-645eb26c55f2",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "a0f885e2-b855-464b-b8d1-f9c4e4e281d7",
+        "item_id": "3bf4a517-f46e-499a-9762-645eb26c55f2",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "87f7a9bb-9da2-48eb-b571-e2f1af4e60b5",
+        "item_id": "3bf4a517-f46e-499a-9762-645eb26c55f2",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "c239c636-91df-4945-a8dd-2690a622b7a7",
+        "item_id": "3bf4a517-f46e-499a-9762-645eb26c55f2",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "cbdff3b2-0ba2-465f-bfe6-bc031cf6720a",
+        "item_id": "3bf4a517-f46e-499a-9762-645eb26c55f2",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "17023cf1-69e4-414d-bc52-f13294c13441",
+      "name": "Throwing Cake",
+      "min_level": 0,
+      "type": "DISTANCE_WEAPON",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 0.8,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "8f19852a-9ca0-4117-8d9e-a28a7d758599",
+        "item_id": "17023cf1-69e4-414d-bc52-f13294c13441",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "7160f138-5c70-4763-a996-e282f984a60d",
+        "item_id": "17023cf1-69e4-414d-bc52-f13294c13441",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "5db4a69f-fbbc-43a6-bb37-f68a8cb6c0aa",
+        "item_id": "17023cf1-69e4-414d-bc52-f13294c13441",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "13ac4645-7198-40ea-8b42-23ad734fae48",
+        "item_id": "17023cf1-69e4-414d-bc52-f13294c13441",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "59b81b88-fd62-474d-ba68-53003a34300a",
+        "item_id": "17023cf1-69e4-414d-bc52-f13294c13441",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "d5424579-0e16-4080-a6e3-0ca92d9cb9ec",
+      "name": "Throwing Knife",
+      "min_level": 0,
+      "type": "DISTANCE_WEAPON",
+      "arm": 0,
+      "def": 0,
+      "atk": 25,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 5.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "92cc5372-2342-439b-88dd-6fa7804d103c",
+        "item_id": "d5424579-0e16-4080-a6e3-0ca92d9cb9ec",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "44f5f1bf-2354-41a5-b33d-01f7a80b9f34",
+        "item_id": "d5424579-0e16-4080-a6e3-0ca92d9cb9ec",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "fc85c6bc-2edb-4622-ae58-c01deda7694a",
+        "item_id": "d5424579-0e16-4080-a6e3-0ca92d9cb9ec",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "95d446c3-28a4-4b9d-8c0c-b2477e95a2a1",
+        "item_id": "d5424579-0e16-4080-a6e3-0ca92d9cb9ec",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "159f1dd2-c4bc-4698-94ee-d513b7c76143",
+        "item_id": "d5424579-0e16-4080-a6e3-0ca92d9cb9ec",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "b485435e-862a-4716-a5dc-b3b7d6be7d48",
+      "name": "Throwing Star",
+      "min_level": 0,
+      "type": "DISTANCE_WEAPON",
+      "arm": 0,
+      "def": 0,
+      "atk": 30,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 2.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "7b88ac1e-eba0-4e2b-ac14-b8d86c0536c4",
+        "item_id": "b485435e-862a-4716-a5dc-b3b7d6be7d48",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "54febb8e-3314-4403-a73e-e4c98ec10da1",
+        "item_id": "b485435e-862a-4716-a5dc-b3b7d6be7d48",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "d9383b5a-9ba2-4c79-b31b-cb6a21a6bd28",
+        "item_id": "b485435e-862a-4716-a5dc-b3b7d6be7d48",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "1eadbd1e-26a2-4c00-a8ad-74524f888bb6",
+        "item_id": "b485435e-862a-4716-a5dc-b3b7d6be7d48",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "efe45cf8-618f-4d0c-82ae-e06f22775839",
+        "item_id": "b485435e-862a-4716-a5dc-b3b7d6be7d48",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "7c53db58-ba21-490c-ae62-315e1afebb7f",
+      "name": "Throwing Star of Sula",
+      "min_level": 0,
+      "type": "DISTANCE_WEAPON",
+      "arm": 0,
+      "def": 0,
+      "atk": 250,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 0.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "61a4584c-0004-4515-b3ee-7d6da473dc71",
+        "item_id": "7c53db58-ba21-490c-ae62-315e1afebb7f",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "8ff62096-22f6-470f-8527-48d2be755b64",
+        "item_id": "7c53db58-ba21-490c-ae62-315e1afebb7f",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "d226da15-d7f0-4869-9f6a-e076134b06c0",
+        "item_id": "7c53db58-ba21-490c-ae62-315e1afebb7f",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "dc92e045-09e7-4749-9d80-bc5d112568b1",
+        "item_id": "7c53db58-ba21-490c-ae62-315e1afebb7f",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "44d38c64-e4bc-412e-bee1-a5022bcf6290",
+        "item_id": "7c53db58-ba21-490c-ae62-315e1afebb7f",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "1aff95e0-3a63-4e6f-acf5-1ed852634087",
+      "name": "Viper Star",
+      "min_level": 0,
+      "type": "DISTANCE_WEAPON",
+      "arm": 0,
+      "def": 0,
+      "atk": 28,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 2.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "f1f912df-2392-477c-928a-9cafa4237893",
+        "item_id": "1aff95e0-3a63-4e6f-acf5-1ed852634087",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "bd674619-9bc6-4ecd-b175-bfceea31c51a",
+        "item_id": "1aff95e0-3a63-4e6f-acf5-1ed852634087",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "5cc6d73e-93e1-4bad-907b-4a4fc8fc2a8e",
+        "item_id": "1aff95e0-3a63-4e6f-acf5-1ed852634087",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "8dbdd513-5135-4009-bcd5-878c84a6fe54",
+        "item_id": "1aff95e0-3a63-4e6f-acf5-1ed852634087",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "91cd3749-12e4-472f-adfa-fcf29544127d",
+        "item_id": "1aff95e0-3a63-4e6f-acf5-1ed852634087",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  }
+]

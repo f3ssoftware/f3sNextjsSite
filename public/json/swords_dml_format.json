@@ -1,0 +1,4024 @@
+[
+  {
+    "item": {
+      "id": "0e5ed384-c3ad-4914-8678-61e691744af5",
+      "name": "Amber Sabre",
+      "min_level": 330,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 32,
+      "atk": 0,
+      "def_mod": 3,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 50.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "e71694b6-7230-489b-9db7-85990c2a787e",
+        "item_id": "0e5ed384-c3ad-4914-8678-61e691744af5",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "6e905767-68ea-4d5d-833e-cf347c47b584",
+        "item_id": "0e5ed384-c3ad-4914-8678-61e691744af5",
+        "skill": "SWORD",
+        "value": 4
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "947187b2-ac03-4e5c-bb6e-c8b9f6e2035e",
+      "name": "Amber Slayer",
+      "min_level": 330,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 34,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 72.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "38dee055-3f82-4e8e-8c23-8c9cc0183d4c",
+        "item_id": "947187b2-ac03-4e5c-bb6e-c8b9f6e2035e",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "2ecf8a42-b5c4-4014-8f66-ad1e340275d8",
+        "item_id": "947187b2-ac03-4e5c-bb6e-c8b9f6e2035e",
+        "skill": "SWORD",
+        "value": 4
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "457c2149-f378-4930-adfb-d1bd81e85cf4",
+      "name": "Assassin Dagger",
+      "min_level": 40,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 12,
+      "atk": 40,
+      "def_mod": -2,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 17.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "6854e6d6-1f7a-4918-a240-09554a93b4b7",
+        "item_id": "457c2149-f378-4930-adfb-d1bd81e85cf4",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "753a9e59-4590-4dae-acc5-85aa6e36480d",
+        "item_id": "457c2149-f378-4930-adfb-d1bd81e85cf4",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "307e4c80-ec33-4e80-bbc7-33df8066faf0",
+        "item_id": "457c2149-f378-4930-adfb-d1bd81e85cf4",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "204f8996-b20c-4da3-b758-4574476dade4",
+        "item_id": "457c2149-f378-4930-adfb-d1bd81e85cf4",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "0f0e3bc2-d14f-40a0-9b54-2d7e14d4d92e",
+        "item_id": "457c2149-f378-4930-adfb-d1bd81e85cf4",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "7bbd5da1-7a53-40f7-b8d4-620f5d873e0c",
+      "name": "Berserker",
+      "min_level": 65,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 21,
+      "atk": 48,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 130.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "d08322ad-3e39-404b-8c9b-86121f001cf1",
+        "item_id": "7bbd5da1-7a53-40f7-b8d4-620f5d873e0c",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "6d05aea7-d169-4c8c-bafe-118f8df06f45",
+      "name": "Blacksteel Sword",
+      "min_level": 35,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 22,
+      "atk": 42,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 59.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "1901a368-af47-4728-84eb-1004ff4f3fa8",
+        "item_id": "6d05aea7-d169-4c8c-bafe-118f8df06f45",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "95d8b011-24cf-4d42-bef0-2d05cf4e96e9",
+      "name": "Blade of Corruption",
+      "min_level": 82,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 29,
+      "atk": 48,
+      "def_mod": 2,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 64.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "a33232e0-5df5-4f12-a117-a3c78df28060",
+        "item_id": "95d8b011-24cf-4d42-bef0-2d05cf4e96e9",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "02cdcb86-9a64-4001-b735-83808472fdf6",
+        "item_id": "95d8b011-24cf-4d42-bef0-2d05cf4e96e9",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "35a87318-617b-4ecb-82ae-f272c1d1890f",
+        "item_id": "95d8b011-24cf-4d42-bef0-2d05cf4e96e9",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "2827eec9-7b79-4b42-9db2-d16331a256d7",
+        "item_id": "95d8b011-24cf-4d42-bef0-2d05cf4e96e9",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "f33af4e7-710c-4753-9763-448ad4c3ce91",
+        "item_id": "95d8b011-24cf-4d42-bef0-2d05cf4e96e9",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "a1ecd834-7da2-4d83-9f5f-a2f52c098044",
+      "name": "Blade of Destruction",
+      "min_level": 200,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 33,
+      "atk": 50,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 50.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "84aa7d20-aa44-465e-bb47-607784879ae6",
+        "item_id": "a1ecd834-7da2-4d83-9f5f-a2f52c098044",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "f86f3fc7-4d9a-4398-9154-436c1645b1d5",
+      "name": "Bloody Edge",
+      "min_level": 55,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 21,
+      "atk": 43,
+      "def_mod": -3,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 52.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "18eaba5d-4f50-4dea-8923-49b1c5a6d634",
+        "item_id": "f86f3fc7-4d9a-4398-9154-436c1645b1d5",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "700b4d1c-f44e-41d7-9062-77529e034593",
+        "item_id": "f86f3fc7-4d9a-4398-9154-436c1645b1d5",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "121a5d07-530b-4d3b-9a34-070cd1f6c9c7",
+        "item_id": "f86f3fc7-4d9a-4398-9154-436c1645b1d5",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "c563adc1-af5c-4192-b3ce-2615c91f8ed0",
+        "item_id": "f86f3fc7-4d9a-4398-9154-436c1645b1d5",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "9f654f13-6c24-419b-85af-1652d31ca8ab",
+        "item_id": "f86f3fc7-4d9a-4398-9154-436c1645b1d5",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "a8a2c2e0-7bb4-4b67-a72c-21e321c3d0b7",
+      "name": "Bone Sword",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 10,
+      "atk": 13,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 19.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "3d66f066-20e4-49d4-a9ff-6e2bbff2a71d",
+        "item_id": "a8a2c2e0-7bb4-4b67-a72c-21e321c3d0b7",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "65f6c2c6-89bf-4d5a-aaa1-600e07dcf160",
+        "item_id": "a8a2c2e0-7bb4-4b67-a72c-21e321c3d0b7",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "8256bdfe-6090-4956-bb9a-c96c8a8f8080",
+        "item_id": "a8a2c2e0-7bb4-4b67-a72c-21e321c3d0b7",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "9580f051-5b7b-4d3b-9870-7415b3b6a3dd",
+        "item_id": "a8a2c2e0-7bb4-4b67-a72c-21e321c3d0b7",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "eaa701df-8eb0-415f-9caa-b2bef5ab6a5c",
+        "item_id": "a8a2c2e0-7bb4-4b67-a72c-21e321c3d0b7",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "d4075c70-a290-4857-97ab-756c04e72e4f",
+      "name": "Bright Sword",
+      "min_level": 30,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 30,
+      "atk": 36,
+      "def_mod": 1,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 29.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "ffae0c01-642e-49b2-a9eb-33dc1c2992d4",
+        "item_id": "d4075c70-a290-4857-97ab-756c04e72e4f",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "1e82246c-19cd-4bea-9ae1-d478777fc574",
+        "item_id": "d4075c70-a290-4857-97ab-756c04e72e4f",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "6c9b1285-8d1b-4726-8713-fc1a525a2716",
+        "item_id": "d4075c70-a290-4857-97ab-756c04e72e4f",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "98966fdf-e98a-49f5-aea3-8c8268b8bcbe",
+        "item_id": "d4075c70-a290-4857-97ab-756c04e72e4f",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "f4f13644-a326-41aa-9c0b-d4d9b4691307",
+        "item_id": "d4075c70-a290-4857-97ab-756c04e72e4f",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "130780b9-55a0-4a0c-8ca2-85dedea56440",
+      "name": "Broadsword",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 23,
+      "atk": 26,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 3,
+      "weight": 52.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "f1c17052-772b-4952-9c16-a41cbb2b235c",
+        "item_id": "130780b9-55a0-4a0c-8ca2-85dedea56440",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "59019ff1-2c8e-4297-982d-a87bf8caaa8c",
+      "name": "Broken Macuahuitl",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 1,
+      "atk": 1,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 24.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "6dae8657-50bf-4e10-be2e-80c35acdf04f",
+        "item_id": "59019ff1-2c8e-4297-982d-a87bf8caaa8c",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "56517d36-af1e-40b7-9d72-a4c1221bd6d4",
+        "item_id": "59019ff1-2c8e-4297-982d-a87bf8caaa8c",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "45ff2d31-b18f-4b00-a8e7-c52ba8599a48",
+        "item_id": "59019ff1-2c8e-4297-982d-a87bf8caaa8c",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "de286c69-7956-4284-9335-3355cd281fe8",
+        "item_id": "59019ff1-2c8e-4297-982d-a87bf8caaa8c",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "ad30c48a-3f93-45d9-93b5-84889de2ffda",
+        "item_id": "59019ff1-2c8e-4297-982d-a87bf8caaa8c",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "a5ad1c81-fe22-4de8-8835-6c12c543973b",
+      "name": "Carlin Sword",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 13,
+      "atk": 15,
+      "def_mod": 1,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 40.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "1d1d106d-55c3-47f0-a10b-9280a8851eaf",
+        "item_id": "a5ad1c81-fe22-4de8-8835-6c12c543973b",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "2f3c05f0-0dff-408c-b77a-795b19abe9e2",
+        "item_id": "a5ad1c81-fe22-4de8-8835-6c12c543973b",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "a6738513-142e-412e-a306-9e978319536b",
+        "item_id": "a5ad1c81-fe22-4de8-8835-6c12c543973b",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "4c49c295-76ce-44f5-9218-4a1d02a82fc1",
+        "item_id": "a5ad1c81-fe22-4de8-8835-6c12c543973b",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "527956ae-a0cb-46a9-8628-775b635301cb",
+        "item_id": "a5ad1c81-fe22-4de8-8835-6c12c543973b",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "d4cfd6b0-2243-472c-813b-85ba78ff9861",
+      "name": "Cobra Sword",
+      "min_level": 220,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 31,
+      "atk": 52,
+      "def_mod": 2,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 63.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "4132063c-108f-4c85-808b-38bbc89c61eb",
+        "item_id": "d4cfd6b0-2243-472c-813b-85ba78ff9861",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "b4d2c281-67b4-4c62-818d-9a72beb4f4ff",
+        "item_id": "d4cfd6b0-2243-472c-813b-85ba78ff9861",
+        "skill": "SWORD",
+        "value": 3
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "64a942e5-c8ee-40e7-8be6-44f984551e70",
+      "name": "Combat Knife",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 6,
+      "atk": 8,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 8.7,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "7133209c-5c6f-47a2-9af8-6a98576b679c",
+        "item_id": "64a942e5-c8ee-40e7-8be6-44f984551e70",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "f45f21e4-c6ff-41ac-8b33-58acef143a4a",
+        "item_id": "64a942e5-c8ee-40e7-8be6-44f984551e70",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "41e54c9f-2a8f-4f18-bfc0-1110550dad16",
+        "item_id": "64a942e5-c8ee-40e7-8be6-44f984551e70",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "6e1baabe-8ad0-402f-b7c1-eccf08fd7318",
+        "item_id": "64a942e5-c8ee-40e7-8be6-44f984551e70",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "aff62e9a-b825-4a5d-8c05-66c60aa097e8",
+        "item_id": "64a942e5-c8ee-40e7-8be6-44f984551e70",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "9f9525b8-0a21-4ea4-b704-af44a40f8f3c",
+      "name": "Cowtana",
+      "min_level": 25,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 19,
+      "atk": 34,
+      "def_mod": 1,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 28.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "d18994b0-697b-4747-82b3-863392ba06aa",
+        "item_id": "9f9525b8-0a21-4ea4-b704-af44a40f8f3c",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "f5eebca1-5225-457b-bd19-002406d13c36",
+        "item_id": "9f9525b8-0a21-4ea4-b704-af44a40f8f3c",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "89781337-1163-4f71-9223-03f640bb30d5",
+        "item_id": "9f9525b8-0a21-4ea4-b704-af44a40f8f3c",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "f6731295-1d4d-4739-90c8-c8ebdd8595d5",
+        "item_id": "9f9525b8-0a21-4ea4-b704-af44a40f8f3c",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "49d094af-d4a7-4421-8e12-3c6bfe79251c",
+        "item_id": "9f9525b8-0a21-4ea4-b704-af44a40f8f3c",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "d5a28ba2-175a-4ce4-8fc4-12eb298220f2",
+      "name": "Crimson Sword",
+      "min_level": 20,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 20,
+      "atk": 28,
+      "def_mod": 1,
+      "tier": 1,
+      "imbuement_slots": 2,
+      "weight": 36.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "c2edf06c-5af6-491d-8aa6-13b74c731ad9",
+        "item_id": "d5a28ba2-175a-4ce4-8fc4-12eb298220f2",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "317ab9c4-bf2c-48a3-92de-aeaebad0ff80",
+        "item_id": "d5a28ba2-175a-4ce4-8fc4-12eb298220f2",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "fb9cfd9f-e70a-4276-b29b-38260818f8e1",
+        "item_id": "d5a28ba2-175a-4ce4-8fc4-12eb298220f2",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "740f2f6c-a853-4229-9cd0-2fffed32dcc7",
+        "item_id": "d5a28ba2-175a-4ce4-8fc4-12eb298220f2",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "2816ca6a-8a6b-45b7-a0ed-9a74721d08e6",
+        "item_id": "d5a28ba2-175a-4ce4-8fc4-12eb298220f2",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "bb25b244-e385-4536-86b8-439456f8de9b",
+      "name": "Crimson Sword (Rashid)",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 10,
+      "atk": 18,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 36.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "fdc7bd8a-a92e-4f4f-b57a-de9c15d178a5",
+        "item_id": "bb25b244-e385-4536-86b8-439456f8de9b",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "460bf5bd-fa72-43f4-ad3d-3334669777e8",
+        "item_id": "bb25b244-e385-4536-86b8-439456f8de9b",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "59e14a73-7e37-4d46-92bf-0012f248ae46",
+        "item_id": "bb25b244-e385-4536-86b8-439456f8de9b",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "a9de7f4c-4112-4b95-9751-9de5cafeb91e",
+        "item_id": "bb25b244-e385-4536-86b8-439456f8de9b",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "62889f2f-7400-4ae3-8137-696cf5af86bd",
+        "item_id": "bb25b244-e385-4536-86b8-439456f8de9b",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "e48ac707-a4f5-45cd-90f9-0cf22758a887",
+      "name": "Crude Umbral Blade",
+      "min_level": 75,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 26,
+      "atk": 48,
+      "def_mod": 1,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 63.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "f6d3dd1d-54fd-4fac-ae0f-518442c7cb8b",
+        "item_id": "e48ac707-a4f5-45cd-90f9-0cf22758a887",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "f44c5be1-5303-4e7e-9f2b-4cba04a6a3ae",
+      "name": "Crude Umbral Slayer",
+      "min_level": 75,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 29,
+      "atk": 51,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 100.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "257c874d-2a0b-4ae6-8e43-5ea789831ef9",
+        "item_id": "f44c5be1-5303-4e7e-9f2b-4cba04a6a3ae",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "8c647c95-9ce6-4e89-8790-fff9944b978e",
+      "name": "Crystal Sword",
+      "min_level": 25,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 26,
+      "atk": 35,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 69.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "1794e7f4-03ab-478c-96a8-c5d1dca458fa",
+        "item_id": "8c647c95-9ce6-4e89-8790-fff9944b978e",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "9502ba5b-6583-4f3e-a49d-68ec70434ecb",
+      "name": "Crystalline Sword",
+      "min_level": 62,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 34,
+      "atk": 47,
+      "def_mod": 1,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 48.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "86509967-a438-4c33-a99d-15d078774272",
+        "item_id": "9502ba5b-6583-4f3e-a49d-68ec70434ecb",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "92d2e69e-d4e2-449d-ac87-09c76b0c5dd8",
+        "item_id": "9502ba5b-6583-4f3e-a49d-68ec70434ecb",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "c580357e-a1c4-4031-b1b4-4e6b53763d2a",
+        "item_id": "9502ba5b-6583-4f3e-a49d-68ec70434ecb",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "01478dc3-e38c-4a46-b00b-96491db6e417",
+        "item_id": "9502ba5b-6583-4f3e-a49d-68ec70434ecb",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "9b705bbe-be1f-4258-bb49-f76db56d9e9a",
+        "item_id": "9502ba5b-6583-4f3e-a49d-68ec70434ecb",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "5c16fd30-6533-43d3-9175-f0eacd7e06c6",
+      "name": "Dagger",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 6,
+      "atk": 8,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 9.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "b7d11e78-c887-4b40-9ab6-fc30dd144aa3",
+        "item_id": "5c16fd30-6533-43d3-9175-f0eacd7e06c6",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "cf999502-b8ba-4278-bdb4-975f8c2c9256",
+        "item_id": "5c16fd30-6533-43d3-9175-f0eacd7e06c6",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "38de8ef9-abb3-45ae-9922-e46e5bb61fd7",
+        "item_id": "5c16fd30-6533-43d3-9175-f0eacd7e06c6",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "daa00ad9-13e1-48a9-ab46-37f763c5cd0d",
+        "item_id": "5c16fd30-6533-43d3-9175-f0eacd7e06c6",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "a99eef0a-e2d8-46ea-a110-03457245a4cc",
+        "item_id": "5c16fd30-6533-43d3-9175-f0eacd7e06c6",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "63d39ff0-6824-4de4-85a5-996e3a0b8a0a",
+      "name": "Demonrage Sword",
+      "min_level": 60,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 22,
+      "atk": 47,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 150.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "e8cb14fc-5bd1-491e-9f1d-0ad894a7eccd",
+        "item_id": "63d39ff0-6824-4de4-85a5-996e3a0b8a0a",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "a516d691-f865-4b59-983a-cf63583a95c6",
+      "name": "Djinn Blade",
+      "min_level": 35,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 22,
+      "atk": 38,
+      "def_mod": 2,
+      "tier": 3,
+      "imbuement_slots": 2,
+      "weight": 24.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "a794e582-1746-40f2-8b48-38563b837178",
+        "item_id": "a516d691-f865-4b59-983a-cf63583a95c6",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "164f333b-263e-4292-908f-70faad62a3a6",
+        "item_id": "a516d691-f865-4b59-983a-cf63583a95c6",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "ab02fbda-5951-41bc-a9bd-ed0b12df7008",
+        "item_id": "a516d691-f865-4b59-983a-cf63583a95c6",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "ba94dc51-e7a7-4ee7-8c83-61d33d8aea31",
+        "item_id": "a516d691-f865-4b59-983a-cf63583a95c6",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "51cf6dd0-a20d-4353-abe6-b282174240a2",
+        "item_id": "a516d691-f865-4b59-983a-cf63583a95c6",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "09f96cc1-d841-4a07-8ec9-372b7a1a6b4c",
+      "name": "Dragon Slayer",
+      "min_level": 45,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 28,
+      "atk": 44,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 82.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "40bbca51-f940-4f63-9c5f-98ab261c6e23",
+        "item_id": "09f96cc1-d841-4a07-8ec9-372b7a1a6b4c",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "3b0fe098-5d73-492c-894e-5807f4e0672d",
+      "name": "Draining Inferniarch Blade",
+      "min_level": 300,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 31,
+      "atk": 8,
+      "def_mod": 3,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 64.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "bb0d367a-557a-48e6-bada-b765380e0dd5",
+        "item_id": "3b0fe098-5d73-492c-894e-5807f4e0672d",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "56031745-c115-476d-a527-e97ae17fb77f",
+        "item_id": "3b0fe098-5d73-492c-894e-5807f4e0672d",
+        "skill": "SWORD",
+        "value": 3
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "2b03904c-7c15-44c3-9580-68b595bc7a67",
+      "name": "Draining Inferniarch Slayer",
+      "min_level": 300,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 33,
+      "atk": 8,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 86.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "1d0862e1-90e7-4b9a-876c-862d2021562e",
+        "item_id": "2b03904c-7c15-44c3-9580-68b595bc7a67",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "e86995f0-075a-49ce-a86d-d0c1618e6de3",
+        "item_id": "2b03904c-7c15-44c3-9580-68b595bc7a67",
+        "skill": "SWORD",
+        "value": 4
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "a613e19e-624b-4a94-b2f5-4a9d6ddd8023",
+      "name": "Eldritch Claymore",
+      "min_level": 270,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 33,
+      "atk": 6,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 85.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "ba1dc509-5afb-4668-b5a0-0977f922668f",
+        "item_id": "a613e19e-624b-4a94-b2f5-4a9d6ddd8023",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "cb21d343-f495-4c2d-8820-2b4b821895d1",
+        "item_id": "a613e19e-624b-4a94-b2f5-4a9d6ddd8023",
+        "skill": "SWORD",
+        "value": 3
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "06d9664f-784b-472f-a0cd-74e23cbbc795",
+      "name": "Emerald Sword",
+      "min_level": 100,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 33,
+      "atk": 49,
+      "def_mod": 3,
+      "tier": 3,
+      "imbuement_slots": 2,
+      "weight": 41.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "4ff820de-f081-422a-a419-2ebbead97b08",
+        "item_id": "06d9664f-784b-472f-a0cd-74e23cbbc795",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "6f6ee3c8-6bd3-4b3d-8c52-9bcdee2807b7",
+        "item_id": "06d9664f-784b-472f-a0cd-74e23cbbc795",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "626c5897-38e5-4f3e-b44a-62511a53855c",
+        "item_id": "06d9664f-784b-472f-a0cd-74e23cbbc795",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "2f435b50-74a8-40fc-b190-cae4a720c864",
+        "item_id": "06d9664f-784b-472f-a0cd-74e23cbbc795",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "3af15af4-9863-4618-b762-1bed2563a8f1",
+        "item_id": "06d9664f-784b-472f-a0cd-74e23cbbc795",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "67983344-e795-4967-a00c-674ec10bf93e",
+      "name": "Epee",
+      "min_level": 30,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 23,
+      "atk": 37,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 14.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "d2dcd177-7b05-4bdc-8f4f-e6c6f4b655c6",
+        "item_id": "67983344-e795-4967-a00c-674ec10bf93e",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "886e7c1a-185d-46b6-a5ce-4c8a5880b721",
+        "item_id": "67983344-e795-4967-a00c-674ec10bf93e",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "cab5ed96-11cb-4049-a30b-69ef5ce8b162",
+        "item_id": "67983344-e795-4967-a00c-674ec10bf93e",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "56207c72-9229-47a3-ab1e-00ef0a773dc5",
+        "item_id": "67983344-e795-4967-a00c-674ec10bf93e",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "9e04ec24-b2be-476c-b787-15bd48a0c4be",
+        "item_id": "67983344-e795-4967-a00c-674ec10bf93e",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "7a19bb82-d277-4496-be87-f793a5163691",
+      "name": "Falcon Longsword",
+      "min_level": 300,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 34,
+      "atk": 56,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 82.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "3ae62762-f593-419a-879d-b54730162ca9",
+        "item_id": "7a19bb82-d277-4496-be87-f793a5163691",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "9e54c9fb-2e5e-43fd-93b6-fd2c53251416",
+        "item_id": "7a19bb82-d277-4496-be87-f793a5163691",
+        "skill": "SWORD",
+        "value": 4
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "bc8c5357-43fc-445c-83c8-8b9f0810a500",
+      "name": "Fire Sword",
+      "min_level": 30,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 20,
+      "atk": 24,
+      "def_mod": 1,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 23.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "f42cf3dc-e504-4843-b4df-52a3c21907b5",
+        "item_id": "bc8c5357-43fc-445c-83c8-8b9f0810a500",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "e45e171c-db4f-4dbf-b016-ee9555b41f81",
+        "item_id": "bc8c5357-43fc-445c-83c8-8b9f0810a500",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "0dff8dd3-8cd2-410e-9762-0667239595a8",
+        "item_id": "bc8c5357-43fc-445c-83c8-8b9f0810a500",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "6de25663-4e1c-4ad8-a6c1-736f5401575e",
+        "item_id": "bc8c5357-43fc-445c-83c8-8b9f0810a500",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "815cb0df-9f82-49b8-a3b5-4f058d85ee8c",
+        "item_id": "bc8c5357-43fc-445c-83c8-8b9f0810a500",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "07bcc814-b288-4a04-b1ae-4731701362c2",
+      "name": "Giant Sword",
+      "min_level": 55,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 22,
+      "atk": 46,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 180.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "f96c0bc9-9019-4bd9-9037-2590a42db64e",
+        "item_id": "07bcc814-b288-4a04-b1ae-4731701362c2",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "172f3aa7-e392-4ae7-8c19-1599073f3f6b",
+      "name": "Gilded Eldritch Claymore",
+      "min_level": 270,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 33,
+      "atk": 6,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 86.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "ee19779d-7a15-479a-a84b-21c5d1f892f2",
+        "item_id": "172f3aa7-e392-4ae7-8c19-1599073f3f6b",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "d102fc05-5c9d-4a2d-bb78-67efe3e87884",
+        "item_id": "172f3aa7-e392-4ae7-8c19-1599073f3f6b",
+        "skill": "SWORD",
+        "value": 3
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "64d54acd-290d-47d4-b06f-7d19bfe59561",
+      "name": "Glooth Blade",
+      "min_level": 75,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 1,
+      "atk": 39,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 19.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "4ac7ab9d-4bda-48eb-8d62-98f0fdad2600",
+        "item_id": "64d54acd-290d-47d4-b06f-7d19bfe59561",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "652362b4-bb22-4a26-8354-5a6fc9ad5c07",
+      "name": "Gnome Sword",
+      "min_level": 250,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 29,
+      "atk": 10,
+      "def_mod": 3,
+      "tier": 3,
+      "imbuement_slots": 2,
+      "weight": 85.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "3837e797-0c58-4ee0-a02d-49632c482c2f",
+        "item_id": "652362b4-bb22-4a26-8354-5a6fc9ad5c07",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "1b32ffa9-08f1-4898-8c6d-387c76ed852e",
+        "item_id": "652362b4-bb22-4a26-8354-5a6fc9ad5c07",
+        "skill": "SWORD",
+        "value": 2
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "775bdb2d-a1fd-4efa-817f-22f0d2c04f5e",
+      "name": "Golden Magic Longsword",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 43.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "1371d091-9ee2-469a-b565-492d41341fa6",
+        "item_id": "775bdb2d-a1fd-4efa-817f-22f0d2c04f5e",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "b90d2f54-4dc0-4265-a1be-d19c03345574",
+        "item_id": "775bdb2d-a1fd-4efa-817f-22f0d2c04f5e",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "2e196ae1-7daf-49c9-87c6-13afaa3043c4",
+        "item_id": "775bdb2d-a1fd-4efa-817f-22f0d2c04f5e",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "68f1f775-ed25-4f2a-a60d-68251fc045b4",
+        "item_id": "775bdb2d-a1fd-4efa-817f-22f0d2c04f5e",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "65c112b5-5eea-4367-9c50-ee8e99bc2234",
+        "item_id": "775bdb2d-a1fd-4efa-817f-22f0d2c04f5e",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "a7a688df-c766-41cd-90a7-fa71efce5f3c",
+      "name": "Golden Warlord Sword",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 64.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "869e6d75-67f7-4192-9294-17092ddf83fc",
+        "item_id": "a7a688df-c766-41cd-90a7-fa71efce5f3c",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "47f43957-282c-4a2e-b251-576d24d2835f",
+        "item_id": "a7a688df-c766-41cd-90a7-fa71efce5f3c",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "94d6a6d7-55bc-4274-b394-2946ee2f3588",
+        "item_id": "a7a688df-c766-41cd-90a7-fa71efce5f3c",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "32ad002c-3b05-4a90-a169-c4d5e3d81828",
+        "item_id": "a7a688df-c766-41cd-90a7-fa71efce5f3c",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "f4a985da-88ea-443d-8ac9-9373a09303c1",
+        "item_id": "a7a688df-c766-41cd-90a7-fa71efce5f3c",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "0dd987f0-e517-4aa1-bd44-73f4219123a6",
+      "name": "Grand Sanguine Blade",
+      "min_level": 600,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 32,
+      "atk": 8,
+      "def_mod": 3,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 60.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "beb00397-4222-45f0-a91e-b1031392797e",
+        "item_id": "0dd987f0-e517-4aa1-bd44-73f4219123a6",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "c44ca263-94d3-443e-85eb-62435b90b5e8",
+        "item_id": "0dd987f0-e517-4aa1-bd44-73f4219123a6",
+        "skill": "SWORD",
+        "value": 5
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "c393ab5b-eed5-40d0-b8c1-6b4fe44ed37c",
+      "name": "Grand Sanguine Razor",
+      "min_level": 600,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 35,
+      "atk": 8,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 3,
+      "weight": 79.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "c47a3549-dd1c-466f-9c5c-fbb5e50bcbdb",
+        "item_id": "c393ab5b-eed5-40d0-b8c1-6b4fe44ed37c",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "0b650c0a-5065-4b0e-a152-7d08071cc620",
+        "item_id": "c393ab5b-eed5-40d0-b8c1-6b4fe44ed37c",
+        "skill": "SWORD",
+        "value": 5
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "72f41a38-5900-47c2-83a8-6a2ba5f830e3",
+      "name": "Haunted Blade",
+      "min_level": 30,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 12,
+      "atk": 40,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 31.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "6318be49-ba61-45ad-9078-1e705929b85b",
+        "item_id": "72f41a38-5900-47c2-83a8-6a2ba5f830e3",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "aaaab773-006c-435e-8e0a-b7ed9e2dcdeb",
+      "name": "Havoc Blade",
+      "min_level": 70,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 34,
+      "atk": 49,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 3,
+      "weight": 72.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "2f829485-eb3d-4e31-bd84-b9d083192c67",
+        "item_id": "aaaab773-006c-435e-8e0a-b7ed9e2dcdeb",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "70446127-2462-4fec-9094-0ae52f7a9cb3",
+      "name": "Heavy Machete",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 10,
+      "atk": 16,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 18.4,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "d928f042-0040-454a-8b4b-6eeb9eaea6ac",
+        "item_id": "70446127-2462-4fec-9094-0ae52f7a9cb3",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "a8d476f8-f790-40e6-a95f-ebd4156c4992",
+        "item_id": "70446127-2462-4fec-9094-0ae52f7a9cb3",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "c4751b7c-86c4-40d9-888c-cc92da0e2af0",
+        "item_id": "70446127-2462-4fec-9094-0ae52f7a9cb3",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "a99d3c2b-ab26-4e7f-9ba9-c2c60d30b82e",
+        "item_id": "70446127-2462-4fec-9094-0ae52f7a9cb3",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "2f91e39a-fc30-408c-8647-37e1e84429ba",
+        "item_id": "70446127-2462-4fec-9094-0ae52f7a9cb3",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "17e316ec-275e-4f92-a064-1a66962b1118",
+      "name": "Ice Rapier",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 1,
+      "atk": 42,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 15.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "fe5b4450-a65c-4e1f-9516-68fce035f139",
+        "item_id": "17e316ec-275e-4f92-a064-1a66962b1118",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "10710eb3-464a-4da9-81d4-2d77f1514243",
+        "item_id": "17e316ec-275e-4f92-a064-1a66962b1118",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "3b0d3da2-3342-4843-bdf0-ae77700a8e07",
+        "item_id": "17e316ec-275e-4f92-a064-1a66962b1118",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "ff6e6221-ea04-446e-be28-e335cebc96df",
+        "item_id": "17e316ec-275e-4f92-a064-1a66962b1118",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "c8bc9df5-5dc4-43b2-9fbb-6a712c63a031",
+        "item_id": "17e316ec-275e-4f92-a064-1a66962b1118",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "07202d9e-42d5-4958-8d38-baafdbe77ed5",
+      "name": "Impaler of the Igniter",
+      "min_level": 150,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 31,
+      "atk": 25,
+      "def_mod": 3,
+      "tier": 4,
+      "imbuement_slots": 0,
+      "weight": 59.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "8f1c6433-ed99-4b9f-ab93-d3901117f1db",
+        "item_id": "07202d9e-42d5-4958-8d38-baafdbe77ed5",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "aefdce32-6e3d-40f7-8dba-6fb670d6b3bd",
+        "item_id": "07202d9e-42d5-4958-8d38-baafdbe77ed5",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "271ff24e-797d-478e-877a-579ba16a5102",
+        "item_id": "07202d9e-42d5-4958-8d38-baafdbe77ed5",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "50681e58-1579-4d83-aa40-35872c773ad1",
+        "item_id": "07202d9e-42d5-4958-8d38-baafdbe77ed5",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "260f327a-790e-4e7c-aaa6-d3b4d97413ce",
+        "item_id": "07202d9e-42d5-4958-8d38-baafdbe77ed5",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "b147647b-cd96-4472-95bb-2a75d02fe9bc",
+      "name": "Incredible Mumpiz Slayer",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 14,
+      "atk": 17,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 42.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "4a1956a4-3ac2-4b77-bf9b-1f715542e521",
+        "item_id": "b147647b-cd96-4472-95bb-2a75d02fe9bc",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "a64f0e24-9c17-4954-94e0-3df45000778a",
+        "item_id": "b147647b-cd96-4472-95bb-2a75d02fe9bc",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "97fc94bc-dcd9-488b-b3e0-4634b84a13bf",
+        "item_id": "b147647b-cd96-4472-95bb-2a75d02fe9bc",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "61710f9e-735d-4b7c-abf4-6ae430e2e91a",
+        "item_id": "b147647b-cd96-4472-95bb-2a75d02fe9bc",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "6651046d-a52e-481d-b283-7a418eb51bf0",
+        "item_id": "b147647b-cd96-4472-95bb-2a75d02fe9bc",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "d4fa0948-9614-4c5f-b300-ebd3796025b4",
+      "name": "Inferniarch Blade",
+      "min_level": 300,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 31,
+      "atk": 8,
+      "def_mod": 3,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 64.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "bcc73d85-b651-43c9-bf24-9bcd61399b78",
+        "item_id": "d4fa0948-9614-4c5f-b300-ebd3796025b4",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "d376d714-0d16-4f2e-bbc0-2fae9a6a8fbd",
+        "item_id": "d4fa0948-9614-4c5f-b300-ebd3796025b4",
+        "skill": "SWORD",
+        "value": 3
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "4cf5c555-015c-469a-b53c-47230934ed91",
+      "name": "Inferniarch Slayer",
+      "min_level": 300,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 33,
+      "atk": 8,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 86.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "f225f5a6-c45f-40e4-bb4c-3b471a3e3e72",
+        "item_id": "4cf5c555-015c-469a-b53c-47230934ed91",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "33efe6fb-7ca8-48eb-bb9a-76bebb020777",
+        "item_id": "4cf5c555-015c-469a-b53c-47230934ed91",
+        "skill": "SWORD",
+        "value": 4
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "a3bb2b38-38c0-4dc0-b9f9-5c11e88bd0c6",
+      "name": "Jagged Sword",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 14,
+      "atk": 21,
+      "def_mod": 1,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 29.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "a0d44558-33c1-48a0-838b-a9c4a6790836",
+        "item_id": "a3bb2b38-38c0-4dc0-b9f9-5c11e88bd0c6",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "bee72601-71e5-4c87-b95a-e060b3f784c7",
+        "item_id": "a3bb2b38-38c0-4dc0-b9f9-5c11e88bd0c6",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "826ff345-bd2b-4210-b1a8-ef9ffce5a919",
+        "item_id": "a3bb2b38-38c0-4dc0-b9f9-5c11e88bd0c6",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "f8ed8018-2b56-43f3-b652-ff7b9ec5d787",
+        "item_id": "a3bb2b38-38c0-4dc0-b9f9-5c11e88bd0c6",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "e9e248a0-25cf-404f-86d8-284dc01e5d55",
+        "item_id": "a3bb2b38-38c0-4dc0-b9f9-5c11e88bd0c6",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "e787a03e-6a77-4814-a2db-7219b4445e01",
+      "name": "Katana",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 12,
+      "atk": 16,
+      "def_mod": 1,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 31.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "aacf8c5a-5312-4240-902f-23eef10e02f0",
+        "item_id": "e787a03e-6a77-4814-a2db-7219b4445e01",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "9e7f1396-00d5-4606-b08d-e73535cc6957",
+        "item_id": "e787a03e-6a77-4814-a2db-7219b4445e01",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "5c67aec5-69b0-4d95-a364-07df55a7f80c",
+        "item_id": "e787a03e-6a77-4814-a2db-7219b4445e01",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "fa463200-a202-4312-bde7-0cae14c15cf5",
+        "item_id": "e787a03e-6a77-4814-a2db-7219b4445e01",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "3ce42d6a-2ab1-447c-8ab3-bcb4b1be2af4",
+        "item_id": "e787a03e-6a77-4814-a2db-7219b4445e01",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "655cc623-f81b-4a44-b7fb-ace441d4d2ae",
+      "name": "Knife",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 5,
+      "atk": 5,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 4.2,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "337883e5-222c-4c4d-806b-2f48ab829b7a",
+        "item_id": "655cc623-f81b-4a44-b7fb-ace441d4d2ae",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "49652c0c-b495-40ec-81c3-5e463255ceb0",
+        "item_id": "655cc623-f81b-4a44-b7fb-ace441d4d2ae",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "fbab3d85-d251-43cd-8876-51ac2c94aa40",
+        "item_id": "655cc623-f81b-4a44-b7fb-ace441d4d2ae",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "b2e7e683-9a4e-49ee-aae6-15fd56881651",
+        "item_id": "655cc623-f81b-4a44-b7fb-ace441d4d2ae",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "8c7369d4-610d-4b1f-aae6-312b46f67faf",
+        "item_id": "655cc623-f81b-4a44-b7fb-ace441d4d2ae",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "9ddd9d99-2497-48cb-80f1-f67e497995ee",
+      "name": "Lion Longsword",
+      "min_level": 270,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 31,
+      "atk": 8,
+      "def_mod": 2,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 75.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "51069cd3-c2f6-4bdf-ba44-e63d7d236330",
+        "item_id": "9ddd9d99-2497-48cb-80f1-f67e497995ee",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "dbac5d4f-a492-49a1-936a-c21f8fd6adc8",
+        "item_id": "9ddd9d99-2497-48cb-80f1-f67e497995ee",
+        "skill": "SWORD",
+        "value": 3
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "ae18b6da-9784-4e14-9f3f-422fe3014534",
+      "name": "Longsword",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 14,
+      "atk": 17,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 42.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "5a62d1cd-4712-48f2-b6b0-be19e226cbaa",
+        "item_id": "ae18b6da-9784-4e14-9f3f-422fe3014534",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "aa8b7966-042f-45e9-89d0-13d4332b3404",
+        "item_id": "ae18b6da-9784-4e14-9f3f-422fe3014534",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "371fa6cd-cfc5-4436-9556-97aa80d4a717",
+        "item_id": "ae18b6da-9784-4e14-9f3f-422fe3014534",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "f4a07b81-dbb2-4184-b3e3-15d3f860fb06",
+        "item_id": "ae18b6da-9784-4e14-9f3f-422fe3014534",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "834c3309-71be-43bf-9dfb-85278abbbc0a",
+        "item_id": "ae18b6da-9784-4e14-9f3f-422fe3014534",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "89ec8023-a306-4e2e-80f4-66775fb8906b",
+      "name": "Machete",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 9,
+      "atk": 12,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 16.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "80ac3d2b-a1b9-48eb-8396-05fdd5625081",
+        "item_id": "89ec8023-a306-4e2e-80f4-66775fb8906b",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "49e5db10-11f2-410b-939e-9b6c65ef3e2b",
+        "item_id": "89ec8023-a306-4e2e-80f4-66775fb8906b",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "36447a4e-d6d0-4a60-9f83-fc1e6008679a",
+        "item_id": "89ec8023-a306-4e2e-80f4-66775fb8906b",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "48c828a2-d574-4a26-a128-285fb877280d",
+        "item_id": "89ec8023-a306-4e2e-80f4-66775fb8906b",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "641225d5-f846-48d0-b3b3-1368670dc571",
+        "item_id": "89ec8023-a306-4e2e-80f4-66775fb8906b",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "17449eed-44ba-4932-82ba-8e70e561259b",
+      "name": "Magic Longsword",
+      "min_level": 140,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 40,
+      "atk": 55,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 0,
+      "weight": 43.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "0f3bb2c7-e79a-4332-ac76-22b6bf4ca71d",
+        "item_id": "17449eed-44ba-4932-82ba-8e70e561259b",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "3592f783-b682-4475-89a5-96c3e8a8d719",
+      "name": "Magic Sword",
+      "min_level": 80,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 35,
+      "atk": 48,
+      "def_mod": 3,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 42.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "46d14907-3d80-489b-a28e-9716e144f73d",
+        "item_id": "3592f783-b682-4475-89a5-96c3e8a8d719",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "1ef828b4-beb2-4e71-962f-12fc8f2826db",
+        "item_id": "3592f783-b682-4475-89a5-96c3e8a8d719",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "d6855c34-4290-46a3-b678-25c66a7af0fc",
+        "item_id": "3592f783-b682-4475-89a5-96c3e8a8d719",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "6eecd8f4-3bc6-477a-ae5e-67381937e89d",
+        "item_id": "3592f783-b682-4475-89a5-96c3e8a8d719",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "7c4e1468-ff52-4210-a18a-2efd98a985d9",
+        "item_id": "3592f783-b682-4475-89a5-96c3e8a8d719",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "dea3e26b-ad9a-427b-98ce-12f938e27a30",
+      "name": "Mean Knight Sword",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 7,
+      "atk": 14,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 20.0,
+      "img_url": ""
+    },
+    "item_vocations": [],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "1086548f-a1db-479a-8fd0-4365c14957f5",
+      "name": "Mercenary Sword",
+      "min_level": 40,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 27,
+      "atk": 43,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 68.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "b08b6aff-b154-4e2c-8d5c-a64fa59a4968",
+        "item_id": "1086548f-a1db-479a-8fd0-4365c14957f5",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "dacc113e-ef6a-40e5-92c8-a02c50f56d39",
+      "name": "Mystic Blade",
+      "min_level": 60,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 25,
+      "atk": 44,
+      "def_mod": 2,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 35.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "4f8f359d-4efb-477c-8873-e1778e778b8b",
+        "item_id": "dacc113e-ef6a-40e5-92c8-a02c50f56d39",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "5eb6859a-5e1d-471f-a502-d02be916ab42",
+        "item_id": "dacc113e-ef6a-40e5-92c8-a02c50f56d39",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "fa7c3f88-59d6-465d-8ba8-3c692b8c3647",
+        "item_id": "dacc113e-ef6a-40e5-92c8-a02c50f56d39",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "7e42e71f-a59f-40a5-a95f-f23d4ede01d2",
+        "item_id": "dacc113e-ef6a-40e5-92c8-a02c50f56d39",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "f256ffde-b208-4fbf-92cc-68896d4aca31",
+        "item_id": "dacc113e-ef6a-40e5-92c8-a02c50f56d39",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "9b3f4b04-ed36-4c24-9350-0a425a1badae",
+      "name": "Naga Sword",
+      "min_level": 300,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 31,
+      "atk": 8,
+      "def_mod": 3,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 52.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "3c8b23cb-480d-42a2-af79-a6353fa5ebc2",
+        "item_id": "9b3f4b04-ed36-4c24-9350-0a425a1badae",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "3d65d3f7-c781-442a-82f9-44a0e3bc0328",
+        "item_id": "9b3f4b04-ed36-4c24-9350-0a425a1badae",
+        "skill": "SWORD",
+        "value": 3
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "300b865b-97ef-4c3c-95e0-25bd5301ac4f",
+      "name": "Nightmare Blade",
+      "min_level": 70,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 23,
+      "atk": 46,
+      "def_mod": -3,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 46.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "5575f786-5806-498d-9ae4-05cb0429903f",
+        "item_id": "300b865b-97ef-4c3c-95e0-25bd5301ac4f",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "28b394ec-d812-496d-954b-fe80baf41ce2",
+        "item_id": "300b865b-97ef-4c3c-95e0-25bd5301ac4f",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "fd2b14d1-644c-4d98-803a-f2c1e0064104",
+        "item_id": "300b865b-97ef-4c3c-95e0-25bd5301ac4f",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "63792a4d-8005-401d-b8e0-6eb96d3ab451",
+        "item_id": "300b865b-97ef-4c3c-95e0-25bd5301ac4f",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "4e25e40a-8ea7-473c-88d0-380943732bb7",
+        "item_id": "300b865b-97ef-4c3c-95e0-25bd5301ac4f",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "55d48aad-2dd6-4a33-b2e9-59c1e7ad2e92",
+      "name": "Pharaoh Sword",
+      "min_level": 45,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 23,
+      "atk": 41,
+      "def_mod": 2,
+      "tier": 3,
+      "imbuement_slots": 0,
+      "weight": 52.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "5741c3cb-0de4-429f-9186-b06d38775298",
+        "item_id": "55d48aad-2dd6-4a33-b2e9-59c1e7ad2e92",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "aad60528-52c0-41a0-a05f-5ff743b29fc1",
+        "item_id": "55d48aad-2dd6-4a33-b2e9-59c1e7ad2e92",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "d64d7d6b-faa3-48a6-a95c-6d7a9c53811b",
+        "item_id": "55d48aad-2dd6-4a33-b2e9-59c1e7ad2e92",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "51ff7916-9cd8-4f35-bee4-7f543e5d89b9",
+        "item_id": "55d48aad-2dd6-4a33-b2e9-59c1e7ad2e92",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "ba40e774-772c-4561-a5d7-1fbc19de8259",
+        "item_id": "55d48aad-2dd6-4a33-b2e9-59c1e7ad2e92",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "460fdd33-aa43-49bf-b736-5deb4627d3c2",
+      "name": "Poet's Fencing Quill",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 8,
+      "atk": 10,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 2.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "e46fa3b8-c3c4-4cfc-b68a-385eeaf2666d",
+        "item_id": "460fdd33-aa43-49bf-b736-5deb4627d3c2",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "011fbdfa-5dd0-49a5-ace8-b25a4f1cede1",
+        "item_id": "460fdd33-aa43-49bf-b736-5deb4627d3c2",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "4b5b70c6-9413-4266-838c-158db2c227ea",
+        "item_id": "460fdd33-aa43-49bf-b736-5deb4627d3c2",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "dbbbd84d-cdf2-4996-95d8-33d2b5f2f9d7",
+        "item_id": "460fdd33-aa43-49bf-b736-5deb4627d3c2",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "b448a127-ad6b-466e-8ffc-28cf67b7b8a8",
+        "item_id": "460fdd33-aa43-49bf-b736-5deb4627d3c2",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "628e5c34-f5d1-451b-a0b6-36f087781622",
+      "name": "Pointed Rabbitslayer",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 8,
+      "atk": 16,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 1.6,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "106a39db-121e-480e-9856-63409a120d74",
+        "item_id": "628e5c34-f5d1-451b-a0b6-36f087781622",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "5dd124e2-0d61-4114-95cf-3aa2de24a202",
+        "item_id": "628e5c34-f5d1-451b-a0b6-36f087781622",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "c1d18fa3-54ad-43bb-89cd-0fa50e4e615c",
+        "item_id": "628e5c34-f5d1-451b-a0b6-36f087781622",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "3d13e7b2-9628-41f1-a2b6-0037f9b5ce94",
+        "item_id": "628e5c34-f5d1-451b-a0b6-36f087781622",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "77a6d1b0-137c-4218-b3ca-3b475120d698",
+        "item_id": "628e5c34-f5d1-451b-a0b6-36f087781622",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "e6f74534-2765-489c-81a5-b8cacfe6ac89",
+      "name": "Poison Dagger",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 8,
+      "atk": 16,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 8.8,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "66b8163d-a60f-4116-b2fc-95bb5e59b5d5",
+        "item_id": "e6f74534-2765-489c-81a5-b8cacfe6ac89",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "42bae99b-37e2-488d-9e8e-e919509feb2f",
+        "item_id": "e6f74534-2765-489c-81a5-b8cacfe6ac89",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "b812cea0-051b-4464-843d-92cac4545aa1",
+        "item_id": "e6f74534-2765-489c-81a5-b8cacfe6ac89",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "b1def3d0-bfe3-4e42-b178-17a60a60ded0",
+        "item_id": "e6f74534-2765-489c-81a5-b8cacfe6ac89",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "4f697ffe-642f-4e83-9862-367706018d23",
+        "item_id": "e6f74534-2765-489c-81a5-b8cacfe6ac89",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "0ea36cb7-003b-4c91-ae16-d4214c7cfdbd",
+      "name": "Rapier",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 8,
+      "atk": 10,
+      "def_mod": 1,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 15.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "9a2f97b0-cd69-444a-b4b0-669e2b65dbe3",
+        "item_id": "0ea36cb7-003b-4c91-ae16-d4214c7cfdbd",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "11e30ca5-c759-4883-97ca-a5972ac09358",
+        "item_id": "0ea36cb7-003b-4c91-ae16-d4214c7cfdbd",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "51dbd81c-3a71-4e85-9575-6f9602f9f57e",
+        "item_id": "0ea36cb7-003b-4c91-ae16-d4214c7cfdbd",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "f6369902-d53e-4632-9245-349a84bc7aa1",
+        "item_id": "0ea36cb7-003b-4c91-ae16-d4214c7cfdbd",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "22497399-b749-45e8-8e78-009bab427e5e",
+        "item_id": "0ea36cb7-003b-4c91-ae16-d4214c7cfdbd",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "e98e0765-8fd6-446e-8378-b7b179c57610",
+      "name": "Ratana",
+      "min_level": 15,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 19,
+      "atk": 27,
+      "def_mod": 1,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 33.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "2c49340f-7026-4c2f-af11-ff3fae287cce",
+        "item_id": "e98e0765-8fd6-446e-8378-b7b179c57610",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "ead4ad78-7625-4571-9236-374cbaf2c88b",
+        "item_id": "e98e0765-8fd6-446e-8378-b7b179c57610",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "bf8331c2-3868-4298-89df-58eae8495f69",
+        "item_id": "e98e0765-8fd6-446e-8378-b7b179c57610",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "ab03f5f5-545f-4e50-bd76-9feee313c259",
+        "item_id": "e98e0765-8fd6-446e-8378-b7b179c57610",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "53cc3ce1-daec-41ab-9223-e09d5dbbb209",
+        "item_id": "e98e0765-8fd6-446e-8378-b7b179c57610",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "15dc0c1a-4b5c-4cc5-bebb-5230494321bb",
+      "name": "Relic Sword",
+      "min_level": 50,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 24,
+      "atk": 42,
+      "def_mod": 1,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 48.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "8c5bf9ad-feb1-4202-89e1-1cb83139477d",
+        "item_id": "15dc0c1a-4b5c-4cc5-bebb-5230494321bb",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "56db0b6a-6585-4bfd-bff9-79345df0f6a9",
+        "item_id": "15dc0c1a-4b5c-4cc5-bebb-5230494321bb",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "2438be1d-71a1-4d07-ad57-e8dcd25046e4",
+        "item_id": "15dc0c1a-4b5c-4cc5-bebb-5230494321bb",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "ee1f252e-9094-42e2-ada2-f2e567f50394",
+        "item_id": "15dc0c1a-4b5c-4cc5-bebb-5230494321bb",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "2699ea26-5952-49df-86a4-106864f4cfaf",
+        "item_id": "15dc0c1a-4b5c-4cc5-bebb-5230494321bb",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "2f7815d5-41d1-4948-8a76-dc4abd90b085",
+      "name": "Rending Inferniarch Blade",
+      "min_level": 300,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 31,
+      "atk": 8,
+      "def_mod": 3,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 64.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "38e8f925-62cd-454b-9c6b-88d473ab72d5",
+        "item_id": "2f7815d5-41d1-4948-8a76-dc4abd90b085",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "d6f9c0bf-62a9-4edc-946b-bd529d860e0d",
+        "item_id": "2f7815d5-41d1-4948-8a76-dc4abd90b085",
+        "skill": "SWORD",
+        "value": 3
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "81b13730-d6aa-44c6-b0c5-03ce8698d1dc",
+      "name": "Rending Inferniarch Slayer",
+      "min_level": 300,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 33,
+      "atk": 8,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 86.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "2a99d5bd-063c-4e49-99f5-8e4cd8f89d50",
+        "item_id": "81b13730-d6aa-44c6-b0c5-03ce8698d1dc",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "0d994896-0a21-45bc-89fd-b630fcf9dca7",
+        "item_id": "81b13730-d6aa-44c6-b0c5-03ce8698d1dc",
+        "skill": "SWORD",
+        "value": 4
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "bc452700-650c-432b-8d48-7acd87f5722e",
+      "name": "Ron the Ripper's Sabre",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 10,
+      "atk": 12,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 0,
+      "weight": 25.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "c2b50022-743e-4222-899c-dd7bdc9f851d",
+        "item_id": "bc452700-650c-432b-8d48-7acd87f5722e",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "bbf1a3d3-c225-4de9-8ee2-d809aabd2962",
+        "item_id": "bc452700-650c-432b-8d48-7acd87f5722e",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "44578f4a-42ee-45f4-afbe-0808dfacf3ca",
+        "item_id": "bc452700-650c-432b-8d48-7acd87f5722e",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "72f1b298-df38-4ea1-bc92-779f3b15feff",
+        "item_id": "bc452700-650c-432b-8d48-7acd87f5722e",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "35e35e1b-3266-4a8b-bc71-91af1c725b4d",
+        "item_id": "bc452700-650c-432b-8d48-7acd87f5722e",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "b0a41a74-19fc-424d-a27f-70f7d17aa1bc",
+      "name": "Runed Sword",
+      "min_level": 65,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 32,
+      "atk": 45,
+      "def_mod": 2,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 46.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "2fbf28e8-0e36-42c9-ba70-b53e3e2caf59",
+        "item_id": "b0a41a74-19fc-424d-a27f-70f7d17aa1bc",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "b954473d-e5e9-47df-a12d-759137ac7cf2",
+        "item_id": "b0a41a74-19fc-424d-a27f-70f7d17aa1bc",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "fd22ac93-9af8-44fe-9f09-0eb1c1c8ccae",
+        "item_id": "b0a41a74-19fc-424d-a27f-70f7d17aa1bc",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "4cfdcd56-fad9-4106-84ae-def17b2e310e",
+        "item_id": "b0a41a74-19fc-424d-a27f-70f7d17aa1bc",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "8f733326-c9db-4615-a180-75d6745727a9",
+        "item_id": "b0a41a74-19fc-424d-a27f-70f7d17aa1bc",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "fbc58945-5c03-4edf-bbb6-3011fc10f27d",
+      "name": "Sabre",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 10,
+      "atk": 12,
+      "def_mod": 1,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 25.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "7e9a17a0-6edb-49b0-921f-92d851d659da",
+        "item_id": "fbc58945-5c03-4edf-bbb6-3011fc10f27d",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "b30a2120-a328-4af8-aaf9-d6a1d6d558eb",
+        "item_id": "fbc58945-5c03-4edf-bbb6-3011fc10f27d",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "66bfb48f-56fc-4642-8d54-93d0b871b0fa",
+        "item_id": "fbc58945-5c03-4edf-bbb6-3011fc10f27d",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "96004f61-26e6-44c9-9fd1-ecc4e0cdef62",
+        "item_id": "fbc58945-5c03-4edf-bbb6-3011fc10f27d",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "5b0ac7c4-741f-4eb5-846d-dc21ac002ef8",
+        "item_id": "fbc58945-5c03-4edf-bbb6-3011fc10f27d",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "beef503b-12db-49b2-bdb0-fa11109b27c8",
+      "name": "Sanguine Blade",
+      "min_level": 600,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 32,
+      "atk": 8,
+      "def_mod": 3,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 61.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "ecd6d13b-ca06-491b-b083-780f82d9a190",
+        "item_id": "beef503b-12db-49b2-bdb0-fa11109b27c8",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "9454f48b-2486-4971-96bb-5d4d471db226",
+        "item_id": "beef503b-12db-49b2-bdb0-fa11109b27c8",
+        "skill": "SWORD",
+        "value": 5
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "181dee72-fb6c-43cb-ada6-e387ca2b6654",
+      "name": "Sanguine Razor",
+      "min_level": 600,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 35,
+      "atk": 8,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 3,
+      "weight": 81.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "3b5c4e9e-2b6b-43b7-ad59-c3f53d2f7c5a",
+        "item_id": "181dee72-fb6c-43cb-ada6-e387ca2b6654",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "8cc971ea-ea01-48d2-9c23-6fdf7e87d434",
+        "item_id": "181dee72-fb6c-43cb-ada6-e387ca2b6654",
+        "skill": "SWORD",
+        "value": 5
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "c7d7f63b-15a3-4efa-a918-6c5bad584cc3",
+      "name": "Scimitar",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 13,
+      "atk": 19,
+      "def_mod": 1,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 29.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "9eb95455-ddbf-4393-aeaa-8e3505bbda36",
+        "item_id": "c7d7f63b-15a3-4efa-a918-6c5bad584cc3",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "711c2ae3-c842-41b7-8d2b-e014e6a5e3fd",
+        "item_id": "c7d7f63b-15a3-4efa-a918-6c5bad584cc3",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "c6c3d7ec-e3f0-4d7a-bf2f-9071d38cf1a8",
+        "item_id": "c7d7f63b-15a3-4efa-a918-6c5bad584cc3",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "94ccbb91-ba06-4a56-96b8-1fbb57cb19df",
+        "item_id": "c7d7f63b-15a3-4efa-a918-6c5bad584cc3",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "6ba1c58b-1458-42fb-9c33-76d961e15735",
+        "item_id": "c7d7f63b-15a3-4efa-a918-6c5bad584cc3",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "f2bce1b0-b2e2-4200-98c1-10f6d7a479fa",
+      "name": "Serpent Sword",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 15,
+      "atk": 18,
+      "def_mod": 1,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 41.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "c66b1603-a43c-493d-a0e9-e9d1a03a4abe",
+        "item_id": "f2bce1b0-b2e2-4200-98c1-10f6d7a479fa",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "d2d51547-75b9-4a9d-9d02-6f11eb40e3b2",
+        "item_id": "f2bce1b0-b2e2-4200-98c1-10f6d7a479fa",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "e68b0cde-2353-46f7-9e80-c4b9222ce478",
+        "item_id": "f2bce1b0-b2e2-4200-98c1-10f6d7a479fa",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "dbdc09ad-5d8e-4db6-a745-846c44f9c22b",
+        "item_id": "f2bce1b0-b2e2-4200-98c1-10f6d7a479fa",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "17d4f7c9-655f-4c5b-85ba-c2d688676359",
+        "item_id": "f2bce1b0-b2e2-4200-98c1-10f6d7a479fa",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "3d583765-bca6-4d4a-ad2f-c399298e04f4",
+      "name": "Shimmer Sword",
+      "min_level": 40,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 20,
+      "atk": 42,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 52.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "b08c6053-ab88-4b77-bd53-1f8b52c2b90b",
+        "item_id": "3d583765-bca6-4d4a-ad2f-c399298e04f4",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "ffa21565-f950-4316-bf11-c1d060ba4d81",
+        "item_id": "3d583765-bca6-4d4a-ad2f-c399298e04f4",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "febf2893-9e62-4ef1-8902-2eafb1173551",
+        "item_id": "3d583765-bca6-4d4a-ad2f-c399298e04f4",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "ffd88086-5a1a-45e0-a65c-0fb92f6d33da",
+        "item_id": "3d583765-bca6-4d4a-ad2f-c399298e04f4",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "e10201b7-5cac-43de-a251-c15e504e65eb",
+        "item_id": "3d583765-bca6-4d4a-ad2f-c399298e04f4",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "477c1f85-8e8a-4204-89de-b16dfb6a3bc4",
+      "name": "Shiny Blade",
+      "min_level": 120,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 35,
+      "atk": 49,
+      "def_mod": 2,
+      "tier": 2,
+      "imbuement_slots": 1,
+      "weight": 45.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "e012d7bc-1d5e-4b58-8041-364fd9025b6d",
+        "item_id": "477c1f85-8e8a-4204-89de-b16dfb6a3bc4",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "f943e931-aa80-4e39-b653-c7bbf5d58cb2",
+        "item_id": "477c1f85-8e8a-4204-89de-b16dfb6a3bc4",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "785c6e46-b3a8-41a1-8aa9-6097e056d108",
+        "item_id": "477c1f85-8e8a-4204-89de-b16dfb6a3bc4",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "5eb53073-e31e-483c-9e52-361e7eadb2a0",
+        "item_id": "477c1f85-8e8a-4204-89de-b16dfb6a3bc4",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "1e28a249-793f-4ee1-82a5-3a14d72cce6f",
+        "item_id": "477c1f85-8e8a-4204-89de-b16dfb6a3bc4",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "2e6a10c4-ada0-4e94-9ad6-4a7b50b5ea21",
+        "item_id": "477c1f85-8e8a-4204-89de-b16dfb6a3bc4",
+        "skill": "SWORD",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "08c468a2-e409-4e4e-a67c-0ab81de07a14",
+      "name": "Short Sword",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 11,
+      "atk": 11,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 35.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "c1731af4-0453-4432-b52a-c11548f9237c",
+        "item_id": "08c468a2-e409-4e4e-a67c-0ab81de07a14",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "da20d082-5cc5-46f2-9f9b-f92e35c2725f",
+        "item_id": "08c468a2-e409-4e4e-a67c-0ab81de07a14",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "399ce668-3cfa-4d27-b54c-f632bc3968d1",
+        "item_id": "08c468a2-e409-4e4e-a67c-0ab81de07a14",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "751e3300-873a-4ac3-aeda-61a3b5c40542",
+        "item_id": "08c468a2-e409-4e4e-a67c-0ab81de07a14",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "66f54581-9293-49b8-b9f3-99549ad62a19",
+        "item_id": "08c468a2-e409-4e4e-a67c-0ab81de07a14",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "b6ecb4f8-026d-42b5-9d82-b773f4b10bb4",
+      "name": "Silver Dagger",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 7,
+      "atk": 9,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 10.2,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "35506bf6-f5d1-4d33-8396-0745784bedff",
+        "item_id": "b6ecb4f8-026d-42b5-9d82-b773f4b10bb4",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "e79f025d-edb2-4678-91df-ae01f5a20c6a",
+        "item_id": "b6ecb4f8-026d-42b5-9d82-b773f4b10bb4",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "33de557a-283b-4f20-9c7d-dae22b576895",
+        "item_id": "b6ecb4f8-026d-42b5-9d82-b773f4b10bb4",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "e3abc236-6554-41cd-a47d-c6884fb09539",
+        "item_id": "b6ecb4f8-026d-42b5-9d82-b773f4b10bb4",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "530ebb21-d94f-4868-afe3-625614869d6e",
+        "item_id": "b6ecb4f8-026d-42b5-9d82-b773f4b10bb4",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "834f1547-1cf3-4d0b-9a7d-c68fdb81fef6",
+      "name": "Siphoning Inferniarch Blade",
+      "min_level": 300,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 31,
+      "atk": 8,
+      "def_mod": 3,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 64.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "8328ad8e-19e7-42e5-8a54-a2dcaacea7ec",
+        "item_id": "834f1547-1cf3-4d0b-9a7d-c68fdb81fef6",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "a70ff2c1-7a85-42d3-bbef-27db62fc4b08",
+        "item_id": "834f1547-1cf3-4d0b-9a7d-c68fdb81fef6",
+        "skill": "SWORD",
+        "value": 3
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "831b2b6f-5786-4ed4-b334-2857238c6d4c",
+      "name": "Siphoning Inferniarch Slayer",
+      "min_level": 300,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 33,
+      "atk": 8,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 86.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "a95257c4-1e12-481e-9140-c7bc33795024",
+        "item_id": "831b2b6f-5786-4ed4-b334-2857238c6d4c",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "4db918df-5da5-46b0-9e37-5a5d8ae9230b",
+        "item_id": "831b2b6f-5786-4ed4-b334-2857238c6d4c",
+        "skill": "SWORD",
+        "value": 4
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "c956a5de-0f2b-486f-a5ed-8e84777bd316",
+      "name": "Slayer of Destruction",
+      "min_level": 200,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 30,
+      "atk": 52,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 70.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "b97133dd-f64e-4be0-a5c4-e682310528f1",
+        "item_id": "c956a5de-0f2b-486f-a5ed-8e84777bd316",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "62618ace-6ad3-4e92-92ac-ad7d9017346d",
+      "name": "Soulcutter",
+      "min_level": 400,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 32,
+      "atk": 7,
+      "def_mod": 3,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 63.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "4a39900d-bc51-48cb-a21d-a7bbef4b1f67",
+        "item_id": "62618ace-6ad3-4e92-92ac-ad7d9017346d",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "7fbecd43-51e9-43f1-b898-b9e75ad24493",
+        "item_id": "62618ace-6ad3-4e92-92ac-ad7d9017346d",
+        "skill": "SWORD",
+        "value": 5
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "f7a1f1fd-1b11-4487-afb8-4e8857e50731",
+      "name": "Soulshredder",
+      "min_level": 400,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 35,
+      "atk": 10,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 3,
+      "weight": 81.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "0a2ff9eb-2373-4b17-8fe1-fcc62e5b61f1",
+        "item_id": "f7a1f1fd-1b11-4487-afb8-4e8857e50731",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "e659fa6c-eafc-47a3-8229-811c80ad31f6",
+        "item_id": "f7a1f1fd-1b11-4487-afb8-4e8857e50731",
+        "skill": "SWORD",
+        "value": 5
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "8d97f6c1-00a0-49c8-acf7-6f26689da6b3",
+      "name": "Spike Sword",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 21,
+      "atk": 24,
+      "def_mod": 2,
+      "tier": 1,
+      "imbuement_slots": 2,
+      "weight": 50.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "ce408163-478b-4cd7-b3c9-2c93f9a2eb3e",
+        "item_id": "8d97f6c1-00a0-49c8-acf7-6f26689da6b3",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "e609995f-9127-4cb3-915e-d5d0a21055ae",
+        "item_id": "8d97f6c1-00a0-49c8-acf7-6f26689da6b3",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "44eaf17e-6b03-4837-9549-b5644d743ac1",
+        "item_id": "8d97f6c1-00a0-49c8-acf7-6f26689da6b3",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "94c14ef3-96b3-4a0a-9a02-c7f2035b401b",
+        "item_id": "8d97f6c1-00a0-49c8-acf7-6f26689da6b3",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "28cc3587-da29-435d-801c-62707c1a2338",
+        "item_id": "8d97f6c1-00a0-49c8-acf7-6f26689da6b3",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "72988231-b024-4132-84b1-aab39cbea44c",
+      "name": "Summerblade",
+      "min_level": 200,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 20,
+      "atk": 10,
+      "def_mod": 3,
+      "tier": 3,
+      "imbuement_slots": 2,
+      "weight": 43.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "8d6a505d-ab1c-473c-9e3d-8ce7a5e75c6f",
+        "item_id": "72988231-b024-4132-84b1-aab39cbea44c",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "9f63d2c3-98df-4879-912f-cea4f16a7f4e",
+        "item_id": "72988231-b024-4132-84b1-aab39cbea44c",
+        "skill": "SWORD",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "3efd6938-88af-43ec-98b8-8a3f32674aef",
+      "name": "Sword",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 12,
+      "atk": 14,
+      "def_mod": 1,
+      "tier": 1,
+      "imbuement_slots": 2,
+      "weight": 35.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "6f845ead-9d80-4971-983a-d6a8170cea84",
+        "item_id": "3efd6938-88af-43ec-98b8-8a3f32674aef",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "09168df1-fe5a-45fa-9947-59ed74d13c63",
+        "item_id": "3efd6938-88af-43ec-98b8-8a3f32674aef",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "949b790e-0525-4524-9163-c91dda52f911",
+        "item_id": "3efd6938-88af-43ec-98b8-8a3f32674aef",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "9ac3f450-b8ff-4a94-9ffd-01297debd999",
+        "item_id": "3efd6938-88af-43ec-98b8-8a3f32674aef",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "47ffa1d7-26ef-456a-8ea1-cb815598f347",
+        "item_id": "3efd6938-88af-43ec-98b8-8a3f32674aef",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "b2918abe-92aa-49b2-a738-6ad2127329d1",
+      "name": "Tagralt Blade",
+      "min_level": 250,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 32,
+      "atk": 7,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 81.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "c8d8a79d-9e86-4550-80b1-7481c7c156db",
+        "item_id": "b2918abe-92aa-49b2-a738-6ad2127329d1",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "ff6d4a3c-761b-42ed-a399-fe815f2e84d9",
+        "item_id": "b2918abe-92aa-49b2-a738-6ad2127329d1",
+        "skill": "SWORD",
+        "value": 3
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "869b4f08-746e-4bf4-95fd-edad31fbe818",
+      "name": "Templar Scytheblade",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 15,
+      "atk": 23,
+      "def_mod": 1,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 29.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "21a5e96c-76cd-49a2-b3e4-0c4ffdef225c",
+        "item_id": "869b4f08-746e-4bf4-95fd-edad31fbe818",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "d264690b-24fd-4c06-9627-8666d24a8808",
+        "item_id": "869b4f08-746e-4bf4-95fd-edad31fbe818",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "6837ed7c-5594-4117-a91f-dc1f321ae9bf",
+        "item_id": "869b4f08-746e-4bf4-95fd-edad31fbe818",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "8a864371-425d-4bc2-9a07-c5343cfaf32c",
+        "item_id": "869b4f08-746e-4bf4-95fd-edad31fbe818",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "d67c2021-591b-4cb4-a894-dad753efb152",
+        "item_id": "869b4f08-746e-4bf4-95fd-edad31fbe818",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "5fe611ec-427c-4664-8d07-0ca6e9222cfe",
+      "name": "Thaian Sword",
+      "min_level": 50,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 29,
+      "atk": 45,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 61.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "86f022e5-1772-4d80-8aea-e0dbaf6a9231",
+        "item_id": "5fe611ec-427c-4664-8d07-0ca6e9222cfe",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "f2698808-6081-470e-894b-e5061966215c",
+      "name": "The Avenger",
+      "min_level": 75,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 38,
+      "atk": 50,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 64.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "6f025a11-0950-496b-b456-76a1d95c4269",
+        "item_id": "f2698808-6081-470e-894b-e5061966215c",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "dbbd1837-0d33-4dee-b41a-62c9dc1c23cd",
+      "name": "The Calamity",
+      "min_level": 100,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 35,
+      "atk": 51,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 0,
+      "weight": 68.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "d4afde75-a374-47ce-8b6b-328367a3bad9",
+        "item_id": "dbbd1837-0d33-4dee-b41a-62c9dc1c23cd",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "af6dd87a-9a97-4566-926f-8d074637a449",
+      "name": "The Epiphany",
+      "min_level": 120,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 35,
+      "atk": 50,
+      "def_mod": 3,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 45.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "7ea501fd-4e9d-4709-a8be-0674c0f39a7f",
+        "item_id": "af6dd87a-9a97-4566-926f-8d074637a449",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "4d0d27d7-3f07-43fe-8e37-f19e12c75dcd",
+        "item_id": "af6dd87a-9a97-4566-926f-8d074637a449",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "75435cdf-ceb7-463d-ae2e-dcfa69b161ba",
+        "item_id": "af6dd87a-9a97-4566-926f-8d074637a449",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "eefe40ab-b689-47e2-934b-c7bcd8928b45",
+        "item_id": "af6dd87a-9a97-4566-926f-8d074637a449",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "b64a7304-1fd8-4597-a388-0064fce89097",
+        "item_id": "af6dd87a-9a97-4566-926f-8d074637a449",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "ee75c727-f2dc-4edb-8ce9-cf5ddf7cf931",
+      "name": "The Justice Seeker",
+      "min_level": 75,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 24,
+      "atk": 47,
+      "def_mod": 3,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 50.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "d4826f89-8dff-4f90-b7ae-5b69d6c0d964",
+        "item_id": "ee75c727-f2dc-4edb-8ce9-cf5ddf7cf931",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "8e6f0658-86c5-4512-916a-9046475ab610",
+        "item_id": "ee75c727-f2dc-4edb-8ce9-cf5ddf7cf931",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "40af3c73-15b0-4ffb-aa84-8a4550eb8580",
+        "item_id": "ee75c727-f2dc-4edb-8ce9-cf5ddf7cf931",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "1b73458e-5387-4b39-88f5-1a00861f6e02",
+        "item_id": "ee75c727-f2dc-4edb-8ce9-cf5ddf7cf931",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "2042d133-277d-4aab-a1b0-4a990db69280",
+        "item_id": "ee75c727-f2dc-4edb-8ce9-cf5ddf7cf931",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "f7d95018-7de3-4992-8e89-53b608a461ff",
+      "name": "Twiceslicer",
+      "min_level": 58,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 30,
+      "atk": 47,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 180.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "b19dffed-2717-4dc1-b88e-7092bf9681b8",
+        "item_id": "f7d95018-7de3-4992-8e89-53b608a461ff",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "d5cf50a8-b6c0-4142-89e8-d6dc0d1e5bc8",
+      "name": "Twin Hooks",
+      "min_level": 20,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 22,
+      "atk": 32,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 3,
+      "weight": 50.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "e5b455dc-63bf-4f15-86f9-012ab247824e",
+        "item_id": "d5cf50a8-b6c0-4142-89e8-d6dc0d1e5bc8",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "3905aec0-4cff-4a1e-8230-d326cdd48608",
+      "name": "Two Handed Sword",
+      "min_level": 20,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 25,
+      "atk": 30,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 70.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "6a9f4f03-ebf7-48c3-84b2-96e2a61e49b1",
+        "item_id": "3905aec0-4cff-4a1e-8230-d326cdd48608",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "803d75e8-0e78-4710-90f0-d66353bc273a",
+      "name": "Umbral Blade",
+      "min_level": 120,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 29,
+      "atk": 50,
+      "def_mod": 2,
+      "tier": 3,
+      "imbuement_slots": 1,
+      "weight": 59.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "cbcda8ef-771e-4c94-a19f-e8d0b6fa1f7f",
+        "item_id": "803d75e8-0e78-4710-90f0-d66353bc273a",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "1d7d0d73-2220-4cbd-9594-8d5ebffa9019",
+      "name": "Umbral Master Slayer",
+      "min_level": 250,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 35,
+      "atk": 54,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 90.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "e3f61d4c-b0a7-40f8-b301-a4d6fec614b7",
+        "item_id": "1d7d0d73-2220-4cbd-9594-8d5ebffa9019",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "f6890f71-c3c8-4589-9422-c6ec361e5a4c",
+        "item_id": "1d7d0d73-2220-4cbd-9594-8d5ebffa9019",
+        "skill": "SWORD",
+        "value": 3
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "3d1e2ccc-cf59-4cb5-b9f1-9f2d7a799a7f",
+      "name": "Umbral Masterblade",
+      "min_level": 250,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 31,
+      "atk": 52,
+      "def_mod": 3,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 55.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "d2166a5a-a003-4989-b85e-bc24e087245b",
+        "item_id": "3d1e2ccc-cf59-4cb5-b9f1-9f2d7a799a7f",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "58e78b9a-37d5-4a4b-886f-a4498feaf795",
+        "item_id": "3d1e2ccc-cf59-4cb5-b9f1-9f2d7a799a7f",
+        "skill": "SWORD",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "6889f937-aff1-424c-8ef4-026289f11aa0",
+      "name": "Umbral Slayer",
+      "min_level": 120,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 31,
+      "atk": 52,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 1,
+      "weight": 95.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "b02d928c-d492-41cf-bfd2-992597910d27",
+        "item_id": "6889f937-aff1-424c-8ef4-026289f11aa0",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "9621438d-813e-4ce4-ba5a-384aaf098104",
+      "name": "Warlord Sword",
+      "min_level": 120,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 38,
+      "atk": 53,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 0,
+      "weight": 64.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "5b3a82a6-63ce-44ab-adcf-93f812a6eb98",
+        "item_id": "9621438d-813e-4ce4-ba5a-384aaf098104",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "9b9cbe4b-20b9-4273-87ba-d67b3f8f4de8",
+      "name": "Winterblade",
+      "min_level": 200,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 22,
+      "atk": 10,
+      "def_mod": 3,
+      "tier": 3,
+      "imbuement_slots": 2,
+      "weight": 43.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "041afe93-5692-4b04-97d5-628ae60f7254",
+        "item_id": "9b9cbe4b-20b9-4273-87ba-d67b3f8f4de8",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "b76b10d0-3121-4872-b681-9d0c8f6d73a2",
+        "item_id": "9b9cbe4b-20b9-4273-87ba-d67b3f8f4de8",
+        "skill": "SWORD",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "e462e3d5-97e6-46ec-b43f-83c566a2b174",
+      "name": "Wooden Sword",
+      "min_level": 0,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 7,
+      "atk": 7,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 20.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "5d96fc28-6957-4579-ac09-83d35af9d074",
+        "item_id": "e462e3d5-97e6-46ec-b43f-83c566a2b174",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "7cf53ccb-d6b2-4873-91b7-7182fb47edaf",
+        "item_id": "e462e3d5-97e6-46ec-b43f-83c566a2b174",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "f458831c-75a6-4fd2-86f0-05a916890640",
+        "item_id": "e462e3d5-97e6-46ec-b43f-83c566a2b174",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "7a722c82-92dc-4fa0-971e-bcbad1ca7ba3",
+        "item_id": "e462e3d5-97e6-46ec-b43f-83c566a2b174",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "bc030261-7c80-450d-9e0c-7f311470bc2a",
+        "item_id": "e462e3d5-97e6-46ec-b43f-83c566a2b174",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "8f6ce439-c770-49e5-b4e0-6a552f3ae9b6",
+      "name": "Wyvern Fang",
+      "min_level": 25,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 19,
+      "atk": 32,
+      "def_mod": 1,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 20.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "7e02840c-45dd-4bd9-85dd-824c0a577244",
+        "item_id": "8f6ce439-c770-49e5-b4e0-6a552f3ae9b6",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "b7d31514-b576-456d-befa-838760837e5e",
+        "item_id": "8f6ce439-c770-49e5-b4e0-6a552f3ae9b6",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "00530753-d57c-43a2-a21a-fcbef1ef9eff",
+        "item_id": "8f6ce439-c770-49e5-b4e0-6a552f3ae9b6",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "79416b55-cefe-4537-9670-878b2f302a1d",
+        "item_id": "8f6ce439-c770-49e5-b4e0-6a552f3ae9b6",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "de0607e3-72be-4a70-be0a-2d11d720ed9e",
+        "item_id": "8f6ce439-c770-49e5-b4e0-6a552f3ae9b6",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "3d671a61-3261-466c-bba1-868f308ef14b",
+      "name": "Zaoan Sword",
+      "min_level": 55,
+      "type": "SWORD_WEAPON",
+      "arm": 0,
+      "def": 18,
+      "atk": 43,
+      "def_mod": 2,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 49.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "a42a051a-5e3e-4359-b868-12dab739d7dc",
+        "item_id": "3d671a61-3261-466c-bba1-868f308ef14b",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "a196378f-786b-4527-a9c2-472a71d8da78",
+        "item_id": "3d671a61-3261-466c-bba1-868f308ef14b",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "d67b230f-239a-4da7-bf6d-755940d585a0",
+        "item_id": "3d671a61-3261-466c-bba1-868f308ef14b",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "218990a7-0438-4749-bc30-4b3bf07b1b75",
+        "item_id": "3d671a61-3261-466c-bba1-868f308ef14b",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "2647fdc0-7712-499a-bb55-12583ec299ca",
+        "item_id": "3d671a61-3261-466c-bba1-868f308ef14b",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  }
+]

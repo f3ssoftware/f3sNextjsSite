@@ -1,0 +1,832 @@
+[
+  {
+    "item": {
+      "id": "a7159976-bdd9-4fcf-8a62-48b2c30aefbe",
+      "name": "Amber Crossbow",
+      "min_level": 330,
+      "type": "CROSSBOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 8,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 3,
+      "weight": 39.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "f2c00c40-67f5-4760-bce3-4cf7c451a02b",
+        "item_id": "a7159976-bdd9-4fcf-8a62-48b2c30aefbe",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "9d643b40-5518-4680-b99e-10a0841b1d8a",
+        "item_id": "a7159976-bdd9-4fcf-8a62-48b2c30aefbe",
+        "skill": "DISTANCE",
+        "value": 3
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "99e23f71-c175-4793-805a-9b3d804f41df",
+        "item_id": "a7159976-bdd9-4fcf-8a62-48b2c30aefbe",
+        "element": "ENERGY",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "44cc35eb-5cc0-4ca5-b191-4e36a9bd71c3",
+      "name": "Arbalest",
+      "min_level": 75,
+      "type": "CROSSBOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 2,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 95.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "528ccb23-1bf9-4915-9462-cee5ecb2b553",
+        "item_id": "44cc35eb-5cc0-4ca5-b191-4e36a9bd71c3",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "656ec45a-bb8b-4b9e-b431-07508b934a7e",
+      "name": "Chain Bolter",
+      "min_level": 60,
+      "type": "CROSSBOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 4,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 3,
+      "weight": 55.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "86eb1564-a0d1-453b-89e3-2fef2ad8b8c7",
+        "item_id": "656ec45a-bb8b-4b9e-b431-07508b934a7e",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "3fa85da4-8d2f-4d0b-ba9a-8ddd83b9356b",
+      "name": "Cobra Crossbow",
+      "min_level": 220,
+      "type": "CROSSBOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 7,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 40.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "cd452ba7-f8ef-4d91-82b3-f2770b982d96",
+        "item_id": "3fa85da4-8d2f-4d0b-ba9a-8ddd83b9356b",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "70d5f817-7068-41a4-a1b9-71a65e723568",
+        "item_id": "3fa85da4-8d2f-4d0b-ba9a-8ddd83b9356b",
+        "skill": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "f75d9a33-8127-4fa8-844c-892af33f11e0",
+      "name": "Crossbow",
+      "min_level": 0,
+      "type": "CROSSBOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 3,
+      "weight": 40.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "e1037025-790d-44ff-8ecf-408a7cdba5c9",
+        "item_id": "f75d9a33-8127-4fa8-844c-892af33f11e0",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "17aebf25-a857-463e-9839-39e03f3bf811",
+        "item_id": "f75d9a33-8127-4fa8-844c-892af33f11e0",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "8b1185d6-6236-4a53-ad15-f8b584b450d2",
+        "item_id": "f75d9a33-8127-4fa8-844c-892af33f11e0",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "e734bc24-acfc-4a22-a810-0f5ddbb313f5",
+        "item_id": "f75d9a33-8127-4fa8-844c-892af33f11e0",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "4524f8fc-ae8c-451b-9aba-a9ee2549263c",
+        "item_id": "f75d9a33-8127-4fa8-844c-892af33f11e0",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "e3ef0b91-4989-481c-b136-7f4ae5de8c02",
+      "name": "Crossbow of Destruction",
+      "min_level": 200,
+      "type": "CROSSBOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 6,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 65.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "4c294b40-d3f4-4d9e-917c-37d6c9dc6ace",
+        "item_id": "e3ef0b91-4989-481c-b136-7f4ae5de8c02",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "6b8519ba-9f67-4cd3-95da-f13efd01fb86",
+      "name": "Crude Umbral Crossbow",
+      "min_level": 75,
+      "type": "CROSSBOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 3,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 130.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "8d1ca1a2-7271-4c77-bd10-1c31fb3cc7f8",
+        "item_id": "6b8519ba-9f67-4cd3-95da-f13efd01fb86",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "f131fa25-2b44-4243-b95f-39c13b2ff9f8",
+      "name": "Crystal Crossbow",
+      "min_level": 90,
+      "type": "CROSSBOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 4,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 84.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "446281fc-484f-4784-b51a-c9f24189195f",
+        "item_id": "f131fa25-2b44-4243-b95f-39c13b2ff9f8",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "6f5852fe-f7c6-49ac-96f5-7044054b77c8",
+      "name": "Draining Inferniarch Arbalest",
+      "min_level": 300,
+      "type": "CROSSBOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 8,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 59.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "1984fceb-38f6-4438-b358-e104dbf68d6d",
+        "item_id": "6f5852fe-f7c6-49ac-96f5-7044054b77c8",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "63569a71-1b20-49e4-87e8-bc1331cab1c4",
+        "item_id": "6f5852fe-f7c6-49ac-96f5-7044054b77c8",
+        "skill": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "29b69cfe-422f-4678-bc60-e0ee9aa0c8ec",
+        "item_id": "6f5852fe-f7c6-49ac-96f5-7044054b77c8",
+        "element": "ICE",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "6409545c-d708-4a64-b317-3e90071d4a87",
+      "name": "Grand Sanguine Crossbow",
+      "min_level": 600,
+      "type": "CROSSBOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 10,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 3,
+      "weight": 47.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "3f921eb3-72b8-4499-9533-40d207b914cb",
+        "item_id": "6409545c-d708-4a64-b317-3e90071d4a87",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "e3ef854e-e103-4d75-b23d-dcd007e72822",
+        "item_id": "6409545c-d708-4a64-b317-3e90071d4a87",
+        "skill": "DISTANCE",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "abba2140-1ad9-4614-becc-bedf7567376e",
+        "item_id": "6409545c-d708-4a64-b317-3e90071d4a87",
+        "element": "FIRE",
+        "value": 6
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "2c32bc94-f6dc-496b-a1b7-39564564bfb0",
+      "name": "Inferniarch Arbalest",
+      "min_level": 300,
+      "type": "CROSSBOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 8,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 3,
+      "weight": 59.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "cd3f6700-488f-4fc6-b202-d504cb99d1a5",
+        "item_id": "2c32bc94-f6dc-496b-a1b7-39564564bfb0",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "6b2fea5f-97be-429f-8aa6-f07926581691",
+        "item_id": "2c32bc94-f6dc-496b-a1b7-39564564bfb0",
+        "skill": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "d3869bc8-1a5e-47e9-8074-24d801daae92",
+        "item_id": "2c32bc94-f6dc-496b-a1b7-39564564bfb0",
+        "element": "ICE",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "884e5858-c123-4447-93e6-0becb77fe1f7",
+      "name": "Modified Crossbow",
+      "min_level": 45,
+      "type": "CROSSBOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 35.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "f5ade472-a623-47a7-9461-6039957c2cc7",
+        "item_id": "884e5858-c123-4447-93e6-0becb77fe1f7",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "534f40a0-13a6-4a12-9dda-bb03125d73e1",
+      "name": "Naga Crossbow",
+      "min_level": 300,
+      "type": "CROSSBOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 8,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 3,
+      "weight": 102.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "1eba503f-2472-43a7-bf0d-77697d703bb5",
+        "item_id": "534f40a0-13a6-4a12-9dda-bb03125d73e1",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "7b8d4892-1e60-431c-a6c2-1a0d815cf8c5",
+        "item_id": "534f40a0-13a6-4a12-9dda-bb03125d73e1",
+        "skill": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "41a91126-311a-4f5d-b9e7-069bfe849551",
+        "item_id": "534f40a0-13a6-4a12-9dda-bb03125d73e1",
+        "element": "EARTH",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "55cde859-c4b4-46fe-b970-4ba6eaed36dc",
+      "name": "Ornate Crossbow",
+      "min_level": 50,
+      "type": "CROSSBOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 1,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 91.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "6222ee4b-bbf9-4433-a148-a5d7e449a3d9",
+        "item_id": "55cde859-c4b4-46fe-b970-4ba6eaed36dc",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "3ed80445-8134-4624-86b7-b555dd46bfb5",
+      "name": "Rending Inferniarch Arbalest",
+      "min_level": 300,
+      "type": "CROSSBOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 8,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 59.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "73b45383-8697-43c0-aced-7f2b87720622",
+        "item_id": "3ed80445-8134-4624-86b7-b555dd46bfb5",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "d143bfa7-3343-43e2-be69-25b866067a53",
+        "item_id": "3ed80445-8134-4624-86b7-b555dd46bfb5",
+        "skill": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "a47bd980-dd00-45b2-9029-835ff9376cbd",
+        "item_id": "3ed80445-8134-4624-86b7-b555dd46bfb5",
+        "element": "ICE",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "acc535c0-4b8c-414f-8e63-21c5ad932958",
+      "name": "Rift Crossbow",
+      "min_level": 120,
+      "type": "CROSSBOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 5,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 130.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "d872503b-6a11-49ef-9282-6b5b3cc458bc",
+        "item_id": "acc535c0-4b8c-414f-8e63-21c5ad932958",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "6c6b8f26-0e51-46ce-bdf2-03bc88b77e5a",
+      "name": "Royal Crossbow",
+      "min_level": 130,
+      "type": "CROSSBOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 5,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 3,
+      "weight": 120.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "834fe18e-1019-459d-888d-bf9985d68323",
+        "item_id": "6c6b8f26-0e51-46ce-bdf2-03bc88b77e5a",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "7ecff736-bdcb-4b5c-8d34-2d099169f184",
+      "name": "Sanguine Crossbow",
+      "min_level": 600,
+      "type": "CROSSBOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 10,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 3,
+      "weight": 47.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "2f2b8f3d-d8ca-44ff-ab91-49573ad26388",
+        "item_id": "7ecff736-bdcb-4b5c-8d34-2d099169f184",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "6ca293c5-b7ff-4d98-98da-b5a2e0067150",
+        "item_id": "7ecff736-bdcb-4b5c-8d34-2d099169f184",
+        "skill": "DISTANCE",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "ca29c0ee-3e44-4646-9a9a-e33bfc922efe",
+        "item_id": "7ecff736-bdcb-4b5c-8d34-2d099169f184",
+        "element": "FIRE",
+        "value": 6
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "b749b689-4588-488c-9e90-ab2cc707a631",
+      "name": "Siphoning Inferniarch Arbalest",
+      "min_level": 300,
+      "type": "CROSSBOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 8,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 59.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "55d9f180-7603-47cc-a203-f3f0ab889abd",
+        "item_id": "b749b689-4588-488c-9e90-ab2cc707a631",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "cb2f2569-fbc6-4ace-9a2d-c086a1782abd",
+        "item_id": "b749b689-4588-488c-9e90-ab2cc707a631",
+        "skill": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "1ec22457-a08f-49f5-8404-565541ff11e4",
+        "item_id": "b749b689-4588-488c-9e90-ab2cc707a631",
+        "element": "ICE",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "3f367edc-1fd3-4202-9f50-dbc5fdc15f4a",
+      "name": "Soulpiercer",
+      "min_level": 400,
+      "type": "CROSSBOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 9,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 3,
+      "weight": 40.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "85e1db76-95e1-42f6-b3eb-2712368b48b1",
+        "item_id": "3f367edc-1fd3-4202-9f50-dbc5fdc15f4a",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "2faa5d69-2380-4aa4-98b6-3f8bbd2f64fe",
+        "item_id": "3f367edc-1fd3-4202-9f50-dbc5fdc15f4a",
+        "skill": "DISTANCE",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "3d4c2b55-bfa3-4980-87b0-1cf50f3e3472",
+        "item_id": "3f367edc-1fd3-4202-9f50-dbc5fdc15f4a",
+        "element": "DEATH",
+        "value": 7
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "37c6fd24-3e16-48cc-b80d-1522cdad5f2a",
+      "name": "The Devileye",
+      "min_level": 100,
+      "type": "CROSSBOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 20,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 3,
+      "weight": 55.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "5c4c770e-4345-4c4f-bbe0-5cbda91d0efb",
+        "item_id": "37c6fd24-3e16-48cc-b80d-1522cdad5f2a",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "ae69dc26-be65-413d-b700-fe80cd6f58aa",
+      "name": "The Ironworker",
+      "min_level": 80,
+      "type": "CROSSBOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 4,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 150.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "03b0a371-bc00-41a3-99f7-6dff8d215fde",
+        "item_id": "ae69dc26-be65-413d-b700-fe80cd6f58aa",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "f1c0d4a4-8f2e-4b59-ab41-4a9c8a89df2a",
+      "name": "Thorn Spitter",
+      "min_level": 150,
+      "type": "CROSSBOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 9,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 3,
+      "weight": 126.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "619d9605-7ea3-4015-b2f8-5a239b773042",
+        "item_id": "f1c0d4a4-8f2e-4b59-ab41-4a9c8a89df2a",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "253b06fe-9c19-48fa-8d11-2d5e26b43fe4",
+        "item_id": "f1c0d4a4-8f2e-4b59-ab41-4a9c8a89df2a",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "c3d7be9f-016d-4929-9d35-ea90f22121d4",
+        "item_id": "f1c0d4a4-8f2e-4b59-ab41-4a9c8a89df2a",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "fdd9774c-9141-4695-8607-6a98671b82ec",
+        "item_id": "f1c0d4a4-8f2e-4b59-ab41-4a9c8a89df2a",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "d5e56bda-ddfc-430d-9bac-4d9e8f6f38e8",
+        "item_id": "f1c0d4a4-8f2e-4b59-ab41-4a9c8a89df2a",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "7a1e70bb-b9f5-4e34-ab8f-4f8a7202a3f6",
+      "name": "Triple Bolt Crossbow",
+      "min_level": 70,
+      "type": "CROSSBOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 3,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 3,
+      "weight": 62.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "13c9e7b6-d3e7-40f5-bc58-f54e6f6a8d8f",
+        "item_id": "7a1e70bb-b9f5-4e34-ab8f-4f8a7202a3f6",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "bbbf2827-d0e8-4def-90c1-fb95e9ec5662",
+      "name": "Umbral Crossbow",
+      "min_level": 120,
+      "type": "CROSSBOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 6,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 1,
+      "weight": 125.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "91f2ac5d-bd59-4adf-8226-ecb3b3eba8ed",
+        "item_id": "bbbf2827-d0e8-4def-90c1-fb95e9ec5662",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "8fc57a79-1d97-4067-9821-c06dc701cfb4",
+      "name": "Umbral Master Crossbow",
+      "min_level": 250,
+      "type": "CROSSBOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 9,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 120.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "4534a82c-845b-459b-bad8-9f14d087c89c",
+        "item_id": "8fc57a79-1d97-4067-9821-c06dc701cfb4",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "1f511fd5-aef9-4bd6-a10e-a8175ed44ecb",
+        "item_id": "8fc57a79-1d97-4067-9821-c06dc701cfb4",
+        "skill": "DISTANCE",
+        "value": 3
+      }
+    ],
+    "item_protections": []
+  }
+]

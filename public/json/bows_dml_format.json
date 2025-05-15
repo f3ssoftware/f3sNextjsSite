@@ -1,0 +1,1097 @@
+[
+  {
+    "item": {
+      "id": "8fae9808-879e-41bc-ab55-5222de8f4d33",
+      "name": "Amber Bow",
+      "min_level": 330,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 7,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 3,
+      "weight": 37.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "fb5c55ed-8b47-4504-b2b8-57ae8e600596",
+        "item_id": "8fae9808-879e-41bc-ab55-5222de8f4d33",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "9ed2d281-4903-4c2a-bca7-99ceea7a80a4",
+        "item_id": "8fae9808-879e-41bc-ab55-5222de8f4d33",
+        "skill": "DISTANCE",
+        "value": 3
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "2b5b597d-5a19-4660-96d2-9239bbee1fcf",
+        "item_id": "8fae9808-879e-41bc-ab55-5222de8f4d33",
+        "element": "ENERGY",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "47e4edc3-ebcb-4c85-8318-682c4aa17e8b",
+      "name": "Bow",
+      "min_level": 0,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 31.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "49a562c0-f727-401a-8db6-fa111b5316d6",
+        "item_id": "47e4edc3-ebcb-4c85-8318-682c4aa17e8b",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "e59eb6e5-c36c-47ac-a484-49038eb81186",
+        "item_id": "47e4edc3-ebcb-4c85-8318-682c4aa17e8b",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "9ca838d6-755a-4a45-8320-4089f51b6104",
+        "item_id": "47e4edc3-ebcb-4c85-8318-682c4aa17e8b",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "76ff7f9c-d35f-44a7-aad8-bb54a177e8b6",
+        "item_id": "47e4edc3-ebcb-4c85-8318-682c4aa17e8b",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "fd48146d-58bc-475b-b9db-d768c710dc5c",
+        "item_id": "47e4edc3-ebcb-4c85-8318-682c4aa17e8b",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "6fcb3286-75d6-46d4-aa01-7e233d66125f",
+      "name": "Bow of Cataclysm",
+      "min_level": 250,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 6,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 3,
+      "weight": 47.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "af50b194-1f80-4589-ab29-11151f1fd627",
+        "item_id": "6fcb3286-75d6-46d4-aa01-7e233d66125f",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "d4aec3fd-2aa8-486d-9b20-fc4f936803ae",
+        "item_id": "6fcb3286-75d6-46d4-aa01-7e233d66125f",
+        "skill": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "837eae44-67ec-4c30-bfc9-029815a90972",
+        "item_id": "6fcb3286-75d6-46d4-aa01-7e233d66125f",
+        "element": "DEATH",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "8ef45dc3-e0fb-42ab-abf3-2f62f8c3f9ac",
+      "name": "Bow of Destruction",
+      "min_level": 200,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 5,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 55.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "10b9df99-4551-4320-a902-9ca380049689",
+        "item_id": "8ef45dc3-e0fb-42ab-abf3-2f62f8c3f9ac",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "c7ab1e15-6dc4-4ca2-b6b9-61db73cace46",
+      "name": "Composite Hornbow",
+      "min_level": 50,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 3,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 52.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "e292c041-85eb-433c-8c82-cf35457ca912",
+        "item_id": "c7ab1e15-6dc4-4ca2-b6b9-61db73cace46",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "45cf3dc8-bc25-47c9-9e21-de5c626a824c",
+      "name": "Crude Umbral Bow",
+      "min_level": 75,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 2,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 50.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "6a96f016-574e-4020-8c6c-01e73fc3a956",
+        "item_id": "45cf3dc8-bc25-47c9-9e21-de5c626a824c",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "5e232245-92c7-4f7c-a082-6dc55608215d",
+      "name": "Draining Inferniarch Bow",
+      "min_level": 300,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 7,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 56.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "97abf58e-e869-4e83-af94-f0ca7116ba44",
+        "item_id": "5e232245-92c7-4f7c-a082-6dc55608215d",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "942b25c2-2380-4e8d-be29-f336c6437be5",
+        "item_id": "5e232245-92c7-4f7c-a082-6dc55608215d",
+        "skill": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "dca3fc67-8842-4a48-90b6-eeb27c6bd226",
+        "item_id": "5e232245-92c7-4f7c-a082-6dc55608215d",
+        "element": "EARTH",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "2bb1a1d8-e58c-4302-8329-4ee6f1ef131e",
+      "name": "Eldritch Bow",
+      "min_level": 250,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 6,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 3,
+      "weight": 58.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "ac25fce6-007b-4cb0-9979-03ce97593ff6",
+        "item_id": "2bb1a1d8-e58c-4302-8329-4ee6f1ef131e",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "9ccc41bc-1bb7-4cb6-966d-3a09d1fe5628",
+        "item_id": "2bb1a1d8-e58c-4302-8329-4ee6f1ef131e",
+        "skill": "DISTANCE",
+        "value": 2
+      },
+      {
+        "id": "64cc2cc7-d904-4c14-8dc9-841a1800d476",
+        "item_id": "2bb1a1d8-e58c-4302-8329-4ee6f1ef131e",
+        "skill": "MAGIC",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "a6ad6e5b-84f1-4129-bffc-c1445cd6652e",
+      "name": "Elethriel's Elemental Bow",
+      "min_level": 70,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 7,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 0,
+      "weight": 44.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "b441373c-137b-40f7-8e59-9962c8cad14f",
+        "item_id": "a6ad6e5b-84f1-4129-bffc-c1445cd6652e",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "d707e04f-bad6-434c-94b4-6241beeb275f",
+      "name": "Elvish Bow",
+      "min_level": 0,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 39.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "44bb7c90-6590-464d-9cab-8dc14a14b055",
+        "item_id": "d707e04f-bad6-434c-94b4-6241beeb275f",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "57b0c0e5-2646-4742-adcc-570410779273",
+        "item_id": "d707e04f-bad6-434c-94b4-6241beeb275f",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "03cfeb4f-9bc2-4dce-95d8-ed80d7a66394",
+        "item_id": "d707e04f-bad6-434c-94b4-6241beeb275f",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "7ae07de3-4619-4208-9c62-aba70b738073",
+        "item_id": "d707e04f-bad6-434c-94b4-6241beeb275f",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "ef4a3eb8-6017-41d5-8fa3-6f9428bd9c4a",
+        "item_id": "d707e04f-bad6-434c-94b4-6241beeb275f",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "368b97e9-1f4a-41bb-938d-5c2206e6401e",
+      "name": "Falcon Bow",
+      "min_level": 300,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 7,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 3,
+      "weight": 35.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "bd9ef365-caf2-4846-8ba0-9adad9523695",
+        "item_id": "368b97e9-1f4a-41bb-938d-5c2206e6401e",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "faeca6e5-6322-4c7d-878b-409756ba4c33",
+        "item_id": "368b97e9-1f4a-41bb-938d-5c2206e6401e",
+        "skill": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "4976a33e-22f6-485f-9943-16125e1d693a",
+        "item_id": "368b97e9-1f4a-41bb-938d-5c2206e6401e",
+        "element": "FIRE",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "b4e85311-ae83-4d1d-9702-501edc38ab4f",
+      "name": "Gilded Eldritch Bow",
+      "min_level": 250,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 6,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 3,
+      "weight": 59.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "855e2fd0-4e65-4ff3-bea4-94e5661694f1",
+        "item_id": "b4e85311-ae83-4d1d-9702-501edc38ab4f",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "917bd19a-cbee-460d-a793-aef14a4f4777",
+        "item_id": "b4e85311-ae83-4d1d-9702-501edc38ab4f",
+        "skill": "DISTANCE",
+        "value": 2
+      },
+      {
+        "id": "174b09b3-ecc0-43a0-9183-0eb91779f4e8",
+        "item_id": "b4e85311-ae83-4d1d-9702-501edc38ab4f",
+        "skill": "MAGIC",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "3e91f511-94d8-4c72-a697-43b3021c678e",
+      "name": "Grand Sanguine Bow",
+      "min_level": 600,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 9,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 3,
+      "weight": 47.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "104d3bdf-e39a-4f7a-a4d4-9eef0a02ee9e",
+        "item_id": "3e91f511-94d8-4c72-a697-43b3021c678e",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "ccf7acfb-1c04-4531-b3c2-135d69a8f391",
+        "item_id": "3e91f511-94d8-4c72-a697-43b3021c678e",
+        "skill": "DISTANCE",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "abc52b66-765e-46ee-9ffa-3ab519d0dba7",
+        "item_id": "3e91f511-94d8-4c72-a697-43b3021c678e",
+        "element": "EARTH",
+        "value": 6
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "d74ee60b-001e-4da7-a306-b8fe704a3cca",
+      "name": "Hive Bow",
+      "min_level": 85,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 2,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 46.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "8bfef570-59b4-44e0-a6fa-42d8f170ee68",
+        "item_id": "d74ee60b-001e-4da7-a306-b8fe704a3cca",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "130e16df-9878-4f58-be6b-a17c67021d88",
+      "name": "Icicle Bow",
+      "min_level": 0,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 1,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 42.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "f80fea2c-ea92-49c2-9d36-c64240e6793c",
+        "item_id": "130e16df-9878-4f58-be6b-a17c67021d88",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "8dc46b7c-f443-46fc-833a-d3fd2dd4844f",
+        "item_id": "130e16df-9878-4f58-be6b-a17c67021d88",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "f6fe959f-7dc9-4f1a-963e-e772643a0a1a",
+        "item_id": "130e16df-9878-4f58-be6b-a17c67021d88",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "f457b4c1-1c09-4485-b882-562ef4cbc0ea",
+        "item_id": "130e16df-9878-4f58-be6b-a17c67021d88",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "c66d8321-d47b-4b4b-9193-1ef42067fe55",
+        "item_id": "130e16df-9878-4f58-be6b-a17c67021d88",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "a44c0d2b-53f2-49ee-bb0b-c80e38b9b8f0",
+      "name": "Inferniarch Bow",
+      "min_level": 300,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 7,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 3,
+      "weight": 56.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "38cc83d0-778c-4016-9616-2f0133071ebb",
+        "item_id": "a44c0d2b-53f2-49ee-bb0b-c80e38b9b8f0",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "2c69cf1a-cb71-4cfd-86c5-0c7289859057",
+        "item_id": "a44c0d2b-53f2-49ee-bb0b-c80e38b9b8f0",
+        "skill": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "aa905c9c-24ad-4299-a8c1-78804623aaeb",
+        "item_id": "a44c0d2b-53f2-49ee-bb0b-c80e38b9b8f0",
+        "element": "EARTH",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "d01d3e31-971a-4414-9aa2-c659c6c230e4",
+      "name": "Jungle Bow",
+      "min_level": 150,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 6,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 47.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "5a459de5-e17c-4f5e-9b0b-ab8bbe73185c",
+        "item_id": "d01d3e31-971a-4414-9aa2-c659c6c230e4",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "9befbe0a-ce07-4b93-907a-933a30c38877",
+        "item_id": "d01d3e31-971a-4414-9aa2-c659c6c230e4",
+        "skill": "DISTANCE",
+        "value": 1
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "8139b05d-42a9-44b0-80c1-87a0efa41b10",
+        "item_id": "d01d3e31-971a-4414-9aa2-c659c6c230e4",
+        "element": "PHYSICAL",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "9ae86931-1fb3-49d3-ae4f-b020edbd4d1c",
+      "name": "Lion Longbow",
+      "min_level": 270,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 6,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 3,
+      "weight": 48.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "70268bbc-fc83-4ac8-a402-ba4b28b3178e",
+        "item_id": "9ae86931-1fb3-49d3-ae4f-b020edbd4d1c",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "4e58197e-30fb-41e5-9793-4407ba471989",
+        "item_id": "9ae86931-1fb3-49d3-ae4f-b020edbd4d1c",
+        "skill": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "ee5c4085-7635-46cb-ac31-008c91349d94",
+        "item_id": "9ae86931-1fb3-49d3-ae4f-b020edbd4d1c",
+        "element": "ICE",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "8a238ce7-0f54-4e16-9caf-70d1b772a2ce",
+      "name": "Living Vine Bow",
+      "min_level": 220,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 5,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 3,
+      "weight": 38.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "d6e5d137-73c4-43cb-abdb-89f9286cbd8b",
+        "item_id": "8a238ce7-0f54-4e16-9caf-70d1b772a2ce",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "b4e06c83-31cd-4fcd-a1d9-e719288e3b34",
+        "item_id": "8a238ce7-0f54-4e16-9caf-70d1b772a2ce",
+        "skill": "DISTANCE",
+        "value": 1
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "5dfba4b4-7f5f-4d42-8fcf-f8401ffc8fed",
+        "item_id": "8a238ce7-0f54-4e16-9caf-70d1b772a2ce",
+        "element": "EARTH",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "c827ac35-76d4-4afb-80cb-a64e875679c9",
+      "name": "Musician's Bow",
+      "min_level": 0,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 12.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "eb72f183-d3f1-4bb4-8ad7-4bb768f14f2f",
+        "item_id": "c827ac35-76d4-4afb-80cb-a64e875679c9",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "d275f49a-077d-47b9-97c3-4848ec7eb279",
+        "item_id": "c827ac35-76d4-4afb-80cb-a64e875679c9",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "e55d034b-8d5b-4759-a71d-c632676e112a",
+        "item_id": "c827ac35-76d4-4afb-80cb-a64e875679c9",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "1c265dff-1f9a-41fe-8e36-bf194226613e",
+        "item_id": "c827ac35-76d4-4afb-80cb-a64e875679c9",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "a6815e1b-1fe6-40b9-954d-21c8f6364026",
+        "item_id": "c827ac35-76d4-4afb-80cb-a64e875679c9",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "dcfda7e2-a991-4898-8466-7f31da78d846",
+      "name": "Mycological Bow",
+      "min_level": 105,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 4,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 49.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "03187fe3-becd-4b43-9fc9-88695a3559d5",
+        "item_id": "dcfda7e2-a991-4898-8466-7f31da78d846",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "3979b54c-d5d6-4482-921d-392d949683d1",
+      "name": "Rending Inferniarch Bow",
+      "min_level": 300,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 7,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 56.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "5800060d-e9d0-47a0-8758-0c28a85380aa",
+        "item_id": "3979b54c-d5d6-4482-921d-392d949683d1",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "b8c96683-0cce-4dab-a557-09323d822cda",
+        "item_id": "3979b54c-d5d6-4482-921d-392d949683d1",
+        "skill": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "90acbf7d-7a6e-4543-ae39-cbf93fe28a4e",
+        "item_id": "3979b54c-d5d6-4482-921d-392d949683d1",
+        "element": "EARTH",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "1ecab9b3-6830-4409-b4c9-7a79a5602b54",
+      "name": "Rift Bow",
+      "min_level": 120,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 5,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 41.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "7d4715d5-04d3-4350-8398-7ba29e383af6",
+        "item_id": "1ecab9b3-6830-4409-b4c9-7a79a5602b54",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "f25a5bf6-ea05-4b2f-96f3-4d4dd466787d",
+      "name": "Sanguine Bow",
+      "min_level": 600,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 9,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 3,
+      "weight": 47.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "141f6851-e059-45aa-9c70-add85e21328b",
+        "item_id": "f25a5bf6-ea05-4b2f-96f3-4d4dd466787d",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "b71d26bb-69f5-4527-ac2a-ee4ee5940ae7",
+        "item_id": "f25a5bf6-ea05-4b2f-96f3-4d4dd466787d",
+        "skill": "DISTANCE",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "d8563cd5-740d-4ccb-8ff6-8c8bce2286b5",
+        "item_id": "f25a5bf6-ea05-4b2f-96f3-4d4dd466787d",
+        "element": "EARTH",
+        "value": 6
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "7bdfbd95-1500-42ec-b1b3-797f84ac544c",
+      "name": "Shimmer Bow",
+      "min_level": 40,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 1,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 48.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "66bd7f95-994c-47ea-aa65-aae8193b9432",
+        "item_id": "7bdfbd95-1500-42ec-b1b3-797f84ac544c",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "08830b58-26b8-4cd0-854f-ab0044336950",
+      "name": "Silkweaver Bow",
+      "min_level": 40,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 25.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "adf44bca-3583-4f5e-aefb-da9edd80a333",
+        "item_id": "08830b58-26b8-4cd0-854f-ab0044336950",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "ac9e891e-ee8e-4a55-9d70-99be1ffc65e2",
+      "name": "Siphoning Inferniarch Bow",
+      "min_level": 300,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 7,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 56.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "f5997bf1-1420-4362-84b3-9ecf569b29fc",
+        "item_id": "ac9e891e-ee8e-4a55-9d70-99be1ffc65e2",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "8cea3a14-f40b-4548-9456-704199eef8f6",
+        "item_id": "ac9e891e-ee8e-4a55-9d70-99be1ffc65e2",
+        "skill": "DISTANCE",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "67a16ba1-9568-42f0-b616-5785f2fd727c",
+        "item_id": "ac9e891e-ee8e-4a55-9d70-99be1ffc65e2",
+        "element": "EARTH",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "a2038335-7a1b-447e-83d5-f8d07dcc8236",
+      "name": "Soulbleeder",
+      "min_level": 400,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 8,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 3,
+      "weight": 47.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "13540002-308d-46bb-ad02-88048d779035",
+        "item_id": "a2038335-7a1b-447e-83d5-f8d07dcc8236",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "824df8a9-6ceb-4dff-9bf7-6e52c5e5b361",
+        "item_id": "a2038335-7a1b-447e-83d5-f8d07dcc8236",
+        "skill": "DISTANCE",
+        "value": 4
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "470ad2e3-efac-46ca-a080-0e8bd04316b6",
+        "item_id": "a2038335-7a1b-447e-83d5-f8d07dcc8236",
+        "element": "HOLY",
+        "value": 7
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "eee56ae1-37e7-4abe-a049-5b5b6d68c25e",
+      "name": "Umbral Bow",
+      "min_level": 120,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 4,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 1,
+      "weight": 45.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "56f2d392-36b8-4786-9c77-ac9da8cd1cc6",
+        "item_id": "eee56ae1-37e7-4abe-a049-5b5b6d68c25e",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "0b2f89fc-0a4a-4e2f-9fcf-b7946574d0a1",
+      "name": "Umbral Master Bow",
+      "min_level": 250,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 6,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 40.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "cf3890b7-35b8-4271-95a8-6b9adb62e4b5",
+        "item_id": "0b2f89fc-0a4a-4e2f-9fcf-b7946574d0a1",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "6d43b8f6-9ee3-4410-b6af-4af5483c2b9c",
+        "item_id": "0b2f89fc-0a4a-4e2f-9fcf-b7946574d0a1",
+        "skill": "DISTANCE",
+        "value": 3
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "7ba55d6f-a96b-4bfb-9742-99b2edc12d1f",
+      "name": "Warsinger Bow",
+      "min_level": 80,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 3,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 3,
+      "weight": 45.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "d851c9d5-1e69-48a0-b549-ee1bf6e726cf",
+        "item_id": "7ba55d6f-a96b-4bfb-9742-99b2edc12d1f",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "5583d2ea-1061-4384-bf2a-6ccf56235b9b",
+      "name": "Yol's Bow",
+      "min_level": 60,
+      "type": "BOW",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 0,
+      "weight": 35.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "4b309977-f122-4f7c-a543-d5668e8284d5",
+        "item_id": "5583d2ea-1061-4384-bf2a-6ccf56235b9b",
+        "vocation": "PALADIN"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  }
+]

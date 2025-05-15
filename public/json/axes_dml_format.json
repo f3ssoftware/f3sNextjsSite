@@ -1,0 +1,3616 @@
+[
+  {
+    "item": {
+      "id": "bba0fb6c-3ec1-40b1-b502-431fd5872032",
+      "name": "Amber Axe",
+      "min_level": 330,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 32,
+      "atk": 0,
+      "def_mod": 3,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 53.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "b52f2844-fac2-4708-8507-e761796caa84",
+        "item_id": "bba0fb6c-3ec1-40b1-b502-431fd5872032",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "48dd5bbc-1577-4a30-9618-013de6003b21",
+        "item_id": "bba0fb6c-3ec1-40b1-b502-431fd5872032",
+        "skill": "AXE",
+        "value": 4
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "ed0afec5-9ad2-4abf-8f9c-f712c00e08b5",
+      "name": "Amber Greataxe",
+      "min_level": 330,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 34,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 59.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "5f7417c7-ebc5-4212-9049-c6950cf55ec6",
+        "item_id": "ed0afec5-9ad2-4abf-8f9c-f712c00e08b5",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "987e38b2-ccb9-45f6-aa2c-c7306e1fd382",
+        "item_id": "ed0afec5-9ad2-4abf-8f9c-f712c00e08b5",
+        "skill": "AXE",
+        "value": 4
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "83056ab7-b808-4d43-829b-e4805d32ade8",
+      "name": "Angelic Axe",
+      "min_level": 45,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 24,
+      "atk": 44,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 56.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "06f5b752-12e3-4c1d-906c-6d603894e992",
+        "item_id": "83056ab7-b808-4d43-829b-e4805d32ade8",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "0ccee97b-4cad-41bc-8617-c6bd06396c9f",
+      "name": "Axe",
+      "min_level": 0,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 6,
+      "atk": 12,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 40.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "45c7298d-65d4-4975-aadb-1cb54969d130",
+        "item_id": "0ccee97b-4cad-41bc-8617-c6bd06396c9f",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "7372eb90-0d53-4f24-bf8d-3ab6f6721eb0",
+        "item_id": "0ccee97b-4cad-41bc-8617-c6bd06396c9f",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "db6db590-3f9b-44cc-ae6e-91e1a056eb78",
+        "item_id": "0ccee97b-4cad-41bc-8617-c6bd06396c9f",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "308c5067-88f2-40d9-b138-9cba26944a8a",
+        "item_id": "0ccee97b-4cad-41bc-8617-c6bd06396c9f",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "79a2001e-c167-4f41-bbe6-f7f1ddf85e12",
+        "item_id": "0ccee97b-4cad-41bc-8617-c6bd06396c9f",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "d5ee1ac2-2808-4140-843a-68b06d823fdf",
+      "name": "Axe of Destruction",
+      "min_level": 200,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 31,
+      "atk": 51,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 50.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "fadb73be-32be-4788-9ba6-f1148c55d20e",
+        "item_id": "d5ee1ac2-2808-4140-843a-68b06d823fdf",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "14b21383-5cae-4ea2-8a7d-462eb4bdb252",
+      "name": "Barbarian Axe",
+      "min_level": 20,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 18,
+      "atk": 28,
+      "def_mod": 1,
+      "tier": 1,
+      "imbuement_slots": 2,
+      "weight": 51.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "527bb885-6041-465d-9d4a-0a10f1921813",
+        "item_id": "14b21383-5cae-4ea2-8a7d-462eb4bdb252",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "51854152-3055-4ae5-8030-c643357ff359",
+        "item_id": "14b21383-5cae-4ea2-8a7d-462eb4bdb252",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "591f0c21-41ce-49c0-aeac-73f6fa03fca6",
+        "item_id": "14b21383-5cae-4ea2-8a7d-462eb4bdb252",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "684fd983-3e26-42e2-8b19-49625bfcb662",
+        "item_id": "14b21383-5cae-4ea2-8a7d-462eb4bdb252",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "ce643d93-2634-4b2c-8647-194ed1f14a14",
+        "item_id": "14b21383-5cae-4ea2-8a7d-462eb4bdb252",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "85b219be-739d-4620-9764-5a99e16ed30c",
+      "name": "Battle Axe",
+      "min_level": 0,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 10,
+      "atk": 25,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 50.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "a3dcb0d4-0487-4e4b-a257-7a84905e71eb",
+        "item_id": "85b219be-739d-4620-9764-5a99e16ed30c",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "be488fd1-91d5-45da-9ea9-4b86cfeaeac0",
+      "name": "Beastslayer Axe",
+      "min_level": 30,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 12,
+      "atk": 35,
+      "def_mod": 1,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 61.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "105b5d17-8053-4c44-a3a8-270d080cb55c",
+        "item_id": "be488fd1-91d5-45da-9ea9-4b86cfeaeac0",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "6fcb0446-0137-4561-9ed2-82c22fab217a",
+        "item_id": "be488fd1-91d5-45da-9ea9-4b86cfeaeac0",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "c30a310c-1e92-4fe3-a8be-36a5338bdd0c",
+        "item_id": "be488fd1-91d5-45da-9ea9-4b86cfeaeac0",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "bd123acf-af89-47fb-a9df-2701df5c2288",
+        "item_id": "be488fd1-91d5-45da-9ea9-4b86cfeaeac0",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "158db65d-0b21-4b83-94f0-1fe7a024e612",
+        "item_id": "be488fd1-91d5-45da-9ea9-4b86cfeaeac0",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "5a4da3cc-6d79-4bd8-b5a4-00a364a65bbb",
+      "name": "Butcher's Axe",
+      "min_level": 45,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 24,
+      "atk": 41,
+      "def_mod": -2,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 63.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "0b50724c-db9e-4237-b17c-b617527658bb",
+        "item_id": "5a4da3cc-6d79-4bd8-b5a4-00a364a65bbb",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "9c38c6ac-5fcc-41c4-9f86-4aa4ea11928d",
+        "item_id": "5a4da3cc-6d79-4bd8-b5a4-00a364a65bbb",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "69675578-fc63-4b4c-acdd-4d6bc5d1ac43",
+        "item_id": "5a4da3cc-6d79-4bd8-b5a4-00a364a65bbb",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "67015aea-0b9d-4200-b9ef-54c1d7d661ec",
+        "item_id": "5a4da3cc-6d79-4bd8-b5a4-00a364a65bbb",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "7cba9c1a-3a41-4413-9d65-4f28b069b994",
+        "item_id": "5a4da3cc-6d79-4bd8-b5a4-00a364a65bbb",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "a399b1c7-0d25-4d12-9e8e-5c73845d0ae9",
+      "name": "Chopper of Destruction",
+      "min_level": 200,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 30,
+      "atk": 52,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 70.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "1e2fbeca-47d3-43d3-9fc9-09a6906b0b66",
+        "item_id": "a399b1c7-0d25-4d12-9e8e-5c73845d0ae9",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "7f7038ea-1cad-4ca5-a0e8-2c41c17f0916",
+      "name": "Cobra Axe",
+      "min_level": 220,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 29,
+      "atk": 8,
+      "def_mod": 2,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 40.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "583ef2cf-3a1c-4009-b174-4d2eb2854944",
+        "item_id": "7f7038ea-1cad-4ca5-a0e8-2c41c17f0916",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "9b87d19e-3097-4b48-b412-9ecfc8e32a07",
+        "item_id": "7f7038ea-1cad-4ca5-a0e8-2c41c17f0916",
+        "skill": "AXE",
+        "value": 2
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "63fb530f-8e03-4710-ab7d-a101f6f26f8c",
+      "name": "Crude Umbral Axe",
+      "min_level": 75,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 24,
+      "atk": 49,
+      "def_mod": 1,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 90.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "35609397-893a-42f2-b03e-1ffbcf3ad203",
+        "item_id": "63fb530f-8e03-4710-ab7d-a101f6f26f8c",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "fc6ac86f-cc0c-45c2-aaad-08256d045c5d",
+      "name": "Crude Umbral Chopper",
+      "min_level": 75,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 27,
+      "atk": 51,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 120.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "41284c8d-7db5-46f9-86b3-0e1ac3d6c26d",
+        "item_id": "fc6ac86f-cc0c-45c2-aaad-08256d045c5d",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "cbbdf1c7-28e7-4a5c-8949-af8e5fd9821f",
+      "name": "Crystalline Axe",
+      "min_level": 120,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 29,
+      "atk": 51,
+      "def_mod": 3,
+      "tier": 2,
+      "imbuement_slots": 1,
+      "weight": 76.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "2acced39-24b8-42a9-b7a6-15a7b3817865",
+        "item_id": "cbbdf1c7-28e7-4a5c-8949-af8e5fd9821f",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "c25357e6-f5be-40c0-b43e-aafd23cf18f1",
+        "item_id": "cbbdf1c7-28e7-4a5c-8949-af8e5fd9821f",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "89be0f67-724d-4d7b-a0af-52ada5a13835",
+        "item_id": "cbbdf1c7-28e7-4a5c-8949-af8e5fd9821f",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "4fec93d6-ca9e-4a90-906a-d7d916affe3b",
+        "item_id": "cbbdf1c7-28e7-4a5c-8949-af8e5fd9821f",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "6daf1493-2b3b-4205-905c-56e09646a991",
+        "item_id": "cbbdf1c7-28e7-4a5c-8949-af8e5fd9821f",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "a1a4b71f-1093-4483-97e7-7a72420b63b9",
+        "item_id": "cbbdf1c7-28e7-4a5c-8949-af8e5fd9821f",
+        "skill": "AXE",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "895688c4-f11c-4a12-859a-4b3e6bc7b956",
+      "name": "Daramian Axe",
+      "min_level": 0,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 8,
+      "atk": 17,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 0,
+      "weight": 41.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "a4827715-517b-4592-9a20-0256ec8f5e83",
+        "item_id": "895688c4-f11c-4a12-859a-4b3e6bc7b956",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "ab4fe30e-9057-459c-ae90-e9a1fbf48d36",
+        "item_id": "895688c4-f11c-4a12-859a-4b3e6bc7b956",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "c10a3f29-1aaf-4753-a39b-37a8305d04b9",
+        "item_id": "895688c4-f11c-4a12-859a-4b3e6bc7b956",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "3fad88a4-1aa8-4dc9-bb1a-4952cd1daaf4",
+        "item_id": "895688c4-f11c-4a12-859a-4b3e6bc7b956",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "a96cc440-2a52-47a6-88ff-45d98fae0cd6",
+        "item_id": "895688c4-f11c-4a12-859a-4b3e6bc7b956",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "06719ba6-c8c1-4192-9b95-cc2c20b8688f",
+      "name": "Daramian Waraxe",
+      "min_level": 25,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 15,
+      "atk": 39,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 52.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "bd922967-2d9b-47f4-9c93-5e0a1ad86bc8",
+        "item_id": "06719ba6-c8c1-4192-9b95-cc2c20b8688f",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "3ef110e7-2250-4a32-a3ba-176e8881db11",
+      "name": "Deepling Axe",
+      "min_level": 80,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 29,
+      "atk": 49,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 91.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "56e23cba-dab6-481d-b247-3070811929e3",
+        "item_id": "3ef110e7-2250-4a32-a3ba-176e8881db11",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "0c57770a-f31a-4f23-ad9b-4eeae79acf0c",
+        "item_id": "3ef110e7-2250-4a32-a3ba-176e8881db11",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "778cbf23-fea8-4722-8ecc-754752cec5b9",
+        "item_id": "3ef110e7-2250-4a32-a3ba-176e8881db11",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "4338e090-ac7e-4775-881e-bab540349910",
+        "item_id": "3ef110e7-2250-4a32-a3ba-176e8881db11",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "0957182b-484a-44c1-9399-343b5ef78614",
+        "item_id": "3ef110e7-2250-4a32-a3ba-176e8881db11",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "86488a7a-dff3-49cc-8b02-f57925ddb49d",
+      "name": "Demonwing Axe",
+      "min_level": 120,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 20,
+      "atk": 53,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 2,
+      "weight": 120.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "33239ee8-5862-4be1-9fd3-667871cd7b94",
+        "item_id": "86488a7a-dff3-49cc-8b02-f57925ddb49d",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "1021da37-e9b2-4667-ac43-19aaf66f41c5",
+      "name": "Double Axe",
+      "min_level": 25,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 12,
+      "atk": 35,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 70.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "ed61b434-4fd7-483e-81a2-4a6c3bdad625",
+        "item_id": "1021da37-e9b2-4667-ac43-19aaf66f41c5",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "dff98f03-73dd-428a-b024-11e62d3558c0",
+      "name": "Dragon Lance",
+      "min_level": 60,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 16,
+      "atk": 47,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 67.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "5cddd3d5-1da4-4e44-aec2-32dca253d1a0",
+        "item_id": "dff98f03-73dd-428a-b024-11e62d3558c0",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "db1b3e30-0d2e-4a08-9d1b-076d4badb21f",
+        "item_id": "dff98f03-73dd-428a-b024-11e62d3558c0",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "d2d54b03-e738-4e07-8ed4-75648c86c97d",
+        "item_id": "dff98f03-73dd-428a-b024-11e62d3558c0",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "dddf529f-5269-4ab8-89ae-83d0299b36e4",
+        "item_id": "dff98f03-73dd-428a-b024-11e62d3558c0",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "f52c31b0-d115-41d6-beaa-594043efe70d",
+        "item_id": "dff98f03-73dd-428a-b024-11e62d3558c0",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "1b5cf217-8944-4e5a-b474-29fa21aae62d",
+      "name": "Draining Inferniarch Battleaxe",
+      "min_level": 300,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 31,
+      "atk": 8,
+      "def_mod": 3,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 67.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "87f6b014-ba35-47c5-8947-7df025a01059",
+        "item_id": "1b5cf217-8944-4e5a-b474-29fa21aae62d",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "87ce981c-44c9-448b-a58b-f9a12dd5ca6e",
+        "item_id": "1b5cf217-8944-4e5a-b474-29fa21aae62d",
+        "skill": "AXE",
+        "value": 3
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "9d5849b9-b571-4bc9-98cd-3ac68d910d43",
+      "name": "Draining Inferniarch Greataxe",
+      "min_level": 300,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 33,
+      "atk": 8,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 85.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "ae161843-ba0d-40ec-bf96-69a1ab332bf0",
+        "item_id": "9d5849b9-b571-4bc9-98cd-3ac68d910d43",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "97c053bd-191e-4471-8d17-206167cf5579",
+        "item_id": "9d5849b9-b571-4bc9-98cd-3ac68d910d43",
+        "skill": "AXE",
+        "value": 4
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "e28d55e4-48c1-43d7-9372-9202d19e76ba",
+      "name": "Drakinata",
+      "min_level": 60,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 20,
+      "atk": 47,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 54.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "203401e0-d42c-42f2-aa67-55c6b7262ffa",
+        "item_id": "e28d55e4-48c1-43d7-9372-9202d19e76ba",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "5ff34720-05aa-40fc-9bd4-4f97f639f118",
+        "item_id": "e28d55e4-48c1-43d7-9372-9202d19e76ba",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "b2652c36-9c82-4912-8be7-0a3add737ba3",
+        "item_id": "e28d55e4-48c1-43d7-9372-9202d19e76ba",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "b82f5cb8-a6a0-495c-9392-9044507c9222",
+        "item_id": "e28d55e4-48c1-43d7-9372-9202d19e76ba",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "b27c9730-0703-4edf-8dcd-3469ba9aee79",
+        "item_id": "e28d55e4-48c1-43d7-9372-9202d19e76ba",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "9ee390b8-44d4-49e1-b7d0-d39f806a2d19",
+      "name": "Dreaded Cleaver",
+      "min_level": 40,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 19,
+      "atk": 40,
+      "def_mod": -3,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 38.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "45613de1-0c52-407b-8862-bd56da0f5626",
+        "item_id": "9ee390b8-44d4-49e1-b7d0-d39f806a2d19",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "c977856b-c256-4dc9-a998-672779d17d1a",
+        "item_id": "9ee390b8-44d4-49e1-b7d0-d39f806a2d19",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "513511b4-ab01-4f45-ac6e-15c6396f1ad6",
+        "item_id": "9ee390b8-44d4-49e1-b7d0-d39f806a2d19",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "71bdeade-3f68-4a49-b59a-72594d0fdad3",
+        "item_id": "9ee390b8-44d4-49e1-b7d0-d39f806a2d19",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "1e30f577-34e8-426f-80de-cfd9e7539c45",
+        "item_id": "9ee390b8-44d4-49e1-b7d0-d39f806a2d19",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "bb13fec2-141d-40f4-a9ae-352bab061ceb",
+      "name": "Dwarven Axe",
+      "min_level": 20,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 19,
+      "atk": 31,
+      "def_mod": 2,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 82.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "0e6b5a48-8471-4659-96d0-07012a40f205",
+        "item_id": "bb13fec2-141d-40f4-a9ae-352bab061ceb",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "febdbeba-976c-4408-8a92-7fb959879805",
+        "item_id": "bb13fec2-141d-40f4-a9ae-352bab061ceb",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "45ae2cb6-738b-4b79-9a35-30d00b3ddd34",
+        "item_id": "bb13fec2-141d-40f4-a9ae-352bab061ceb",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "0e6a70d6-cfaf-4e35-8de6-3c9b3cc38931",
+        "item_id": "bb13fec2-141d-40f4-a9ae-352bab061ceb",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "9f8ae038-508e-4866-b3aa-fb2340c778e9",
+        "item_id": "bb13fec2-141d-40f4-a9ae-352bab061ceb",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "70da55b4-0a76-4ae6-adb2-7c025022d968",
+      "name": "Eldritch Greataxe",
+      "min_level": 270,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 33,
+      "atk": 56,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 65.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "c58d1991-9875-4030-9ec6-bc747132d89b",
+        "item_id": "70da55b4-0a76-4ae6-adb2-7c025022d968",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "a6679103-ec32-4344-ac24-29733dba6926",
+        "item_id": "70da55b4-0a76-4ae6-adb2-7c025022d968",
+        "skill": "AXE",
+        "value": 3
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "1c4408b1-5b5a-47fb-a395-1349172f9fc0",
+      "name": "Execowtioner Axe",
+      "min_level": 55,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 18,
+      "atk": 46,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 82.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "53ccffc2-be69-442c-9d1f-7c2e12d7fe65",
+        "item_id": "1c4408b1-5b5a-47fb-a395-1349172f9fc0",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "344cee4c-c647-4fc6-84d8-dab97500787b",
+        "item_id": "1c4408b1-5b5a-47fb-a395-1349172f9fc0",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "f9cf5b42-4bd0-4a17-8c28-147f92869716",
+        "item_id": "1c4408b1-5b5a-47fb-a395-1349172f9fc0",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "0eee5ebc-fc51-4675-b869-d7b3b36631b3",
+        "item_id": "1c4408b1-5b5a-47fb-a395-1349172f9fc0",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "9c625be5-a4ac-48c5-badf-349fe7aae4cf",
+        "item_id": "1c4408b1-5b5a-47fb-a395-1349172f9fc0",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "bb5e4cc3-f378-4aac-858e-6b28ac594311",
+      "name": "Executioner",
+      "min_level": 85,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 20,
+      "atk": 51,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 2,
+      "weight": 99.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "382ff369-6c19-4c19-905b-a18609364254",
+        "item_id": "bb5e4cc3-f378-4aac-858e-6b28ac594311",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "d134b196-d9fa-48dd-bea7-283d0c4b9987",
+      "name": "Falcon Battleaxe",
+      "min_level": 300,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 33,
+      "atk": 10,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 95.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "f39fe98f-360c-4544-9228-998b2d25f70f",
+        "item_id": "d134b196-d9fa-48dd-bea7-283d0c4b9987",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "29006c20-083b-45b0-a05a-703390d4e021",
+        "item_id": "d134b196-d9fa-48dd-bea7-283d0c4b9987",
+        "skill": "AXE",
+        "value": 4
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "1fb01dfe-e759-4995-a95c-2312cddd1df8",
+      "name": "Farmer's Avenger",
+      "min_level": 0,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 7,
+      "atk": 17,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 25.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "b7206b8a-a0bd-43bc-ad3d-944b74abcd9d",
+        "item_id": "1fb01dfe-e759-4995-a95c-2312cddd1df8",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "486491b4-9c02-4066-a0b0-bfe9c32dfd4d",
+        "item_id": "1fb01dfe-e759-4995-a95c-2312cddd1df8",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "05bf59ec-a6c1-4d44-b33f-7fb3f501b1a5",
+        "item_id": "1fb01dfe-e759-4995-a95c-2312cddd1df8",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "a5cf3459-7a41-46c4-9d10-d11302048c88",
+        "item_id": "1fb01dfe-e759-4995-a95c-2312cddd1df8",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "addfec6e-ea3d-43d7-8aae-5ffd82f43e5b",
+        "item_id": "1fb01dfe-e759-4995-a95c-2312cddd1df8",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "2fc90b0d-389a-48cd-8c5a-cb564435b725",
+      "name": "Fire Axe",
+      "min_level": 35,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 16,
+      "atk": 27,
+      "def_mod": 1,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 40.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "677ed623-d5dc-414d-b5fb-a5d7eba0a661",
+        "item_id": "2fc90b0d-389a-48cd-8c5a-cb564435b725",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "039bf755-1af6-4f3d-86e3-2bf812a8aef7",
+        "item_id": "2fc90b0d-389a-48cd-8c5a-cb564435b725",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "f56c07c0-5889-4201-9c14-b7709237a049",
+        "item_id": "2fc90b0d-389a-48cd-8c5a-cb564435b725",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "f35acbc6-f00a-4a86-bd45-02cab39cd8b5",
+        "item_id": "2fc90b0d-389a-48cd-8c5a-cb564435b725",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "fca68857-20af-4f3c-884e-b46f20b0df20",
+        "item_id": "2fc90b0d-389a-48cd-8c5a-cb564435b725",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "63ea812a-e21f-4cb1-bf74-40d760c5f922",
+      "name": "Gilded Eldritch Greataxe",
+      "min_level": 270,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 33,
+      "atk": 56,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 66.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "280b51a8-6a1c-4ec7-b4c2-e180d005a0ee",
+        "item_id": "63ea812a-e21f-4cb1-bf74-40d760c5f922",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "50245cd5-dac3-4372-8084-08c72cb163e4",
+        "item_id": "63ea812a-e21f-4cb1-bf74-40d760c5f922",
+        "skill": "AXE",
+        "value": 3
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "beff36f5-8d3e-4602-bb36-7989bd0099ab",
+      "name": "Glooth Axe",
+      "min_level": 75,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 1,
+      "atk": 39,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 19.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "30db3921-0e75-4a1f-bfcc-d6ee0b5b6cdc",
+        "item_id": "beff36f5-8d3e-4602-bb36-7989bd0099ab",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "99ea5a34-e9bf-451d-8771-1cebbc3266e6",
+      "name": "Glorious Axe",
+      "min_level": 30,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 23,
+      "atk": 40,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 95.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "a6803569-4e4c-4884-a65c-cac5f7720d80",
+        "item_id": "99ea5a34-e9bf-451d-8771-1cebbc3266e6",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "f7599127-d2fa-4664-ad63-e3f8d9e53c9e",
+      "name": "Golden Axe",
+      "min_level": 0,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 5,
+      "atk": 10,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 19.89,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "09707bd0-29b2-4e09-a855-924350f9d3a9",
+        "item_id": "f7599127-d2fa-4664-ad63-e3f8d9e53c9e",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "e7c18247-f0cf-4518-80dd-8e572f2fc864",
+        "item_id": "f7599127-d2fa-4664-ad63-e3f8d9e53c9e",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "ec678065-d37a-4c0f-91a2-5d818122d4c8",
+        "item_id": "f7599127-d2fa-4664-ad63-e3f8d9e53c9e",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "312fd90f-1746-41e1-a964-c7282e6fd861",
+        "item_id": "f7599127-d2fa-4664-ad63-e3f8d9e53c9e",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "778d835f-cf3f-429b-a3ec-ea5eca82fcc8",
+        "item_id": "f7599127-d2fa-4664-ad63-e3f8d9e53c9e",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "d510be20-f69b-47d5-a72b-b813c5437f17",
+      "name": "Golden Sickle",
+      "min_level": 0,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 6,
+      "atk": 13,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 19.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "6b5b31cb-5f12-4e52-8b6e-ea6cbfb54905",
+        "item_id": "d510be20-f69b-47d5-a72b-b813c5437f17",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "f711431b-c483-4a40-998a-c95d9d0d705e",
+        "item_id": "d510be20-f69b-47d5-a72b-b813c5437f17",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "dbdaa129-9757-4dc5-9a75-b62c1b27927c",
+        "item_id": "d510be20-f69b-47d5-a72b-b813c5437f17",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "ac78e315-5826-4f46-94d5-92f1c2591e0b",
+        "item_id": "d510be20-f69b-47d5-a72b-b813c5437f17",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "0f43b133-a1e6-4dd3-8f16-5e11a426b460",
+        "item_id": "d510be20-f69b-47d5-a72b-b813c5437f17",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "a5dc6d35-23ee-4d43-a676-34480fd96eef",
+      "name": "Grand Sanguine Battleaxe",
+      "min_level": 600,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 35,
+      "atk": 8,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 3,
+      "weight": 83.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "464fbcfb-9bfe-4e77-83ef-d911b2afc056",
+        "item_id": "a5dc6d35-23ee-4d43-a676-34480fd96eef",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "81f57e43-d72e-47b0-bce4-c2fe1559a473",
+        "item_id": "a5dc6d35-23ee-4d43-a676-34480fd96eef",
+        "skill": "AXE",
+        "value": 5
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "855c838a-78b5-4e8b-9291-3c6a810ebb9d",
+      "name": "Grand Sanguine Hatchet",
+      "min_level": 600,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 32,
+      "atk": 8,
+      "def_mod": 3,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 71.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "536a87d1-59cb-494c-99a2-6645c7c6800b",
+        "item_id": "855c838a-78b5-4e8b-9291-3c6a810ebb9d",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "4f166843-5fad-4cc0-8b95-a16117c969c2",
+        "item_id": "855c838a-78b5-4e8b-9291-3c6a810ebb9d",
+        "skill": "AXE",
+        "value": 5
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "63842156-aa68-44b6-bbb3-1a162d06bcfb",
+      "name": "Great Axe",
+      "min_level": 95,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 22,
+      "atk": 52,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 2,
+      "weight": 90.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "4ea16b63-5b31-49f2-ba5e-8c16ed3755af",
+        "item_id": "63842156-aa68-44b6-bbb3-1a162d06bcfb",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "fdb7c0ea-456a-4e15-b3c9-6cc734c05907",
+      "name": "Guardian Axe",
+      "min_level": 50,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 11,
+      "atk": 46,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 110.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "c807c362-f7b8-4f65-b329-4fcc825f1a75",
+        "item_id": "fdb7c0ea-456a-4e15-b3c9-6cc734c05907",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "a034d423-70f7-4e8f-b556-4d709f51969f",
+        "item_id": "fdb7c0ea-456a-4e15-b3c9-6cc734c05907",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "263a0e35-8453-4c18-b3b0-6f6d2cd4a93e",
+        "item_id": "fdb7c0ea-456a-4e15-b3c9-6cc734c05907",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "124ca639-a061-4978-9ec2-12639f4f14b6",
+        "item_id": "fdb7c0ea-456a-4e15-b3c9-6cc734c05907",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "f1cd9f65-27af-46fc-bcfb-a73d0add4bb3",
+        "item_id": "fdb7c0ea-456a-4e15-b3c9-6cc734c05907",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "ef39c577-cda9-4a14-9cf2-1f069ea422f7",
+      "name": "Guardian Halberd",
+      "min_level": 55,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 15,
+      "atk": 46,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 110.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "751cb78b-3a32-478f-ba64-2423ef2b9fed",
+        "item_id": "ef39c577-cda9-4a14-9cf2-1f069ea422f7",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "62c9d6f6-2645-4fe1-b497-b64b8e015428",
+        "item_id": "ef39c577-cda9-4a14-9cf2-1f069ea422f7",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "efe851bf-1d4b-444c-85d0-b7f06f0a2be6",
+        "item_id": "ef39c577-cda9-4a14-9cf2-1f069ea422f7",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "5df03867-c0d4-4775-acb2-37e2b3407975",
+        "item_id": "ef39c577-cda9-4a14-9cf2-1f069ea422f7",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "8dfe6115-49cb-46d8-9a30-1c62709c5dcd",
+        "item_id": "ef39c577-cda9-4a14-9cf2-1f069ea422f7",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "66294198-d284-4894-9b4c-355d8d2ba852",
+      "name": "Halberd",
+      "min_level": 25,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 14,
+      "atk": 35,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 90.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "cfa7b48e-653e-42c9-b289-bf4bd3951f6d",
+        "item_id": "66294198-d284-4894-9b4c-355d8d2ba852",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "83c8d26b-96d3-4a4f-85cb-aac14c2edd48",
+        "item_id": "66294198-d284-4894-9b4c-355d8d2ba852",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "d694fb65-546a-49f8-a1a3-0e8e82786aea",
+        "item_id": "66294198-d284-4894-9b4c-355d8d2ba852",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "6635883f-67f4-4cee-934a-84379143d33a",
+        "item_id": "66294198-d284-4894-9b4c-355d8d2ba852",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "6d1dbe78-0233-478a-a97c-e95b79ce4ebb",
+        "item_id": "66294198-d284-4894-9b4c-355d8d2ba852",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "094804ff-e70d-43c0-9896-ca8b22771524",
+      "name": "Hand Axe",
+      "min_level": 0,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 5,
+      "atk": 10,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 18.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "785baae2-e019-44df-ad32-af1afd67b4fd",
+        "item_id": "094804ff-e70d-43c0-9896-ca8b22771524",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "9d896f2d-cc96-4dc1-8056-dad21191fe9e",
+        "item_id": "094804ff-e70d-43c0-9896-ca8b22771524",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "dd394300-8c24-4453-89f6-956a6d97aa7f",
+        "item_id": "094804ff-e70d-43c0-9896-ca8b22771524",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "f16668cd-c4de-40a6-9972-94e0070f6cf5",
+        "item_id": "094804ff-e70d-43c0-9896-ca8b22771524",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "86c62c50-6ea1-49e8-aa7a-387aa1c48efd",
+        "item_id": "094804ff-e70d-43c0-9896-ca8b22771524",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "7eb812f4-2eb0-4c5e-a9bc-18ae574033f6",
+      "name": "Hatchet",
+      "min_level": 0,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 8,
+      "atk": 15,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 35.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "77f9cd61-2a84-43fe-82d2-31d5ca6e74e9",
+        "item_id": "7eb812f4-2eb0-4c5e-a9bc-18ae574033f6",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "a193b2dd-d6aa-48db-bba2-4fb538c27e41",
+        "item_id": "7eb812f4-2eb0-4c5e-a9bc-18ae574033f6",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "8c49e840-f626-4ece-817d-ca5544dfb934",
+        "item_id": "7eb812f4-2eb0-4c5e-a9bc-18ae574033f6",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "68c6df32-c2b0-4114-bb09-ae716473cb9e",
+        "item_id": "7eb812f4-2eb0-4c5e-a9bc-18ae574033f6",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "23835488-b15e-46a3-8821-9c9b33d925a6",
+        "item_id": "7eb812f4-2eb0-4c5e-a9bc-18ae574033f6",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "3aba09ce-a286-4aaa-b2fa-f5835cfbee72",
+      "name": "Headchopper",
+      "min_level": 35,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 20,
+      "atk": 42,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 45.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "1f3f8693-d5ce-44d8-87b0-4bbf3a7f9683",
+        "item_id": "3aba09ce-a286-4aaa-b2fa-f5835cfbee72",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "90703eba-dad8-4800-a3a1-6d7abd358b13",
+      "name": "Heavy Trident",
+      "min_level": 25,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 17,
+      "atk": 35,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 90.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "bc249950-8888-4815-acfc-251ae3fde64c",
+        "item_id": "90703eba-dad8-4800-a3a1-6d7abd358b13",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "9a14d8bf-e40f-4d36-97a7-dd4050e0e046",
+        "item_id": "90703eba-dad8-4800-a3a1-6d7abd358b13",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "55dcc0f4-cf06-47e7-801a-e0bf386146a7",
+        "item_id": "90703eba-dad8-4800-a3a1-6d7abd358b13",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "b9a4af38-ed0b-46fe-88c7-4c56753c7228",
+        "item_id": "90703eba-dad8-4800-a3a1-6d7abd358b13",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "0f67842c-c52f-4d94-84a1-eaa72f6c0a00",
+        "item_id": "90703eba-dad8-4800-a3a1-6d7abd358b13",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "d37fbb83-461b-4925-b48f-3374cd6359ef",
+      "name": "Hellforged Axe",
+      "min_level": 110,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 28,
+      "atk": 51,
+      "def_mod": 2,
+      "tier": 3,
+      "imbuement_slots": 1,
+      "weight": 88.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "cc15c872-0245-4a40-b6a4-c0ba8c924a86",
+        "item_id": "d37fbb83-461b-4925-b48f-3374cd6359ef",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "323b8191-b70b-42a4-bff2-0abb2201cc16",
+        "item_id": "d37fbb83-461b-4925-b48f-3374cd6359ef",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "40ffd8bd-0bea-4a40-8b88-33a93cf800fb",
+        "item_id": "d37fbb83-461b-4925-b48f-3374cd6359ef",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "bca53fce-ac48-4996-8c23-e2cb3bf4ae46",
+        "item_id": "d37fbb83-461b-4925-b48f-3374cd6359ef",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "5bfd3ca8-c762-4c1a-8e19-e1b1375c6d9f",
+        "item_id": "d37fbb83-461b-4925-b48f-3374cd6359ef",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "6f8efb3b-960d-4c17-8d75-8905726371b2",
+      "name": "Heroic Axe",
+      "min_level": 60,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 24,
+      "atk": 44,
+      "def_mod": 1,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 61.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "3f459dc3-4270-4d2d-a807-4b75cbc54070",
+        "item_id": "6f8efb3b-960d-4c17-8d75-8905726371b2",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "507f5664-aaba-40e0-a786-4459071ee2fa",
+        "item_id": "6f8efb3b-960d-4c17-8d75-8905726371b2",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "6ee76a60-94d3-4eea-bea1-698549e3503b",
+        "item_id": "6f8efb3b-960d-4c17-8d75-8905726371b2",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "b824ed44-f527-4418-b13b-87e31f12d93f",
+        "item_id": "6f8efb3b-960d-4c17-8d75-8905726371b2",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "20c8c5fa-44bc-481c-aa95-38ccbc9df750",
+        "item_id": "6f8efb3b-960d-4c17-8d75-8905726371b2",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "85f26872-dde3-4be2-9b58-fe6913c8fde0",
+      "name": "Hive Scythe",
+      "min_level": 70,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 24,
+      "atk": 46,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 75.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "c4fae8f1-7308-444c-9c48-487236f3e4d9",
+        "item_id": "85f26872-dde3-4be2-9b58-fe6913c8fde0",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "45b7aa0f-dad4-4a50-840b-5b5316e71ba8",
+        "item_id": "85f26872-dde3-4be2-9b58-fe6913c8fde0",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "b80f25e2-e4d3-406c-b7af-39e2abdd7ca6",
+        "item_id": "85f26872-dde3-4be2-9b58-fe6913c8fde0",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "b5e4197d-dd80-4824-ac3c-42d1be665d36",
+        "item_id": "85f26872-dde3-4be2-9b58-fe6913c8fde0",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "1d8efcd9-1f1f-44f3-b35c-153bd1354439",
+        "item_id": "85f26872-dde3-4be2-9b58-fe6913c8fde0",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "d8c45cb1-f52b-4535-8e8b-235632a38e68",
+      "name": "Ice Hatchet",
+      "min_level": 0,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 8,
+      "atk": 4,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 35.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "15b9130c-2bdb-4322-bcd5-2ed59eb89714",
+        "item_id": "d8c45cb1-f52b-4535-8e8b-235632a38e68",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "24a3ba4c-264f-44cf-9be7-4c6bec0f22d6",
+        "item_id": "d8c45cb1-f52b-4535-8e8b-235632a38e68",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "53749643-0470-4d88-ba38-997b07db1c51",
+        "item_id": "d8c45cb1-f52b-4535-8e8b-235632a38e68",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "239d6b91-de07-4719-9206-77b092bb22f1",
+        "item_id": "d8c45cb1-f52b-4535-8e8b-235632a38e68",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "f540112d-1486-490b-9cfc-65d402c72265",
+        "item_id": "d8c45cb1-f52b-4535-8e8b-235632a38e68",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "27f653ce-a201-4345-be17-a348fd414f71",
+      "name": "Impaler",
+      "min_level": 85,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 25,
+      "atk": 49,
+      "def_mod": -2,
+      "tier": 3,
+      "imbuement_slots": 2,
+      "weight": 82.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "c5c319b0-c9fe-47dc-8d5e-2d6f964080cd",
+        "item_id": "27f653ce-a201-4345-be17-a348fd414f71",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "ba268eaa-17ea-4722-85d5-b8ff1b70339f",
+        "item_id": "27f653ce-a201-4345-be17-a348fd414f71",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "387490ff-fa83-4dbc-9906-c65943520eca",
+        "item_id": "27f653ce-a201-4345-be17-a348fd414f71",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "aeac0719-45ae-4ee7-bad0-5bc1bafe96fd",
+        "item_id": "27f653ce-a201-4345-be17-a348fd414f71",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "ed97975b-9904-42c4-99a3-9591be14cd4f",
+        "item_id": "27f653ce-a201-4345-be17-a348fd414f71",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "ea06d8a2-c49c-4b03-9990-a1c7992ccfb6",
+      "name": "Inferniarch Battleaxe",
+      "min_level": 300,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 31,
+      "atk": 8,
+      "def_mod": 3,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 67.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "64aace1f-5ad0-4822-bcd8-f7a6be997e8d",
+        "item_id": "ea06d8a2-c49c-4b03-9990-a1c7992ccfb6",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "c00ed064-b80e-443b-bd87-4b3e4fe4afb4",
+        "item_id": "ea06d8a2-c49c-4b03-9990-a1c7992ccfb6",
+        "skill": "AXE",
+        "value": 3
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "4ae9beb4-ad3d-459a-96f7-f90637bc648d",
+      "name": "Inferniarch Greataxe",
+      "min_level": 300,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 33,
+      "atk": 8,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 85.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "0425e2f0-58c2-48fa-9f50-8d7055204d7b",
+        "item_id": "4ae9beb4-ad3d-459a-96f7-f90637bc648d",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "3c85948f-bd80-4c33-b5ba-a92a981c107d",
+        "item_id": "4ae9beb4-ad3d-459a-96f7-f90637bc648d",
+        "skill": "AXE",
+        "value": 4
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "750ccbc9-8b8b-431b-b05f-9d5b1cc02078",
+      "name": "Knight Axe",
+      "min_level": 25,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 21,
+      "atk": 33,
+      "def_mod": 1,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 59.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "6ff9fb00-320c-47c9-bf24-745b7d59ac2f",
+        "item_id": "750ccbc9-8b8b-431b-b05f-9d5b1cc02078",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "ba812709-e9fa-44dc-a159-e64402fed296",
+        "item_id": "750ccbc9-8b8b-431b-b05f-9d5b1cc02078",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "341ebc1b-a611-4d62-9558-f77eb3dac927",
+        "item_id": "750ccbc9-8b8b-431b-b05f-9d5b1cc02078",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "83dca41c-895d-4d4f-84d4-19076b40ba16",
+        "item_id": "750ccbc9-8b8b-431b-b05f-9d5b1cc02078",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "2598bf86-865f-4aa4-8de1-db39fe28f940",
+        "item_id": "750ccbc9-8b8b-431b-b05f-9d5b1cc02078",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "735e9e3a-41de-4536-9411-a2d82d0d0fdc",
+      "name": "Lion Axe",
+      "min_level": 270,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 31,
+      "atk": 8,
+      "def_mod": 2,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 79.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "988fccbc-ba62-43b7-bfd4-116ac8c412e1",
+        "item_id": "735e9e3a-41de-4536-9411-a2d82d0d0fdc",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "5fbcf0d2-6b22-43f2-b514-142c0b14771f",
+        "item_id": "735e9e3a-41de-4536-9411-a2d82d0d0fdc",
+        "skill": "AXE",
+        "value": 3
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "cace1cd7-15fb-4be3-9e3f-b6a63042d2eb",
+      "name": "Mino Lance",
+      "min_level": 45,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 23,
+      "atk": 40,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 65.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "65337554-9219-448a-968d-227f5625526d",
+        "item_id": "cace1cd7-15fb-4be3-9e3f-b6a63042d2eb",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "7c4fe1c4-7d11-46e7-8097-3f5a8be136a2",
+        "item_id": "cace1cd7-15fb-4be3-9e3f-b6a63042d2eb",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "5fc403ee-46b3-44d7-8766-8b3c36769aa9",
+        "item_id": "cace1cd7-15fb-4be3-9e3f-b6a63042d2eb",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "23b286c5-3eb0-43e7-baae-6dd2e5754a5a",
+        "item_id": "cace1cd7-15fb-4be3-9e3f-b6a63042d2eb",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "d0f31571-3f12-4e21-965c-ae96239b9b5d",
+        "item_id": "cace1cd7-15fb-4be3-9e3f-b6a63042d2eb",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "f408eafe-7dd9-4d1a-9a81-a1a6f41c901c",
+      "name": "Mythril Axe",
+      "min_level": 80,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 28,
+      "atk": 48,
+      "def_mod": 2,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 55.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "6833c9aa-8706-4c6a-94f0-25a43d731f4f",
+        "item_id": "f408eafe-7dd9-4d1a-9a81-a1a6f41c901c",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "87a9619c-18cf-45d4-a341-a9cc87e525ac",
+        "item_id": "f408eafe-7dd9-4d1a-9a81-a1a6f41c901c",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "aafdc435-52d8-4a4a-9436-bac73f0d69a3",
+        "item_id": "f408eafe-7dd9-4d1a-9a81-a1a6f41c901c",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "dff7dd93-2f89-40e7-a593-5b0ffc868563",
+        "item_id": "f408eafe-7dd9-4d1a-9a81-a1a6f41c901c",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "a5976d57-7439-4381-911c-c73941c1502e",
+        "item_id": "f408eafe-7dd9-4d1a-9a81-a1a6f41c901c",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "33d01367-6bbc-47c2-8db5-0a35063eea95",
+      "name": "Naga Axe",
+      "min_level": 300,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 31,
+      "atk": 8,
+      "def_mod": 3,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 55.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "ea32816f-2f04-439c-986e-8f4ae3a9ab98",
+        "item_id": "33d01367-6bbc-47c2-8db5-0a35063eea95",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "4e6b50b4-451d-4c35-bbee-dedb4d5db7b0",
+        "item_id": "33d01367-6bbc-47c2-8db5-0a35063eea95",
+        "skill": "AXE",
+        "value": 3
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "f04d9175-43fa-40a2-b43b-cb1d09a7b35b",
+      "name": "Naginata",
+      "min_level": 25,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 25,
+      "atk": 39,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 78.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "cb49fd85-5bd6-4329-b987-d7a7d434885a",
+        "item_id": "f04d9175-43fa-40a2-b43b-cb1d09a7b35b",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "f2279031-f507-47bd-a141-62413dbd14dd",
+        "item_id": "f04d9175-43fa-40a2-b43b-cb1d09a7b35b",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "08fa32b1-4437-460b-97cd-f390ec95d100",
+        "item_id": "f04d9175-43fa-40a2-b43b-cb1d09a7b35b",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "fdce1600-bd3d-4745-8ee1-6758d767a77e",
+        "item_id": "f04d9175-43fa-40a2-b43b-cb1d09a7b35b",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "6173005c-19d3-41e1-aa5a-aa3af9d11fe0",
+        "item_id": "f04d9175-43fa-40a2-b43b-cb1d09a7b35b",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "38145531-7c6a-4ed0-8841-1eff727d5fd2",
+      "name": "Noble Axe",
+      "min_level": 35,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 22,
+      "atk": 39,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 38.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "b7f4cb5a-f23e-4864-821f-474ea5237140",
+        "item_id": "38145531-7c6a-4ed0-8841-1eff727d5fd2",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "46c7eef3-3d03-420c-b75a-75a070f78267",
+        "item_id": "38145531-7c6a-4ed0-8841-1eff727d5fd2",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "61c486b1-b818-4a25-8770-6bfe51815994",
+        "item_id": "38145531-7c6a-4ed0-8841-1eff727d5fd2",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "4bc2de6d-4825-4e48-b01b-287403ec87fa",
+        "item_id": "38145531-7c6a-4ed0-8841-1eff727d5fd2",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "69e7fe7b-df6f-46a4-a9c7-f0f7fb92b09a",
+        "item_id": "38145531-7c6a-4ed0-8841-1eff727d5fd2",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "6f06faf7-f6e2-4765-a68e-1a9b11dc2504",
+      "name": "Obsidian Lance",
+      "min_level": 20,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 10,
+      "atk": 34,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 80.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "8d665e76-3024-484b-a3e5-f22b298a1561",
+        "item_id": "6f06faf7-f6e2-4765-a68e-1a9b11dc2504",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "ecd78d63-d626-45f1-b42a-797164a0cd41",
+        "item_id": "6f06faf7-f6e2-4765-a68e-1a9b11dc2504",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "fbb05b28-2042-4b3f-8446-3d62e3c90441",
+        "item_id": "6f06faf7-f6e2-4765-a68e-1a9b11dc2504",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "4e99abdb-e452-43e0-9719-4cc2106f7ee2",
+        "item_id": "6f06faf7-f6e2-4765-a68e-1a9b11dc2504",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "c2fd9e72-c560-4e22-931a-c973d47ec88b",
+        "item_id": "6f06faf7-f6e2-4765-a68e-1a9b11dc2504",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "f4a14d38-cb58-4a88-b40b-d0f099b447d2",
+      "name": "Ogre Choppa",
+      "min_level": 25,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 23,
+      "atk": 39,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 75.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "b14b42d9-cad5-49cc-b1e4-faf777ad4640",
+        "item_id": "f4a14d38-cb58-4a88-b40b-d0f099b447d2",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "48da3e7f-5e98-4576-a548-aa9e5db98b6d",
+        "item_id": "f4a14d38-cb58-4a88-b40b-d0f099b447d2",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "26fdbeaa-6be6-457d-9246-c98feb3fc0e0",
+        "item_id": "f4a14d38-cb58-4a88-b40b-d0f099b447d2",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "3772f38a-d7d3-4194-8fde-895bde94371a",
+        "item_id": "f4a14d38-cb58-4a88-b40b-d0f099b447d2",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "3b7c37d5-a731-45ae-a86a-5ebe2e9c7150",
+        "item_id": "f4a14d38-cb58-4a88-b40b-d0f099b447d2",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "2aee235e-27bd-4756-a2e6-c814545a6088",
+      "name": "Orcish Axe",
+      "min_level": 0,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 12,
+      "atk": 23,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 45.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "56004bb1-b978-4be3-a9b0-e9def264e66d",
+        "item_id": "2aee235e-27bd-4756-a2e6-c814545a6088",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "1fd57606-fff9-4b38-b4fb-3e4b80e700d0",
+        "item_id": "2aee235e-27bd-4756-a2e6-c814545a6088",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "c586c92f-48b0-49b9-85a0-e346ef6b81cc",
+        "item_id": "2aee235e-27bd-4756-a2e6-c814545a6088",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "46053f06-df89-40ed-a071-d2638ddd4617",
+        "item_id": "2aee235e-27bd-4756-a2e6-c814545a6088",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "2ef956ce-47f0-42a4-948d-aa10b59fb2cd",
+        "item_id": "2aee235e-27bd-4756-a2e6-c814545a6088",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "f85bcf1f-7ed3-431f-9be1-49aa5aca91d4",
+      "name": "Ornamented Axe",
+      "min_level": 50,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 22,
+      "atk": 42,
+      "def_mod": 2,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 61.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "c051fd4c-a1f4-4556-9894-f367125e4ecf",
+        "item_id": "f85bcf1f-7ed3-431f-9be1-49aa5aca91d4",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "8c510efb-1fcf-43a3-93ea-40b9448a42c3",
+        "item_id": "f85bcf1f-7ed3-431f-9be1-49aa5aca91d4",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "99eecc61-d177-4eb0-ab5b-ebfc498da9c6",
+        "item_id": "f85bcf1f-7ed3-431f-9be1-49aa5aca91d4",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "cc570919-3f02-4632-aaa0-7180ab0201e3",
+        "item_id": "f85bcf1f-7ed3-431f-9be1-49aa5aca91d4",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "a2b3c2cb-02c8-4b50-9fa5-1ac729a4ac01",
+        "item_id": "f85bcf1f-7ed3-431f-9be1-49aa5aca91d4",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "0c2061c6-e729-4dff-afbf-e9ff61070fa4",
+      "name": "Phantasmal Axe",
+      "min_level": 180,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 32,
+      "atk": 5,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 2,
+      "weight": 72.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "3485e040-c437-4921-a84f-df2a01f1eb88",
+        "item_id": "0c2061c6-e729-4dff-afbf-e9ff61070fa4",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "c4f9933d-db08-4386-b8e9-70aff60217dd",
+        "item_id": "0c2061c6-e729-4dff-afbf-e9ff61070fa4",
+        "skill": "AXE",
+        "value": 2
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "cb01ce41-ff8f-4d34-ae7d-9f8e6dc5fd77",
+      "name": "Plague Bite",
+      "min_level": 150,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 31,
+      "atk": 26,
+      "def_mod": 3,
+      "tier": 4,
+      "imbuement_slots": 0,
+      "weight": 99.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "ecbbf41e-def7-413c-b742-2481119bf316",
+        "item_id": "cb01ce41-ff8f-4d34-ae7d-9f8e6dc5fd77",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "af6c91d3-0f1c-4846-96dc-2cf396fa5b78",
+        "item_id": "cb01ce41-ff8f-4d34-ae7d-9f8e6dc5fd77",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "8683d6aa-5d4b-4a3e-a4fd-3de72c6f5e96",
+        "item_id": "cb01ce41-ff8f-4d34-ae7d-9f8e6dc5fd77",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "8544ee73-ca0b-4f85-b9c1-50f0a9ffd283",
+        "item_id": "cb01ce41-ff8f-4d34-ae7d-9f8e6dc5fd77",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "cff155b3-798d-4166-a5b9-3878fb42aa98",
+        "item_id": "cb01ce41-ff8f-4d34-ae7d-9f8e6dc5fd77",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "efeb0ff0-8d88-4380-8c72-f14a34cbc569",
+      "name": "Ravager's Axe",
+      "min_level": 70,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 14,
+      "atk": 49,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 3,
+      "weight": 52.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "265b593f-9065-4d2a-bce0-32533c1a11fd",
+        "item_id": "efeb0ff0-8d88-4380-8c72-f14a34cbc569",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "d0429321-ada4-45b1-b489-f4cc7fa3835d",
+      "name": "Ravenwing",
+      "min_level": 65,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 22,
+      "atk": 45,
+      "def_mod": 1,
+      "tier": 4,
+      "imbuement_slots": 0,
+      "weight": 55.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "d21ec705-9f7c-4ef6-842c-a1205295f73e",
+        "item_id": "d0429321-ada4-45b1-b489-f4cc7fa3835d",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "a92be711-aa15-4b3f-81a6-5291961f2655",
+        "item_id": "d0429321-ada4-45b1-b489-f4cc7fa3835d",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "6de29f91-4f39-4a47-8087-a02d8a537fce",
+        "item_id": "d0429321-ada4-45b1-b489-f4cc7fa3835d",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "a3864787-248e-485d-80b6-0dc508c0ac7e",
+        "item_id": "d0429321-ada4-45b1-b489-f4cc7fa3835d",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "8b462d41-e9bf-4937-829f-fd16d79d0971",
+        "item_id": "d0429321-ada4-45b1-b489-f4cc7fa3835d",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "da928a4a-2dfe-41d6-a115-7ab7edf1ff77",
+      "name": "Reaper's Axe",
+      "min_level": 70,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 25,
+      "atk": 46,
+      "def_mod": 2,
+      "tier": 3,
+      "imbuement_slots": 0,
+      "weight": 59.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "c21a2732-b494-44cc-b086-d99f39c3f2b5",
+        "item_id": "da928a4a-2dfe-41d6-a115-7ab7edf1ff77",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "be71a768-ae67-4a90-99c6-918490356c38",
+        "item_id": "da928a4a-2dfe-41d6-a115-7ab7edf1ff77",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "32be627d-68c4-4fa4-bb50-b0a4ec48606a",
+        "item_id": "da928a4a-2dfe-41d6-a115-7ab7edf1ff77",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "26583ca2-1817-4bd4-9fec-b5121fcb4c86",
+        "item_id": "da928a4a-2dfe-41d6-a115-7ab7edf1ff77",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "630c7fa5-272b-41f4-85ae-72ada7982d81",
+        "item_id": "da928a4a-2dfe-41d6-a115-7ab7edf1ff77",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "584a010c-41b0-4f8b-8d17-dd570cee72d1",
+      "name": "Rending Inferniarch Battleaxe",
+      "min_level": 300,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 31,
+      "atk": 8,
+      "def_mod": 3,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 67.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "5d9017f9-be98-48be-bcb6-1b8eb8158c44",
+        "item_id": "584a010c-41b0-4f8b-8d17-dd570cee72d1",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "a706d52f-9ac7-4152-b75c-977fb3341729",
+        "item_id": "584a010c-41b0-4f8b-8d17-dd570cee72d1",
+        "skill": "AXE",
+        "value": 3
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "f9731a75-9277-4146-aad9-8073fe4192d6",
+      "name": "Rending Inferniarch Greataxe",
+      "min_level": 300,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 33,
+      "atk": 8,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 85.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "b2694baa-0e5f-4d06-8765-694d96a968fc",
+        "item_id": "f9731a75-9277-4146-aad9-8073fe4192d6",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "87c6e4fe-dcbb-4be1-a693-69f68069e065",
+        "item_id": "f9731a75-9277-4146-aad9-8073fe4192d6",
+        "skill": "AXE",
+        "value": 4
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "e33a1503-b049-45f0-b091-92407d51c11f",
+      "name": "Rift Lance",
+      "min_level": 70,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 28,
+      "atk": 48,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 66.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "8ef3d144-78a0-455d-9c2a-845d76355edf",
+        "item_id": "e33a1503-b049-45f0-b091-92407d51c11f",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "c63646b9-bf74-478f-b169-2c51126dc7d1",
+        "item_id": "e33a1503-b049-45f0-b091-92407d51c11f",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "4f576deb-1630-460a-893f-0338f0f42ceb",
+        "item_id": "e33a1503-b049-45f0-b091-92407d51c11f",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "c083adef-6b3c-46ef-865f-02c95f832612",
+        "item_id": "e33a1503-b049-45f0-b091-92407d51c11f",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "88446eff-e142-4f30-bcd0-fc38841e231b",
+        "item_id": "e33a1503-b049-45f0-b091-92407d51c11f",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "7216400b-7c6f-47e9-a6d9-46cf9f7b3196",
+      "name": "Ripper Lance",
+      "min_level": 0,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 7,
+      "atk": 28,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 80.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "d040b567-a9f6-4a0d-86c3-d5245917382f",
+        "item_id": "7216400b-7c6f-47e9-a6d9-46cf9f7b3196",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "b4194ff3-8abc-4716-9405-755745c47f88",
+        "item_id": "7216400b-7c6f-47e9-a6d9-46cf9f7b3196",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "55cc00b2-d736-4684-a675-3cc42ff54649",
+        "item_id": "7216400b-7c6f-47e9-a6d9-46cf9f7b3196",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "f06dfcee-db83-4163-bf24-4a2f621de0ad",
+        "item_id": "7216400b-7c6f-47e9-a6d9-46cf9f7b3196",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "8e12a5df-93f0-428c-8d0d-8d20a800552a",
+        "item_id": "7216400b-7c6f-47e9-a6d9-46cf9f7b3196",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "9bd12ea4-9670-4122-8bad-9fd8e5da8bba",
+      "name": "Royal Axe",
+      "min_level": 75,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 25,
+      "atk": 47,
+      "def_mod": 3,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 92.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "e11fd43f-740b-42a7-b49c-68ebe3e3bcd6",
+        "item_id": "9bd12ea4-9670-4122-8bad-9fd8e5da8bba",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "1774d235-b9f7-4c14-9342-f538ef46d7f5",
+        "item_id": "9bd12ea4-9670-4122-8bad-9fd8e5da8bba",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "878d548c-8fa1-4351-a39d-463467365fe1",
+        "item_id": "9bd12ea4-9670-4122-8bad-9fd8e5da8bba",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "02602b8c-435b-4f4f-80bc-b177845f39a3",
+        "item_id": "9bd12ea4-9670-4122-8bad-9fd8e5da8bba",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "f4532668-b1d1-4efe-a2d9-e1877c77745d",
+        "item_id": "9bd12ea4-9670-4122-8bad-9fd8e5da8bba",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "c7fb99b5-294a-4cbe-919e-af55a20323e4",
+      "name": "Ruthless Axe",
+      "min_level": 75,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 15,
+      "atk": 50,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 58.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "3e9c6d83-96f5-4b34-afcb-40fdf9248e19",
+        "item_id": "c7fb99b5-294a-4cbe-919e-af55a20323e4",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "9c9ec28e-1846-47ff-8969-17633e291776",
+      "name": "Sanguine Battleaxe",
+      "min_level": 600,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 35,
+      "atk": 8,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 3,
+      "weight": 85.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "51ec6d11-4642-425e-930a-af13ffddc872",
+        "item_id": "9c9ec28e-1846-47ff-8969-17633e291776",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "959cc509-1253-4848-815f-4f3c198d5852",
+        "item_id": "9c9ec28e-1846-47ff-8969-17633e291776",
+        "skill": "AXE",
+        "value": 5
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "d3a45ac0-4847-4a71-b25a-29912073989b",
+      "name": "Sanguine Hatchet",
+      "min_level": 600,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 32,
+      "atk": 8,
+      "def_mod": 3,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 72.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "1612a3d5-8582-49c4-9b47-b73762cc14c2",
+        "item_id": "d3a45ac0-4847-4a71-b25a-29912073989b",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "b6898c62-5491-4774-b047-7e7694d8e897",
+        "item_id": "d3a45ac0-4847-4a71-b25a-29912073989b",
+        "skill": "AXE",
+        "value": 5
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "bb1d9a0f-56d3-410a-8759-79ad87139bd9",
+      "name": "Scythe of the Reaper",
+      "min_level": 0,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 6,
+      "atk": 16,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 30.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "d245eb19-1bd5-43ba-8e21-dc6adb9ce688",
+        "item_id": "bb1d9a0f-56d3-410a-8759-79ad87139bd9",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "04718f46-aeeb-4f3b-bf1b-50ada441a2af",
+        "item_id": "bb1d9a0f-56d3-410a-8759-79ad87139bd9",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "fe191f45-e516-44fb-a559-7a0ee3c0b3b9",
+        "item_id": "bb1d9a0f-56d3-410a-8759-79ad87139bd9",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "d9838e7a-643b-4bca-a6ff-617aea80e71e",
+        "item_id": "bb1d9a0f-56d3-410a-8759-79ad87139bd9",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "ed01b7f6-0030-4f52-bb41-c9db28a07b6e",
+        "item_id": "bb1d9a0f-56d3-410a-8759-79ad87139bd9",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "0db117f5-917e-4c75-adf0-b3f193615c03",
+      "name": "Sickle",
+      "min_level": 0,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 4,
+      "atk": 5,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 10.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "e548f823-6c43-4e4f-9919-2cc077b05729",
+        "item_id": "0db117f5-917e-4c75-adf0-b3f193615c03",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "93ca96c7-8ec4-4351-ac44-53934ac2767c",
+        "item_id": "0db117f5-917e-4c75-adf0-b3f193615c03",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "a067170f-b047-4f06-8409-79b95aa75ad8",
+        "item_id": "0db117f5-917e-4c75-adf0-b3f193615c03",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "23263acd-aae3-406c-8274-7f2a21011deb",
+        "item_id": "0db117f5-917e-4c75-adf0-b3f193615c03",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "2c76f8d1-eb92-4411-94cb-edd32d507adb",
+        "item_id": "0db117f5-917e-4c75-adf0-b3f193615c03",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "81bbd659-ac2d-4332-b812-2cab60aee696",
+      "name": "Siphoning Inferniarch Battleaxe",
+      "min_level": 300,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 31,
+      "atk": 8,
+      "def_mod": 3,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 67.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "f80dd76e-ad2f-4dd1-909b-edda204e8b37",
+        "item_id": "81bbd659-ac2d-4332-b812-2cab60aee696",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "54cab200-a8e0-4c81-98ab-343125869083",
+        "item_id": "81bbd659-ac2d-4332-b812-2cab60aee696",
+        "skill": "AXE",
+        "value": 3
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "260c45d2-8489-4001-90a8-f69529bf4dae",
+      "name": "Siphoning Inferniarch Greataxe",
+      "min_level": 300,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 33,
+      "atk": 8,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 85.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "fa462acf-576e-4c89-b4b0-b9f404cb450f",
+        "item_id": "260c45d2-8489-4001-90a8-f69529bf4dae",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "9377ce42-313d-4bb9-8dc8-604d4bee1f10",
+        "item_id": "260c45d2-8489-4001-90a8-f69529bf4dae",
+        "skill": "AXE",
+        "value": 4
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "f068c278-2d71-41b5-8ddd-bdd132469ef3",
+      "name": "Solar Axe",
+      "min_level": 130,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 29,
+      "atk": 52,
+      "def_mod": 3,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 110.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "96413c26-978f-4155-94cf-81087144460d",
+        "item_id": "f068c278-2d71-41b5-8ddd-bdd132469ef3",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "b503ef67-85dc-48b3-93b8-8379d97329f6",
+        "item_id": "f068c278-2d71-41b5-8ddd-bdd132469ef3",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "901e8a60-bf26-44cc-adb7-483e7ac8d352",
+        "item_id": "f068c278-2d71-41b5-8ddd-bdd132469ef3",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "91b8b0f3-6b47-4078-b303-2990d15f44b8",
+        "item_id": "f068c278-2d71-41b5-8ddd-bdd132469ef3",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "8c72c77b-f8f7-43a8-86b6-86042924d055",
+        "item_id": "f068c278-2d71-41b5-8ddd-bdd132469ef3",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "e64c5140-7ec4-4971-be2a-714c0e73e86c",
+      "name": "Soulbiter",
+      "min_level": 400,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 32,
+      "atk": 7,
+      "def_mod": 3,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 40.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "84fd4c79-eb26-40a4-804e-f11e6a4c43ad",
+        "item_id": "e64c5140-7ec4-4971-be2a-714c0e73e86c",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "ecef9ca6-aa8d-407a-b0c9-26b7dd71d896",
+        "item_id": "e64c5140-7ec4-4971-be2a-714c0e73e86c",
+        "skill": "AXE",
+        "value": 5
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "18b217d9-693f-4732-9f4e-89cb8c453ed5",
+      "name": "Souleater (Axe)",
+      "min_level": 400,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 34,
+      "atk": 10,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 3,
+      "weight": 72.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "5f48eb4a-fa8d-4f53-8778-7849548e067f",
+        "item_id": "18b217d9-693f-4732-9f4e-89cb8c453ed5",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "40349716-ec53-47cd-b197-8f43ae68aaa9",
+        "item_id": "18b217d9-693f-4732-9f4e-89cb8c453ed5",
+        "skill": "AXE",
+        "value": 5
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "1eacd4c4-7221-47bf-b469-8108994cb8ea",
+      "name": "Steel Axe",
+      "min_level": 0,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 10,
+      "atk": 21,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 41.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "51257cae-ff80-4d21-8b2e-61ba8ba04fc2",
+        "item_id": "1eacd4c4-7221-47bf-b469-8108994cb8ea",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "59db3b4f-589b-416b-a96a-3b9ef67060bc",
+        "item_id": "1eacd4c4-7221-47bf-b469-8108994cb8ea",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "e6f43e3a-f4c1-42e3-9e52-b91cdc80bafb",
+        "item_id": "1eacd4c4-7221-47bf-b469-8108994cb8ea",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "042afe10-123e-4e1c-95c7-6aaedf6822a1",
+        "item_id": "1eacd4c4-7221-47bf-b469-8108994cb8ea",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "7f572b85-46ce-4167-ae7f-5748e6beaba4",
+        "item_id": "1eacd4c4-7221-47bf-b469-8108994cb8ea",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "f7b89aca-65d6-4001-b0ce-8e8e9904eb0b",
+      "name": "Stonecutter Axe",
+      "min_level": 90,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 30,
+      "atk": 50,
+      "def_mod": 3,
+      "tier": 2,
+      "imbuement_slots": 1,
+      "weight": 99.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "402a930a-3bab-49cf-8b8d-144733dc741f",
+        "item_id": "f7b89aca-65d6-4001-b0ce-8e8e9904eb0b",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "08a8096e-8761-4bf3-93b0-1289ed4fdae2",
+        "item_id": "f7b89aca-65d6-4001-b0ce-8e8e9904eb0b",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "8ae62ae8-7fe9-42eb-a501-4e5591db7a6c",
+        "item_id": "f7b89aca-65d6-4001-b0ce-8e8e9904eb0b",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "758c9735-c3fd-4bed-8d90-fdf60fefb6e2",
+        "item_id": "f7b89aca-65d6-4001-b0ce-8e8e9904eb0b",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "f770c24d-36e2-455d-82ba-4fd3f2a9be65",
+        "item_id": "f7b89aca-65d6-4001-b0ce-8e8e9904eb0b",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "63fa5173-215d-4ae0-815f-faa92bda01b5",
+      "name": "Throwing Axe",
+      "min_level": 150,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 30,
+      "atk": 51,
+      "def_mod": 2,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 47.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "d76f495a-81ae-4d4b-a814-f8dbed03e438",
+        "item_id": "63fa5173-215d-4ae0-815f-faa92bda01b5",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "ab435fa4-d485-43f0-8d6b-9c8cf4415b87",
+        "item_id": "63fa5173-215d-4ae0-815f-faa92bda01b5",
+        "skill": "AXE",
+        "value": 2
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "0237b53d-0cff-4f05-9733-c4e29432d2fc",
+      "name": "Titan Axe",
+      "min_level": 40,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 30,
+      "atk": 43,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 81.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "914dd413-98df-4634-b6d5-d6e5eb709c9b",
+        "item_id": "0237b53d-0cff-4f05-9733-c4e29432d2fc",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "4451dc17-ef07-4b98-a16d-19d4244c1315",
+      "name": "Twin Axe",
+      "min_level": 50,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 24,
+      "atk": 45,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 3,
+      "weight": 64.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "0102b354-2c30-4dde-97fb-19f25a0ebb5f",
+        "item_id": "4451dc17-ef07-4b98-a16d-19d4244c1315",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "261cfc2b-e149-4fbc-8c4b-cb73dbc327d9",
+      "name": "Umbral Axe",
+      "min_level": 120,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 27,
+      "atk": 51,
+      "def_mod": 2,
+      "tier": 3,
+      "imbuement_slots": 1,
+      "weight": 85.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "08d1bb92-0cae-4b5b-8f90-2d7cfb5068e9",
+        "item_id": "261cfc2b-e149-4fbc-8c4b-cb73dbc327d9",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "d2a388bb-226c-4170-a9fd-d23865779841",
+      "name": "Umbral Chopper",
+      "min_level": 120,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 30,
+      "atk": 52,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 1,
+      "weight": 115.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "d4482731-7b2a-417f-aec2-7c0d109e4db8",
+        "item_id": "d2a388bb-226c-4170-a9fd-d23865779841",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "666ba3ff-6bc2-4972-a760-df7713210e88",
+      "name": "Umbral Master Axe",
+      "min_level": 250,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 30,
+      "atk": 53,
+      "def_mod": 3,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 80.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "5c6d4441-1ada-420a-b689-03012799d392",
+        "item_id": "666ba3ff-6bc2-4972-a760-df7713210e88",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "4bc8424e-7ffb-4b9d-8fe6-36a43bea3576",
+        "item_id": "666ba3ff-6bc2-4972-a760-df7713210e88",
+        "skill": "AXE",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "1f5aa8ba-1a15-419b-b16d-76de3e74f73e",
+      "name": "Umbral Master Chopper",
+      "min_level": 250,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 34,
+      "atk": 54,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 110.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "c3a75c73-d7e7-439a-bff4-e851582e6740",
+        "item_id": "1f5aa8ba-1a15-419b-b16d-76de3e74f73e",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "45235ec3-f99b-4608-9121-c37a09bae554",
+        "item_id": "1f5aa8ba-1a15-419b-b16d-76de3e74f73e",
+        "skill": "AXE",
+        "value": 3
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "6b7e30a2-cc31-4edd-b281-10162d892b97",
+      "name": "Vile Axe",
+      "min_level": 55,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 19,
+      "atk": 43,
+      "def_mod": 3,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 52.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "d500af55-b8df-4521-a965-b99cdba94f97",
+        "item_id": "6b7e30a2-cc31-4edd-b281-10162d892b97",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "724fb623-0d74-4ae4-b39a-757da367f23f",
+        "item_id": "6b7e30a2-cc31-4edd-b281-10162d892b97",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "5092e309-f7d4-42ba-b276-6fa10edd7100",
+        "item_id": "6b7e30a2-cc31-4edd-b281-10162d892b97",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "d5000e60-c7dd-4492-bfb5-7d32b5ec8e06",
+        "item_id": "6b7e30a2-cc31-4edd-b281-10162d892b97",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "6042cd32-28da-414f-bf74-eb6a03850ae9",
+        "item_id": "6b7e30a2-cc31-4edd-b281-10162d892b97",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "1b14dab9-2675-45c8-99a0-fad9b38de6db",
+      "name": "War Axe",
+      "min_level": 65,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 10,
+      "atk": 48,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 61.5,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "8ea816e6-d6cb-41c0-a1c1-d9bfbee98040",
+        "item_id": "1b14dab9-2675-45c8-99a0-fad9b38de6db",
+        "vocation": "KNIGHT"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "cb5b64a9-c337-4fe2-8fd6-b9b35df3605d",
+      "name": "Warrior's Axe",
+      "min_level": 40,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 21,
+      "atk": 42,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 88.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "d7be86b0-3fdf-4102-a658-86f6dbdb9551",
+        "item_id": "cb5b64a9-c337-4fe2-8fd6-b9b35df3605d",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "12ce8721-6754-4f34-b5ce-9202267ed1f5",
+        "item_id": "cb5b64a9-c337-4fe2-8fd6-b9b35df3605d",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "1d5ba93d-c28e-4904-bb9a-5bacef7be99a",
+        "item_id": "cb5b64a9-c337-4fe2-8fd6-b9b35df3605d",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "50612614-da28-4c65-9fb2-10dc41af1a3e",
+        "item_id": "cb5b64a9-c337-4fe2-8fd6-b9b35df3605d",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "e6f8d98a-f07f-43c2-a7ea-56725abc5f16",
+        "item_id": "cb5b64a9-c337-4fe2-8fd6-b9b35df3605d",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "831f44ea-1dc4-4e98-9465-81ac58b7e701",
+      "name": "Zaoan Halberd",
+      "min_level": 25,
+      "type": "AXE_WEAPON",
+      "arm": 0,
+      "def": 15,
+      "atk": 37,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 3,
+      "weight": 87.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "244076ba-30ec-4db5-8db9-11a3675c059d",
+        "item_id": "831f44ea-1dc4-4e98-9465-81ac58b7e701",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "67f3291e-ce2f-4282-b680-350a4f09bf88",
+        "item_id": "831f44ea-1dc4-4e98-9465-81ac58b7e701",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "091cf6de-37ba-43c2-98dd-25c99b7c63ae",
+        "item_id": "831f44ea-1dc4-4e98-9465-81ac58b7e701",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "7468e2f3-b93f-4512-8cba-cdcb2a45c4f8",
+        "item_id": "831f44ea-1dc4-4e98-9465-81ac58b7e701",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "a1d8596b-136c-46d6-b9ba-17f1b7075f54",
+        "item_id": "831f44ea-1dc4-4e98-9465-81ac58b7e701",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  }
+]

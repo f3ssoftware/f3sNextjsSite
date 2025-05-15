@@ -1,0 +1,1113 @@
+[
+  {
+    "item": {
+      "id": "63f66cae-b706-4113-bebe-77c128e71a80",
+      "name": "Amber Rod",
+      "min_level": 330,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 18.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "1e91e189-19b0-4f8d-aff6-8527717583f7",
+        "item_id": "63f66cae-b706-4113-bebe-77c128e71a80",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "28a257a4-aa2a-45ae-ad91-8391701d6af7",
+        "item_id": "63f66cae-b706-4113-bebe-77c128e71a80",
+        "skill": "MAGIC",
+        "value": 3
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "b82cc38e-330e-486d-ba4a-7beb1f295b9a",
+        "item_id": "63f66cae-b706-4113-bebe-77c128e71a80",
+        "element": "FIRE",
+        "value": 6
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "0de7fee7-5443-4bb0-af53-ffd856f865cb",
+      "name": "Cobra Rod",
+      "min_level": 220,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 25.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "8b5a41e4-401b-4dbc-8983-2d7729a7390a",
+        "item_id": "0de7fee7-5443-4bb0-af53-ffd856f865cb",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "6a1f4a35-5bf7-42f3-b988-2d88b4fe3150",
+        "item_id": "0de7fee7-5443-4bb0-af53-ffd856f865cb",
+        "skill": "MAGIC",
+        "value": 2
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "acd6b53b-34fd-464b-8fa3-f8106f475b13",
+      "name": "Deepling Ceremonial Dagger",
+      "min_level": 180,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 2,
+      "weight": 32.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "3986b01c-a94b-4d35-a771-754a9951cce1",
+        "item_id": "acd6b53b-34fd-464b-8fa3-f8106f475b13",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "7dc518a3-6a81-42e6-9d8b-362922540ace",
+        "item_id": "acd6b53b-34fd-464b-8fa3-f8106f475b13",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "fc2fdb12-e6fb-4d72-84df-b41aae3aec24",
+        "item_id": "acd6b53b-34fd-464b-8fa3-f8106f475b13",
+        "skill": "MAGIC",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "3be311eb-98cb-4b77-965b-3b23a323cd41",
+        "item_id": "acd6b53b-34fd-464b-8fa3-f8106f475b13",
+        "element": "EARTH",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "f5bb2bda-09e5-4094-80e0-0d43aa0689f0",
+      "name": "Deepling Fork",
+      "min_level": 230,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 2,
+      "weight": 33.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "76c1e1e7-4028-4a0e-aded-a10d7ea1df24",
+        "item_id": "f5bb2bda-09e5-4094-80e0-0d43aa0689f0",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "209bc56b-e29a-4ea5-b96a-1afd5376f350",
+        "item_id": "f5bb2bda-09e5-4094-80e0-0d43aa0689f0",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "49a4d623-67d0-4fb7-b8b9-9547f968a8cf",
+        "item_id": "f5bb2bda-09e5-4094-80e0-0d43aa0689f0",
+        "skill": "MAGIC",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "9ec16d6c-9d1f-4ca4-85df-51bdc896be5f",
+        "item_id": "f5bb2bda-09e5-4094-80e0-0d43aa0689f0",
+        "element": "HOLY",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "dfb8c07b-d769-4eeb-9f62-e4d2752dfca2",
+      "name": "Draining Inferniarch Rod",
+      "min_level": 300,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 22.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "198e47ef-56f3-4054-a112-5cb449a6e6ab",
+        "item_id": "dfb8c07b-d769-4eeb-9f62-e4d2752dfca2",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "123c302b-a581-41f9-aac9-c91872d88312",
+        "item_id": "dfb8c07b-d769-4eeb-9f62-e4d2752dfca2",
+        "skill": "MAGIC",
+        "value": 3
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "34745816-d27c-4f0f-9c48-48a87552725f",
+        "item_id": "dfb8c07b-d769-4eeb-9f62-e4d2752dfca2",
+        "element": "DEATH",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "9abda142-0b2b-470a-b93b-bfe3ea0029b0",
+      "name": "Dream Blossom Staff",
+      "min_level": 80,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 32.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "f1b44c44-9114-4245-b277-baccd858eb8f",
+        "item_id": "9abda142-0b2b-470a-b93b-bfe3ea0029b0",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "09d682ea-f0f0-42ee-9592-4e22e88dc6e0",
+        "item_id": "9abda142-0b2b-470a-b93b-bfe3ea0029b0",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "164a4dab-0dd3-4cdd-93ea-a6bb0338eb72",
+        "item_id": "9abda142-0b2b-470a-b93b-bfe3ea0029b0",
+        "skill": "MAGIC",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "b44f888e-316f-45ca-ad76-088573dff3ce",
+      "name": "Eldritch Rod",
+      "min_level": 250,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 35.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "ca08187c-1a37-4efe-8f88-8cde071c5f01",
+        "item_id": "b44f888e-316f-45ca-ad76-088573dff3ce",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "6614ac7b-185f-4cae-a3c6-38be54f88f73",
+        "item_id": "b44f888e-316f-45ca-ad76-088573dff3ce",
+        "skill": "MAGIC",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "f053b0f0-e90f-421c-85a9-657f81337c8d",
+        "item_id": "b44f888e-316f-45ca-ad76-088573dff3ce",
+        "element": "EARTH",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "b3b039d9-e674-4870-b920-1edb97c8749a",
+      "name": "Energized Limb",
+      "min_level": 180,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 2,
+      "weight": 27.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "11e7becb-1811-4c66-b7ac-5e8ab60fd171",
+        "item_id": "b3b039d9-e674-4870-b920-1edb97c8749a",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "2d4d79ab-52e9-4599-ab61-456dc9f8946c",
+        "item_id": "b3b039d9-e674-4870-b920-1edb97c8749a",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "e6ed7b97-db68-43ff-99eb-1a537ab90751",
+        "item_id": "b3b039d9-e674-4870-b920-1edb97c8749a",
+        "skill": "MAGIC",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "37bac4fe-13ec-45c6-b7f8-ae9b7aafcc02",
+        "item_id": "b3b039d9-e674-4870-b920-1edb97c8749a",
+        "element": "ENERGY",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "d8dfabfd-d1ab-4d71-8dab-7153908e175e",
+      "name": "Falcon Rod",
+      "min_level": 300,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 37.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "5cd03607-df81-4e52-8f92-a99da3023d5c",
+        "item_id": "d8dfabfd-d1ab-4d71-8dab-7153908e175e",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "2a3e371a-a4de-483a-b527-0bc491e31504",
+        "item_id": "d8dfabfd-d1ab-4d71-8dab-7153908e175e",
+        "skill": "MAGIC",
+        "value": 3
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "ccb5cdc1-1f25-4291-8944-c5bac1e933cc",
+        "item_id": "d8dfabfd-d1ab-4d71-8dab-7153908e175e",
+        "element": "ENERGY",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "e3586c18-acac-4d90-8eb3-fd47a91b35f2",
+      "name": "Gilded Eldritch Rod",
+      "min_level": 250,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 36.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "a5b5b0ca-dabb-4dbd-ba9c-525f158c4fde",
+        "item_id": "e3586c18-acac-4d90-8eb3-fd47a91b35f2",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "0667112f-7a9c-4fed-bc66-5e9607b641d6",
+        "item_id": "e3586c18-acac-4d90-8eb3-fd47a91b35f2",
+        "skill": "MAGIC",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "9beb5f4e-a761-4101-96d2-5764a1e5d530",
+        "item_id": "e3586c18-acac-4d90-8eb3-fd47a91b35f2",
+        "element": "EARTH",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "13a7895b-2443-4a3b-89dd-f6f4808d2670",
+      "name": "Glacial Rod",
+      "min_level": 65,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 37.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "ad33856d-de15-4880-90ff-35a583ee8c21",
+        "item_id": "13a7895b-2443-4a3b-89dd-f6f4808d2670",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "79f9e3de-be70-415d-acf8-ad0277fb9a5c",
+        "item_id": "13a7895b-2443-4a3b-89dd-f6f4808d2670",
+        "skill": "MAGIC",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "df8271f4-a31e-4ec3-ab01-ecaef1497fa4",
+      "name": "Grand Sanguine Rod",
+      "min_level": 600,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 24.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "5ae92a28-adba-4dae-9ad1-5c576f37dbe5",
+        "item_id": "df8271f4-a31e-4ec3-ab01-ecaef1497fa4",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "7c8727fb-0c47-4f0d-8041-62c091d627be",
+        "item_id": "df8271f4-a31e-4ec3-ab01-ecaef1497fa4",
+        "skill": "MAGIC",
+        "value": 5
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "ac7dd892-f71f-45f8-8c85-06dce3e8cd48",
+        "item_id": "df8271f4-a31e-4ec3-ab01-ecaef1497fa4",
+        "element": "DEATH",
+        "value": 7
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "5baaf097-f9b4-4c31-89df-3e0b5ab49b34",
+      "name": "Hailstorm Rod",
+      "min_level": 33,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 27.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "dbd34844-f024-443c-b0fc-dd454de7c2b4",
+        "item_id": "5baaf097-f9b4-4c31-89df-3e0b5ab49b34",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "bbb47691-79f2-45f3-852c-cd1878b3f556",
+      "name": "Inferniarch Rod",
+      "min_level": 300,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 22.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "fb7c6caf-57fa-499c-881a-1c5fd5c292e4",
+        "item_id": "bbb47691-79f2-45f3-852c-cd1878b3f556",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "1d237645-8c1d-40db-883f-4134fc7820e8",
+        "item_id": "bbb47691-79f2-45f3-852c-cd1878b3f556",
+        "skill": "MAGIC",
+        "value": 3
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "628051c0-7e02-4bea-809c-70db59019866",
+        "item_id": "bbb47691-79f2-45f3-852c-cd1878b3f556",
+        "element": "DEATH",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "c291aad9-822f-438f-ab98-d750a5688c67",
+      "name": "Jungle Rod",
+      "min_level": 150,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 37.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "f62db011-1a7d-453f-b582-b577a878d79e",
+        "item_id": "c291aad9-822f-438f-ab98-d750a5688c67",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "d53cc5bf-931f-49c8-a88b-1c4e32af9f5b",
+        "item_id": "c291aad9-822f-438f-ab98-d750a5688c67",
+        "skill": "MAGIC",
+        "value": 1
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "e49d830c-db0e-42ab-b965-9cbff304764b",
+        "item_id": "c291aad9-822f-438f-ab98-d750a5688c67",
+        "element": "EARTH",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "74e6e309-9401-4f09-8293-59aea15890c7",
+      "name": "Lion Rod",
+      "min_level": 270,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 26.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "ed1c5352-6c34-46b8-bc03-7e197561900d",
+        "item_id": "74e6e309-9401-4f09-8293-59aea15890c7",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "b5eaef4b-e7b9-4e12-b552-333b1965264f",
+        "item_id": "74e6e309-9401-4f09-8293-59aea15890c7",
+        "skill": "MAGIC",
+        "value": 2
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "7868eefc-269d-4ab5-b839-466af84a43f6",
+      "name": "Moonlight Rod",
+      "min_level": 13,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 21.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "de155b37-7263-4fb2-8e1a-480dcdc06695",
+        "item_id": "7868eefc-269d-4ab5-b839-466af84a43f6",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "f8106990-e273-45c5-bc3f-f69bc37f5399",
+      "name": "Muck Rod",
+      "min_level": 65,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 37.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "6523eb1a-90e8-404e-80cd-eb281139aea9",
+        "item_id": "f8106990-e273-45c5-bc3f-f69bc37f5399",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "9dd68c03-7fea-4ae2-8e4d-1020481f6efa",
+        "item_id": "f8106990-e273-45c5-bc3f-f69bc37f5399",
+        "skill": "MAGIC",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "d3a156b4-313c-4c74-b401-fd638ff2af17",
+      "name": "Naga Rod",
+      "min_level": 250,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 29.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "2ad42ddb-bc1a-4df4-8e18-e8333489d9ec",
+        "item_id": "d3a156b4-313c-4c74-b401-fd638ff2af17",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "85769336-8a88-47bf-93f7-4e5252945a89",
+        "item_id": "d3a156b4-313c-4c74-b401-fd638ff2af17",
+        "skill": "MAGIC",
+        "value": 2
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "31a5e20a-fac8-490e-88d6-3d7df2f27f22",
+        "item_id": "d3a156b4-313c-4c74-b401-fd638ff2af17",
+        "element": "FIRE",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "0a48b35e-e642-4235-8088-b69fb9f57e53",
+      "name": "Necrotic Rod",
+      "min_level": 19,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 23.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "3360a55c-41e2-42a2-b45a-0c95525f4858",
+        "item_id": "0a48b35e-e642-4235-8088-b69fb9f57e53",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "571eb440-20ba-442b-9373-ef352e8ed015",
+      "name": "Northwind Rod",
+      "min_level": 22,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 2,
+      "weight": 29.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "0cf55952-52ba-44dc-9f74-c21846485de8",
+        "item_id": "571eb440-20ba-442b-9373-ef352e8ed015",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "0ccaa9a0-b196-47f0-9458-11486f569916",
+      "name": "Ogre Scepta",
+      "min_level": 37,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 29.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "36f89d82-884d-4ae0-be86-6614fae69c02",
+        "item_id": "0ccaa9a0-b196-47f0-9458-11486f569916",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "fb7cd9cf-2278-4027-87d7-0dd6fd4b7d6e",
+      "name": "Rending Inferniarch Rod",
+      "min_level": 300,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 22.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "3787f3f0-86e8-4884-9fa1-4ad580d5a52e",
+        "item_id": "fb7cd9cf-2278-4027-87d7-0dd6fd4b7d6e",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "93881b2f-3b71-439b-adb9-b26bd73752a9",
+        "item_id": "fb7cd9cf-2278-4027-87d7-0dd6fd4b7d6e",
+        "skill": "MAGIC",
+        "value": 3
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "6a3ffd50-4d61-46be-9d36-01fc29b4dd15",
+        "item_id": "fb7cd9cf-2278-4027-87d7-0dd6fd4b7d6e",
+        "element": "DEATH",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "41bea205-9ea9-4157-8b62-8d678a4bf35a",
+      "name": "Rod of Destruction",
+      "min_level": 200,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 35.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "8a9a20ca-eebe-41df-b3a7-12d494baac7d",
+        "item_id": "41bea205-9ea9-4157-8b62-8d678a4bf35a",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "944e46ef-87f9-47c7-8068-eb31fd015119",
+        "item_id": "41bea205-9ea9-4157-8b62-8d678a4bf35a",
+        "skill": "MAGIC",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "615e0cb5-2ebb-4006-a5d7-9105dcf87b3c",
+      "name": "Sanguine Rod",
+      "min_level": 600,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 25.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "79db83e0-221a-4dc0-827f-3b760c992e8d",
+        "item_id": "615e0cb5-2ebb-4006-a5d7-9105dcf87b3c",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "aedc73c3-7611-45be-8ba2-fdf78c5d9957",
+        "item_id": "615e0cb5-2ebb-4006-a5d7-9105dcf87b3c",
+        "skill": "MAGIC",
+        "value": 5
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "62f7091a-e461-4206-a5cb-3136176d2ffb",
+        "item_id": "615e0cb5-2ebb-4006-a5d7-9105dcf87b3c",
+        "element": "DEATH",
+        "value": 7
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "bdda405b-746e-4bb4-8b31-83a14fa98018",
+      "name": "Shimmer Rod",
+      "min_level": 40,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 31.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "2bb48e29-64d9-47a8-bdf8-ddb702e8a1d8",
+        "item_id": "bdda405b-746e-4bb4-8b31-83a14fa98018",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "17e7b757-8e34-4fa6-bd05-be1710b7907f",
+      "name": "Siphoning Inferniarch Rod",
+      "min_level": 300,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 22.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "bacc3a45-a055-4576-a488-4dc3655621ee",
+        "item_id": "17e7b757-8e34-4fa6-bd05-be1710b7907f",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "97d727c7-2d0f-4a70-bac0-e56a616b8c41",
+        "item_id": "17e7b757-8e34-4fa6-bd05-be1710b7907f",
+        "skill": "MAGIC",
+        "value": 3
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "95bd7ed2-d87e-453e-b0b9-95421cc96545",
+        "item_id": "17e7b757-8e34-4fa6-bd05-be1710b7907f",
+        "element": "DEATH",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "88271505-897a-411a-a28d-8d9c885d871e",
+      "name": "Snakebite Rod",
+      "min_level": 6,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 19.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "bf427ec8-10b7-4814-8d45-702bd0c9f8f8",
+        "item_id": "88271505-897a-411a-a28d-8d9c885d871e",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "24fe227a-2972-4151-8fd6-7b6c1871e6ff",
+      "name": "Soulhexer",
+      "min_level": 400,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 25.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "8a2004ce-5a90-4cdb-bd2f-aabaa0a486de",
+        "item_id": "24fe227a-2972-4151-8fd6-7b6c1871e6ff",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "95dbdccb-7362-4a30-904a-8dca83b192ca",
+        "item_id": "24fe227a-2972-4151-8fd6-7b6c1871e6ff",
+        "skill": "MAGIC",
+        "value": 5
+      }
+    ],
+    "item_protections": [
+      {
+        "id": "2280a282-c1be-4992-86f0-d8a44d0e7e08",
+        "item_id": "24fe227a-2972-4151-8fd6-7b6c1871e6ff",
+        "element": "ICE",
+        "value": 12
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "31a83362-59fb-4db6-9a1e-6b776783c436",
+      "name": "Springsprout Rod",
+      "min_level": 37,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 27.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "42fe8fff-6661-45ec-a4a6-c185de10194b",
+        "item_id": "31a83362-59fb-4db6-9a1e-6b776783c436",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "c2edd524-3635-4932-9261-ddf1ff5bc7f4",
+      "name": "Terra Rod",
+      "min_level": 26,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 25.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "cf582630-7982-474b-938c-1591756acc95",
+        "item_id": "c2edd524-3635-4932-9261-ddf1ff5bc7f4",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "bb333e2a-c2cd-471f-a485-07c0cc70c9e2",
+      "name": "The Chiller",
+      "min_level": 0,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 15.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "b27f2774-c9c8-4992-827c-7f7899fb7df8",
+        "item_id": "bb333e2a-c2cd-471f-a485-07c0cc70c9e2",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "13203a92-0975-40e2-a586-3925569f9b5c",
+      "name": "Underworld Rod",
+      "min_level": 42,
+      "type": "ROD",
+      "arm": 0,
+      "def": 0,
+      "atk": 0,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 2,
+      "weight": 29.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "eab7aea3-a16d-40b7-864d-b0c8dde276b3",
+        "item_id": "13203a92-0975-40e2-a586-3925569f9b5c",
+        "vocation": "DRUID"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  }
+]

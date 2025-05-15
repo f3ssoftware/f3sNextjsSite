@@ -1,0 +1,1091 @@
+[
+  {
+    "item": {
+      "id": "e0603059-71ba-4819-aa95-dc7bcd04a95c",
+      "name": "Amber Kusarigama",
+      "min_level": 330,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 20,
+      "atk": 46,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 86.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "b7c4531d-6fb6-43e7-8b59-2bc3430e8f4b",
+        "item_id": "e0603059-71ba-4819-aa95-dc7bcd04a95c",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "fe50e76c-4699-4eaa-98a6-4d82491d850c",
+        "item_id": "e0603059-71ba-4819-aa95-dc7bcd04a95c",
+        "skill": "FIST",
+        "value": 5
+      },
+      {
+        "id": "662979b9-4a7c-4609-96af-293b2b8dbd70",
+        "item_id": "e0603059-71ba-4819-aa95-dc7bcd04a95c",
+        "skill": "MAGIC",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "1bc8f9da-030a-47f6-9568-81a7b87150bf",
+      "name": "Bambus Jo",
+      "min_level": 150,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 19,
+      "atk": 42,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 38.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "7d75e6ca-6784-4201-a1ac-092140183154",
+        "item_id": "1bc8f9da-030a-47f6-9568-81a7b87150bf",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "8d3c14c5-1967-492a-af67-52645ec81b3b",
+        "item_id": "1bc8f9da-030a-47f6-9568-81a7b87150bf",
+        "skill": "FIST",
+        "value": 2
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "a71790b5-fac2-4590-96c5-fe3ea118d8cc",
+      "name": "Cobra Bo",
+      "min_level": 250,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 20,
+      "atk": 44,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 56.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "72576162-bd73-45cd-92e0-168b72eb1388",
+        "item_id": "a71790b5-fac2-4590-96c5-fe3ea118d8cc",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "29ee8f32-63b6-4df1-b078-606df1f5e7bc",
+        "item_id": "a71790b5-fac2-4590-96c5-fe3ea118d8cc",
+        "skill": "FIST",
+        "value": 4
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "84d279e6-b759-4311-8eed-ffde713b1bc3",
+      "name": "Crude Umbral Katar",
+      "min_level": 75,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 16,
+      "atk": 41,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 0,
+      "weight": 79.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "cc153880-77f6-4685-9207-48b0944f2b32",
+        "item_id": "84d279e6-b759-4311-8eed-ffde713b1bc3",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "2b160bb1-5142-4000-97fb-385b55426fee",
+        "item_id": "84d279e6-b759-4311-8eed-ffde713b1bc3",
+        "skill": "FIST",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "32882935-5d63-41dd-ac0b-66d9d5dfad67",
+      "name": "Depth Claws",
+      "min_level": 135,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 18,
+      "atk": 42,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 64.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "6df43dec-5860-4958-b67b-967fd967b976",
+        "item_id": "32882935-5d63-41dd-ac0b-66d9d5dfad67",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "1ca4b3e4-dc21-47f6-b697-41a7b10cec42",
+        "item_id": "32882935-5d63-41dd-ac0b-66d9d5dfad67",
+        "skill": "FIST",
+        "value": 2
+      },
+      {
+        "id": "52a97388-f7f5-4444-8e6e-ab7e210e348f",
+        "item_id": "32882935-5d63-41dd-ac0b-66d9d5dfad67",
+        "skill": "MAGIC",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "e893d485-1b84-46ba-8a17-c101e11b3460",
+      "name": "Drachaku",
+      "min_level": 90,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 16,
+      "atk": 41,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 60.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "4af5c3c8-519b-4553-8b7c-88645449dc75",
+        "item_id": "e893d485-1b84-46ba-8a17-c101e11b3460",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "fda5e6ae-fd83-4d0d-bb1c-e4f0e69588a6",
+      "name": "Draining Inferniarch Claws",
+      "min_level": 300,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 21,
+      "atk": 45,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 84.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "738bf96f-16c2-4b56-9ea0-53fc358730ea",
+        "item_id": "fda5e6ae-fd83-4d0d-bb1c-e4f0e69588a6",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "abc361f4-829a-41ee-acce-a70ef67fcedd",
+        "item_id": "fda5e6ae-fd83-4d0d-bb1c-e4f0e69588a6",
+        "skill": "FIST",
+        "value": 4
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "8669ac26-a6c6-4a7a-b2a2-a4583a8487d1",
+      "name": "Eldritch Crescent Moon Spade",
+      "min_level": 250,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 20,
+      "atk": 44,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 88.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "e7639fb7-00d0-43a0-a435-089948b1e195",
+        "item_id": "8669ac26-a6c6-4a7a-b2a2-a4583a8487d1",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "82f6652c-aff0-49f4-aa6d-6c07f996013d",
+        "item_id": "8669ac26-a6c6-4a7a-b2a2-a4583a8487d1",
+        "skill": "FIST",
+        "value": 2
+      },
+      {
+        "id": "e53df6f5-7a3d-4670-bf20-eca74af2a4d8",
+        "item_id": "8669ac26-a6c6-4a7a-b2a2-a4583a8487d1",
+        "skill": "MAGIC",
+        "value": 2
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "c91d1109-cdb6-4814-b629-12500dad04a1",
+      "name": "Falcon Sai",
+      "min_level": 300,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 20,
+      "atk": 45,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 82.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "47794499-a489-4026-bac0-33765fb3aa9d",
+        "item_id": "c91d1109-cdb6-4814-b629-12500dad04a1",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "e6779b2e-9c73-4163-8339-f347228a2c65",
+        "item_id": "c91d1109-cdb6-4814-b629-12500dad04a1",
+        "skill": "FIST",
+        "value": 4
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "561ea5ad-0741-496d-a79b-30c644742ef9",
+      "name": "Fists of Enlightenment",
+      "min_level": 20,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 14,
+      "atk": 24,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 1,
+      "weight": 18.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "3d0eeb3f-9ac7-42ac-af19-8a7168747813",
+        "item_id": "561ea5ad-0741-496d-a79b-30c644742ef9",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "0d77646d-8da7-4ee6-bfeb-3983d1e77e18",
+        "item_id": "561ea5ad-0741-496d-a79b-30c644742ef9",
+        "skill": "FIST",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "7c27f4b2-dfd8-4d9c-a629-9b9459792240",
+      "name": "Gilded Eldritch Crescent Moon Spade",
+      "min_level": 250,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 20,
+      "atk": 44,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 86.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "0d887d2d-021e-4765-9da9-02b8b2967b1c",
+        "item_id": "7c27f4b2-dfd8-4d9c-a629-9b9459792240",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "b72e4d01-4cb8-43d5-a7cd-5893f1a5ae51",
+        "item_id": "7c27f4b2-dfd8-4d9c-a629-9b9459792240",
+        "skill": "FIST",
+        "value": 2
+      },
+      {
+        "id": "f936a2a0-092b-48b1-818a-fb52f2cbc547",
+        "item_id": "7c27f4b2-dfd8-4d9c-a629-9b9459792240",
+        "skill": "MAGIC",
+        "value": 2
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "8e5f9084-28fc-4d10-a286-604dbf1bf46d",
+      "name": "Grand Sanguine Claws",
+      "min_level": 600,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 21,
+      "atk": 47,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 3,
+      "weight": 69.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "bffe24eb-5282-4772-867b-474eecef0c50",
+        "item_id": "8e5f9084-28fc-4d10-a286-604dbf1bf46d",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "f5add7f1-979d-4d09-8172-4a2ccff8392c",
+        "item_id": "8e5f9084-28fc-4d10-a286-604dbf1bf46d",
+        "skill": "FIST",
+        "value": 5
+      },
+      {
+        "id": "ade57cf3-e586-4afa-a053-ada22ede1b68",
+        "item_id": "8e5f9084-28fc-4d10-a286-604dbf1bf46d",
+        "skill": "MAGIC",
+        "value": 2
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "792fa72b-7bbc-4668-91c5-ed58ad4c1bba",
+      "name": "Inferniarch Claws",
+      "min_level": 300,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 21,
+      "atk": 45,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 84.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "94b0a02f-d628-49b5-afab-460864f7b4b2",
+        "item_id": "792fa72b-7bbc-4668-91c5-ed58ad4c1bba",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "28607088-9fa3-4892-b93b-ba5e49065001",
+        "item_id": "792fa72b-7bbc-4668-91c5-ed58ad4c1bba",
+        "skill": "FIST",
+        "value": 4
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "5f571a67-5b6b-4d92-ad1d-cd2dc3973cc9",
+      "name": "Jo Staff",
+      "min_level": 0,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 12,
+      "atk": 18,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 21.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "467d5275-5279-4e0e-a19e-019d7ebb4848",
+        "item_id": "5f571a67-5b6b-4d92-ad1d-cd2dc3973cc9",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "85165e85-02bc-4cf0-8e97-591987060738",
+        "item_id": "5f571a67-5b6b-4d92-ad1d-cd2dc3973cc9",
+        "skill": "FIST",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "b47a911a-c7c2-4f7f-bcf0-0451c3cd5407",
+      "name": "Light Jo Staff",
+      "min_level": 0,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 6,
+      "atk": 10,
+      "def_mod": 0,
+      "tier": 0,
+      "imbuement_slots": 0,
+      "weight": 17.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "055713ae-df07-4900-be16-35fded1e910e",
+        "item_id": "b47a911a-c7c2-4f7f-bcf0-0451c3cd5407",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "76856d8a-566e-42d9-9c97-2d971e33896a",
+        "item_id": "b47a911a-c7c2-4f7f-bcf0-0451c3cd5407",
+        "skill": "FIST",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "9b37eccf-c7c7-4b31-a246-f5725fd4b6d3",
+      "name": "Lion Claws",
+      "min_level": 270,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 19,
+      "atk": 45,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 78.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "0d50f3b8-f707-4f49-b6b4-1849dca3c1e1",
+        "item_id": "9b37eccf-c7c7-4b31-a246-f5725fd4b6d3",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "5de11613-766d-4822-805b-29181d55a0dd",
+        "item_id": "9b37eccf-c7c7-4b31-a246-f5725fd4b6d3",
+        "skill": "FIST",
+        "value": 4
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "3a994cd2-a47c-484f-801e-10a33c7e80d4",
+      "name": "Naga Katar",
+      "min_level": 300,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 21,
+      "atk": 44,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 60.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "4b6b9af2-75c4-4de4-b97c-b2826bf6a556",
+        "item_id": "3a994cd2-a47c-484f-801e-10a33c7e80d4",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "151398fa-351a-493d-a8bc-9c45bb4e65f0",
+        "item_id": "3a994cd2-a47c-484f-801e-10a33c7e80d4",
+        "skill": "FIST",
+        "value": 3
+      },
+      {
+        "id": "07d4eae2-7e6c-40bd-8983-7f2a7f55cfa2",
+        "item_id": "3a994cd2-a47c-484f-801e-10a33c7e80d4",
+        "skill": "MAGIC",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "f9542d27-b9a5-4716-9f4d-e9f5efa8f7e5",
+      "name": "Nunchaku",
+      "min_level": 40,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 15,
+      "atk": 32,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 25.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "43f70786-ebff-40f6-9ab6-4b41104d98a7",
+        "item_id": "f9542d27-b9a5-4716-9f4d-e9f5efa8f7e5",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "82e65395-ca6b-4d41-9739-1e6a07f03e31",
+        "item_id": "f9542d27-b9a5-4716-9f4d-e9f5efa8f7e5",
+        "skill": "FIST",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "b3dfeba2-2b1c-4e87-8054-73f7c01d638f",
+      "name": "Nunchaku of Destruction",
+      "min_level": 200,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 17,
+      "atk": 42,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 3,
+      "weight": 70.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "0acef876-c9f5-4d55-b8c6-5510a3d7a732",
+        "item_id": "b3dfeba2-2b1c-4e87-8054-73f7c01d638f",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "d35a1deb-a6b8-4658-8c92-389e31369a66",
+      "name": "Nunchaku of Enlightenment",
+      "min_level": 50,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 15,
+      "atk": 34,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 1,
+      "weight": 29.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "43b8f225-c7c1-4968-9a22-01d3fb7cdb24",
+        "item_id": "d35a1deb-a6b8-4658-8c92-389e31369a66",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "a9575dfa-44bf-4131-9676-ee93843898ff",
+        "item_id": "d35a1deb-a6b8-4658-8c92-389e31369a66",
+        "skill": "FIST",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "5f3b7eb6-c9b0-4222-a095-c26364b40cae",
+      "name": "Pair of Iron Fists",
+      "min_level": 80,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 15,
+      "atk": 40,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 45.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "0826b035-b178-45ad-aa79-6e8396ec6f09",
+        "item_id": "5f3b7eb6-c9b0-4222-a095-c26364b40cae",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "13cd29af-3204-42c5-88bd-fa6bd2f6eebb",
+      "name": "Pair of Monk Fists",
+      "min_level": 10,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 14,
+      "atk": 22,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 12.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "25d670c5-469a-4027-89b3-a8172ef44d2c",
+        "item_id": "13cd29af-3204-42c5-88bd-fa6bd2f6eebb",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "a3c0d4da-ba59-4eb1-b0b8-189262347e01",
+        "item_id": "13cd29af-3204-42c5-88bd-fa6bd2f6eebb",
+        "skill": "FIST",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "9f06fa05-079a-4f17-8652-a6dbaec8deb2",
+      "name": "Rending Inferniarch Claws",
+      "min_level": 300,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 21,
+      "atk": 45,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 84.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "c4a0c85a-9e54-4d26-ae85-38de71572091",
+        "item_id": "9f06fa05-079a-4f17-8652-a6dbaec8deb2",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "a93d2919-7761-4a55-ade4-46962ac05d63",
+        "item_id": "9f06fa05-079a-4f17-8652-a6dbaec8deb2",
+        "skill": "FIST",
+        "value": 4
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "9639d87a-b9aa-4735-9b67-f47c3783ec37",
+      "name": "Sai",
+      "min_level": 60,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 16,
+      "atk": 38,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 1,
+      "weight": 49.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "ea361520-47a0-44bf-b859-b21f04feb950",
+        "item_id": "9639d87a-b9aa-4735-9b67-f47c3783ec37",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "2976be80-866c-49d7-9e50-2a466a8c9be3",
+        "item_id": "9639d87a-b9aa-4735-9b67-f47c3783ec37",
+        "skill": "FIST",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "4b27b6e4-a167-454d-a95e-dc23ecbbf337",
+      "name": "Sai of Enlightenment",
+      "min_level": 100,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 16,
+      "atk": 42,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 1,
+      "weight": 59.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "4b20ddb8-2158-4a84-b214-e3fd2c4df7f4",
+        "item_id": "4b27b6e4-a167-454d-a95e-dc23ecbbf337",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "e8f85473-fc07-4507-8504-7cb435c707ab",
+        "item_id": "4b27b6e4-a167-454d-a95e-dc23ecbbf337",
+        "skill": "FIST",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "ffcc52c2-15e3-4c9b-a676-40792c1b4695",
+      "name": "Sanguine Claws",
+      "min_level": 600,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 21,
+      "atk": 47,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 3,
+      "weight": 71.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "26937134-17df-4e92-9c96-58c58787010d",
+        "item_id": "ffcc52c2-15e3-4c9b-a676-40792c1b4695",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "d4dbf385-4b58-4124-a4a1-efeda3f53a69",
+        "item_id": "ffcc52c2-15e3-4c9b-a676-40792c1b4695",
+        "skill": "FIST",
+        "value": 5
+      },
+      {
+        "id": "703d89a2-4f21-4a43-b667-3965fd3dcecc",
+        "item_id": "ffcc52c2-15e3-4c9b-a676-40792c1b4695",
+        "skill": "MAGIC",
+        "value": 2
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "6bad145d-3f74-488e-a3f5-a398d9e3aae9",
+      "name": "Simple Jo Staff",
+      "min_level": 0,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 8,
+      "atk": 12,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 18.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "1cf42ae5-cacc-425c-ab19-dd2ce2f8789a",
+        "item_id": "6bad145d-3f74-488e-a3f5-a398d9e3aae9",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "1bdf82e4-11c2-47df-9a63-d33ccc0f857c",
+        "item_id": "6bad145d-3f74-488e-a3f5-a398d9e3aae9",
+        "skill": "FIST",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "05c13105-be39-443c-b633-30c2f3db097c",
+      "name": "Siphoning Inferniarch Claws",
+      "min_level": 300,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 21,
+      "atk": 45,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 1,
+      "weight": 84.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "88a5f65d-e2a7-4c94-8c81-a5d9590bfe85",
+        "item_id": "05c13105-be39-443c-b633-30c2f3db097c",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "77e3e0fd-946d-494e-80a6-2df106cd2ca4",
+        "item_id": "05c13105-be39-443c-b633-30c2f3db097c",
+        "skill": "FIST",
+        "value": 4
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "1d2f444d-8de4-45bc-b090-0192f99f0aba",
+      "name": "Soulkamas",
+      "min_level": 400,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 21,
+      "atk": 46,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 3,
+      "weight": 84.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "c205a633-5365-4a73-a5c6-f30ee473f409",
+        "item_id": "1d2f444d-8de4-45bc-b090-0192f99f0aba",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "effcf717-3a79-4437-9381-32b434e92cd2",
+        "item_id": "1d2f444d-8de4-45bc-b090-0192f99f0aba",
+        "skill": "FIST",
+        "value": 5
+      },
+      {
+        "id": "1d5ef611-aef0-46b4-a24b-3dd955dfc8ea",
+        "item_id": "1d2f444d-8de4-45bc-b090-0192f99f0aba",
+        "skill": "MAGIC",
+        "value": 1
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "9e2ef528-9b6b-4be6-93b2-eef5ef261f6c",
+      "name": "Staff",
+      "min_level": 15,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 14,
+      "atk": 23,
+      "def_mod": 0,
+      "tier": 1,
+      "imbuement_slots": 0,
+      "weight": 38.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "dedcecd4-d191-4302-9b25-fd4417317aba",
+        "item_id": "9e2ef528-9b6b-4be6-93b2-eef5ef261f6c",
+        "vocation": "DRUID"
+      },
+      {
+        "id": "0143ebb1-d8d9-484a-9fd7-ab1cf214a6e3",
+        "item_id": "9e2ef528-9b6b-4be6-93b2-eef5ef261f6c",
+        "vocation": "SORCERER"
+      },
+      {
+        "id": "d65d71df-c5a8-4b66-9891-fa895e107c87",
+        "item_id": "9e2ef528-9b6b-4be6-93b2-eef5ef261f6c",
+        "vocation": "PALADIN"
+      },
+      {
+        "id": "d2a15638-8e15-4ff4-aeef-16c7d43d9a61",
+        "item_id": "9e2ef528-9b6b-4be6-93b2-eef5ef261f6c",
+        "vocation": "KNIGHT"
+      },
+      {
+        "id": "60094977-cf86-4893-bb5b-8b6091fda1f2",
+        "item_id": "9e2ef528-9b6b-4be6-93b2-eef5ef261f6c",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "ee0c95e1-babe-4db2-919b-73e40bf7156a",
+      "name": "Traditional Sai",
+      "min_level": 30,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 15,
+      "atk": 28,
+      "def_mod": 0,
+      "tier": 2,
+      "imbuement_slots": 2,
+      "weight": 50.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "9c1d8788-714c-40d1-aafe-fdf00efc8184",
+        "item_id": "ee0c95e1-babe-4db2-919b-73e40bf7156a",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "76513644-71f9-4be6-8b68-6215ec121ab2",
+      "name": "Umbral Katar",
+      "min_level": 120,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 17,
+      "atk": 42,
+      "def_mod": 0,
+      "tier": 3,
+      "imbuement_slots": 1,
+      "weight": 74.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "cd37ab85-3fb3-4c08-928b-e0b142887945",
+        "item_id": "76513644-71f9-4be6-8b68-6215ec121ab2",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "94c1723e-e866-409c-ab52-0ea9a2fb74df",
+        "item_id": "76513644-71f9-4be6-8b68-6215ec121ab2",
+        "skill": "FIST",
+        "value": 2
+      }
+    ],
+    "item_protections": []
+  },
+  {
+    "item": {
+      "id": "f902f194-1cb4-4853-bc4c-69f908cda032",
+      "name": "Umbral Master Katar",
+      "min_level": 250,
+      "type": "FIST_WEAPON",
+      "arm": 0,
+      "def": 18,
+      "atk": 43,
+      "def_mod": 0,
+      "tier": 4,
+      "imbuement_slots": 2,
+      "weight": 69.0,
+      "img_url": ""
+    },
+    "item_vocations": [
+      {
+        "id": "cfb5167a-2e91-4734-ac2f-ea695d06f81e",
+        "item_id": "f902f194-1cb4-4853-bc4c-69f908cda032",
+        "vocation": "MONK"
+      }
+    ],
+    "item_bonus_skills": [
+      {
+        "id": "b70153f5-8003-4a9d-b893-0c811803195a",
+        "item_id": "f902f194-1cb4-4853-bc4c-69f908cda032",
+        "skill": "FIST",
+        "value": 3
+      }
+    ],
+    "item_protections": []
+  }
+]
