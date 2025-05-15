@@ -84,5 +84,7 @@
   "MANA": "Mana",
   "HEALTH": "Health",
   "MANA_HEALTH": "Mana and Health",
-  "FIELD": "Field"
+  "FIELD": "Field",
+  "MIN_LEVEL": "Min Level",
+  "MAX_LEVEL": "Max Level"
 }

@@ -13,6 +13,7 @@ import { MultiSelect } from "primereact/multiselect";
 import { InputText } from "primereact/inputtext";
 import { ProgressSpinner } from "primereact/progressspinner";
 import { Button } from "primereact/button";
+import { InputNumber } from "primereact/inputnumber";
 
 function useDebouncedValue<T>(value: T, delay: number): T {
   const [debouncedValue, setDebouncedValue] = useState(value);
@@ -27,13 +28,24 @@ export default function GamesTibia() {
   const { items, isLoading, error } = useTibiaItems();
   const t = useTranslations();
 
+  // Applied filter state
   const [selectedVocations, setSelectedVocations] = useState<string[]>([]);
   const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
   const [searchToApply, setSearchToApply] = useState<string>("");
-  const debouncedSearchName = useDebouncedValue(searchToApply, 300);
+  const [selectedElements, setSelectedElements] = useState<string[]>([]);
+  const [minLevel, setMinLevel] = useState<number | null>(null);
+  const [maxLevel, setMaxLevel] = useState<number | null>(null);
+
+  // Pending filter state (UI inputs)
+  const [pendingVocations, setPendingVocations] = useState<string[]>([]);
+  const [pendingTypes, setPendingTypes] = useState<string[]>([]);
+  const [pendingSearch, setPendingSearch] = useState<string>("");
+  const [pendingElements, setPendingElements] = useState<string[]>([]);
+  const [pendingMinLevel, setPendingMinLevel] = useState<number | null>(null);
+  const [pendingMaxLevel, setPendingMaxLevel] = useState<number | null>(null);
+
   const [isSearching, setIsSearching] = useState(false);
   const searchInputRef = useRef<HTMLInputElement>(null);
-  const [selectedElements, setSelectedElements] = useState<string[]>([]);
 
   const allVocations = useMemo(
     () =>
@@ -63,7 +75,6 @@ export default function GamesTibia() {
     [items, t]
   );
 
-  // Collect all unique elements from item_protections
   const allElements = useMemo(
     () =>
       Array.from(
@@ -81,82 +92,65 @@ export default function GamesTibia() {
     [items, t]
   );
 
-  const vocationFilterElement = (
-    <MultiSelect
-      value={selectedVocations}
-      options={allVocations}
-      onChange={(e) => setSelectedVocations(e.value)}
-      placeholder={t("Select Vocations", {
-        defaultMessage: "Select Vocations",
-      })}
-      className="p-column-filter"
-      display="chip"
-      style={{ minWidth: "12rem" }}
-    />
-  );
-
-  const typeFilterElement = (
-    <MultiSelect
-      value={selectedTypes}
-      options={allTypes}
-      onChange={(e) => setSelectedTypes(e.value)}
-      placeholder={t("Select Types", { defaultMessage: "Select Types" })}
-      className="p-column-filter"
-      display="chip"
-      style={{ minWidth: "12rem" }}
-    />
-  );
-
-  const elementFilterElement = (
-    <MultiSelect
-      value={selectedElements}
-      options={allElements}
-      onChange={(e) => setSelectedElements(e.value)}
-      placeholder={t("SELECT_ELEMENTS", { defaultMessage: "Select Elements" })}
-      className="p-column-filter"
-      display="chip"
-      style={{ minWidth: "12rem" }}
-    />
-  );
-
-  // Improved: AND logic, debounced search, locale-insensitive
+  // Filtering logic uses only the applied state
   const filteredItems = useMemo(() => {
-    const search = debouncedSearchName.trim().toLocaleLowerCase();
+    const search = searchToApply.trim().toLocaleLowerCase();
     return items.filter((item) => {
-      // Name search
       const matchesName =
         !search || (item.item.name || "").toLocaleLowerCase().includes(search);
-      // Type filter
       const matchesType =
         selectedTypes.length === 0 ? true : selectedTypes.includes(item.type);
-      // Vocation filter
       const matchesVocation =
         selectedVocations.length === 0
           ? true
           : (item.item_vocations || []).some((voc: any) =>
               selectedVocations.includes(voc.vocation)
             );
-      // Elemental protection filter
       const matchesElement =
         selectedElements.length === 0
           ? true
           : (item.item_protections || []).some((prot: any) =>
               selectedElements.includes(prot.element)
             );
-      // Only return items that match ALL active filters
-      return matchesName && matchesType && matchesVocation && matchesElement;
+      const min = minLevel ?? -Infinity;
+      const max = maxLevel ?? Infinity;
+      const matchesLevel =
+        (item.item.min_level ?? 0) >= min && (item.item.min_level ?? 0) <= max;
+      return matchesName && matchesType && matchesVocation && matchesElement && matchesLevel;
     });
-  }, [items, debouncedSearchName, selectedTypes, selectedVocations, selectedElements]);
+  }, [items, searchToApply, selectedTypes, selectedVocations, selectedElements, minLevel, maxLevel]);
 
-  useEffect(() => {
-    console.log(items);
-  }, [items]);
+  // Handlers for Filter and Clear
+  const handleFilter = () => {
+    setIsSearching(true);
+    setSearchToApply(pendingSearch);
+    setSelectedTypes(pendingTypes);
+    setSelectedVocations(pendingVocations);
+    setSelectedElements(pendingElements);
+    setMinLevel(pendingMinLevel);
+    setMaxLevel(pendingMaxLevel);
+  };
+  const handleClear = () => {
+    setPendingSearch("");
+    setPendingTypes([]);
+    setPendingVocations([]);
+    setPendingElements([]);
+    setPendingMinLevel(null);
+    setPendingMaxLevel(null);
+    setSearchToApply("");
+    setSelectedTypes([]);
+    setSelectedVocations([]);
+    setSelectedElements([]);
+    setMinLevel(null);
+    setMaxLevel(null);
+    if (searchInputRef.current) searchInputRef.current.value = "";
+  };
 
   useEffect(() => {
     if (isSearching) {
       setIsSearching(false);
     }
-  }, [debouncedSearchName]);
+  }, [searchToApply, selectedTypes, selectedVocations, selectedElements, minLevel, maxLevel]);
 
   return (
     <PrimeReactProvider>
@@ -176,7 +170,8 @@ export default function GamesTibia() {
             >
               <InputText
                 className="p-column-filter"
-                defaultValue={searchToApply}
+                value={pendingSearch}
+                onChange={(e) => setPendingSearch(e.target.value)}
                 ref={searchInputRef}
                 placeholder={t("SEARCH_BY_NAME", {
                   defaultMessage: "Search by name",
@@ -192,9 +187,56 @@ export default function GamesTibia() {
                 width: "100%",
               }}
             >
-              {typeFilterElement}
-              {vocationFilterElement}
-              {elementFilterElement}
+              <MultiSelect
+                value={pendingTypes}
+                options={allTypes}
+                onChange={(e) => setPendingTypes(e.value)}
+                placeholder={t("Select Types", { defaultMessage: "Select Types" })}
+                className="p-column-filter"
+                display="chip"
+                style={{ minWidth: "12rem" }}
+              />
+              <MultiSelect
+                value={pendingVocations}
+                options={allVocations}
+                onChange={(e) => setPendingVocations(e.value)}
+                placeholder={t("Select Vocations", { defaultMessage: "Select Vocations" })}
+                className="p-column-filter"
+                display="chip"
+                style={{ minWidth: "12rem" }}
+              />
+              <MultiSelect
+                value={pendingElements}
+                options={allElements}
+                onChange={(e) => setPendingElements(e.value)}
+                placeholder={t("SELECT_ELEMENTS", { defaultMessage: "Select Elements" })}
+                className="p-column-filter"
+                display="chip"
+                style={{ minWidth: "12rem" }}
+              />
+            </div>
+            <div
+              style={{ display: "flex", gap: 8, alignItems: "center", minWidth: "12rem", marginBottom: "1rem" }}
+            >
+              <InputNumber
+                value={typeof pendingMinLevel === 'number' ? pendingMinLevel : null}
+                onValueChange={(e) => {
+                  if (e.value !== pendingMinLevel) setPendingMinLevel(e.value ?? null);
+                }}
+                placeholder={t("MIN_LEVEL", { defaultMessage: "Min Level" })}
+                min={1}
+                style={{ width: "100%" }}
+              />
+              <span>-</span>
+              <InputNumber
+                value={typeof pendingMaxLevel === 'number' ? pendingMaxLevel : null}
+                onValueChange={(e) => {
+                  if (e.value !== pendingMaxLevel) setPendingMaxLevel(e.value ?? null);
+                }}
+                placeholder={t("MAX_LEVEL", { defaultMessage: "Max Level" })}
+                min={pendingMinLevel ?? 0}
+                style={{ width: "100%" }}
+              />
             </div>
             <div
               style={{
@@ -207,10 +249,7 @@ export default function GamesTibia() {
               <Button
                 icon="pi pi-search"
                 label={t("FILTER", { defaultMessage: "Filter" })}
-                onClick={() => {
-                  setIsSearching(true);
-                  setSearchToApply(searchInputRef.current?.value || "");
-                }}
+                onClick={handleFilter}
                 style={{
                   width: "100%",
                   backgroundColor: "#FB993E",
@@ -221,10 +260,7 @@ export default function GamesTibia() {
               <Button
                 icon="pi pi-times"
                 label={t("CLEAR", { defaultMessage: "Clear" })}
-                onClick={() => {
-                  if (searchInputRef.current) searchInputRef.current.value = "";
-                  setSearchToApply("");
-                }}
+                onClick={handleClear}
                 style={{
                   width: "100%",
                   backgroundColor: "transparent",
@@ -261,13 +297,15 @@ export default function GamesTibia() {
                 children: [],
               }))}
               tableStyle={{ minWidth: "50rem" }}
+              scrollable
+              scrollHeight="600px"
             >
               <Column
                 field="type"
                 header="Type"
                 sortable
-                
                 showFilterMenu={false}
+                body={(rowData) => t(rowData.data.type, { defaultMessage: rowData.data.type })}
               ></Column>
               <Column
                 field="item.name"

@@ -84,5 +84,7 @@
   "MANA": "Mana",
   "HEALTH": "Vida",
   "MANA_HEALTH": "Mana y Vida",
-  "FIELD": "Field"
+  "FIELD": "Field",
+  "MIN_LEVEL": "Nivel mínimo",
+  "MAX_LEVEL": "Nivel máximo"
 }
