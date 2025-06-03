@@ -1,0 +1,11 @@
+{
+  "SWITCH_TO_LIGHT_THEME": "Switch to light theme",
+  "SWITCH_TO_DARK_THEME": "Switch to dark theme",
+  "COPY_TO_CLIPBOARD": "Copy to clipboard",
+  "EDIT_JSON": "Edit JSON",
+  "SAVE_CHANGES": "Save Changes",
+  "GENERATED_PASSWORD": "Generated password",
+  "COPY_PASSWORD": "Copy password",
+  "GENERATE_PASSWORD": "Generate password",
+  "PASSWORD_COPIED": "Password copied to clipboard"
+} 

@@ -1,0 +1,11 @@
+{
+  "SWITCH_TO_LIGHT_THEME": "Mudar para tema claro",
+  "SWITCH_TO_DARK_THEME": "Mudar para tema escuro",
+  "COPY_TO_CLIPBOARD": "Copiar para área de transferência",
+  "EDIT_JSON": "Editar JSON",
+  "SAVE_CHANGES": "Salvar Alterações",
+  "GENERATED_PASSWORD": "Senha gerada",
+  "COPY_PASSWORD": "Copiar senha",
+  "GENERATE_PASSWORD": "Gerar senha",
+  "PASSWORD_COPIED": "Senha copiada para área de transferência"
+} 

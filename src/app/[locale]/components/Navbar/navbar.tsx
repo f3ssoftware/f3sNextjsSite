@@ -49,12 +49,12 @@ export function Navbar() {
         { label: t(`DOCUMENTATION`) },
       ],
     },
-    {
-      label: t(`BUSINESS`),
-      url: "https://medium.com/@f3ssoftware",
-      target: "_blank",
-      rel: "noopener noreferrer",
-    },
+    // {
+    //   label: t(`BUSINESS`),
+    //   url: "https://medium.com/@f3ssoftware",
+    //   target: "_blank",
+    //   rel: "noopener noreferrer",
+    // },
     {
       label: t(`GAMES`),
       url: "/games",

@@ -28,11 +28,92 @@
   font-size: 0.8rem;
 }
 
+.contactDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact {
+  font-size: 3em;
+}
+
+.contactParagraph {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3vh;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.formField {
+  width: 100%;
+  max-width: 600px;
+}
+
+.formField input,
+.formField textarea {
+  width: 100%;
+}
+
+.formField textarea {
+  min-height: 200px;
+}
+
+.submitButton {
+  margin-top: 2rem;
+}
+
+.successContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.successIcon {
+  color: #4CAF50;
+  margin-bottom: 1.5rem;
+}
+
+.successTitle {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.successMessage {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #e0e0e0;
+}
+
 @media (max-width: 768px) {
   .contactDiv {
     margin-bottom: 1% !important;
   }
   .contact {
     font-size: 2rem !important;
+  }
+  .formField {
+    max-width: 100%;
+  }
+  .successTitle {
+    font-size: 1.5rem;
+  }
+  .successMessage {
+    font-size: 1rem;
   }
 }

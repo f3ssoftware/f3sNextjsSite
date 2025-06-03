@@ -1,122 +1,171 @@
-"use client"
-import { useState } from 'react';
-import { ContactType } from '../../../enums/contact-type.enum';
-import styles from './contact.module.css';
-import { Dropdown } from 'primereact/dropdown';
-import { InputTextarea } from 'primereact/inputtextarea';
-import { useEffect } from 'react';
-import { Button } from 'primereact/button';
-import { InputText } from 'primereact/inputtext';
-import { Toast } from 'primereact/toast';
-import { useRef } from 'react';
-import { useTranslations } from 'next-intl';
+"use client";
 
-export function Contact() {
-    const [profile, setProfile] = useState<ContactType>();
-    const [selectedContactType, setSelectedContactType] = useState(null);
-    const [subjectOptions, setSubjectOptions] = useState<any>([]);
-    const [text, setText] = useState<string>();
-    const [name, setName] = useState<string>();
-    const [loading, setLoading] = useState<boolean>()
+import { useRef, useState } from "react";
+import { Dropdown } from "primereact/dropdown";
+import { InputTextarea } from "primereact/inputtextarea";
+import { Button } from "primereact/button";
+import { InputText } from "primereact/inputtext";
+import { Toast } from "primereact/toast";
+import { useTranslations } from "next-intl";
+import styles from "./contact.module.css";
+import { useContactForm } from "./useContactForm";
+import { ContactFormData, ContactProps } from "./types";
+import { ContactSuccess } from "./ContactSuccess";
+
+export function Contact({}: ContactProps) {
     const toast = useRef<Toast>(null);
-
     const t = useTranslations();
+    const [isSubmitted, setIsSubmitted] = useState(false);
+    
+    const {
+        formData,
+        isLoading: internalLoading,
+        setIsLoading,
+        subjectOptions,
+        profileOptions,
+        handleProfileChange,
+        handleSubjectChange,
+        handleNameChange,
+        handleEmailChange,
+        handleMessageChange,
+        validateForm,
+    } = useContactForm();
 
-    const profileOptions = [
-        {
-            key: t('HEADHUNTER'),
-            value: ContactType.HEADHUNTER
-        },
-        {
-            key: t("INDEPENDENT_DEVELOPER"),
-            value: ContactType.INDEPENDENT_DEVELOPER
-        },
-        {
-            key: t("COMPANY_REPRESENTANT"),
-            value: ContactType.COMPANY_REPRESENTANT
-        },
-        {
-            key: t("CUSTOMER"),
-            value: ContactType.CUSTOMER
-        },
-    ]
+    const isLoading = internalLoading;
 
-    const show = () => {
-        toast?.current?.show({ severity: 'success', summary: 'Success', detail: 'Message sent!' });
+    const onSubmit = async (formData: ContactFormData) => {
+        setTimeout(() => {
+            console.log(formData);
+        }, 1000*10);
     };
 
-    const sendMessage = () => {
-        setLoading(true);
-        setTimeout(() => {
-            show()
-        }, 2000)
-        setLoading(false);
+    const showSuccess = () => {
+        toast?.current?.show({
+            severity: "success",
+            summary: t("SUCCESS"),
+            detail: t("MESSAGE_SENT"),
+        });
+    };
+
+    const showError = (message: string) => {
+        toast?.current?.show({
+            severity: "error",
+            summary: t("ERROR"),
+            detail: message,
+        });
+    };
+
+    const handleSubmit = async () => {
+        if (!validateForm()) {
+            showError(t("PLEASE_FILL_ALL_FIELDS"));
+            return;
+        }
+
+        try {
+            setIsLoading(true);
+            await onSubmit(formData);
+            showSuccess();
+            setIsSubmitted(true);
+        } catch (error) {
+            showError(error instanceof Error ? error.message : t("UNKNOWN_ERROR"));
+        } finally {
+            setIsLoading(false);
+        }
+    };
+
+    if (isSubmitted) {
+        return (
+            <section id="contact">
+                <div className={styles.topSectionCt} />
+                <div className={styles.backgroundCt}>
+                    <ContactSuccess />
+                </div>
+            </section>
+        );
     }
 
-    useEffect(() => {
-        let options: { key: string; value: string; }[] = []
-        switch (profile) {
-            case ContactType.HEADHUNTER: {
-                options = [{
-                    key: 'Jobs/Hiring',
-                    value: 'JOBS/HIRING'
-                }];
-            }
-        }
-        setSubjectOptions(options)
-    }, [profile]);
+    return (
+        <section id="contact">
+            <Toast ref={toast} />
+            <div className={styles.topSectionCt} />
+            <div className={styles.backgroundCt}>
+                <div className={styles.contactDiv}>
+                    <h1 className={styles.contact}>{t("CONTACT")}</h1>
+                </div>
 
-    return <section id="contact">
-        <Toast ref={toast} />
-        <div className={styles.topSectionCt}></div>
-        <div className={styles.backgroundCt}>
-            <div className={styles.contactDiv} style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-                <h1 className={styles.contact}>{t('CONTACT')}</h1>
-            </div>
-            <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: '3vh' }}>
-                <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: '3vh' }}>
-                    <p>{t('CONTACT_PARAGRAPH')}</p>
+                <div className={styles.contactParagraph}>
+                    <p>{t("CONTACT_PARAGRAPH")}</p>
+                </div>
+
+                <div className={styles.formContainer}>
+                    <div className={styles.formField}>
+                        <Dropdown
+                            value={formData.profile}
+                            onChange={(e) => handleProfileChange(e.value)}
+                            options={profileOptions}
+                            optionLabel="key"
+                            placeholder={t("CHOOSE_A_PROFILE")}
+                            className="w-full"
+                            style={{ width: "100%" }}
+                            disabled={isLoading}
+                        />
+                    </div>
+
+                    <div className={styles.formField}>
+                        <Dropdown
+                            value={formData.subject}
+                            onChange={(e) => handleSubjectChange(e.value)}
+                            options={subjectOptions}
+                            optionLabel="key"
+                            placeholder={t("CHOOSE_A_SUBJECT")}
+                            disabled={!formData.profile || isLoading}
+                            className="w-full"
+                            style={{ width: "100%" }}
+                        />
+                    </div>
+
+                    <div className={styles.formField}>
+                        <InputText
+                            value={formData.name}
+                            onChange={(e) => handleNameChange(e.target.value)}
+                            placeholder={t("FULLNAME")}
+                            className="w-full"
+                            disabled={isLoading}
+                        />
+                    </div>
+
+                    <div className={styles.formField}>
+                        <InputText
+                            value={formData.email}
+                            onChange={(e) => handleEmailChange(e.target.value)}
+                            placeholder={t("EMAIL")}
+                            className="w-full"
+                            disabled={isLoading}
+                        />
+                    </div>
+
+                    <div className={styles.formField}>
+                        <InputTextarea
+                            value={formData.message}
+                            onChange={(e) => handleMessageChange(e.target.value)}
+                            placeholder={t("INSERT_A_MESSAGE")}
+                            rows={20}
+                            className="w-full"
+                            disabled={isLoading}
+                        />
+                    </div>
+
+                    <div className={styles.submitButton}>
+                        <Button
+                            label={t("SEND_MESSAGE")}
+                            onClick={handleSubmit}
+                            loading={isLoading}
+                            disabled={isLoading}
+                            icon="pi pi-paper-plane"
+                        />
+                    </div>
                 </div>
             </div>
-            <div className='options' style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-                <div style={{ marginTop: '3vh' }}>
-                    <Dropdown
-                        value={profile}
-                        onChange={(e) => setProfile(e.value)}
-                        optionLabel="key"
-                        options={profileOptions}
-                        placeholder={t('CHOOSE_A_PROFILE')}
-                    ></Dropdown>
-                </div>
-            </div>
-
-            <div className='options' style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-                <div style={{ marginTop: '3vh' }}>
-                    <Dropdown
-                        value={selectedContactType}
-                        onChange={(e) => setSelectedContactType(e.value)}
-                        optionLabel="key"
-                        options={subjectOptions}
-                        placeholder={t('CHOOSE_A_SUBJECT')}
-                        disabled={!profile}
-                    ></Dropdown>
-                </div>
-            </div>
-
-            <div className='options' style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: '3vh' }}>
-                <InputText value={name} onChange={(e) => setName(e.target.value)} placeholder={t("FULLNAME")} />
-            </div>
-
-            <div className='options' style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: '3vh' }}>
-                <InputTextarea value={text} placeholder={t('INSERT_A_MESSAGE')} onChange={(e) => setText(e.target.value)} rows={20} />
-            </div>
-
-            <div className='options' style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-                <div style={{ marginTop: '3vh' }}>
-                    <Button label={t("SEND_MESSAGE")} onClick={() => sendMessage()} />
-                </div>
-            </div>
-
-        </div>
-    </section>
+        </section>
+    );
 }
