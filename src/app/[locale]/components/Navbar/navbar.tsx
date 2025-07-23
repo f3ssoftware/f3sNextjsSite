@@ -46,7 +46,7 @@ export function Navbar() {
         },
         { label: t(`GENERATORS`), url: "/generators" },
         { label: t(`TRAININGS`) },
-        { label: t(`DOCUMENTATION`) },
+        { label: t(`DOCUMENTATION`), url: "/docs" },
       ],
     },
     // {
