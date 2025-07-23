@@ -22,8 +22,6 @@ export default function Generators() {
     updateRowOutput,
   } = useGenerators();
 
-  const [suggestions, setSuggestions] = useState<GeneratorOption[]>([]);
-
   const itemTemplate = (option: GeneratorOption) => {
     return (
       <div className="flex align-items-center gap-2">
@@ -43,7 +41,7 @@ export default function Generators() {
         option.label.toLowerCase().includes(query) ||
         (option.parent && option.parent.toLowerCase().includes(query))
     );
-    setSuggestions(filtered);
+    return filtered;
   };
 
   return (
@@ -57,7 +55,7 @@ export default function Generators() {
                   key={index}
                   index={index}
                   selectedOption={row.selectedOption}
-                  filteredOptions={suggestions}
+                  filteredOptions={filteredOptions}
                   onOptionChange={(option) => updateRow(index, option)}
                   onRemove={() => removeRow(index)}
                   onValueChange={(value) => updateRowOutput(index, value)}

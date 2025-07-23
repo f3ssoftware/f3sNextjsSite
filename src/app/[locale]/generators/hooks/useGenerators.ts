@@ -1,35 +1,48 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { GeneratorOption, GeneratorRow } from '../types';
+import { useTranslations } from "next-intl";
 
-const generatorOptions: GeneratorOption[] = [
-  {
-    key: '1.1',
-    label: 'Address Generator',
-    icon: 'pi pi-map-marker',
-    parent: 'Location'
-  },
-  {
-    key: '2.1',
-    label: 'UUID Generator',
-    icon: 'pi pi-hashtag',
-    parent: 'Identification'
-  },
-  {
-    key: '2.2',
-    label: 'Password Generator',
-    icon: 'pi pi-lock',
-    parent: 'Security'
-  }
-];
-
-export const useGenerators = () => {
+export function useGenerators() {
+  const t = useTranslations();
   const [rows, setRows] = useState<GeneratorRow[]>([{ selectedOption: null }]);
-  const [filteredOptions, setFilteredOptions] = useState<GeneratorOption[]>(generatorOptions);
   const [jsonView, setJsonView] = useState<any>({});
+
+  const generatorOptions: GeneratorOption[] = useMemo(() => [
+    {
+      key: '1.1',
+      label: t('ADDRESS_GENERATOR'),
+      icon: 'pi pi-map-marker',
+      parent: t('LOCATION')
+    },
+    {
+      key: '2.1',
+      label: t('UUID_GENERATOR'),
+      icon: 'pi pi-hashtag',
+      parent: t('IDENTIFICATION')
+    },
+    {
+      key: '2.2',
+      label: t('PASSWORD_GENERATOR'),
+      icon: 'pi pi-lock',
+      parent: t('SECURITY')
+    },
+    {
+      key: '2.3',
+      label: t('USERNAME_GENERATOR'),
+      icon: 'pi pi-user',
+      parent: t('SECURITY')
+    }
+  ], [t]);
+
+  const [filteredOptions, setFilteredOptions] = useState<GeneratorOption[]>(generatorOptions);
 
   useEffect(() => {
     setJsonView(rows.map((row) => row.selectedOption?.output));
   }, [rows]);
+
+  useEffect(() => {
+    setFilteredOptions(generatorOptions);
+  }, [generatorOptions]);
 
   const addRow = () => {
     setRows((prev) => [...prev, { selectedOption: null }]);
@@ -78,4 +91,4 @@ export const useGenerators = () => {
     updateRowOutput,
     reorderRows,
   };
-}; 
+} 

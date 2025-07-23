@@ -1,25 +1,40 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { Button } from "primereact/button";
 import { InputText } from "primereact/inputtext";
 import { Toast } from "primereact/toast";
-import { useRef } from "react";
 import { useTranslations } from "next-intl";
+import { useIsClient } from "../../../../../../hooks/useIsClient";
 
 interface UUIDGeneratorProps {
   onValueChange: (value: any) => void;
 }
 
 export default function UUIDGenerator({ onValueChange }: UUIDGeneratorProps) {
+  const isClient = useIsClient();
   const [uuid, setUuid] = useState<string>("");
+  const [loading, setLoading] = useState(false);
   const toast = useRef<Toast>(null);
   const t = useTranslations();
 
-  const generateUUID = () => {
-    const newUuid = crypto.randomUUID();
-    setUuid(newUuid);
-    onValueChange({ uuid: newUuid });
+  const generateUUID = async () => {
+    setLoading(true);
+    try {
+      const res = await fetch(`/api/generators/uuidGenerator`);
+      const data = await res.json();
+      setUuid(data.uuid);
+      onValueChange({ uuid: data.uuid });
+    } catch (e) {
+      toast.current?.show({
+        severity: "error",
+        summary: t("ERROR"),
+        detail: t("UNKNOWN_ERROR"),
+        life: 3000,
+      });
+    } finally {
+      setLoading(false);
+    }
   };
 
   const copyToClipboard = () => {
@@ -40,6 +55,8 @@ export default function UUIDGenerator({ onValueChange }: UUIDGeneratorProps) {
       });
     }
   };
+
+  if (!isClient) return null;
 
   return (
     <div className="flex flex-column gap-2">
@@ -67,6 +84,7 @@ export default function UUIDGenerator({ onValueChange }: UUIDGeneratorProps) {
           text
           severity="secondary"
           onClick={generateUUID}
+          loading={loading}
           tooltip={t("GENERATE_UUID")}
           tooltipOptions={{ position: "bottom" }}
         />

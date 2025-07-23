@@ -2,12 +2,14 @@
 import { BreadCrumb } from "primereact/breadcrumb";
 import { usePathname, useParams } from 'next/navigation';
 import { useTranslations } from 'next-intl';
+import { useIsClient } from "../../../hooks/useIsClient";
 
 export default function NavigationBredCrumb() {
   const pathname = usePathname();
   const params = useParams();
   const t = useTranslations();
   const locale = params.locale as string;
+  const isClient = useIsClient();
 
   const generateBreadcrumbItems = () => {
     const paths = pathname.split('/').filter(Boolean);
@@ -56,5 +58,6 @@ export default function NavigationBredCrumb() {
     url: `/${locale}` 
   };
 
+  if (!isClient) return null;
   return <BreadCrumb model={generateBreadcrumbItems()} home={home} />;
 }

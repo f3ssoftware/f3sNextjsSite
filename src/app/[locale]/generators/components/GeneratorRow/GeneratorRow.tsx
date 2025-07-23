@@ -7,6 +7,7 @@ import { GeneratorOption } from "../../types";
 import UUIDGenerator from "../UUIDGenerator/UUIDGenerator";
 import PasswordGenerator from "../PasswordGenerator/PasswordGenerator";
 import AddressGenerator from "../AddressGenerator/AddressGenerator";
+import UsernameGenerator from "../UsernameGenerator/UsernameGenerator";
 import { useState } from "react";
 
 interface GeneratorRowProps {
@@ -17,7 +18,7 @@ interface GeneratorRowProps {
   onRemove: () => void;
   onValueChange: (value: any) => void;
   itemTemplate: (option: GeneratorOption) => JSX.Element;
-  searchOptions: (event: { query: string }) => void;
+  searchOptions: (event: { query: string }) => GeneratorOption[];
 }
 
 export const GeneratorRow = ({
@@ -31,11 +32,11 @@ export const GeneratorRow = ({
   searchOptions,
 }: GeneratorRowProps) => {
   const t = useTranslations();
-  const [suggestions, setSuggestions] = useState<GeneratorOption[]>([]);
+  const [suggestions, setSuggestions] = useState<GeneratorOption[]>(filteredOptions);
 
   const handleSearch = (event: { query: string }) => {
-    searchOptions(event);
-    setSuggestions(filteredOptions);
+    const results = searchOptions(event);
+    setSuggestions(results);
   };
 
   const renderComponent = (option: GeneratorOption) => {
@@ -56,6 +57,12 @@ export const GeneratorRow = ({
         return (
           <div className="w-full">
             <PasswordGenerator onValueChange={onValueChange} />
+          </div>
+        );
+      case "2.3":
+        return (
+          <div className="w-full">
+            <UsernameGenerator onValueChange={onValueChange} />
           </div>
         );
       default:

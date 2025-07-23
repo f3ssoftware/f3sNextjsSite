@@ -10,8 +10,9 @@
   },
   "dependencies": {
     "@types/react-beautiful-dnd": "^13.1.8",
-    "next": "^15.0.2",
-    "next-intl": "^3.24.0",
+    "next": "^15.4.3",
+    "next-intl": "^4.3.4",
+    "next-swagger-doc": "^0.4.1",
     "next-translate": "^2.6.2",
     "primeflex": "^3.3.1",
     "primeicons": "^7.0.0",
@@ -21,13 +22,15 @@
     "react-dom": "^18.2.0",
     "react-scroll": "^1.9.0",
     "react18-json-view": "^0.2.9",
-    "styled-components": "^6.1.18"
+    "styled-components": "^6.1.18",
+    "swagger-ui-react": "^5.27.0"
   },
   "devDependencies": {
     "@types/node": "^20.16.10",
     "@types/react": "^18.3.11",
     "@types/react-dom": "^18.3.0",
     "@types/react-scroll": "^1.8.10",
+    "@types/swagger-ui-react": "^5.18.0",
     "eslint": "^8.57.1",
     "eslint-config-next": "14.2.3",
     "next-translate-plugin": "^2.6.2",

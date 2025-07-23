@@ -5,28 +5,30 @@ import { Button } from "primereact/button";
 import { InputText } from "primereact/inputtext";
 import { Toast } from "primereact/toast";
 import { useTranslations } from "next-intl";
-import { InputNumber } from "primereact/inputnumber";
+import { Checkbox } from "primereact/checkbox";
 import { useIsClient } from "../../../../../../hooks/useIsClient";
 
-interface PasswordGeneratorProps {
+interface UsernameGeneratorProps {
   onValueChange: (value: any) => void;
 }
 
-export default function PasswordGenerator({ onValueChange }: PasswordGeneratorProps) {
+export default function UsernameGenerator({ onValueChange }: UsernameGeneratorProps) {
   const isClient = useIsClient();
-  const [password, setPassword] = useState<string>("");
-  const [length, setLength] = useState<number>(16);
+  const [username, setUsername] = useState<string>("");
+  const [withNumber, setWithNumber] = useState<boolean>(true);
   const [loading, setLoading] = useState(false);
   const toast = useRef<Toast>(null);
   const t = useTranslations();
 
-  const generatePassword = async () => {
+  if (!isClient) return null;
+
+  const generateUsername = async () => {
     setLoading(true);
     try {
-      const res = await fetch(`/api/generators/passwordGenerator?length=${length}`);
+      const res = await fetch(`/api/generators/usernameGenerator?includeNumber=${withNumber}`);
       const data = await res.json();
-      setPassword(data.password);
-      onValueChange({ password: data.password });
+      setUsername(data.username);
+      onValueChange({ username: data.username });
     } catch (e) {
       toast.current?.show({
         severity: "error",
@@ -40,12 +42,12 @@ export default function PasswordGenerator({ onValueChange }: PasswordGeneratorPr
   };
 
   const copyToClipboard = () => {
-    if (password) {
-      navigator.clipboard.writeText(password);
+    if (username) {
+      navigator.clipboard.writeText(username);
       toast.current?.show({
         severity: "success",
         summary: t("SUCCESS"),
-        detail: t("PASSWORD_COPIED"),
+        detail: t("USERNAME_COPIED"),
         life: 3000,
       });
     } else {
@@ -58,41 +60,30 @@ export default function PasswordGenerator({ onValueChange }: PasswordGeneratorPr
     }
   };
 
-  if (!isClient) return null;
-
   return (
     <div className="flex flex-column gap-2">
       <Toast ref={toast} />
-      <div style={{ 
-        display: "flex", 
-        flexDirection: "row", 
+      <div style={{
+        display: "flex",
+        flexDirection: "row",
         gap: "10px",
         width: "100%",
         alignItems: "center"
       }}>
         <div style={{ flex: "0 0 180px", display: "flex", alignItems: "center", gap: "8px" }}>
-          <label htmlFor="passwordLength" style={{ whiteSpace: "nowrap" }}>{t("PASSWORD_LENGTH")}:</label>
-          <InputNumber
-            id="passwordLength"
-            value={length}
-            onValueChange={(e) => setLength(e.value || 16)}
-            min={4}
-            max={64}
-            showButtons
-            buttonLayout="horizontal"
-            decrementButtonClassName="p-button-secondary"
-            incrementButtonClassName="p-button-secondary"
-            incrementButtonIcon="pi pi-plus"
-            decrementButtonIcon="pi pi-minus"
-            style={{ width: '100%' }}
+          <Checkbox
+            inputId="withNumber"
+            checked={withNumber}
+            onChange={e => setWithNumber(e.checked!)}
           />
+          <label htmlFor="withNumber" style={{ whiteSpace: "nowrap" }}>{t("INCLUDE_NUMBER")}</label>
         </div>
         <div style={{ flex: "1 1 auto" }}>
           <InputText
-            value={password}
+            value={username}
             readOnly
             style={{ width: '100%' }}
-            placeholder={t("GENERATED_PASSWORD")}
+            placeholder={t("GENERATED_USERNAME")}
           />
         </div>
         <div style={{ flex: "0 0 auto", display: "flex", gap: "5px" }}>
@@ -102,8 +93,8 @@ export default function PasswordGenerator({ onValueChange }: PasswordGeneratorPr
             text
             severity="secondary"
             onClick={copyToClipboard}
-            disabled={!password}
-            tooltip={t("COPY_PASSWORD")}
+            disabled={!username}
+            tooltip={t("COPY_USERNAME")}
             tooltipOptions={{ position: "bottom" }}
           />
           <Button
@@ -111,13 +102,13 @@ export default function PasswordGenerator({ onValueChange }: PasswordGeneratorPr
             rounded
             text
             severity="secondary"
-            onClick={generatePassword}
+            onClick={generateUsername}
             loading={loading}
-            tooltip={t("GENERATE_PASSWORD")}
+            tooltip={t("GENERATE_USERNAME")}
             tooltipOptions={{ position: "bottom" }}
           />
         </div>
       </div>
     </div>
   );
-}
+} 
