@@ -4,6 +4,7 @@ const withNextIntl = createNextIntlPlugin();
  
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'standalone',
   // Enable CORS for API routes
   async headers() {
     return [
@@ -18,5 +19,5 @@ const nextConfig = {
     ];
   },
 };
-
+ 
 export default withNextIntl(nextConfig);
