@@ -150,7 +150,7 @@ export default function GamesTibia() {
     if (isSearching) {
       setIsSearching(false);
     }
-  }, [searchToApply, selectedTypes, selectedVocations, selectedElements, minLevel, maxLevel]);
+  }, [searchToApply, selectedTypes, selectedVocations, selectedElements, minLevel, maxLevel, isSearching]);
 
   return (
     <PrimeReactProvider>

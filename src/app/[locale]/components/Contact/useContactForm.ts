@@ -70,7 +70,7 @@ export const useContactForm = () => {
         }
         setSubjectOptions(options);
         setFormData(prev => ({ ...prev, subject: null }));
-    }, [formData.profile]);
+    }, [formData.profile, t]);
 
     const handleProfileChange = (value: ContactType) => {
         setFormData(prev => ({ ...prev, profile: value }));

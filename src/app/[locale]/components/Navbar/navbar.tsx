@@ -4,6 +4,8 @@ import Image from "next/image";
 import styles from "./navbar.module.css";
 import { useTranslations } from "next-intl";
 import { useRouter, usePathname } from "next/navigation";
+import { useLogin } from "@/hooks/useLogin";
+import { useLocale } from "@/hooks/useLocale";
 
 interface MenuItem {
   label: string;
@@ -17,9 +19,13 @@ export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openSubMenu, setOpenSubMenu] = useState<number | null>(null);
+  const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
   const t = useTranslations();
   const router = useRouter();
   const pathname = usePathname();
+  const { isAuthenticated, getStoredUser, logout } = useLogin();
+  const [user, setUser] = useState<any>(null);
+  const { currentLocale } = useLocale();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -32,6 +38,18 @@ export function Navbar() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  // Load user data when authenticated
+  useEffect(() => {
+    if (isAuthenticated()) {
+      const storedUser = getStoredUser();
+      if (storedUser) {
+        setUser(storedUser);
+      }
+    } else {
+      setUser(null);
+    }
+  }, []); // Remove dependencies to prevent infinite loop
 
   const menuItems: MenuItem[] = [
     { label: t(`ABOUT_US`), url: "#section-about" },
@@ -49,12 +67,6 @@ export function Navbar() {
         { label: t(`DOCUMENTATION`), url: "/docs" },
       ],
     },
-    // {
-    //   label: t(`BUSINESS`),
-    //   url: "https://medium.com/@f3ssoftware",
-    //   target: "_blank",
-    //   rel: "noopener noreferrer",
-    // },
     {
       label: t(`GAMES`),
       url: "/games",
@@ -62,8 +74,36 @@ export function Navbar() {
     { label: t(`CONTACT`), url: "#contact", rel: "noopener noreferrer" },
   ];
 
+  // Admin menu items
+  const adminMenuItems: MenuItem[] = [
+    {
+      label: "Dashboard",
+      url: `/${currentLocale}/admin`,
+    },
+    {
+      label: "Posts",
+      url: `/${currentLocale}/admin/posts`,
+    },
+    {
+      label: "Categories",
+      url: `/${currentLocale}/admin/categories`,
+    },
+    {
+      label: "Users",
+      url: `/${currentLocale}/admin/users`,
+    },
+    {
+      label: "Comments",
+      url: `/${currentLocale}/admin/comments`,
+    },
+  ];
+
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
+  const toggleUserMenu = () => {
+    setIsUserMenuOpen(!isUserMenuOpen);
   };
 
   const handleMenuClick = (index: number, item: MenuItem) => {
@@ -77,11 +117,25 @@ export function Navbar() {
       } else if (item.url.startsWith("#")) {
         window.location.href = item.url;
       } else {
-        const currentLocale = pathname.split("/")[1];
-        const cleanUrl = item.url.replace(/^\//, "");
-        router.push(`/${currentLocale}/${cleanUrl}`);
+        // Check if the URL already has a locale prefix
+        const urlSegments = item.url.split('/');
+        const hasLocale = ['en', 'es', 'pt'].includes(urlSegments[1]);
+        
+        if (hasLocale) {
+          // URL already has locale, use it as is
+          router.push(item.url);
+        } else {
+          // URL doesn't have locale, add it
+          const cleanUrl = item.url.replace(/^\//, "");
+          router.push(`/${currentLocale}/${cleanUrl}`);
+        }
       }
     }
+  };
+
+  const handleLogout = () => {
+    logout();
+    setIsUserMenuOpen(false);
   };
 
   const changeLanguage = (lang: string) => {
@@ -137,7 +191,7 @@ export function Navbar() {
           </div>
           <div
             className={styles.navMainContant}
-            onClick={() => router.push("/")}
+            onClick={() => router.push(`/${currentLocale}`)}
           >
             <div className={styles.logo}>
               <Image
@@ -177,6 +231,58 @@ export function Navbar() {
                   )}
                 </li>
               ))}
+              
+              {/* User Menu */}
+              {isAuthenticated() && user && (
+                <li className={styles.userMenu}>
+                  <div className={styles.userInfo} onClick={toggleUserMenu}>
+                    <div className={styles.userAvatar}>
+                      {user.first_name?.[0]}{user.last_name?.[0]}
+                    </div>
+                    <span className={styles.userName}>
+                      {user.first_name} {user.last_name}
+                    </span>
+                    <i className={`pi pi-chevron-down ${styles.userMenuIcon}`} />
+                  </div>
+                  
+                  {isUserMenuOpen && (
+                    <ul className={styles.userSubMenu}>
+                      <li className={styles.userDetails}>
+                        <div className={styles.userEmail}>{user.email}</div>
+                        <div className={styles.userRoles}>
+                          {user.roles?.map((role: string, index: number) => (
+                            <span key={index} className={styles.userRole}>
+                              {role}
+                            </span>
+                          ))}
+                        </div>
+                      </li>
+                      
+                      {/* Admin Menu Items */}
+                      {user.roles?.includes('admin') && (
+                        <>
+                          <li className={styles.menuDivider}></li>
+                          {adminMenuItems.map((item, index) => (
+                            <li key={index} onClick={() => handleMenuClick(index, item)}>
+                              <a onClick={(e) => e.preventDefault()}>
+                                {item.label}
+                              </a>
+                            </li>
+                          ))}
+                        </>
+                      )}
+                      
+                      <li className={styles.menuDivider}></li>
+                      <li onClick={handleLogout}>
+                        <a onClick={(e) => e.preventDefault()}>
+                          <i className="pi pi-sign-out" />
+                          Logout
+                        </a>
+                      </li>
+                    </ul>
+                  )}
+                </li>
+              )}
             </ul>
           </nav>
         </div>

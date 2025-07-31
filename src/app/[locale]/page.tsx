@@ -5,14 +5,16 @@ import LandPage from "./components/LandPage/LandPage";
 import Footer from "./components/Footer/Footer";
 import { PrimeReactProvider } from "primereact/api";
 
+// Test hot reload - this should update immediately
 
-export default function Home() {
+export default function LocalePage() {
   return (
-    <main className="main-content">
-      <PrimeReactProvider>
+    <PrimeReactProvider>
+      <div className={styles.container}>
+        <Navbar />
         <LandPage />
-      </PrimeReactProvider>
-
-    </main>
+        <Footer />
+      </div>
+    </PrimeReactProvider>
   );
 }

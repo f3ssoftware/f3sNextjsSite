@@ -405,3 +405,195 @@
     font-size: 0.8rem !important;
   }
 }
+
+/* User Menu Styles */
+.userMenu {
+  position: relative;
+  margin-left: 20px;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.userInfo:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.userAvatar {
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.userName {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  max-width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.userMenuIcon {
+  color: white;
+  font-size: 12px;
+  transition: transform 0.2s ease;
+}
+
+.userMenu.open .userMenuIcon {
+  transform: rotate(180deg);
+}
+
+.userSubMenu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  min-width: 250px;
+  z-index: 1000;
+  margin-top: 8px;
+  overflow: hidden;
+}
+
+.userSubMenu::before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  right: 20px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid white;
+}
+
+.userSubMenu li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.userSubMenu a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+  font-size: 14px;
+}
+
+.userSubMenu a:hover {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.userDetails {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.userEmail {
+  font-size: 12px;
+  color: #6c757d;
+  margin-bottom: 4px;
+}
+
+.userRoles {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.userRole {
+  background-color: #e3f2fd;
+  color: #1976d2;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.menuDivider {
+  height: 1px;
+  background-color: #e9ecef;
+  margin: 8px 0;
+}
+
+/* Mobile styles for user menu */
+@media (max-width: 768px) {
+  .userMenu {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .userInfo {
+    justify-content: center;
+    padding: 12px;
+  }
+
+  .userName {
+    max-width: none;
+  }
+
+  .userSubMenu {
+    position: static;
+    box-shadow: none;
+    margin-top: 0;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+
+  .userSubMenu::before {
+    display: none;
+  }
+
+  .userSubMenu a {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+  }
+
+  .userSubMenu a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+
+  .userDetails {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .userEmail {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .userRole {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+
+  .menuDivider {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+}
