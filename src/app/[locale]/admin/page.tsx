@@ -42,7 +42,7 @@ export default function AdminLoginPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 flex align-items-center justify-content-center">
+    <div className="bg-gray-50 flex align-items-center justify-content-center">
       <div className="w-full max-w-md">
         <Card>
           <div className="text-center mb-4">

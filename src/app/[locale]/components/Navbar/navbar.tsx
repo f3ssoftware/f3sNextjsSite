@@ -20,12 +20,18 @@ export function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openSubMenu, setOpenSubMenu] = useState<number | null>(null);
   const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const t = useTranslations();
   const router = useRouter();
   const pathname = usePathname();
   const { isAuthenticated, getStoredUser, logout } = useLogin();
   const [user, setUser] = useState<any>(null);
   const { currentLocale } = useLocale();
+
+  // Ensure component is mounted before rendering authentication-dependent content
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -41,15 +47,15 @@ export function Navbar() {
 
   // Load user data when authenticated
   useEffect(() => {
-    if (isAuthenticated()) {
+    if (mounted && isAuthenticated()) {
       const storedUser = getStoredUser();
       if (storedUser) {
         setUser(storedUser);
       }
-    } else {
+    } else if (mounted) {
       setUser(null);
     }
-  }, []); // Remove dependencies to prevent infinite loop
+  }, [mounted, isAuthenticated, getStoredUser]);
 
   const menuItems: MenuItem[] = [
     { label: t(`ABOUT_US`), url: "#section-about" },
@@ -233,7 +239,7 @@ export function Navbar() {
               ))}
               
               {/* User Menu */}
-              {isAuthenticated() && user && (
+              {mounted && isAuthenticated() && user && (
                 <li className={styles.userMenu}>
                   <div className={styles.userInfo} onClick={toggleUserMenu}>
                     <div className={styles.userAvatar}>
