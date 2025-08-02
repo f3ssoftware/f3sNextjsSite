@@ -4,6 +4,20 @@ const withNextIntl = createNextIntlPlugin();
  
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'standalone',
+  experimental: {
+    esmExternals: 'loose',
+  },
+  // Fix for CSS imports
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.resolve.fallback = {
+        ...config.resolve.fallback,
+        fs: false,
+      };
+    }
+    return config;
+  },
   // Enable CORS for API routes
   async headers() {
     return [
@@ -18,5 +32,5 @@ const nextConfig = {
     ];
   },
 };
-
+ 
 export default withNextIntl(nextConfig);
