@@ -10,6 +10,23 @@ WORKDIR /app
 COPY package.json ./
 RUN npm install
 
+# Development stage
+FROM base AS development
+WORKDIR /app
+
+# Install dependencies
+COPY package.json ./
+RUN npm install
+
+# Copy source code
+COPY . .
+
+# Expose port
+EXPOSE 3000
+
+# Start development server with hot reload
+CMD ["npm", "run", "dev"]
+
 # Rebuild the source code only when needed
 FROM base AS builder
 WORKDIR /app
@@ -46,21 +63,4 @@ EXPOSE 3000
 ENV PORT 3000
 ENV HOSTNAME "0.0.0.0"
 
-CMD ["node", "server.js"]
-
-# Development stage
-FROM base AS development
-WORKDIR /app
-
-# Install dependencies
-COPY package.json ./
-RUN npm install
-
-# Copy source code
-COPY . .
-
-# Expose port
-EXPOSE 3000
-
-# Start development server with hot reload
-CMD ["npm", "run", "dev"] 
+CMD ["node", "server.js"] 
