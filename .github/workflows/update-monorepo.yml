@@ -1,0 +1,37 @@
+name: Update Monorepo
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  update-monorepo:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout f3sNextjsSite
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.PAT_TOKEN }}
+
+    - name: Update monorepo submodule
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        
+        # Clone the monorepo
+        git clone https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/f3ssoftware/monorepo.git
+        cd monorepo
+        
+        # Update the submodule to the latest commit
+        git submodule update --remote f3sNextjsSite
+        
+        # Check if there are changes
+        if [[ -n $(git status --porcelain) ]]; then
+          git add f3sNextjsSite
+          git commit -m "Update f3sNextjsSite submodule to latest commit"
+          git push origin main
+        else
+          echo "No changes to commit"
+        fi 

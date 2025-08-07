@@ -130,7 +130,7 @@ export default function CreatePostPage() {
         category_id: formData.category_id || null
       };
 
-      await apiClient.post('/api/v1/admin/posts', postData);
+      await apiClient.post('/api/v1/posts', postData);
       
       toast.current?.show({
         severity: 'success',

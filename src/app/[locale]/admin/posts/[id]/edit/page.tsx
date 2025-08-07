@@ -115,7 +115,7 @@ export default function EditPostPage() {
 
   const loadPost = useCallback(async () => {
     try {
-      const response = await apiClient.get(`/api/v1/admin/posts/${postId}`);
+      const response = await apiClient.get(`/api/v1/posts/${postId}`);
       const postData = response.data.post;
       setPost(postData);
       
@@ -164,7 +164,7 @@ export default function EditPostPage() {
         category_id: formData.category_id || null
       };
 
-      await apiClient.put(`/api/v1/admin/posts/${postId}`, postData);
+      await apiClient.put(`/api/v1/posts/${postId}`, postData);
       
       toast.current?.show({
         severity: 'success',

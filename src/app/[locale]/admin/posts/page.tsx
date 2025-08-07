@@ -113,7 +113,7 @@ export default function AdminPostsPage() {
         params.append('status', statusFilter);
       }
 
-      const response = await apiClient.get(`/api/v1/admin/posts?${params.toString()}`);
+      const response = await apiClient.get(`/api/v1/posts?${params.toString()}`);
       setPosts(response.posts || []);
       setTotalRecords(response.pagination?.total || 0);
     } catch (error: any) {
@@ -164,7 +164,7 @@ export default function AdminPostsPage() {
 
   const handleDeletePost = async (postId: string) => {
     try {
-      await apiClient.delete(`/api/v1/admin/posts/${postId}`);
+      await apiClient.delete(`/api/v1/posts/${postId}`);
       toast.current?.show({
         severity: 'success',
         summary: 'Success',

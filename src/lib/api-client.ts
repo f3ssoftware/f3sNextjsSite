@@ -15,18 +15,9 @@ class ApiClient {
       'Content-Type': 'application/json',
     };
 
-    // First try to get token from NextAuth session
+    // Use NextAuth session token
     if (session?.accessToken) {
       headers['Authorization'] = `Bearer ${session.accessToken}`;
-      return headers;
-    }
-
-    // Fallback to localStorage token (for admin pages using useLogin hook)
-    if (typeof window !== 'undefined') {
-      const accessToken = localStorage.getItem('access_token');
-      if (accessToken) {
-        headers['Authorization'] = `Bearer ${accessToken}`;
-      }
     }
 
     return headers;
@@ -50,12 +41,7 @@ class ApiClient {
     // Handle specific error cases
     if (response.status === 401) {
       // Clear invalid tokens
-      if (typeof window !== 'undefined') {
-        localStorage.removeItem('access_token');
-        localStorage.removeItem('refresh_token');
-        localStorage.removeItem('user_info');
-      }
-      errorMessage = 'Authentication required. Please log in.';
+      // No longer needed as NextAuth handles session management
     } else if (response.status === 403) {
       errorMessage = 'Access denied. You do not have permission to perform this action.';
     } else if (response.status === 404) {
