@@ -5,9 +5,6 @@ const withNextIntl = createNextIntlPlugin();
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'standalone',
-  experimental: {
-    esmExternals: 'loose',
-  },
   // Fix for CSS imports
   webpack: (config, { isServer }) => {
     if (!isServer) {
