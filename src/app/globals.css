@@ -1,5 +1,8 @@
 @import "primeicons/primeicons.css";
 @import "primereact/resources/themes/md-dark-indigo/theme.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
   margin: 0;
@@ -11,4 +14,190 @@ body {
   min-height: calc(100vh - 100px);
   position: relative;
   z-index: 1;
+}
+
+/* Rich Text Editor Styles */
+.rich-text-editor .ProseMirror {
+  outline: none;
+  min-height: 200px;
+  padding: 1rem;
+}
+
+.rich-text-editor .ProseMirror:focus {
+  outline: none;
+}
+
+.rich-text-editor .ProseMirror p {
+  margin: 0.5rem 0;
+}
+
+.rich-text-editor .ProseMirror h1,
+.rich-text-editor .ProseMirror h2,
+.rich-text-editor .ProseMirror h3,
+.rich-text-editor .ProseMirror h4,
+.rich-text-editor .ProseMirror h5,
+.rich-text-editor .ProseMirror h6 {
+  margin: 1rem 0 0.5rem 0;
+  font-weight: 600;
+}
+
+.rich-text-editor .ProseMirror h1 {
+  font-size: 2rem;
+}
+
+.rich-text-editor .ProseMirror h2 {
+  font-size: 1.5rem;
+}
+
+.rich-text-editor .ProseMirror ul,
+.rich-text-editor .ProseMirror ol {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.rich-text-editor .ProseMirror li {
+  margin: 0.25rem 0;
+}
+
+.rich-text-editor .ProseMirror blockquote {
+  border-left: 4px solid #e5e7eb;
+  padding-left: 1rem;
+  margin: 1rem 0;
+  font-style: italic;
+  color: #6b7280;
+}
+
+.rich-text-editor .ProseMirror code {
+  background-color: #f3f4f6;
+  padding: 0.125rem 0.25rem;
+  border-radius: 0.25rem;
+  font-family: monospace;
+  font-size: 0.875rem;
+}
+
+.rich-text-editor .ProseMirror pre {
+  background-color: #1f2937;
+  color: #f9fafb;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+.rich-text-editor .ProseMirror pre code {
+  background-color: transparent;
+  padding: 0;
+  color: inherit;
+}
+
+.rich-text-editor .ProseMirror img {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+}
+
+.rich-text-editor .ProseMirror a {
+  color: #3b82f6;
+  text-decoration: underline;
+}
+
+.rich-text-editor .ProseMirror a:hover {
+  color: #2563eb;
+}
+
+/* Rich Text Content Display */
+.rich-text-content {
+  line-height: 1.6;
+}
+
+.rich-text-content h1,
+.rich-text-content h2,
+.rich-text-content h3,
+.rich-text-content h4,
+.rich-text-content h5,
+.rich-text-content h6 {
+  margin: 1.5rem 0 0.75rem 0;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.rich-text-content h1 {
+  font-size: 2.25rem;
+}
+
+.rich-text-content h2 {
+  font-size: 1.875rem;
+}
+
+.rich-text-content h3 {
+  font-size: 1.5rem;
+}
+
+.rich-text-content p {
+  margin: 1rem 0;
+}
+
+.rich-text-content ul,
+.rich-text-content ol {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.rich-text-content li {
+  margin: 0.5rem 0;
+}
+
+.rich-text-content blockquote {
+  border-left: 4px solid #e5e7eb;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: #6b7280;
+}
+
+.rich-text-content code {
+  background-color: #f3f4f6;
+  padding: 0.125rem 0.25rem;
+  border-radius: 0.25rem;
+  font-family: monospace;
+  font-size: 0.875rem;
+}
+
+.rich-text-content pre {
+  background-color: #1f2937;
+  color: #f9fafb;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.rich-text-content pre code {
+  background-color: transparent;
+  padding: 0;
+  color: inherit;
+}
+
+.rich-text-content img {
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.rich-text-content a {
+  color: #3b82f6;
+  text-decoration: underline;
+}
+
+.rich-text-content a:hover {
+  color: #2563eb;
+}
+
+.rich-text-content mark {
+  background-color: #fef3c7;
+  padding: 0.125rem 0.25rem;
+  border-radius: 0.25rem;
 }

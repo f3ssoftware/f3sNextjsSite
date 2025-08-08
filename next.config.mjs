@@ -4,29 +4,42 @@ const withNextIntl = createNextIntlPlugin();
  
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
-  // Fix for CSS imports
-  webpack: (config, { isServer }) => {
-    if (!isServer) {
-      config.resolve.fallback = {
-        ...config.resolve.fallback,
-        fs: false,
+  experimental: {
+    // Optimize RSC performance
+    serverComponentsExternalPackages: ['@prisma/client'],
+    // Enable streaming for better performance
+    serverActions: {
+      bodySizeLimit: '2mb',
+    },
+  },
+  // Optimize images
+  images: {
+    domains: ['localhost'],
+    formats: ['image/webp', 'image/avif'],
+  },
+  // Enable compression
+  compress: true,
+  // Optimize bundle
+  swcMinify: true,
+  // Reduce RSC payload size
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production',
+  },
+  // Cache optimization
+  generateEtags: false,
+  // Reduce initial bundle size
+  webpack: (config, { dev, isServer }) => {
+    if (!dev && !isServer) {
+      config.optimization.splitChunks.cacheGroups = {
+        ...config.optimization.splitChunks.cacheGroups,
+        vendor: {
+          test: /[\\/]node_modules[\\/]/,
+          name: 'vendors',
+          chunks: 'all',
+        },
       };
     }
     return config;
-  },
-  // Enable CORS for API routes
-  async headers() {
-    return [
-      {
-        source: '/api/:path*',
-        headers: [
-          { key: 'Access-Control-Allow-Origin', value: '*' },
-          { key: 'Access-Control-Allow-Methods', value: 'GET, POST, PUT, DELETE, OPTIONS' },
-          { key: 'Access-Control-Allow-Headers', value: 'Content-Type, Authorization' },
-        ],
-      },
-    ];
   },
 };
  

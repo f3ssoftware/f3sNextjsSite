@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useEffect, useRef, useCallback, Suspense } from 'react';
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
 import { Button } from 'primereact/button';
@@ -11,7 +11,9 @@ import { Card } from 'primereact/card';
 import { Toast } from 'primereact/toast';
 import { ConfirmDialog, confirmDialog } from 'primereact/confirmdialog';
 import { ProgressSpinner } from 'primereact/progressspinner';
+import { Skeleton } from 'primereact/skeleton';
 import { useLogin } from '@/hooks/useLogin';
+// import { useLoading } from '@/components/LoadingProvider';
 import apiClient from '@/lib/api-client';
 import { useRouter, usePathname } from 'next/navigation';
 import { useParams } from 'next/navigation';
@@ -55,11 +57,34 @@ interface PaginationInfo {
   pages: number;
 }
 
+// Loading skeleton component
+const PostsSkeleton = () => (
+  <div className="space-y-4">
+    <div className="flex justify-between items-center">
+      <Skeleton height="2rem" width="200px" />
+      <Skeleton height="2rem" width="120px" />
+    </div>
+    <div className="space-y-2">
+      {[...Array(5)].map((_, i) => (
+        <div key={i} className="flex space-x-4 p-4 border rounded">
+          <Skeleton height="1rem" width="30%" />
+          <Skeleton height="1rem" width="20%" />
+          <Skeleton height="1rem" width="15%" />
+          <Skeleton height="1rem" width="15%" />
+          <Skeleton height="1rem" width="20%" />
+        </div>
+      ))}
+    </div>
+  </div>
+);
+
 export default function AdminPostsPage() {
   const { isAuthenticated, getStoredUser } = useLogin();
+  // const { showLoading, hideLoading } = useLoading();
   const [posts, setPosts] = useState<Post[]>([]);
   const [categories, setCategories] = useState<Category[]>([]);
   const [loading, setLoading] = useState(true);
+  const [initialLoading, setInitialLoading] = useState(true);
   const [totalRecords, setTotalRecords] = useState(0);
   const [currentPage, setCurrentPage] = useState(1);
   const [rowsPerPage, setRowsPerPage] = useState(10);
@@ -140,6 +165,7 @@ export default function AdminPostsPage() {
       });
     } finally {
       setLoading(false);
+      setInitialLoading(false);
     }
   }, [currentPage, rowsPerPage, selectedCategory, statusFilter, currentLocale, router]);
 
@@ -191,6 +217,16 @@ export default function AdminPostsPage() {
       acceptClassName: 'p-button-danger',
       accept: () => handleDeletePost(post.id),
     });
+  };
+
+  const handleCreatePost = () => {
+    // showLoading();
+    router.push(`/${currentLocale}/admin/posts/create`);
+  };
+
+  const handleEditPost = (postId: string) => {
+    // showLoading();
+    router.push(`/${currentLocale}/admin/posts/${postId}/edit`);
   };
 
   const statusBodyTemplate = (rowData: Post) => {
@@ -271,7 +307,7 @@ export default function AdminPostsPage() {
           severity="secondary"
           size="small"
           tooltip="Edit Post"
-          onClick={() => router.push(`/${currentLocale}/admin/posts/${rowData.id}/edit`)}
+          onClick={() => handleEditPost(rowData.id)}
         />
         <Button
           icon="pi pi-trash"
@@ -313,9 +349,7 @@ export default function AdminPostsPage() {
           label="Create New Post"
           icon="pi pi-plus"
           severity="success"
-          onClick={() => {
-            router.push(`/${currentLocale}/admin/posts/create`);
-          }}
+          onClick={handleCreatePost}
         />
       </div>
       
@@ -357,6 +391,14 @@ export default function AdminPostsPage() {
     return (
       <div className="flex align-items-center justify-content-center min-h-screen">
         <ProgressSpinner />
+      </div>
+    );
+  }
+
+  if (initialLoading) {
+    return (
+      <div className="p-6">
+        <PostsSkeleton />
       </div>
     );
   }

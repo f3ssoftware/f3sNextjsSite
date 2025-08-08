@@ -2,6 +2,7 @@
 
 import { useState, useCallback } from 'react';
 import apiClient from '@/lib/api-client';
+import { isTokenExpired, getTokenTimeUntilExpiry } from '@/utils/tokenUtils';
 
 interface LoginFormData {
   username: string;
@@ -100,14 +101,36 @@ export const useLogin = () => {
     const accessToken = localStorage.getItem('access_token');
     if (!accessToken) return null;
 
-    // Try to refresh token if needed (you can add token expiration check here)
-    const refreshed = await refreshToken();
-    if (refreshed) {
-      return localStorage.getItem('access_token');
+    // Check if token is expired or will expire soon
+    if (isTokenExpired(accessToken)) {
+      console.log('Token is expired, attempting refresh...');
+      const refreshed = await refreshToken();
+      if (refreshed) {
+        const newToken = localStorage.getItem('access_token');
+        console.log('Token refreshed successfully');
+        return newToken;
+      } else {
+        console.log('Token refresh failed, logging out');
+        logout();
+        return null;
+      }
+    }
+
+    // Check if token will expire soon (within 5 minutes)
+    const timeUntilExpiry = getTokenTimeUntilExpiry(accessToken);
+    if (timeUntilExpiry < 300) { // 5 minutes
+      console.log(`Token expires in ${timeUntilExpiry} seconds, refreshing proactively...`);
+      const refreshed = await refreshToken();
+      if (refreshed) {
+        const newToken = localStorage.getItem('access_token');
+        console.log('Token refreshed proactively');
+        return newToken;
+      }
     }
     
+    console.log('Token is valid, returning current token');
     return accessToken;
-  }, [refreshToken]);
+  }, [refreshToken, logout]);
 
   return {
     login,

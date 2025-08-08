@@ -1,6 +1,7 @@
 import { getSession } from 'next-auth/react';
+import { isTokenExpired } from '@/utils/tokenUtils';
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8081';
 
 interface ApiClientOptions {
   method?: 'GET' | 'POST' | 'PUT' | 'DELETE' | 'PATCH';
@@ -10,14 +11,40 @@ interface ApiClientOptions {
 
 class ApiClient {
   private async getAuthHeaders(): Promise<Record<string, string>> {
-    const session = await getSession();
     const headers: Record<string, string> = {
       'Content-Type': 'application/json',
     };
 
-    // Use NextAuth session token
-    if (session?.accessToken) {
-      headers['Authorization'] = `Bearer ${session.accessToken}`;
+    // Try to get token from localStorage (custom auth system)
+    if (typeof window !== 'undefined') {
+      const accessToken = localStorage.getItem('access_token');
+      console.log('API Client - Access token from localStorage:', accessToken ? 'Found' : 'Not found');
+      
+      if (accessToken) {
+        // Check if token is expired
+        if (isTokenExpired(accessToken)) {
+          console.log('API Client - Token is expired, will need refresh');
+          // Don't add expired token to headers, let the request fail and trigger refresh
+        } else {
+          console.log('API Client - Using valid localStorage token');
+          headers['Authorization'] = `Bearer ${accessToken}`;
+          return headers;
+        }
+      }
+    }
+
+    // Fallback to NextAuth session token
+    try {
+      const session = await getSession();
+      console.log('API Client - NextAuth session:', session ? 'Found' : 'Not found');
+      if (session?.accessToken) {
+        console.log('API Client - Using NextAuth access token');
+        headers['Authorization'] = `Bearer ${session.accessToken}`;
+      } else {
+        console.log('API Client - No NextAuth access token found');
+      }
+    } catch (error) {
+      console.warn('Failed to get NextAuth session:', error);
     }
 
     return headers;
@@ -71,7 +98,9 @@ class ApiClient {
       config.body = JSON.stringify(body);
     }
 
-    const response = await fetch(`${API_BASE_URL}${endpoint}`, config);
+    // Ensure endpoint starts with /api/v1
+    const normalizedEndpoint = endpoint.startsWith('/api/v1') ? endpoint : `/api/v1${endpoint}`;
+    const response = await fetch(`${API_BASE_URL}${normalizedEndpoint}`, config);
 
     if (!response.ok) {
       return this.handleAuthError(response);

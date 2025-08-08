@@ -8,6 +8,7 @@ import { Navbar } from './components/Navbar/navbar';
 import Footer from './components/Footer/Footer';
 import { Metadata } from 'next';
 import SessionProvider from '@/components/providers/SessionProvider';
+// import { LoadingProvider } from '@/components/LoadingProvider';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -114,11 +115,13 @@ export default async function LocaleLayout({
 
       <body className={inter.className}>
         <SessionProvider>
-          <NextIntlClientProvider messages={messages}>
-            <Navbar />
-            <main className="relative overflow-hidden">{children}</main>
-            <Footer />
-          </NextIntlClientProvider>
+          {/* <LoadingProvider> */}
+            <NextIntlClientProvider messages={messages}>
+              <Navbar />
+              <main className="relative overflow-hidden">{children}</main>
+              <Footer />
+            </NextIntlClientProvider>
+          {/* </LoadingProvider> */}
         </SessionProvider>
       </body>
     </html>

@@ -12,6 +12,7 @@ import { ProgressSpinner } from 'primereact/progressspinner';
 import { useLogin } from '@/hooks/useLogin';
 import apiClient from '@/lib/api-client';
 import { useRouter } from 'next/navigation';
+import RichTextEditor from '@/components/RichTextEditor';
 
 interface Category {
   id: string;
@@ -287,13 +288,11 @@ export default function EditPostPage() {
                     <label htmlFor="content" className="block text-900 font-medium mb-2">
                       Content *
                     </label>
-                    <InputTextarea
-                      id="content"
+                    <RichTextEditor
                       value={formData.content}
-                      onChange={(e) => handleInputChange('content', e.target.value)}
+                      onChange={(content) => handleInputChange('content', content)}
                       className="w-full"
                       placeholder="Enter post content"
-                      rows={10}
                       required
                     />
                   </div>
