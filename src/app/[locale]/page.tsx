@@ -10,11 +10,9 @@ import { PrimeReactProvider } from "primereact/api";
 export default function LocalePage() {
   return (
     <PrimeReactProvider>
-      <div className={styles.container}>
-        <Navbar />
-        <LandPage />
-        <Footer />
-      </div>
+      <Navbar />
+      <LandPage />
+      <Footer />
     </PrimeReactProvider>
   );
 }
