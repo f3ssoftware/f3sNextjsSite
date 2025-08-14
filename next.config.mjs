@@ -5,13 +5,13 @@ const withNextIntl = createNextIntlPlugin();
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
-    // Optimize RSC performance
-    serverComponentsExternalPackages: ['@prisma/client'],
     // Enable streaming for better performance
     serverActions: {
       bodySizeLimit: '2mb',
     },
   },
+  // Move serverComponentsExternalPackages to the correct location
+  serverExternalPackages: ['@prisma/client'],
   // Optimize images
   images: {
     domains: ['localhost'],
@@ -19,8 +19,7 @@ const nextConfig = {
   },
   // Enable compression
   compress: true,
-  // Optimize bundle
-  swcMinify: true,
+  // Remove deprecated swcMinify option
   // Reduce RSC payload size
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',

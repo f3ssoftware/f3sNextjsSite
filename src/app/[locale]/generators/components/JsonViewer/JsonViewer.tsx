@@ -37,22 +37,31 @@ export const JsonViewer = ({
   };
 
   return (
-    <div className="surface-card p-4 border-round" style={{ width: "100%" }}>
-      <div className="flex align-items-center justify-content-between mb-3">
-        <div className="flex gap-2">
+    <div className="json-viewer-modern" style={{ 
+      width: "100%", 
+      backgroundColor: "transparent",
+      border: "none",
+      height: "fit-content"
+    }}>
+      {/* Header with controls */}
+      <div className="json-controls">
+        <div className="control-buttons">
           <Button
             icon={isEditMode ? "pi pi-check" : "pi pi-pencil"}
             rounded
             text
+            size="small"
             severity={isEditMode ? "success" : "secondary"}
             tooltip={isEditMode ? t("SAVE_CHANGES") : t("EDIT_JSON")}
             tooltipOptions={{ position: "bottom" }}
             onClick={() => onEditModeChange(!isEditMode)}
+            className="control-btn"
           />
           <Button
             icon={theme === "default" ? "pi pi-moon" : "pi pi-sun"}
             rounded
             text
+            size="small"
             severity="secondary"
             tooltip={
               theme === "default"
@@ -63,34 +72,37 @@ export const JsonViewer = ({
             onClick={() =>
               onThemeChange(theme === "default" ? "winter-is-coming" : "default")
             }
+            className="control-btn"
           />
           <Button
             icon="pi pi-copy"
             rounded
             text
+            size="small"
             severity="secondary"
             tooltip={t("COPY_TO_CLIPBOARD")}
             tooltipOptions={{ position: "bottom" }}
             onClick={handleCopyToClipboard}
+            className="control-btn"
           />
         </div>
       </div>
-      <div
-        className="border-round overflow-auto"
-        style={{ maxHeight: "70vh" }}
-      >
+      
+      {/* JSON content area */}
+      <div className="json-content">
         <JsonView
           src={data}
           style={{
-            backgroundColor: theme === "default" ? "transparent" : "white",
-            padding: "1rem",
-            borderRadius: "6px",
-            fontSize: "1rem",
+            backgroundColor: "transparent",
+            padding: "0",
+            borderRadius: "4px",
+            fontSize: "0.875rem",
             lineHeight: "1.5",
+            color: "var(--text-color, #fff)",
           }}
           theme={theme}
           enableClipboard={true}
-          collapsed={false}
+          collapsed={true}
           editable={isEditMode}
           onChange={handleJsonChange}
         />

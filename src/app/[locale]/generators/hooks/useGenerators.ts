@@ -31,6 +31,12 @@ export function useGenerators() {
       label: t('USERNAME_GENERATOR'),
       icon: 'pi pi-user',
       parent: t('SECURITY')
+    },
+    {
+      key: '2.4',
+      label: t('JWT_GENERATOR'),
+      icon: 'pi pi-key',
+      parent: t('SECURITY')
     }
   ], [t]);
 

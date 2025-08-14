@@ -15,42 +15,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'F3S Software',
   description: 'Simplified soft tech',
-  openGraph: {
-    title: 'F3S Software',
-    description: 'Simplified soft tech',
-    url: 'https://www.f3ssoftware.com',
-    siteName: 'F3S Software',
-    images: [
-      {
-        url: 'https://www.f3ssoftware.com/og-image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'F3S Software Logo',
-      },
-    ],
-    locale: 'pt_BR',
-    type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    site: '@f3ssoftware',
-    title: 'F3S Software',
-    description: 'Simplified soft tech',
-    images: ['https://www.f3ssoftware.com/twitter-image.jpg'],
-  },
-  alternates: {
-    canonical: 'https://www.f3ssoftware.com',
-    languages: {
-      'en-US': 'https://www.f3ssoftware.com/en',
-      'pt-BR': 'https://www.f3ssoftware.com/pt',
-      'es-SP': 'https://www.f3ssoftware.com/es',
-    },
-  },
-  robots: {
-    index: true,
-    follow: true,
-    nocache: false,
-  },
   keywords: [
     'software development',
     'F3S Software',
@@ -59,14 +23,59 @@ export const metadata: Metadata = {
     'tech consultancy',
     'software engineering',
   ],
+  authors: [{ name: 'F3S Software' }],
+  creator: 'F3S Software',
+  publisher: 'F3S Software',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL(process.env.NEXTAUTH_URL || 'http://localhost:3000'),
+  openGraph: {
+    title: 'F3S Software',
+    description: 'Simplified soft tech',
+    url: process.env.NEXTAUTH_URL || 'http://localhost:3000',
+    siteName: 'F3S Software',
+    locale: 'pt_BR',
+    type: 'website',
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'F3S Software Logo',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    site: '@f3ssoftware',
+    title: 'F3S Software',
+    description: 'Simplified soft tech',
+    images: ['/twitter-image.jpg'],
+  },
+  alternates: {
+    canonical: process.env.NEXTAUTH_URL || 'http://localhost:3000',
+    languages: {
+      'en-US': `${process.env.NEXTAUTH_URL || 'http://localhost:3000'}/en`,
+      'pt-BR': `${process.env.NEXTAUTH_URL || 'http://localhost:3000'}/pt`,
+      'es-SP': `${process.env.NEXTAUTH_URL || 'http://localhost:3000'}/es`,
+    },
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+  },
 };
 
 const structuredData = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: 'F3S Software',
-  url: 'https://www.f3ssoftware.com',
-  logo: 'https://www.f3ssoftware.com/logo.jpg',
+  url: process.env.NEXTAUTH_URL || 'http://localhost:3000',
+  logo: `${process.env.NEXTAUTH_URL || 'http://localhost:3000'}/logo.jpg`,
   sameAs: [
     'https://www.facebook.com/f3ssoftware',
     'https://www.linkedin.com/company/f3s-software/',

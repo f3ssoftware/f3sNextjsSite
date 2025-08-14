@@ -30,6 +30,7 @@
   "DOCUMENTATION": "Documentation",
   "GENERATORS": "Generators",
   "ADDRESS_GENERATOR": "Address Generator",
+  "JWT_GENERATOR": "JWT Generator",
   "DOCUMENT_GENERATOR": "Document Generator",
   "CNS_GENERATOR": "CNS Generator",
   "CREDIT_CARD_GENERATOR": "Credit Card Generator",

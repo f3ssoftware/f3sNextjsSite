@@ -293,7 +293,6 @@ export default function EditPostPage() {
                       onChange={(content) => handleInputChange('content', content)}
                       className="w-full"
                       placeholder="Enter post content"
-                      required
                     />
                   </div>
                 </div>

@@ -13,6 +13,7 @@ import Highlight from '@tiptap/extension-highlight';
 
 interface RichTextEditorProps {
   content?: string;
+  value?: string; // Add value prop for backward compatibility
   onChange?: (content: string) => void;
   placeholder?: string;
   className?: string;
@@ -20,11 +21,15 @@ interface RichTextEditorProps {
 
 const RichTextEditor: React.FC<RichTextEditorProps> = ({
   content = '',
+  value = '', // Add value parameter
   onChange,
   placeholder = 'Start writing...',
   className = ''
 }) => {
   const [imageUrl, setImageUrl] = useState('');
+
+  // Use value if provided, otherwise fall back to content
+  const initialContent = value || content;
 
   const editor = useEditor({
     extensions: [
@@ -41,7 +46,7 @@ const RichTextEditor: React.FC<RichTextEditorProps> = ({
       Color,
       Highlight,
     ],
-    content,
+    content: initialContent,
     onUpdate: ({ editor }) => {
       onChange?.(editor.getHTML());
     },

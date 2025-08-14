@@ -30,6 +30,7 @@
   "DOCUMENTATION": "Documentação",
   "GENERATORS": "Geradores",
   "ADDRESS_GENERATOR": "Gerador de Endereços",
+  "JWT_GENERATOR": "Gerador de JWT",
   "DOCUMENT_GENERATOR": "Gerador de Documentos",
   "CNS_GENERATOR": "Gerador de CNS",
   "CREDIT_CARD_GENERATOR": "Gerador de Cartão de Crédito",

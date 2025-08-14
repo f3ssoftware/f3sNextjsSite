@@ -8,6 +8,7 @@ import UUIDGenerator from "../UUIDGenerator/UUIDGenerator";
 import PasswordGenerator from "../PasswordGenerator/PasswordGenerator";
 import AddressGenerator from "../AddressGenerator/AddressGenerator";
 import UsernameGenerator from "../UsernameGenerator/UsernameGenerator";
+import JWTGenerator from "../JWTGenerator/JWTGenerator";
 import { useState } from "react";
 
 interface GeneratorRowProps {
@@ -19,6 +20,7 @@ interface GeneratorRowProps {
   onValueChange: (value: any) => void;
   itemTemplate: (option: GeneratorOption) => JSX.Element;
   searchOptions: (event: { query: string }) => GeneratorOption[];
+  onRequestAPI: (generatorName: string) => void;
 }
 
 export const GeneratorRow = ({
@@ -30,6 +32,7 @@ export const GeneratorRow = ({
   onValueChange,
   itemTemplate,
   searchOptions,
+  onRequestAPI,
 }: GeneratorRowProps) => {
   const t = useTranslations();
   const [suggestions, setSuggestions] = useState<GeneratorOption[]>(filteredOptions);
@@ -37,6 +40,17 @@ export const GeneratorRow = ({
   const handleSearch = (event: { query: string }) => {
     const results = searchOptions(event);
     setSuggestions(results);
+  };
+
+  const getGeneratorName = (option: GeneratorOption): string => {
+    switch (option?.key) {
+      case "1.1": return "addressGenerator";
+      case "2.1": return "uuidGenerator";
+      case "2.2": return "passwordGenerator";
+      case "2.3": return "usernameGenerator";
+      case "2.4": return "jwtGenerator";
+      default: return "unknown";
+    }
   };
 
   const renderComponent = (option: GeneratorOption) => {
@@ -63,6 +77,12 @@ export const GeneratorRow = ({
         return (
           <div className="w-full">
             <UsernameGenerator onValueChange={onValueChange} />
+          </div>
+        );
+      case "2.4":
+        return (
+          <div className="w-full">
+            <JWTGenerator onValueChange={onValueChange} />
           </div>
         );
       default:
@@ -117,6 +137,18 @@ export const GeneratorRow = ({
         }}
       />
       {selectedOption && renderComponent(selectedOption)}
+      {selectedOption && (
+        <Button
+          icon="pi pi-external-link"
+          label="Request"
+          severity="info"
+          rounded
+          onClick={() => onRequestAPI(getGeneratorName(selectedOption))}
+          className="flex-shrink-0 request-api-btn"
+          tooltip="Open API endpoint in new tab"
+          tooltipOptions={{ position: "top" }}
+        />
+      )}
     </div>
   );
 };
