@@ -4,6 +4,8 @@ const withNextIntl = createNextIntlPlugin();
  
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Enable standalone output for Docker builds
+  output: 'standalone',
   experimental: {
     // Enable streaming for better performance
     serverActions: {
