@@ -157,7 +157,7 @@ export default function JWTGenerator({ onValueChange }: JWTGeneratorProps) {
               <Checkbox
                 inputId="includeIssuer"
                 checked={config.includeIssuer}
-                onChange={(e) => setConfig({ ...config, includeIssuer: e.checked })}
+                onChange={(e) => setConfig({ ...config, includeIssuer: e.checked || false })}
               />
               <label htmlFor="includeIssuer" className="ml-2">Include Issuer</label>
             </div>
@@ -167,7 +167,7 @@ export default function JWTGenerator({ onValueChange }: JWTGeneratorProps) {
               <Checkbox
                 inputId="includeAudience"
                 checked={config.includeAudience}
-                onChange={(e) => setConfig({ ...config, includeAudience: e.checked })}
+                onChange={(e) => setConfig({ ...config, includeAudience: e.checked || false })}
               />
               <label htmlFor="includeAudience" className="ml-2">Include Audience</label>
             </div>
@@ -177,7 +177,7 @@ export default function JWTGenerator({ onValueChange }: JWTGeneratorProps) {
               <Checkbox
                 inputId="includeSubject"
                 checked={config.includeSubject}
-                onChange={(e) => setConfig({ ...config, includeSubject: e.checked })}
+                onChange={(e) => setConfig({ ...config, includeSubject: e.checked || false })}
               />
               <label htmlFor="includeSubject" className="ml-2">Include Subject</label>
             </div>
@@ -187,7 +187,7 @@ export default function JWTGenerator({ onValueChange }: JWTGeneratorProps) {
               <Checkbox
                 inputId="includeJTI"
                 checked={config.includeJTI}
-                onChange={(e) => setConfig({ ...config, includeJTI: e.checked })}
+                onChange={(e) => setConfig({ ...config, includeJTI: e.checked || false })}
               />
               <label htmlFor="includeJTI" className="ml-2">Include JTI</label>
             </div>
@@ -200,7 +200,7 @@ export default function JWTGenerator({ onValueChange }: JWTGeneratorProps) {
               <Checkbox
                 inputId="includeIAT"
                 checked={config.includeIAT}
-                onChange={(e) => setConfig({ ...config, includeIAT: e.checked })}
+                onChange={(e) => setConfig({ ...config, includeIAT: e.checked || false })}
               />
               <label htmlFor="includeIAT" className="ml-2">Include IAT</label>
             </div>
@@ -210,7 +210,7 @@ export default function JWTGenerator({ onValueChange }: JWTGeneratorProps) {
               <Checkbox
                 inputId="includeNBF"
                 checked={config.includeNBF}
-                onChange={(e) => setConfig({ ...config, includeNBF: e.checked })}
+                onChange={(e) => setConfig({ ...config, includeNBF: e.checked || false })}
               />
               <label htmlFor="includeNBF" className="ml-2">Include NBF</label>
             </div>

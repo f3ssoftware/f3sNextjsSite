@@ -14,7 +14,7 @@ interface JWTConfig {
 interface JWTPayload {
   sub?: string;
   iss?: string;
-  aud?: string;
+  aud?: string | string[];
   exp?: number;
   iat?: number;
   nbf?: number;
