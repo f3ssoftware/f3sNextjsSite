@@ -71,6 +71,7 @@ export function Navbar() {
         { label: t(`GENERATORS`), url: "/generators" },
         { label: t(`TRAININGS`) },
         { label: t(`DOCUMENTATION`), url: "/docs" },
+        { label: "Virtual Assistant", url: "/virtual-assistant" },
       ],
     },
     {
