@@ -61,6 +61,7 @@ export const metadata: Metadata = {
       'en-US': `${process.env.NEXTAUTH_URL || 'http://localhost:3000'}/en`,
       'pt-BR': `${process.env.NEXTAUTH_URL || 'http://localhost:3000'}/pt`,
       'es-SP': `${process.env.NEXTAUTH_URL || 'http://localhost:3000'}/es`,
+      'fr-FR': `${process.env.NEXTAUTH_URL || 'http://localhost:3000'}/fr`,
     },
   },
   robots: {
@@ -86,7 +87,7 @@ const structuredData = {
     telephone: '+55-61-98149-4249',
     contactType: 'Customer Support',
     areaServed: 'BR',
-    availableLanguage: ['Portuguese', 'English', 'Spanish'],
+    availableLanguage: ['Portuguese', 'English', 'Spanish', 'French'],
   },
 };
 

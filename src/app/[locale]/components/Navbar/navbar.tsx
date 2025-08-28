@@ -126,7 +126,7 @@ export function Navbar() {
       } else {
         // Check if the URL already has a locale prefix
         const urlSegments = item.url.split('/');
-        const hasLocale = ['en', 'es', 'pt'].includes(urlSegments[1]);
+        const hasLocale = ['en', 'es', 'pt', 'fr'].includes(urlSegments[1]);
         
         if (hasLocale) {
           // URL already has locale, use it as is
@@ -148,7 +148,7 @@ export function Navbar() {
   const changeLanguage = (lang: string) => {
     const segments = pathname.split("/").filter(Boolean);
 
-    if (segments[0] === "en" || segments[0] === "pt" || segments[0] === "es") {
+    if (segments[0] === "en" || segments[0] === "pt" || segments[0] === "es" || segments[0] === "fr") {
       segments[0] = lang;
     } else {
       segments.unshift(lang);
@@ -192,6 +192,15 @@ export function Navbar() {
                 width={1000}
                 height={700}
                 alt="Português"
+                className={styles.flag}
+              />
+            </button>
+            <button onClick={() => changeLanguage("fr")}>
+              <Image
+                src="/img/french_flag.png"
+                width={1000}
+                height={700}x
+                alt="Français"
                 className={styles.flag}
               />
             </button>
