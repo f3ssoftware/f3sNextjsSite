@@ -105,9 +105,8 @@ export default async function LocaleLayout({
     notFound();
   }
 
-  // Providing all messages to the client
-  // side is the easiest way to get started
-  const messages = await getMessages();
+  // FIX: Pass the locale parameter to getMessages for proper translation loading
+  const messages = await getMessages({locale});
 
   return (
     <html lang={locale}>
@@ -125,7 +124,7 @@ export default async function LocaleLayout({
       <body className={inter.className}>
         <SessionProvider>
           {/* <LoadingProvider> */}
-            <NextIntlClientProvider messages={messages}>
+            <NextIntlClientProvider messages={messages} locale={locale}>
               <Navbar />
               <main className="relative overflow-hidden">{children}</main>
             </NextIntlClientProvider>

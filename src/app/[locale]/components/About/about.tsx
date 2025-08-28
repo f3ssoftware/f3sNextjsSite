@@ -1,3 +1,5 @@
+"use client";
+
 import { BoxTopic } from "./box-topic";
 import './about.css'
 import { useTranslations } from 'next-intl';

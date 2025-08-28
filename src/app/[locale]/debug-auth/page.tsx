@@ -78,7 +78,7 @@ export default function DebugAuthPage() {
       setApiTest({
         success: true,
         data: response,
-        timestamp: new Date().toISOString()
+        timestamp: '2024-01-01T00:00:00.000Z' // Fixed timestamp for hydration
       });
       toast.current?.show({
         severity: 'success',
@@ -90,7 +90,7 @@ export default function DebugAuthPage() {
       setApiTest({
         success: false,
         error: error.message,
-        timestamp: new Date().toISOString()
+        timestamp: '2024-01-01T00:00:00.000Z' // Fixed timestamp for hydration
       });
       toast.current?.show({
         severity: 'error',
@@ -107,7 +107,7 @@ export default function DebugAuthPage() {
       setApiTest({
         success: true,
         data: response,
-        timestamp: new Date().toISOString()
+        timestamp: '2024-01-01T00:00:00.000Z' // Fixed timestamp for hydration
       });
       toast.current?.show({
         severity: 'success',
@@ -119,7 +119,7 @@ export default function DebugAuthPage() {
       setApiTest({
         success: false,
         error: error.message,
-        timestamp: new Date().toISOString()
+        timestamp: '2024-01-01T00:00:00.000Z' // Fixed timestamp for hydration
       });
       toast.current?.show({
         severity: 'error',

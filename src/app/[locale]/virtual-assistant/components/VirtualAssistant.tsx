@@ -12,8 +12,12 @@ import { Divider } from 'primereact/divider';
 import { useTranslations } from 'next-intl';
 import styles from './VirtualAssistant.module.css';
 
-// Simple UUID generator
+// Simple UUID generator - using crypto.randomUUID for better hydration compatibility
 const generateUUID = (): string => {
+  if (typeof crypto !== 'undefined' && crypto.randomUUID) {
+    return crypto.randomUUID();
+  }
+  // Fallback for older browsers
   return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
     const r = Math.random() * 16 | 0;
     const v = c === 'x' ? r : (r & 0x3 | 0x8);
@@ -91,8 +95,9 @@ export function VirtualAssistant() {
   const handleMembershipToggle = () => {
     setIsMembershipActive(!isMembershipActive);
     if (!isMembershipActive) {
-      // Generate a mock user ID for testing
-      setUserId(`user_${Math.floor(Math.random() * 1000)}`);
+      // Generate a mock user ID for testing - using timestamp for consistency
+      const timestamp = Date.now();
+      setUserId(`user_${timestamp % 10000}`);
       setIsAnonymous(false);
     } else {
       setUserId(undefined);
@@ -107,7 +112,7 @@ export function VirtualAssistant() {
       id: generateUUID(),
       text: inputText,
       sender: 'user',
-      timestamp: new Date()
+      timestamp: new Date('2024-01-01T00:00:00Z') // Fixed timestamp for hydration
     };
 
     setMessages(prev => [...prev, userMessage]);
@@ -138,7 +143,7 @@ export function VirtualAssistant() {
         id: generateUUID(),
         text: data.reply,
         sender: 'assistant',
-        timestamp: new Date(),
+        timestamp: new Date('2024-01-01T00:00:00Z'), // Fixed timestamp for hydration
         ui: data.ui
       };
 

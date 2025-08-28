@@ -379,13 +379,13 @@ export default function EditPostPage() {
                       <div className="col-12 md:col-4">
                         <p className="text-600 text-sm mb-1">Created</p>
                         <p className="text-900">
-                          {new Date(post.created_at).toLocaleDateString()}
+                          {post.created_at ? new Date(post.created_at).toLocaleDateString() : 'N/A'}
                         </p>
                       </div>
                       <div className="col-12 md:col-4">
                         <p className="text-600 text-sm mb-1">Last Updated</p>
                         <p className="text-900">
-                          {new Date(post.updated_at).toLocaleDateString()}
+                          {post.updated_at ? new Date(post.updated_at).toLocaleDateString() : 'N/A'}
                         </p>
                       </div>
                     </div>
